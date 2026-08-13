@@ -11,6 +11,7 @@ $body_class = isset($body_class) ? $body_class : 'page-template page-template-pa
 <base href="/" />
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta name="google-site-verification" content="UHgYsewbb0PsRhy-97VBrW_DO5xGODQnr96Uu0DofFI" />
 <link href="wp-content/uploads/2020/02/globescott_LogoNew_fevicon.png" rel="shortcut icon" type="image/png"/>
 <title><?php echo htmlspecialchars($page_title); ?></title>
 

@@ -341,219 +341,278 @@ require_once __DIR__ . '/includes/header.php';
 <!-- End Of Rounding Button
   ============================================= -->
 </div>
-</div><div class="vc_row-full-width"></div><section class="vc_section who-we-are-faq-full-section vc_custom_1581396682668 vc_section-has-fill" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep1" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo vc_custom_1581484702546">
+</div><div class="vc_row-full-width"></div><section id="homepagep1" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-faq-full-section vc_custom_1581396682668 vc_section-has-fill"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo  vc_custom_1581484702546">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInDown" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInDown" style="visibility: hidden; animation-name: none;">RAILWAY SIGNALING PRODUCTS</h2>
-<p class="wow fadeInDown" style="visibility: hidden; animation-name: none;">Globe Scott Motors is a leading name in the field of manufacture of Railway Signaling Motors Build With Our Experienced Staff...</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInDown">Our Product</span>
+      <h2 class="wow fadeInDown">RAILWAY SIGNALING PRODUCTS</h2>
+      <p class="wow fadeInDown">Globe Scott Motors is a leading name in the field of manufacture of Railway Signaling Motors Build With Our Experienced Staff...</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-railway-signalling-products/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/railway-signalling-products/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
+
+
+	</div> 
 </div><div class="vc_row section-element who-sec-left-bg vc_custom_1610703560120">
-<div class="vc_col-sm-3 who-we-play-btn vc_custom_1550469080349">
-</div>
-</div></section><div class="vc_row-full-width vc_clearfix"></div><section class="vc_section who-we-are-skill-full-section" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep2" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 leftsideproductinfo vc_custom_1581484713071">
+	<div class="vc_col-sm-3 who-we-play-btn  vc_custom_1550469080349">
+			
+	</div> 
+</div></section><div class="vc_row-full-width vc_clearfix"></div><section id="homepagep2" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-skill-full-section"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 leftsideproductinfo  vc_custom_1581484713071">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInUp" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">PMDC MOTOR</h2>
-<p class="wow fadeInUp" style="visibility: hidden; animation-name: none;">We Offer Wide Range Of DC Motors that is useful for Pumps, Elevators, Automatic Doors &amp; Gates etc...</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInUp">Our Product</span>
+      <h2 class="wow fadeInUp">PMDC MOTOR</h2>
+      <p class="wow fadeInUp">We Offer Wide Range Of DC Motors that is useful for Pumps, Elevators, Automatic Doors &amp; Gates etc...</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-motors/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/pmdc-motors/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
+
+
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
 </div><div class="vc_row section-element who-sec-right-bg vc_custom_1610703602125">
-<div class="vc_col-sm-12 who-we-play-btn">
-</div>
-</div></section><div class="vc_row-full-width vc_clearfix"></div><section class="vc_section who-we-are-faq-full-section vc_custom_1581396710784 vc_section-has-fill" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep3" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo vc_custom_1581484726630">
+	<div class="vc_col-sm-12 who-we-play-btn ">
+			
+	</div> 
+</div></section><div class="vc_row-full-width vc_clearfix"></div><section id="homepagep3" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-faq-full-section vc_custom_1581396710784 vc_section-has-fill"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo  vc_custom_1581484726630">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInDown" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInDown" style="visibility: hidden; animation-name: none;">GEARED PMDC MOTOR</h2>
-<p class="wow fadeInDown" style="visibility: hidden; animation-name: none;">We specialize in the production of custom Geared Designed motors based on your requirements...</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInDown">Our Product</span>
+      <h2 class="wow fadeInDown">GEARED PMDC MOTOR</h2>
+      <p class="wow fadeInDown">We specialize in the production of custom Geared Designed motors based on your requirements...</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-geared-motors/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/pmdc-geared-motors/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
+
+
+	</div> 
 </div><div class="vc_row section-element who-sec-left-bg vc_custom_1610703623110">
-<div class="vc_col-sm-3 who-we-play-btn vc_custom_1550469080349">
-</div>
-</div></section><div class="vc_row-full-width vc_clearfix"></div><section class="vc_section who-we-are-skill-full-section" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep4" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 leftsideproductinfo vc_custom_1581484738719">
+	<div class="vc_col-sm-3 who-we-play-btn  vc_custom_1550469080349">
+			
+	</div> 
+</div></section><div class="vc_row-full-width vc_clearfix"></div><section id="homepagep4" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-skill-full-section"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 leftsideproductinfo  vc_custom_1581484738719">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInUp" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">PMDC TRANSAXEL</h2>
-<p class="wow fadeInUp" style="visibility: hidden; animation-name: none;">We look forward to the opportunity to serve you with exclusive range of our Products to fulfill your requirements.</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInUp">Our Product</span>
+      <h2 class="wow fadeInUp">PMDC TRANSAXEL</h2>
+      <p class="wow fadeInUp">We look forward to the opportunity to serve you with exclusive range of our Products to fulfill your requirements.</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/pmdc-transaxel/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
+
+
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
 </div><div class="vc_row section-element who-sec-right-bg vc_custom_1610703637502">
-<div class="vc_col-sm-12 who-we-play-btn">
-</div>
-</div></section><div class="vc_row-full-width vc_clearfix"></div><section class="vc_section who-we-are-faq-full-section vc_custom_1611061407800 vc_section-has-fill" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep5" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo vc_custom_1581484753718">
+	<div class="vc_col-sm-12 who-we-play-btn ">
+			
+	</div> 
+</div></section><div class="vc_row-full-width vc_clearfix"></div><section id="homepagep5" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-faq-full-section vc_custom_1611061407800 vc_section-has-fill"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo  vc_custom_1581484753718">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInDown" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInDown" style="visibility: hidden; animation-name: none;">RESEARCH, DESIGN &amp; DEVELOPMENTS</h2>
-<p class="wow fadeInDown" style="visibility: hidden; animation-name: none;">Globe Scott Motors is a leading name in the field of manufacture of Railway Signaling Motors Build With Our Experienced Staff...</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInDown">Our Product</span>
+      <h2 class="wow fadeInDown">RESEARCH, DESIGN &amp; DEVELOPMENTS</h2>
+      <p class="wow fadeInDown">Globe Scott Motors is a leading name in the field of manufacture of Railway Signaling Motors Build With Our Experienced Staff...</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-railway-signalling-products/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/railway-signalling-products/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
+
+
+	</div> 
 </div><div class="vc_row section-element who-sec-left-bg vc_custom_1610703676417">
-<div class="vc_col-sm-3 who-we-play-btn vc_custom_1550469080349">
-</div>
-</div></section><div class="vc_row-full-width vc_clearfix"></div><section class="vc_section who-we-are-skill-full-section" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep6" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 leftsideproductinfo vc_custom_1581484738719">
+	<div class="vc_col-sm-3 who-we-play-btn  vc_custom_1550469080349">
+			
+	</div> 
+</div></section><div class="vc_row-full-width vc_clearfix"></div><section id="homepagep6" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-skill-full-section"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 leftsideproductinfo  vc_custom_1581484738719">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInUp" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">BLDC MOTORS</h2>
-<p class="wow fadeInUp" style="visibility: hidden; animation-name: none;">We look forward to the opportunity to serve you with exclusive range of our BLDC Motors to fulfill your requirements.</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInUp">Our Product</span>
+      <h2 class="wow fadeInUp">BLDC MOTORS</h2>
+      <p class="wow fadeInUp">We look forward to the opportunity to serve you with exclusive range of our BLDC Motors to fulfill your requirements.</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/pmdc-transaxel/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
+
+
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
 </div><div class="vc_row section-element who-sec-right-bg vc_custom_1610703665104">
-<div class="vc_col-sm-12 who-we-play-btn">
-</div>
-</div></section><div class="vc_row-full-width vc_clearfix"></div><section class="vc_section who-we-are-faq-full-section vc_custom_1611062053098 vc_section-has-fill" data-vc-full-width="true" data-vc-full-width-init="true" id="homepagep7" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;"><div class="vc_row section-element">
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
-</div>
-<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo vc_custom_1581484753718">
+	<div class="vc_col-sm-12 who-we-play-btn ">
+			
+	</div> 
+</div></section><div class="vc_row-full-width vc_clearfix"></div><section id="homepagep7" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section who-we-are-faq-full-section vc_custom_1611062053098 vc_section-has-fill"><div class="vc_row section-element">
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 ">
+			
+	</div> 
+
+	<div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 rightsideproductinfo  vc_custom_1581484753718">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-12">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInDown" style="visibility: hidden; animation-name: none;">Our Product</span>
-<h2 class="wow fadeInDown" style="visibility: hidden; animation-name: none;">SPARE &amp; PARTS</h2>
-<p class="wow fadeInDown" style="visibility: hidden; animation-name: none;">We look forward to the opportunity to serve you with exclusive range of our Products to fulfill your requirements.</p>
+  <div class="col-lg-12">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInDown">Our Product</span>
+      <h2 class="wow fadeInDown">SPARE &amp; PARTS</h2>
+      <p class="wow fadeInDown">We look forward to the opportunity to serve you with exclusive range of our Products to fulfill your requirements.</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-<!-- Rounding Button
+
+  <!-- Rounding Button
   ============================================= -->
-<div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel/">Discover More <i class="fa fa-angle-double-right"></i></a>
-</div>
-<!-- End Of Rounding Button
+  <div class="rounding-btn wow " data-wow-delay="0.6s">
+        <a href="/products/pmdc-transaxel/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+      </div>
+  <!-- End Of Rounding Button
   ============================================= -->
-</div>
+
+
+	</div> 
 </div><div class="vc_row section-element who-sec-left-bg vc_custom_1610703676417">
-<div class="vc_col-sm-3 who-we-play-btn vc_custom_1550469080349">
-</div>
+	<div class="vc_col-sm-3 who-we-play-btn  vc_custom_1550469080349">
+			
+	</div> 
 </div></section><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row section-element hideme vc_custom_1610010728183">
-<div class="vc_col-sm-12">
-<div class="vc_row section"><div class="text-center wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="vc_col-sm-12 ">
+			<div class="vc_row section"><div class="text-center wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-8 offset-lg-2 text-center center-title">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Testimonial</span>
-<h2 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">What Clients Say</h2>
-<p class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">There are many variations of passages of Lorem Ipsum available but the majority have to suffered alteration that some words slightly believable.</p>
+  <div class="col-lg-8 offset-lg-2 text-center center-title">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInUp">Testimonial</span>
+      <h2 class="wow fadeInUp">What Clients Say</h2>
+      <p class="wow fadeInUp">There are many variations of passages of Lorem Ipsum available but the majority have to suffered alteration that some words slightly believable.</p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
+
 </div></div></div></div><div class="vc_row section"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+
 <script>
   jQuery(document).ready(function($){
 
@@ -584,538 +643,286 @@ require_once __DIR__ . '/includes/header.php';
     });
   });
 </script>
-<!-- testimonail three area -->
+
+  <!-- testimonail three area -->
 <div class="testimonial-style-three testi-slider2">
-<div class="testimonial-slider slick-initialized slick-slider slick-dotted">
-<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(0px, 0px, 0px);"><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="-3" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-03.jpg" srcset="wp-content/uploads/2019/03/testimonial-03.jpg 200w, wp-content/uploads/2019/03/testimonial-03-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-03-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Ana Doe</h4>
-<span>Founder &amp; CEO</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="-2" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-02.jpg" srcset="wp-content/uploads/2019/03/testimonial-02.jpg 200w, wp-content/uploads/2019/03/testimonial-02-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-02-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Alexndra Li</h4>
-<span>UI/UX Designer</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="-1" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-06.jpg" srcset="wp-content/uploads/2019/03/testimonial-06.jpg 200w, wp-content/uploads/2019/03/testimonial-06-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-06-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Meredith Gutmann</h4>
-<span>Product Designer</span>
-</div>
-</div>
-</div>
-</div><div aria-describedby="slick-slide-control10" aria-hidden="false" class="testimonail4-item slick-slide slick-current slick-active" data-slick-index="0" id="slick-slide10" role="tabpanel" style="width: 0px;" tabindex="0">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-05.jpg" srcset="wp-content/uploads/2019/03/testimonial-05.jpg 200w, wp-content/uploads/2019/03/testimonial-05-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-05-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Cristina</h4>
-<span>Plugin Developer</span>
-</div>
-</div>
-</div>
-</div><div aria-describedby="slick-slide-control11" aria-hidden="false" class="testimonail4-item slick-slide slick-active" data-slick-index="1" id="slick-slide11" role="tabpanel" style="width: 0px;" tabindex="0">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-04.jpg" srcset="wp-content/uploads/2019/03/testimonial-04.jpg 200w, wp-content/uploads/2019/03/testimonial-04-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-04-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Jon Doe</h4>
-<span>HR Manager</span>
-</div>
-</div>
-</div>
-</div><div aria-describedby="slick-slide-control12" aria-hidden="false" class="testimonail4-item slick-slide slick-active" data-slick-index="2" id="slick-slide12" role="tabpanel" style="width: 0px;" tabindex="0">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-03.jpg" srcset="wp-content/uploads/2019/03/testimonial-03.jpg 200w, wp-content/uploads/2019/03/testimonial-03-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-03-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Ana Doe</h4>
-<span>Founder &amp; CEO</span>
-</div>
-</div>
-</div>
-</div><div aria-describedby="slick-slide-control13" aria-hidden="true" class="testimonail4-item slick-slide" data-slick-index="3" id="slick-slide13" role="tabpanel" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-02.jpg" srcset="wp-content/uploads/2019/03/testimonial-02.jpg 200w, wp-content/uploads/2019/03/testimonial-02-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-02-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Alexndra Li</h4>
-<span>UI/UX Designer</span>
-</div>
-</div>
-</div>
-</div><div aria-describedby="slick-slide-control14" aria-hidden="true" class="testimonail4-item slick-slide" data-slick-index="4" id="slick-slide14" role="tabpanel" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-06.jpg" srcset="wp-content/uploads/2019/03/testimonial-06.jpg 200w, wp-content/uploads/2019/03/testimonial-06-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-06-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Meredith Gutmann</h4>
-<span>Product Designer</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="5" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-05.jpg" srcset="wp-content/uploads/2019/03/testimonial-05.jpg 200w, wp-content/uploads/2019/03/testimonial-05-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-05-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Cristina</h4>
-<span>Plugin Developer</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="6" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-04.jpg" srcset="wp-content/uploads/2019/03/testimonial-04.jpg 200w, wp-content/uploads/2019/03/testimonial-04-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-04-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Jon Doe</h4>
-<span>HR Manager</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="7" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-03.jpg" srcset="wp-content/uploads/2019/03/testimonial-03.jpg 200w, wp-content/uploads/2019/03/testimonial-03-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-03-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Ana Doe</h4>
-<span>Founder &amp; CEO</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="8" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-02.jpg" srcset="wp-content/uploads/2019/03/testimonial-02.jpg 200w, wp-content/uploads/2019/03/testimonial-02-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-02-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Alexndra Li</h4>
-<span>UI/UX Designer</span>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="testimonail4-item slick-slide slick-cloned" data-slick-index="9" id="" style="width: 0px;" tabindex="-1">
-<div class="testimonial-three-content">
-<div class="testimonial-three-icon">
-<i class="flaticon-quotation"></i>
-</div>
-<div class="testimonial-three-text">
-<p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
-</div>
-<div class="client-info">
-<div class="testimonial-three-thumb">
-<img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="200" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" src="wp-content/uploads/2019/03/testimonial-06.jpg" srcset="wp-content/uploads/2019/03/testimonial-06.jpg 200w, wp-content/uploads/2019/03/testimonial-06-150x150.jpg 150w, wp-content/uploads/2019/03/testimonial-06-80x80.jpg 80w" width="200"/> </div>
-<div class="testimonial-three-meta">
-<h4>Meredith Gutmann</h4>
-<span>Product Designer</span>
-</div>
-</div>
-</div>
-</div></div></div>
-<ul class="slick-dots" role="tablist" style=""><li class="slick-active" role="presentation"><button aria-controls="slick-slide10" aria-label="1 of 2" aria-selected="true" id="slick-slide-control10" role="tab" tabindex="0" type="button">1</button></li><li role="presentation"><button aria-controls="slick-slide11" aria-label="2 of 2" id="slick-slide-control11" role="tab" tabindex="-1" type="button">2</button></li><li role="presentation"><button aria-controls="slick-slide12" aria-label="3 of 2" id="slick-slide-control12" role="tab" tabindex="-1" type="button">3</button></li><li role="presentation"><button aria-controls="slick-slide13" aria-label="4 of 2" id="slick-slide-control13" role="tab" tabindex="-1" type="button">4</button></li><li role="presentation"><button aria-controls="slick-slide14" aria-label="5 of 2" id="slick-slide-control14" role="tab" tabindex="-1" type="button">5</button></li></ul></div>
-</div>
-<!-- testimonail three area end -->
+  <div class="testimonial-slider">
+              <div class="testimonail4-item">
+          <div class="testimonial-three-content">
+              <div class="testimonial-three-icon ">
+                <i class="flaticon-quotation"></i>
+              </div>
+              <div class="testimonial-three-text ">
+                <p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
+              </div>
+              <div class="client-info">
+                <div class="testimonial-three-thumb">
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-05.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-05.jpg 200w, /wp-content/uploads/2019/03/testimonial-05-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-05-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                <div class="testimonial-three-meta">
+                  <h4>Cristina</h4>
+                  <span>Plugin Developer</span>
+                </div>
+              </div>
+          </div>
+        </div>
+                <div class="testimonail4-item">
+          <div class="testimonial-three-content">
+              <div class="testimonial-three-icon ">
+                <i class="flaticon-quotation"></i>
+              </div>
+              <div class="testimonial-three-text ">
+                <p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
+              </div>
+              <div class="client-info">
+                <div class="testimonial-three-thumb">
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-04.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-04.jpg 200w, /wp-content/uploads/2019/03/testimonial-04-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-04-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                <div class="testimonial-three-meta">
+                  <h4>Jon Doe</h4>
+                  <span>HR Manager</span>
+                </div>
+              </div>
+          </div>
+        </div>
+                <div class="testimonail4-item">
+          <div class="testimonial-three-content">
+              <div class="testimonial-three-icon ">
+                <i class="flaticon-quotation"></i>
+              </div>
+              <div class="testimonial-three-text ">
+                <p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
+              </div>
+              <div class="client-info">
+                <div class="testimonial-three-thumb">
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-03.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-03.jpg 200w, /wp-content/uploads/2019/03/testimonial-03-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-03-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                <div class="testimonial-three-meta">
+                  <h4>Ana Doe</h4>
+                  <span>Founder &amp; CEO</span>
+                </div>
+              </div>
+          </div>
+        </div>
+                <div class="testimonail4-item">
+          <div class="testimonial-three-content">
+              <div class="testimonial-three-icon ">
+                <i class="flaticon-quotation"></i>
+              </div>
+              <div class="testimonial-three-text ">
+                <p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
+              </div>
+              <div class="client-info">
+                <div class="testimonial-three-thumb">
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-02.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-02.jpg 200w, /wp-content/uploads/2019/03/testimonial-02-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-02-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                <div class="testimonial-three-meta">
+                  <h4>Alexndra Li</h4>
+                  <span>UI/UX Designer</span>
+                </div>
+              </div>
+          </div>
+        </div>
+                <div class="testimonail4-item">
+          <div class="testimonial-three-content">
+              <div class="testimonial-three-icon ">
+                <i class="flaticon-quotation"></i>
+              </div>
+              <div class="testimonial-three-text ">
+                <p>There are many variations of passages of Lorem Ipsum available but the majority the have suffered alteration in that some</p>
+              </div>
+              <div class="client-info">
+                <div class="testimonial-three-thumb">
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-06.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-06.jpg 200w, /wp-content/uploads/2019/03/testimonial-06-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-06-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                <div class="testimonial-three-meta">
+                  <h4>Meredith Gutmann</h4>
+                  <span>Product Designer</span>
+                </div>
+              </div>
+          </div>
+        </div>
+          </div>
+</div>
+  <!-- testimonail three area end -->
+
 </div></div></div></div>
-</div>
-</div><div class="vc_row section-element counter-area vc_custom_1610703772527" data-vc-full-width="true" data-vc-full-width-init="true" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;">
-<div class="vc_col-sm-12 counter-border text-center, textHighlighter_1">
+	</div> 
+</div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row section-element counter-area vc_custom_1610703772527">
+	<div class="vc_col-sm-12 counter-border text-center, textHighlighter_1 ">
+			
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-lg-8 offset-lg-2 text-center center-title">
-<div class="section-title second-home-title center-title">
-<span class="wow" style="visibility: hidden; animation-name: none;">STATE OF ART MANUFACTURING</span>
-<h2 class="wow" style="visibility: hidden; animation-name: none;">MOTORS OF INTERNATIONAL CLASS</h2>
-<p class="wow" style="visibility: hidden; animation-name: none;"></p>
+  <div class="col-lg-8 offset-lg-2 text-center center-title">
+    <div class="section-title second-home-title center-title">
+      <span class="wow ">STATE OF ART MANUFACTURING</span>
+      <h2 class="wow ">MOTORS OF INTERNATIONAL CLASS</h2>
+      <p class="wow "></p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-</div>
+
+
+	</div> 
 </div><div class="vc_row-full-width"></div><div class="vc_row section-element our-blog vc_custom_1611060134647">
-<div class="vc_col-sm-12">
-<div class="vc_row section"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1546250337591"><div class="wpb_wrapper">
+	<div class="vc_col-sm-12 ">
+			<div class="vc_row section"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1546250337591"><div class="wpb_wrapper">
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-xl-7 col-md-10 col-lg-8">
-<div class="section-title second-home-title center-title">
-<span class="wow fadeInUp" style="visibility: hidden; animation-name: none;">Read Our</span>
-<h2 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">Case studies and blogs</h2>
-<p class="wow fadeInUp" style="visibility: hidden; animation-name: none;"></p>
+  <div class="col-xl-7 col-md-10 col-lg-8">
+    <div class="section-title second-home-title center-title">
+      <span class="wow fadeInUp">Read Our</span>
+      <h2 class="wow fadeInUp">Case studies and blogs</h2>
+      <p class="wow fadeInUp"></p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
+
 </div></div></div></div><div class="vc_row section"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1611059896603"><div class="wpb_wrapper">
-<!-- blog-area -->
-<div class="row blog-active slick-initialized slick-slider"><button class="slick-prev slick-arrow" style="" type="button"><i class="fa fa-angle-left"></i></button>
-<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5200px; transform: translate3d(-1200px, 0px, 0px);"><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="-3" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="WHAT IS BLDC MOTOR" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" src="wp-content/uploads/2020/02/blog1-min-1-695x500.png" srcset="wp-content/uploads/2020/02/blog1-min-1-695x500.png 695w, wp-content/uploads/2020/02/blog1-min-1-80x59.png 80w" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="what-is-bldc-motor/" tabindex="-1">October 25, 2018</a>
-</div>
-</div>
-<h4><a href="what-is-bldc-motor/" tabindex="-1">What is bldc motor?</a></h4>
-<p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="what-is-bldc-motor/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="-2" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="DC MOTOR MAINTENANCE" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-695x500.png" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="dc-motor-maintenance/" tabindex="-1">November 17, 2016</a>
-</div>
-</div>
-<h4><a href="dc-motor-maintenance/" tabindex="-1">DC motor maintenance.</a></h4>
-<p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="dc-motor-maintenance/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="-1" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="DIFFERENCE BETWEEN DC MOTORS AND GEARED MOTORS" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/02/blog2-min-695x500.png" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">November 17, 2016</a>
-</div>
-</div>
-<h4><a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
-<p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="false" class="col-md-6 col-lg-4 slick-slide slick-current slick-active" data-slick-index="0" style="width: 400px;" tabindex="0">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="railway case study" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/07/pexels-darshak-pandya-2526935-695x500.jpg" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="case-study/" tabindex="0">July 27, 2020</a>
-</div>
-</div>
-<h4><a href="case-study/" tabindex="0">Case Study</a></h4>
-<p>Indian Railways: More than 200,000 on the Indian Rail Tracks400V AC successfully supplied more than 1000 motorsIP67 production</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="case-study/" tabindex="0">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="false" class="col-md-6 col-lg-4 slick-slide slick-active" data-slick-index="1" style="width: 400px;" tabindex="0">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="ADVANTAGES OF USING BLDC MOTOR FOR MICRO AND MACRO APPLICATIONS" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" src="wp-content/uploads/2020/02/blog-image-min-695x500.png" srcset="wp-content/uploads/2020/02/blog-image-min-695x500.png 695w, wp-content/uploads/2020/02/blog-image-min-80x59.png 80w" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="0">December 28, 2018</a>
-</div>
-</div>
-<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="0">Advantages of using bldc motor for micro and macro applications.</a></h4>
-<p>Background:         The industrial revolution was transition from induction motor to the new concept for constant and variable speed</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="0">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="false" class="col-md-6 col-lg-4 slick-slide slick-active" data-slick-index="2" style="width: 400px;" tabindex="0">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="WHAT IS BLDC MOTOR" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" src="wp-content/uploads/2020/02/blog1-min-1-695x500.png" srcset="wp-content/uploads/2020/02/blog1-min-1-695x500.png 695w, wp-content/uploads/2020/02/blog1-min-1-80x59.png 80w" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="what-is-bldc-motor/" tabindex="0">October 25, 2018</a>
-</div>
-</div>
-<h4><a href="what-is-bldc-motor/" tabindex="0">What is bldc motor?</a></h4>
-<p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="what-is-bldc-motor/" tabindex="0">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide" data-slick-index="3" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="DC MOTOR MAINTENANCE" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-695x500.png" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="dc-motor-maintenance/" tabindex="-1">November 17, 2016</a>
-</div>
-</div>
-<h4><a href="dc-motor-maintenance/" tabindex="-1">DC motor maintenance.</a></h4>
-<p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="dc-motor-maintenance/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide" data-slick-index="4" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="DIFFERENCE BETWEEN DC MOTORS AND GEARED MOTORS" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/02/blog2-min-695x500.png" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">November 17, 2016</a>
-</div>
-</div>
-<h4><a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
-<p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="5" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="railway case study" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/07/pexels-darshak-pandya-2526935-695x500.jpg" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="case-study/" tabindex="-1">July 27, 2020</a>
-</div>
-</div>
-<h4><a href="case-study/" tabindex="-1">Case Study</a></h4>
-<p>Indian Railways: More than 200,000 on the Indian Rail Tracks400V AC successfully supplied more than 1000 motorsIP67 production</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="case-study/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="6" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="ADVANTAGES OF USING BLDC MOTOR FOR MICRO AND MACRO APPLICATIONS" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" src="wp-content/uploads/2020/02/blog-image-min-695x500.png" srcset="wp-content/uploads/2020/02/blog-image-min-695x500.png 695w, wp-content/uploads/2020/02/blog-image-min-80x59.png 80w" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="-1">December 28, 2018</a>
-</div>
-</div>
-<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="-1">Advantages of using bldc motor for micro and macro applications.</a></h4>
-<p>Background:         The industrial revolution was transition from induction motor to the new concept for constant and variable speed</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="7" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="WHAT IS BLDC MOTOR" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" sizes="(max-width: 695px) 100vw, 695px" src="wp-content/uploads/2020/02/blog1-min-1-695x500.png" srcset="wp-content/uploads/2020/02/blog1-min-1-695x500.png 695w, wp-content/uploads/2020/02/blog1-min-1-80x59.png 80w" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="what-is-bldc-motor/" tabindex="-1">October 25, 2018</a>
-</div>
-</div>
-<h4><a href="what-is-bldc-motor/" tabindex="-1">What is bldc motor?</a></h4>
-<p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="what-is-bldc-motor/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="8" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="DC MOTOR MAINTENANCE" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-695x500.png" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="dc-motor-maintenance/" tabindex="-1">November 17, 2016</a>
-</div>
-</div>
-<h4><a href="dc-motor-maintenance/" tabindex="-1">DC motor maintenance.</a></h4>
-<p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="dc-motor-maintenance/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div><div aria-hidden="true" class="col-md-6 col-lg-4 slick-slide slick-cloned" data-slick-index="9" id="" style="width: 400px;" tabindex="-1">
-<div class="blog-wrap rounding-695">
-<div class="blog-thumb">
-<img alt="DIFFERENCE BETWEEN DC MOTORS AND GEARED MOTORS" class="attachment-rounding-695 size-rounding-695 wp-post-image" height="500" loading="lazy" src="wp-content/uploads/2020/02/blog2-min-695x500.png" width="695"/> </div>
-<div class="blog-content blog-column-wrap">
-<div class="entry-meta">
-<div class="author">
-                  by GLOB SCOTT MOTORS </div>
-<div class="month">
-                  -  <a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">November 17, 2016</a>
-</div>
-</div>
-<h4><a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
-<p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
-<div class="entry-meta-footer">
-<a class="read-more" href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Continue Reading</a>
-</div>
-</div>
-</div>
-</div></div></div>
-<button class="slick-next slick-arrow" style="" type="button"><i class="fa fa-angle-right"></i></button></div>
-<!-- blog-area-end -->
-</div></div></div></div>
+  <!-- blog-area -->
+  <div class="row blog-active">
+    
+    <div class="col-md-6 col-lg-4">
+      <div class="blog-wrap rounding-695 ">
+                  <div class="blog-thumb">
+            <img width="695" height="500" src="/wp-content/uploads/2020/07/pexels-darshak-pandya-2526935-695x500.jpg" class="attachment-rounding-695 size-rounding-695 wp-post-image" alt="railway case study" loading="lazy"/>          </div>
+                <div class="blog-content blog-column-wrap">
+          <div class="entry-meta">
+                            <div class="author">
+                  by <a href="/author/gscottmadmin/" title="Posts by GLOB SCOTT MOTORS" rel="author">GLOB SCOTT MOTORS</a>                </div>
+               
+                              <div class="month">
+                  -  <a href="/case-study/">July 27, 2020</a>
+                </div>
+                        </div>
+          <h4><a href="/case-study/">Case Study</a></h4>
+          <p>Indian Railways: More than 200,000 on the Indian Rail Tracks400V AC successfully supplied more than 1000 motorsIP67 production</p>
+                    <div class="entry-meta-footer">
+            <a href="/case-study/" class="read-more">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col-md-6 col-lg-4">
+      <div class="blog-wrap rounding-695 ">
+                  <div class="blog-thumb">
+            <img width="695" height="500" src="/wp-content/uploads/2020/02/blog-image-min-695x500.png" class="attachment-rounding-695 size-rounding-695 wp-post-image" alt="ADVANTAGES OF USING BLDC MOTOR FOR MICRO AND MACRO APPLICATIONS" loading="lazy" srcset="/wp-content/uploads/2020/02/blog-image-min-695x500.png 695w, /wp-content/uploads/2020/02/blog-image-min-80x59.png 80w" sizes="(max-width: 695px) 100vw, 695px"/>          </div>
+                <div class="blog-content blog-column-wrap">
+          <div class="entry-meta">
+                            <div class="author">
+                  by <a href="/author/gscottmadmin/" title="Posts by GLOB SCOTT MOTORS" rel="author">GLOB SCOTT MOTORS</a>                </div>
+               
+                              <div class="month">
+                  -  <a href="/advantages-of-using-bldc-motor-for-micro-and-macro-applications/">December 28, 2018</a>
+                </div>
+                        </div>
+          <h4><a href="/advantages-of-using-bldc-motor-for-micro-and-macro-applications/">Advantages of using bldc motor for micro and macro applications.</a></h4>
+          <p>Background: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The industrial revolution was transition from induction motor to the new concept for constant and variable speed</p>
+                    <div class="entry-meta-footer">
+            <a href="/advantages-of-using-bldc-motor-for-micro-and-macro-applications/" class="read-more">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col-md-6 col-lg-4">
+      <div class="blog-wrap rounding-695 ">
+                  <div class="blog-thumb">
+            <img width="695" height="500" src="/wp-content/uploads/2020/02/blog1-min-1-695x500.png" class="attachment-rounding-695 size-rounding-695 wp-post-image" alt="WHAT IS BLDC MOTOR" loading="lazy" srcset="/wp-content/uploads/2020/02/blog1-min-1-695x500.png 695w, /wp-content/uploads/2020/02/blog1-min-1-80x59.png 80w" sizes="(max-width: 695px) 100vw, 695px"/>          </div>
+                <div class="blog-content blog-column-wrap">
+          <div class="entry-meta">
+                            <div class="author">
+                  by <a href="/author/gscottmadmin/" title="Posts by GLOB SCOTT MOTORS" rel="author">GLOB SCOTT MOTORS</a>                </div>
+               
+                              <div class="month">
+                  -  <a href="/what-is-bldc-motor/">October 25, 2018</a>
+                </div>
+                        </div>
+          <h4><a href="/what-is-bldc-motor/">What is bldc motor?</a></h4>
+          <p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
+                    <div class="entry-meta-footer">
+            <a href="/what-is-bldc-motor/" class="read-more">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col-md-6 col-lg-4">
+      <div class="blog-wrap rounding-695 ">
+                  <div class="blog-thumb">
+            <img width="695" height="500" src="/wp-content/uploads/2020/02/blog1-min-695x500.png" class="attachment-rounding-695 size-rounding-695 wp-post-image" alt="DC MOTOR MAINTENANCE" loading="lazy"/>          </div>
+                <div class="blog-content blog-column-wrap">
+          <div class="entry-meta">
+                            <div class="author">
+                  by <a href="/author/gscottmadmin/" title="Posts by GLOB SCOTT MOTORS" rel="author">GLOB SCOTT MOTORS</a>                </div>
+               
+                              <div class="month">
+                  -  <a href="/dc-motor-maintenance/">November 17, 2016</a>
+                </div>
+                        </div>
+          <h4><a href="/dc-motor-maintenance/">DC motor maintenance.</a></h4>
+          <p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
+                    <div class="entry-meta-footer">
+            <a href="/dc-motor-maintenance/" class="read-more">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col-md-6 col-lg-4">
+      <div class="blog-wrap rounding-695 ">
+                  <div class="blog-thumb">
+            <img width="695" height="500" src="/wp-content/uploads/2020/02/blog2-min-695x500.png" class="attachment-rounding-695 size-rounding-695 wp-post-image" alt="DIFFERENCE BETWEEN DC MOTORS AND GEARED MOTORS" loading="lazy"/>          </div>
+                <div class="blog-content blog-column-wrap">
+          <div class="entry-meta">
+                            <div class="author">
+                  by <a href="/author/gscottmadmin/" title="Posts by GLOB SCOTT MOTORS" rel="author">GLOB SCOTT MOTORS</a>                </div>
+               
+                              <div class="month">
+                  -  <a href="/difference-between-dc-motors-and-geared-motors/">November 17, 2016</a>
+                </div>
+                        </div>
+          <h4><a href="/difference-between-dc-motors-and-geared-motors/">Difference between DC motors and geared motors.</a></h4>
+          <p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
+                    <div class="entry-meta-footer">
+            <a href="/difference-between-dc-motors-and-geared-motors/" class="read-more">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      </div>
+  <!-- blog-area-end -->
+
+  </div></div></div></div>
 <!-- Section Head
 ============================================= -->
 <div class="row">
-<div class="col-xl-7 col-md-10 col-lg-8">
-<div class="section-title second-home-title center-title">
-<span class="wow" style="visibility: hidden; animation-name: none;">Here are some of</span>
-<h2 class="wow" style="visibility: hidden; animation-name: none;">Our Valuable Customers</h2>
-<p class="wow" style="visibility: hidden; animation-name: none;"></p>
+  <div class="col-xl-7 col-md-10 col-lg-8">
+    <div class="section-title second-home-title center-title">
+      <span class="wow ">Here are some of</span>
+      <h2 class="wow ">Our Valuable Customers</h2>
+      <p class="wow "></p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <!-- End Of Rounding Section Head
 ============================================= -->
-</div>
-</div><div class="vc_row section-element brand-area vc_custom_1611059732564" data-vc-full-width="true" data-vc-full-width-init="true" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;">
-<div class="vc_col-sm-12">
+
+
+	</div> 
+</div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row section-element brand-area vc_custom_1611059732564">
+	<div class="vc_col-sm-12 ">
+			
 <script>
   jQuery(document).ready(function($){
 
@@ -1156,73 +963,79 @@ require_once __DIR__ . '/includes/header.php';
       ]
     });
   });
+</script>  
+
+  <!-- brand-area -->
+  <div class="brand-active">
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/02/1.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/02/2.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/02/3.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/02/4.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/02/5.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/02/6.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/07/g.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/07/st.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/07/se.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/07/LLL.png" alt="Brand image">
+      </div>
+          <div class="single-brand">
+          <img src="/wp-content/uploads/2020/07/gg.png" alt="Brand image">
+      </div>
+      </div>   
+  <!-- brand-area-end -->
+
+
+
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<script>
+
+
+var myvar = '<div style="background-color: #eb9600;">	'+
+'  <div class="">			'+
+'    <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>'+
+'    <h2 style="color: white;text-align: center;font-family: Poppins, sans-serif;font-weight:300;font-style:normal; font-size:small; padding-left: 5px;padding-right: 5px;" class="vc_custom_heading wpb_animate_when_almost_visible wpb_bounceIn bounceIn wpb_start_animation animated">COVID-19 Alert: We have resumed manufacturing under the guidelines of the government authority.</h2>'+
+'    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>	'+
+'  </div> '+
+'</div>';
+	
+	
+document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    jQuery(".home").prepend(myvar);
+});
+
 </script>
-<!-- brand-area -->
-<div class="brand-active slick-initialized slick-slider"><button class="slick-prev slick-arrow" style="" type="button"><i class="fa fa-angle-left"></i></button>
-<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5460px; transform: translate3d(-1365px, 0px, 0px); transition: transform 500ms;"><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="-6" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/6.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="-5" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/g.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="-4" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/st.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="-3" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/se.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="-2" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/LLL.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="-1" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/gg.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide" data-slick-index="0" style="width: 195px;" tabindex="0">
-<img alt="Brand image" src="wp-content/uploads/2020/02/1.png"/>
-</div><div aria-hidden="false" class="single-brand slick-slide slick-current slick-active" data-slick-index="1" style="width: 195px;" tabindex="0">
-<img alt="Brand image" src="wp-content/uploads/2020/02/2.png"/>
-</div><div aria-hidden="false" class="single-brand slick-slide slick-active" data-slick-index="2" style="width: 195px;" tabindex="0">
-<img alt="Brand image" src="wp-content/uploads/2020/02/3.png"/>
-</div><div aria-hidden="false" class="single-brand slick-slide slick-active" data-slick-index="3" style="width: 195px;" tabindex="0">
-<img alt="Brand image" src="wp-content/uploads/2020/02/4.png"/>
-</div><div aria-hidden="false" class="single-brand slick-slide slick-active" data-slick-index="4" style="width: 195px;" tabindex="0">
-<img alt="Brand image" src="wp-content/uploads/2020/02/5.png"/>
-</div><div aria-hidden="false" class="single-brand slick-slide slick-active" data-slick-index="5" style="width: 195px;" tabindex="0">
-<img alt="Brand image" src="wp-content/uploads/2020/02/6.png"/>
-</div><div aria-hidden="false" class="single-brand slick-slide slick-active" data-slick-index="6" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/g.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide" data-slick-index="7" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/st.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide" data-slick-index="8" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/se.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide" data-slick-index="9" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/LLL.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide" data-slick-index="10" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/gg.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="11" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/1.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="12" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/2.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="13" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/3.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="14" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/4.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="15" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/5.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="16" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/02/6.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="17" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/g.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="18" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/st.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="19" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/se.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="20" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/LLL.png"/>
-</div><div aria-hidden="true" class="single-brand slick-slide slick-cloned" data-slick-index="21" id="" style="width: 195px;" tabindex="-1">
-<img alt="Brand image" src="wp-content/uploads/2020/07/gg.png"/>
-</div></div></div>
-<button class="slick-next slick-arrow" style="" type="button"><i class="fa fa-angle-right"></i></button></div>
-<!-- brand-area-end -->
-</div>
+		</div>
+	</div>
+
+	</div> 
 </div><div class="vc_row-full-width"></div>
+
+					</div>
+	</div>
 </div>
-</div>
-</div>
+
+
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
