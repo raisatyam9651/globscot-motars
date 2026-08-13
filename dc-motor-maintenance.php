@@ -1,0 +1,179 @@
+<?php
+$current_page = 'dc-motor-maintenance';
+$page_title = 'DC motor maintenance. – GLOBE SCOTT MOTORS PVT LTD';
+$body_class = 'post-template-default single single-post postid-2321 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
+
+require_once __DIR__ . '/includes/header.php';
+?>
+
+<!-- End of  Header 
+    ============================================= -->
+<main class="normal-footer">
+<!-- breadcrumb -->
+<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
+<div class="container">
+<div class="row">
+<div class="col-12 text-center">
+<div class="page-title header1-height">
+<h1>DC motor maintenance.</h1>
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item">DC Motors</li><li class="breadcrumb-item active">DC motor maintenance.</li></ol> </nav>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- breadcrumb-end -->
+<!-- blog-section - start
+================================================== -->
+<section class="blog-area blog-area-pt blog-details pb-70 pt-100">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 blog-post-content">
+<div class="blog-wrapper">
+<div class="blog-details-content">
+<article class="post-2321 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-motors tag-dc-motors tag-motors" id="post-2321">
+<img alt="blog img" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/02/blog1-min.png"/>
+<div class="blog-meta-info mb-15">
+<ul>
+<li><i class="fa fa-user-o"></i>GLOB SCOTT MOTORS</li>
+<li><i aria-hidden="true" class="fa fa-clock-o"></i>November 17, 2016</li>
+<li class="d-inline-block align-items-center"><i aria-hidden="true" class="fa fa-area-chart"></i>DC Motors, Motors</li>
+<li><i class="fa fa-comment-o"></i>0 Comments</li>
+</ul>
+</div>
+<div class="blog-inner-blog">
+<h5><strong>Reviewing the Service History:</strong></h5>
+<p>D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and scheduling. This starts with reviewing the motor’s service history usually contained within an equipment maintenance log or, if the log is not available, interviewing the customer, operator or responsible party to determine what type of maintenance is required, preventative or corrective (failure repair).</p>
+<h5>7 The goal is to determine:</h5>
+<ul><li>What kind of maintenance is required.</li><li>What maintenance personnel are needed to perform the maintenance (skill level).</li><li>What parts are needed to complete the maintenance (i.e., bearings, brushes, etc.)</li><li>What kind of scheduling or coordination with other departments is required to perform the maintenance (downtime or off-hours scheduling)</li><li>What kind of safety hazards exist that would interfere with the maintenance.</li></ul>
+<p>If there are problems other than the motor itself that caused the motor breakdown.</p>
+<h5><strong>Noise and Vibration Inspections:</strong></h5>
+<p>Noises and vibrations are not limited to mechanical problems or imbalances; electrical imbalances, such as open or shorted winding or uneven air gaps, can cause noises or vibrations. The easy way to troubleshoot an electrical from an mechanical imbalance is to first power up the motor, then disconnect power. If the noise/vibration exists while it is unpowered, the problem is mechanical; if the noise stops while power is disconnected, the problem is usually electrical.</p>
+<h5><strong>Visual Inspections:</strong></h5>
+<p>A visual inspection is meant to observe and record anomalies about the physical condition of the motor in a de-energized state. A motor that appears dirty, corroded or has the “beat up” look indicates that it was operated in a rough environment and may have more problems than usual. This inspection should include the “smell” test. Is there a burned odor coming from the motor windings? The burnt smell is coming from the insulation varnish of the motor windings. 12 If so, this suggests an overheating problem. Motor winding damage is possible under these conditions so winding tests should be conducted.</p>
+<h5><strong>Bearings: Replacement and Lubrication</strong></h5>
+<p>Lubrication is only one of three maintenance tasks involved with motor bearings. Cleaning, removal and replacement are the other tasks. In the noise and vibration inspections, the bearings should have been inspected for abnormal noises, vibrations or hot bearings. The “feel” and “sound” tests are simple methods to gauge bearing condition. 29 For the “feel” test, with the motor running, touch the bearing housing. If it is very hot to the touch, the bearing is probably malfunctioning. In the “sound” test, listen for thumping or grinding noises. If they exist, the bearings need a closer look and possible replacement. For most types, the sources of bearing failures are:</p>
+<ul><li>Insufficient oil or grease.</li><li>Too much grease causing churning and overheating.</li><li>Worn bearings (i.e., broken balls or rough races, etc.)</li><li>Hot motor or external environment.</li></ul>
+<p>If the service history demonstrates repeated bearing failures, check the manufacturer’s specifications to determine if the correct bearing has been installed. If that’s not the case, then an external factor could be the cause.</p>
+<div class="wp-block-columns are-vertically-aligned-center mr-top">
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%">
+<h3 class="has-text-align-center"><strong>To know more…</strong></h3>
+</div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
+<div class="wp-block-buttons">
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Contact us</a></div>
+</div>
+<p></p>
+</div>
+</div>
+<div class="tags-list">
+<strong>Tags:</strong> DC Motors, Motors </div>
+</div>
+</article><div class="post-navigation">
+<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"> <a class="single-post-nav" href="difference-between-dc-motors-and-geared-motors.php">
+<h4 class="post-title">Difference between DC motors and geared motors.</h4>
+<h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
+</a>
+</div></div><div class="col-md-6"><div class="post-next"> <a class="single-post-nav" href="what-is-bldc-motor.php">
+<h4 class="post-title">What is bldc motor?</h4>
+<h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
+</a>
+</div></div></div></div> <div class="no-padding comment-area-page">
+<div class="clearfix"></div>
+<div class="blog-comment-area col-md-12 p-0">
+<div class="nd-post-comment" id="leave-comment">
+<div class="comment-respond" id="respond">
+<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="dc-motor-maintenance.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="https://www.globescott.net/wp-comments-post.php" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
+<textarea class="form-control rounded-0" cols="30" id="message" name="comment" placeholder="Comment" required="" rows="6"></textarea>
+</div><div class="row">
+<div class="form-group col-md-6">
+<input aria-required="true" class="form-control rounded-0" id="author" name="author" placeholder="Name *" size="30" type="text"/>
+</div>
+<div class="form-group col-md-6">
+<input aria-required="true" class="form-control rounded-0" id="email" name="email" placeholder="Email *" size="30" type="email"/>
+</div>
+</div>
+<div class="form-group">
+<input aria-required="true" class="form-control rounded-0" id="website" name="website" placeholder="Website" size="30" type="text"/>
+</div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"/> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="aiowps-captcha"><label for="aiowps-captcha-answer">Please enter an answer in digits:</label></p><div class="aiowps-captcha-equation"><strong>nine − nine = <input id="aiowps-captcha-string-info" name="aiowps-captcha-string-info" type="hidden" value="rjmd8df2te"/><input id="aiowps-captcha-temp-string" name="aiowps-captcha-temp-string" type="hidden" value="1784273935"/><input autocomplete="off" id="aiowps-captcha-answer" name="aiowps-captcha-answer" size="2" type="text" value=""/></strong></div><p></p><input class="form-control" name="form_botcheck" type="hidden" value=""/> <button class="btn btn-primary" type="submit">Post Comment</button> <input id="comment_post_ID" name="comment_post_ID" type="hidden" value="2321"/>
+<input id="comment_parent" name="comment_parent" type="hidden" value="0"/>
+</form> </div><!-- #respond -->
+</div><!-- #comments -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Start Blog Sidebar -->
+<!-- End Blog Sidebar -->
+<div class="col-lg-4">
+<div class="sidebar-blog sidebar-defalt">
+<div class="widget mb-30 widget_search" id="search-2"><div class="ws-input"><form action="https://www.globescott.net/" method="get" role="search">
+<input name="s" placeholder="Enter Search Keywords" type="search"/>
+<button><i class="fa fa-search"></i></button>
+</form></div></div>
+<div class="widget mb-30 widget_recent_entries" id="recent-posts-2">
+<div class="widget-title"><h3>Recent Posts</h3></div>
+<ul>
+<li>
+<a href="case-study.php">Case Study</a>
+</li>
+<li>
+<a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php">Advantages of using bldc motor for micro and macro applications.</a>
+</li>
+<li>
+<a href="what-is-bldc-motor.php">What is bldc motor?</a>
+</li>
+<li>
+<a aria-current="page" href="dc-motor-maintenance.php">DC motor maintenance.</a>
+</li>
+<li>
+<a href="difference-between-dc-motors-and-geared-motors.php">Difference between DC motors and geared motors.</a>
+</li>
+</ul>
+</div><div class="widget mb-30 rounding_rp_widget" id="recent_post_widget-1">
+<!-- Footer Blog List
+      ========================== -->
+<div class="widget-title"><h3>Recent Post</h3></div> <div class="sidebar-rc-post">
+<ul>
+<li>
+<div class="rc-post-thumb">
+<a href="case-study.php"><img alt="railway case study" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/07/pexels-darshak-pandya-2526935-100x80.jpg" width="100"/></a>
+</div>
+<div class="rc-post-content">
+<h4><a href="case-study.php">Case Study</a></h4>
+<span class="widget-date"><i aria-hidden="true" class="fa fa-clock-o"></i> July 27, 2020</span>
+</div>
+</li>
+<li>
+<div class="rc-post-thumb">
+<a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php"><img alt="ADVANTAGES OF USING BLDC MOTOR FOR MICRO AND MACRO APPLICATIONS" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/02/blog-image-min-100x80.png" width="100"/></a>
+</div>
+<div class="rc-post-content">
+<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php">Advantages of using bldc motor for micro and macro applications.</a></h4>
+<span class="widget-date"><i aria-hidden="true" class="fa fa-clock-o"></i> December 28, 2018</span>
+</div>
+</li>
+<li>
+<div class="rc-post-thumb">
+<a href="what-is-bldc-motor.php"><img alt="WHAT IS BLDC MOTOR" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-1-100x80.png" width="100"/></a>
+</div>
+<div class="rc-post-content">
+<h4><a href="what-is-bldc-motor.php">What is bldc motor?</a></h4>
+<span class="widget-date"><i aria-hidden="true" class="fa fa-clock-o"></i> October 25, 2018</span>
+</div>
+</li>
+</ul>
+</div>
+</div> </div>
+</div>
+</div><!-- row -->
+</div><!-- container -->
+</section>
+<!-- blog-section - End -->
+</main>
+
+<?php require_once __DIR__ . '/includes/footer.php'; ?>

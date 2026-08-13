@@ -1,0 +1,203 @@
+.vc_element-icon {
+	text-align: center;
+	border-radius: 100em;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
+}
+.vc_add-element-container .vc_element-icon {
+    left: 3px !important;
+}
+.vc_element-icon.fa {
+	background-image: none !important;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	border-radius: 100em;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
+	left: 3px !important;
+}
+
+i.vc_element-icon:before, li[data-element="vc_raw_js"] i.vc_element-icon:before, li[data-element="vc_raw_html"] i.vc_element-icon:before, li[data-element="rev_slider_vc"] i.vc_element-icon:before, li[data-element="contact-form-7"] i.vc_element-icon:before, li[data-element="vc_widget_sidebar"] i.vc_element-icon:before {
+	display: block;
+	font-family: "fontawesome";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 32px;
+	-webkit-font-smoothing: antialiased;
+	color: #444;
+	speak: none;
+}
+
+.wpb_content_element > .wpb_element_wrapper {
+	background-color: #E4E4E4 !important;
+}
+.vc_add-element-container .wpb-content-layouts a {
+    font-size: 12px;
+    padding: 2px 4px 2px 38px !important;
+}
+.vc_add-element-container .wpb-content-layouts a .vc_element-description {
+    font-size: 10px !important;
+}
+
+/* Rounding Custom Style */
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body, 
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::after, 
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::before {
+	border: none !important;
+	background-color: transparent !important;
+}
+.vc_tta-panel-heading {
+	border: none !important;
+	background-color: transparent !important;
+	border-top: 1px solid #ececec !important;
+}
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+	background-color: transparent !important;
+}
+.vc_tta.vc_general .vc_tta-panel-title>a {
+	padding: 15px 20px !important;
+}
+span.vc_tta-title-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px !important;
+    color: #242424;
+    font-weight: 600;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 20px;
+}
+.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon {
+	left: 0 !important;
+}
+.wpb-js-composer .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-plus::before {
+	border-width: 3px 0 0 0 !important;
+}
+
+/* XL Device :1200px. */
+@media (max-width: 1410px) {
+
+	.who-we-are-faq .section-title.second-home-title {
+	    max-width: 580px;
+	    padding-top: 0;
+	    padding-left: 15px;
+	}
+	.who-we-are-faq .vc_tta-container {
+	    max-width: 560px;
+	    padding-left: 15px;
+	    padding-bottom: 70px;
+	}
+	.who-we-are-progress .section-title.second-home-title {
+	    max-width: 580px;
+	    padding-top: 0;
+	    padding-right: 15px;
+	} 
+	.who-we-are-progress .vc_progress_bar {
+	    max-width: 560px;
+	    padding-right: 15px;
+	    padding-bottom: 0;
+	}
+
+}
+@media (max-width: 1200px) {
+	.who-we-are-progress .section-title.second-home-title {
+	    padding-top: 0;
+	}
+	.faq-img {
+		padding-top: 40%;
+		background-size: cover;
+	}
+	.prog-img {
+		padding-top: 35%;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 767px) {
+	.vc_col-sm-6.who-we-are-progress {
+	    padding-left: 15px;
+	}
+	.who-we-are-progress .vc_progress_bar {
+	    max-width: 100%;
+	    padding-right: 0;
+	    padding-bottom: 50px;
+	}
+	.vc_col-sm-8.cta-text {
+	    padding-bottom: 35px;
+	}
+}
+
+/* Prograce bar */
+.vc_progress_bar .vc_single_bar {
+    width: 100%;
+    height: 5px;
+    box-shadow: none !important;
+    margin-bottom: 62px !important;
+    background: #e9ecef !important;
+}
+.vc_progress_bar .vc_single_bar .vc_label {
+	font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+	width: 100% !important;
+	top: -37px !important;
+	padding-left: 0 !important;
+	position: absolute !important;
+}
+span.vc_label_units {
+    float: right !important;
+}
+.vc_progress_bar .vc_single_bar .vc_bar {
+	background-color: #5580ff !important;
+}
+.vc_progress_bar .vc_single_bar:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Call to action */
+.vc_row.cta-bg::before {
+	display: inherit !important;
+}
+
+/* Accordion */
+.faq2 .vc_tta-panel {
+    padding-top: 0;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+}
+.faq2 .vc_tta-panel span.vc_tta-title-text {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.faq2 h4.vc_tta-panel-title.vc_tta-controls-icon-position-left {
+    padding: 7px 17px;
+}
+.faq2 .vc_tta.vc_general .vc_tta-panel-title>a { 
+	font-size: 17px !important;
+}
+.faq2 .vc_tta-panel-body {
+    padding: 0 47px !important;
+    padding-top: 0;
+}
+.faq2 .vc_tta-panel.vc_active {
+	padding-bottom: 20px !important;
+}
+.faq2 .vc_tta-panel-heading {
+	border-top: 0 !important;
+}
+
+.services-img .wpb_single_image img{
+	width: 100%;
+	max-width: auto;
+}
+@media (max-width: 767px) {
+	.vc_col-sm-6.who-we-are-skill {
+	    padding-left: 15px !important;
+	}
+}
