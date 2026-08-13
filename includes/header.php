@@ -8,6 +8,7 @@ $body_class = isset($body_class) ? $body_class : 'page-template page-template-pa
 <!DOCTYPE html>
 <html class="js_active vc_desktop vc_transform vc_transform" lang="en-US">
 <head>
+<base href="/" />
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link href="wp-content/uploads/2020/02/globescott_LogoNew_fevicon.png" rel="shortcut icon" type="image/png"/>
