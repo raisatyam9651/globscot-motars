@@ -17,7 +17,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="page-title header1-height">
 <h1>What is bldc motor?</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item">Bldcmotor</li><li class="breadcrumb-item active">What is bldc motor?</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item">Bldcmotor</li><li class="breadcrumb-item active">What is bldc motor?</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -55,7 +55,7 @@ require_once __DIR__ . '/includes/header.php';
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Contact us</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us/" rel="noreferrer noopener" target="_blank">Contact us</a></div>
 </div>
 <p></p>
 </div>
@@ -64,11 +64,11 @@ require_once __DIR__ . '/includes/header.php';
 <strong>Tags:</strong> BLDC Motor, brushless motor, DC Motors, Motors </div>
 </div>
 </article><div class="post-navigation">
-<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"> <a class="single-post-nav" href="dc-motor-maintenance.php">
+<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"> <a class="single-post-nav" href="dc-motor-maintenance/">
 <h4 class="post-title">DC motor maintenance.</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
-</div></div><div class="col-md-6"><div class="post-next"> <a class="single-post-nav" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php">
+</div></div><div class="col-md-6"><div class="post-next"> <a class="single-post-nav" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/">
 <h4 class="post-title">Advantages of using bldc motor for micro and macro applications.</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -77,7 +77,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="blog-comment-area col-md-12 p-0">
 <div class="nd-post-comment" id="leave-comment">
 <div class="comment-respond" id="respond">
-<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="what-is-bldc-motor.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="https://www.globescott.net/wp-comments-post.php" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
+<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="what-is-bldc-motor.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="https://www.globescott.net/wp-comments-post/" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
 <textarea class="form-control rounded-0" cols="30" id="message" name="comment" placeholder="Comment" required="" rows="6"></textarea>
 </div><div class="row">
 <div class="form-group col-md-6">
@@ -112,19 +112,19 @@ require_once __DIR__ . '/includes/header.php';
 <div class="widget-title"><h3>Recent Posts</h3></div>
 <ul>
 <li>
-<a href="case-study.php">Case Study</a>
+<a href="case-study/">Case Study</a>
 </li>
 <li>
-<a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php">Advantages of using bldc motor for micro and macro applications.</a>
+<a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/">Advantages of using bldc motor for micro and macro applications.</a>
 </li>
 <li>
-<a aria-current="page" href="what-is-bldc-motor.php">What is bldc motor?</a>
+<a aria-current="page" href="what-is-bldc-motor/">What is bldc motor?</a>
 </li>
 <li>
-<a href="dc-motor-maintenance.php">DC motor maintenance.</a>
+<a href="dc-motor-maintenance/">DC motor maintenance.</a>
 </li>
 <li>
-<a href="difference-between-dc-motors-and-geared-motors.php">Difference between DC motors and geared motors.</a>
+<a href="difference-between-dc-motors-and-geared-motors/">Difference between DC motors and geared motors.</a>
 </li>
 </ul>
 </div><div class="widget mb-30 rounding_rp_widget" id="recent_post_widget-1">
@@ -134,28 +134,28 @@ require_once __DIR__ . '/includes/header.php';
 <ul>
 <li>
 <div class="rc-post-thumb">
-<a href="case-study.php"><img alt="railway case study" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/07/pexels-darshak-pandya-2526935-100x80.jpg" width="100"/></a>
+<a href="case-study/"><img alt="railway case study" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/07/pexels-darshak-pandya-2526935-100x80.jpg" width="100"/></a>
 </div>
 <div class="rc-post-content">
-<h4><a href="case-study.php">Case Study</a></h4>
+<h4><a href="case-study/">Case Study</a></h4>
 <span class="widget-date"><i aria-hidden="true" class="fa fa-clock-o"></i> July 27, 2020</span>
 </div>
 </li>
 <li>
 <div class="rc-post-thumb">
-<a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php"><img alt="ADVANTAGES OF USING BLDC MOTOR FOR MICRO AND MACRO APPLICATIONS" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/02/blog-image-min-100x80.png" width="100"/></a>
+<a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/"><img alt="ADVANTAGES OF USING BLDC MOTOR FOR MICRO AND MACRO APPLICATIONS" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/02/blog-image-min-100x80.png" width="100"/></a>
 </div>
 <div class="rc-post-content">
-<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php">Advantages of using bldc motor for micro and macro applications.</a></h4>
+<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/">Advantages of using bldc motor for micro and macro applications.</a></h4>
 <span class="widget-date"><i aria-hidden="true" class="fa fa-clock-o"></i> December 28, 2018</span>
 </div>
 </li>
 <li>
 <div class="rc-post-thumb">
-<a href="what-is-bldc-motor.php"><img alt="WHAT IS BLDC MOTOR" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-1-100x80.png" width="100"/></a>
+<a href="what-is-bldc-motor/"><img alt="WHAT IS BLDC MOTOR" class="attachment-rounding-thumb size-rounding-thumb wp-post-image" height="80" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-1-100x80.png" width="100"/></a>
 </div>
 <div class="rc-post-content">
-<h4><a href="what-is-bldc-motor.php">What is bldc motor?</a></h4>
+<h4><a href="what-is-bldc-motor/">What is bldc motor?</a></h4>
 <span class="widget-date"><i aria-hidden="true" class="fa fa-clock-o"></i> October 25, 2018</span>
 </div>
 </li>
@@ -170,3 +170,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

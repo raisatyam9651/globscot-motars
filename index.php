@@ -336,7 +336,7 @@ require_once __DIR__ . '/includes/header.php';
 </div> <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s;">
-<a class="btn bordered-btn" href="products.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -361,7 +361,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-railway-signalling-products.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-railway-signalling-products/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -387,7 +387,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-motors.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-motors/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -417,7 +417,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-geared-motors.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-geared-motors/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -443,7 +443,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-transaxel/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -473,7 +473,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-railway-signalling-products.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-railway-signalling-products/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -499,7 +499,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-transaxel/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -529,7 +529,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel.php">Discover More <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-transaxel/">Discover More <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -858,13 +858,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="what-is-bldc-motor.php" tabindex="-1">October 25, 2018</a>
+                  -  <a href="what-is-bldc-motor/" tabindex="-1">October 25, 2018</a>
 </div>
 </div>
-<h4><a href="what-is-bldc-motor.php" tabindex="-1">What is bldc motor?</a></h4>
+<h4><a href="what-is-bldc-motor/" tabindex="-1">What is bldc motor?</a></h4>
 <p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="what-is-bldc-motor.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="what-is-bldc-motor/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -877,13 +877,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="dc-motor-maintenance.php" tabindex="-1">November 17, 2016</a>
+                  -  <a href="dc-motor-maintenance/" tabindex="-1">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="dc-motor-maintenance.php" tabindex="-1">DC motor maintenance.</a></h4>
+<h4><a href="dc-motor-maintenance/" tabindex="-1">DC motor maintenance.</a></h4>
 <p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="dc-motor-maintenance.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="dc-motor-maintenance/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -896,13 +896,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">November 17, 2016</a>
+                  -  <a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
+<h4><a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
 <p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -915,13 +915,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="case-study.php" tabindex="0">July 27, 2020</a>
+                  -  <a href="case-study/" tabindex="0">July 27, 2020</a>
 </div>
 </div>
-<h4><a href="case-study.php" tabindex="0">Case Study</a></h4>
+<h4><a href="case-study/" tabindex="0">Case Study</a></h4>
 <p>Indian Railways: More than 200,000 on the Indian Rail Tracks400V AC successfully supplied more than 1000 motorsIP67 production</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="case-study.php" tabindex="0">Continue Reading</a>
+<a class="read-more" href="case-study/" tabindex="0">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -934,13 +934,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php" tabindex="0">December 28, 2018</a>
+                  -  <a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="0">December 28, 2018</a>
 </div>
 </div>
-<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php" tabindex="0">Advantages of using bldc motor for micro and macro applications.</a></h4>
+<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="0">Advantages of using bldc motor for micro and macro applications.</a></h4>
 <p>Background:         The industrial revolution was transition from induction motor to the new concept for constant and variable speed</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php" tabindex="0">Continue Reading</a>
+<a class="read-more" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="0">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -953,13 +953,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="what-is-bldc-motor.php" tabindex="0">October 25, 2018</a>
+                  -  <a href="what-is-bldc-motor/" tabindex="0">October 25, 2018</a>
 </div>
 </div>
-<h4><a href="what-is-bldc-motor.php" tabindex="0">What is bldc motor?</a></h4>
+<h4><a href="what-is-bldc-motor/" tabindex="0">What is bldc motor?</a></h4>
 <p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="what-is-bldc-motor.php" tabindex="0">Continue Reading</a>
+<a class="read-more" href="what-is-bldc-motor/" tabindex="0">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -972,13 +972,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="dc-motor-maintenance.php" tabindex="-1">November 17, 2016</a>
+                  -  <a href="dc-motor-maintenance/" tabindex="-1">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="dc-motor-maintenance.php" tabindex="-1">DC motor maintenance.</a></h4>
+<h4><a href="dc-motor-maintenance/" tabindex="-1">DC motor maintenance.</a></h4>
 <p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="dc-motor-maintenance.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="dc-motor-maintenance/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -991,13 +991,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">November 17, 2016</a>
+                  -  <a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
+<h4><a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
 <p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -1010,13 +1010,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="case-study.php" tabindex="-1">July 27, 2020</a>
+                  -  <a href="case-study/" tabindex="-1">July 27, 2020</a>
 </div>
 </div>
-<h4><a href="case-study.php" tabindex="-1">Case Study</a></h4>
+<h4><a href="case-study/" tabindex="-1">Case Study</a></h4>
 <p>Indian Railways: More than 200,000 on the Indian Rail Tracks400V AC successfully supplied more than 1000 motorsIP67 production</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="case-study.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="case-study/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -1029,13 +1029,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php" tabindex="-1">December 28, 2018</a>
+                  -  <a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="-1">December 28, 2018</a>
 </div>
 </div>
-<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php" tabindex="-1">Advantages of using bldc motor for micro and macro applications.</a></h4>
+<h4><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="-1">Advantages of using bldc motor for micro and macro applications.</a></h4>
 <p>Background:         The industrial revolution was transition from induction motor to the new concept for constant and variable speed</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -1048,13 +1048,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="what-is-bldc-motor.php" tabindex="-1">October 25, 2018</a>
+                  -  <a href="what-is-bldc-motor/" tabindex="-1">October 25, 2018</a>
 </div>
 </div>
-<h4><a href="what-is-bldc-motor.php" tabindex="-1">What is bldc motor?</a></h4>
+<h4><a href="what-is-bldc-motor/" tabindex="-1">What is bldc motor?</a></h4>
 <p>BLDC stands for Brushless DC motor. BLDC motor is a synchronous motor, which is electronically commutated (no physical</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="what-is-bldc-motor.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="what-is-bldc-motor/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -1067,13 +1067,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="dc-motor-maintenance.php" tabindex="-1">November 17, 2016</a>
+                  -  <a href="dc-motor-maintenance/" tabindex="-1">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="dc-motor-maintenance.php" tabindex="-1">DC motor maintenance.</a></h4>
+<h4><a href="dc-motor-maintenance/" tabindex="-1">DC motor maintenance.</a></h4>
 <p>Reviewing the Service History: D.C. motor maintenance, as with all types of industrial maintenance, requires pre-maintenance planning and</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="dc-motor-maintenance.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="dc-motor-maintenance/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -1086,13 +1086,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">November 17, 2016</a>
+                  -  <a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
+<h4><a href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Difference between DC motors and geared motors.</a></h4>
 <p>DC MOTORS: A DC motor is any of a class of electrical machines that converts direct current electrical</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="difference-between-dc-motors-and-geared-motors.php" tabindex="-1">Continue Reading</a>
+<a class="read-more" href="difference-between-dc-motors-and-geared-motors/" tabindex="-1">Continue Reading</a>
 </div>
 </div>
 </div>
@@ -1226,3 +1226,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

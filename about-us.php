@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
                         About us 
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">About us</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">About us</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -239,7 +239,7 @@ require_once __DIR__ . '/includes/header.php';
 <h4><span style="color: #ffffff;">WE ARE THE BEST</span></h4>
 <h3><span style="color: #ffffff;"><b>Need World Class DC Motors?</b></span></h3>
 <p><span style="color: #ffffff;">We are known as the prominent Manufacturer of an exclusive Motors.</span></p>
-<h2 style="color: #ffffff;"><a href="contact-us.php" rel="noopener noreferrer" target="_blank">Contact us</a></h2>
+<h2 style="color: #ffffff;"><a href="contact-us/" rel="noopener noreferrer" target="_blank">Contact us</a></h2>
 </div>
 </div>
 </div>
@@ -247,3 +247,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

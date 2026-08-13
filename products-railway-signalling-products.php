@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
                         Railway Signalling Products 
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">Railway Signalling Products</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">Railway Signalling Products</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -517,7 +517,7 @@ A movement already initiated can be reversed at any time and from any position. 
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p><em>A brush less DC motor is a permanent magnet synchronous electric motor</em> which is driven by direct current (DC) electricity and it accomplishes electronically controlled commutation system (commutation is the process of producing rotational torque in the motor by changing phase currents through it at appropriate times) instead of a mechanically commutation system. Brush less DC motor is also referred as trapezoidal permanent magnet motors. Brush less DC motor is an indispensable part of modern drive technology, most commonly employed for actuating drives, machine tools, electric propulsion, robotics, computer peripherals and also for electrical power generation.</p>
-<p>Brush less<a href="products.php"> DC motor</a>  has no mechanical commutator and associated problems. Brush less DC motor is highly efficient  due to the use of permanent magnet rotor. High speed of operation even in loaded and unloaded conditions due to the absence of brushes that limits the speed. Brush less DC motor has smaller motor geometry and is lighter in weight than both brushed type DC and induction AC motors. Brushless DC motor has long life as no inspection and maintenance is required for commutator system. Brush less dc motor has higher dynamic response due to low inertia and carrying windings in the stator. It has Less electromagnetic interference. Brush less DC motor works with  low noise due to absence of brushes.</p>
+<p>Brush less<a href="products/"> DC motor</a>  has no mechanical commutator and associated problems. Brush less DC motor is highly efficient  due to the use of permanent magnet rotor. High speed of operation even in loaded and unloaded conditions due to the absence of brushes that limits the speed. Brush less DC motor has smaller motor geometry and is lighter in weight than both brushed type DC and induction AC motors. Brushless DC motor has long life as no inspection and maintenance is required for commutator system. Brush less dc motor has higher dynamic response due to low inertia and carrying windings in the stator. It has Less electromagnetic interference. Brush less DC motor works with  low noise due to absence of brushes.</p>
 </div>
 </div>
 </div>
@@ -575,3 +575,4 @@ A movement already initiated can be reversed at any time and from any position. 
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

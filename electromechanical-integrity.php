@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
                         Electromechanical Integrity 
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">Electromechanical Integrity</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">Electromechanical Integrity</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -149,3 +149,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

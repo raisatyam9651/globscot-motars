@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
                         Products 
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">Products</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">Products</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -50,7 +50,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s;">
-<a class="btn bordered-btn" href="products-pmdc-motors.php">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-motors/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -75,7 +75,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-geared-motors.php">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-geared-motors/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -100,7 +100,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-geared-motors.php">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-geared-motors/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -125,7 +125,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel.php">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-transaxel/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -150,7 +150,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-railway-signalling-products.php">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-railway-signalling-products/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
@@ -160,3 +160,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

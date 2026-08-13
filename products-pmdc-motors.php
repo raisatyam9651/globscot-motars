@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
                         PMDC Motors 
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">PMDC Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">PMDC Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -49,7 +49,7 @@ require_once __DIR__ . '/includes/header.php';
 </div><section class="vc_section vc_custom_1611305220924"><div class="vc_row section-element">
 <div class="vc_col-sm-12">
 <div class="wpb_text_column wpb_content_element">
-<p>We offer a range of PMDC motors for various <a href="applications.php" rel="noopener noreferrer" target="_blank">applications</a></p>
+<p>We offer a range of PMDC motors for various <a href="applications/" rel="noopener noreferrer" target="_blank">applications</a></p>
 </div>
 </div>
 </div><div class="vc_row section-element">
@@ -445,3 +445,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+

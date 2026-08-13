@@ -40,7 +40,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="page-title header1-height">
 <h1>Contact us</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">Contact us</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">Contact us</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -114,7 +114,7 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 <?php endif; ?>
 
-<form action="contact-us.php" class="wpcf7-form" method="post">
+<form action="contact-us/" class="wpcf7-form" method="post">
 <div class="question-form-wrap contact-form">
 <div class="row">
 <div class="col-lg-4 col-md-6">
@@ -145,3 +145,4 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
