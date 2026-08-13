@@ -1,0 +1,66 @@
+HOW TO ADD META DESCRIPTION, CANONICAL, OPEN GRAPH & ROOT-RELATIVE ASSETS
+=========================================================================
+This shows the minimal edits to includes/header.php (and each page) that close the
+biggest on-page/technical gaps in one place.
+
+------------------------------------------------------------------
+STEP 1 — includes/config.php : fix the base URL
+------------------------------------------------------------------
+    define('SITE_URL', 'https://www.globescott.net'); // no trailing slash
+
+------------------------------------------------------------------
+STEP 2 — each page top : add a description + slug (title already set)
+------------------------------------------------------------------
+    // e.g. products-pmdc-motors.php
+    $current_page      = 'products-pmdc-motors';
+    $page_slug         = 'products-pmdc-motors';   // used for canonical/OG url
+    $page_title        = 'PMDC Motors Manufacturer & Supplier in India | Globe Scott Motors';
+    $meta_description  = 'Globe Scott Motors manufactures permanent magnet DC (PMDC) motors '
+                       . 'for pumps, elevators, automotive and industrial use. ISO 9001:2015 certified, since 1985.';
+    $og_image          = SITE_URL . '/wp-content/uploads/2020/02/pmdc-motors.png';
+
+------------------------------------------------------------------
+STEP 3 — includes/header.php : inside <head>, after <title>
+------------------------------------------------------------------
+    <?php
+      $slug = isset($page_slug) ? $page_slug : ($current_page === 'index' ? '' : $current_page);
+      $canonical = rtrim(SITE_URL, '/') . '/' . ($slug ? $slug . '/' : '');
+      $desc = isset($meta_description) ? $meta_description : SITE_NAME . ' – ' . SITE_TAGLINE;
+      $ogimg = isset($og_image) ? $og_image : SITE_URL . '/wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png';
+    ?>
+    <meta name="description" content="<?php echo htmlspecialchars($desc); ?>"/>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical); ?>"/>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="<?php echo htmlspecialchars(SITE_NAME); ?>"/>
+    <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>"/>
+    <meta property="og:description" content="<?php echo htmlspecialchars($desc); ?>"/>
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical); ?>"/>
+    <meta property="og:image" content="<?php echo htmlspecialchars($ogimg); ?>"/>
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>"/>
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($desc); ?>"/>
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($ogimg); ?>"/>
+
+------------------------------------------------------------------
+STEP 4 — fix the CRITICAL relative-path bug (choose ONE)
+------------------------------------------------------------------
+OPTION A (recommended) — make asset & link paths root-relative.
+  In header.php / footer.php change every:
+      href="wp-content/..."   ->  href="/wp-content/..."
+      src="wp-includes/..."   ->  src="/wp-includes/..."
+      href="index/"           ->  href="/"
+      href="about-us/"        ->  href="/about-us/"
+  In contact-us.php:
+      action="contact-us/"    ->  action="/contact-us/"
+  In contact-us.php / footer.php backgrounds:
+      url(wp-content/...)      ->  url(/wp-content/...)
+
+OPTION B (fast, but affects in-page #anchors) — add a base tag as the FIRST element in <head>:
+      <base href="https://www.globescott.net/"/>
+
+After deploying, load https://www.globescott.net/about-us/ and confirm the page is styled,
+the menu works, and the browser Network tab shows CSS/JS returning 200 (not 404).

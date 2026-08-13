@@ -1,0 +1,69 @@
+<!--
+  Organization + LocalBusiness structured data for Globe Scott Motors.
+  Paste this <script> block into includes/header.php just before </head> so it appears on every page.
+  Replace TODO placeholders (logo URL, geo coordinates, founding year confirmed = 1985).
+  Validate at https://search.google.com/test/rich-results
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.globescott.net/#organization",
+      "name": "Globe Scott Motors Pvt Ltd",
+      "legalName": "GLOBE SCOTT MOTORS PVT LTD",
+      "url": "https://www.globescott.net/",
+      "logo": "https://www.globescott.net/wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png",
+      "foundingDate": "1985",
+      "description": "Manufacturer of PMDC motors, geared motors, BLDC motors, PMDC transaxles and railway signalling products, established 1985 as an Indo-US joint venture.",
+      "email": "info@globescott.net",
+      "telephone": "+91-260-2373538",
+      "sameAs": [
+        "https://business.facebook.com/Globe-Scott-Motors-Pvt-Ltd-134264700644329/",
+        "https://twitter.com/GlobescottMotor",
+        "https://www.linkedin.com/in/globe-scott-motors-a4823b134"
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.globescott.net/#localbusiness",
+      "name": "Globe Scott Motors Pvt Ltd",
+      "image": "https://www.globescott.net/wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png",
+      "url": "https://www.globescott.net/",
+      "telephone": "+91-260-2373538",
+      "email": "info@globescott.net",
+      "priceRange": "$$",
+      "parentOrganization": { "@id": "https://www.globescott.net/#organization" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "A1/19, G.I.D.C. Industrial Estate",
+        "addressLocality": "Killa Pardi",
+        "addressRegion": "Gujarat",
+        "postalCode": "396125",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "20.5224",
+        "longitude": "72.9637"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "09:30",
+          "closes": "18:00"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.globescott.net/#website",
+      "url": "https://www.globescott.net/",
+      "name": "Globe Scott Motors",
+      "publisher": { "@id": "https://www.globescott.net/#organization" }
+    }
+  ]
+}
+</script>

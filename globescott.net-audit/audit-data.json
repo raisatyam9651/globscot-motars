@@ -1,0 +1,320 @@
+{
+  "summary": {
+    "health_score": 42,
+    "business_type": "Manufacturer / Local B2B (DC, BLDC, Geared & PMDC motors and railway signalling products) — Killa Pardi, Gujarat, India",
+    "audit_target": "Local rebuilt PHP codebase of globescott.net (WordPress-to-static migration in progress; includes/config.php SITE_URL still set to http://localhost:8000)",
+    "pages_analyzed": 21,
+    "top_findings": [
+      "Relative asset/link paths (wp-content/..., href=\"about-us/\") combined with .htaccess trailing-slash directory URLs will 404 all CSS/JS/fonts and break navigation on every non-root page once deployed",
+      "Zero meta descriptions across all 21 pages",
+      "Zero canonical tags, Open Graph, or Twitter Card tags site-wide",
+      "Zero structured data (JSON-LD) — no Organization, LocalBusiness, Product, Breadcrumb, or Article schema",
+      "No robots.txt, no XML sitemap, no llms.txt"
+    ],
+    "quick_wins": [
+      "Add robots.txt + XML sitemap (templates provided in fixes/)",
+      "Add Organization + LocalBusiness JSON-LD to header (template provided)",
+      "Add per-page meta description + canonical + Open Graph via header include",
+      "Fix broken internal link /dc-mo/ -> /products-pmdc-motors/",
+      "Remove outdated 2020 COVID-19 banner from global header",
+      "Fix spelling in URLs/titles/H1: Benifits->Benefits, Transaxel->Transaxle, Amuzement->Amusement, Handeling->Handling, morden->modern"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 35,
+      "what_works": [
+        "Clean, keyword-friendly extensionless URLs with trailing slashes enforced via .htaccess",
+        "301 redirect from .php to canonical directory URL",
+        "Valid viewport meta and lang=en-US declared",
+        "Semantic breadcrumb navigation with aria-label on interior pages",
+        "Each page owns a single <main> (no duplicate landmarks from header/footer)"
+      ],
+      "findings": [
+        {
+          "title": "Relative asset & link paths break on trailing-slash URLs",
+          "severity": "Critical",
+          "description": "header.php loads CSS/JS as wp-content/... and wp-includes/... (no leading slash); nav uses href=\"index/\", href=\"about-us/\"; contact form uses action=\"contact-us/\"; some backgrounds use url(wp-content/...). .htaccess 301-redirects every page to a directory URL (e.g. /about-us/). A browser resolves wp-content/themes/.../style.css on /about-us/ to /about-us/wp-content/themes/.../style.css, which does not exist -> the page renders unstyled and navigation is broken. The homepage linked as index/ has the same failure.",
+          "recommendation": "Convert every asset src/href and internal link to root-relative paths (leading /), or add <base href=\"https://www.globescott.net/\"> to <head>. Root-relative is preferred. Verify on the live server after deploy."
+        },
+        {
+          "title": "No canonical tags site-wide",
+          "severity": "Critical",
+          "description": "0 of 21 pages emit <link rel=\"canonical\">. With .php and directory URL variants both resolvable, duplicate-URL indexation risk is high.",
+          "recommendation": "Emit a self-referencing absolute canonical in header.php built from SITE_URL + current page slug with trailing slash."
+        },
+        {
+          "title": "No robots.txt and no XML sitemap",
+          "severity": "High",
+          "description": "Neither /robots.txt nor /sitemap.xml exists. Crawlers have no sitemap hint and no crawl directives.",
+          "recommendation": "Add robots.txt referencing an XML sitemap listing all 21 canonical URLs (templates in fixes/)."
+        },
+        {
+          "title": "config SITE_URL points to http://localhost:8000",
+          "severity": "High",
+          "description": "includes/config.php defines SITE_URL as http://localhost:8000. Any absolute URL generation (canonical, sitemap, OG, schema) built from this will be wrong in production.",
+          "recommendation": "Set SITE_URL to https://www.globescott.net and standardize on the www + https host (matches the absolute image URLs already in the code)."
+        },
+        {
+          "title": "Non-functional WordPress leftover forms",
+          "severity": "Medium",
+          "description": "Blog comment forms POST to https://www.globescott.net/wp-comments-post/ and sidebar search forms GET https://www.globescott.net/ — both are WordPress endpoints that no longer exist in the static rebuild, so they 404 / do nothing.",
+          "recommendation": "Remove the comment and search widgets, or wire them to a working handler. Dead interactive elements harm UX and crawl budget."
+        },
+        {
+          "title": "Broken internal link /dc-mo/",
+          "severity": "Medium",
+          "description": "products-pmdc-motors.php links 'DC motor' to href=\"/dc-mo/\", a truncated slug that 404s.",
+          "recommendation": "Point it to /products-pmdc-motors/ or /what-is-bldc-motor/ as appropriate."
+        },
+        {
+          "title": "Render-blocking resources in <head>",
+          "severity": "Medium",
+          "description": "~15 separate stylesheets plus jQuery load in <head> unminified/unbundled. No preconnect, no critical-CSS inlining beyond theme inline block.",
+          "recommendation": "Bundle & minify CSS, defer non-critical CSS, move jQuery to footer with defer, add preconnect for fonts."
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 45,
+      "what_works": [
+        "Every page has a unique <title>",
+        "Consistent brand suffix pattern in titles",
+        "Interior pages use a single H1",
+        "Descriptive image alt text on product thumbnails and contact icons"
+      ],
+      "findings": [
+        {
+          "title": "No meta descriptions on any page",
+          "severity": "High",
+          "description": "0 of 21 pages define a meta description; header.php never outputs one. Google will auto-generate snippets, reducing CTR control.",
+          "recommendation": "Add a $meta_description variable per page and output <meta name=\"description\"> in header.php. 140-160 chars, keyword + value proposition + location."
+        },
+        {
+          "title": "Homepage has 4 H1 tags",
+          "severity": "Medium",
+          "description": "The homepage slider renders 4 <h1> tags (Driving Motorized Innovation, Guaranteed Faster Engineering Solution, Best Motors For Amuzement Park Rides, Motors For Material Handeling Equipments). Multiple H1s dilute topical focus and none contains the primary keyword 'DC motor manufacturer'.",
+          "recommendation": "Keep one H1 (e.g. 'DC, BLDC & Geared Motor Manufacturer in India') and demote slider slide headings to <h2>/<span>."
+        },
+        {
+          "title": "Titles under-optimized (no keywords/location, brand-first, all-caps)",
+          "severity": "Medium",
+          "description": "Titles like 'Products – GLOBE SCOTT MOTORS PVT LTD' and 'About us – ...' lead with generic labels and all-caps brand; product/blog titles omit high-intent keywords and location (India / Gujarat).",
+          "recommendation": "Front-load keywords: e.g. 'PMDC Motors Manufacturer & Supplier in India | Globe Scott Motors'. Use title case, keep 50-60 chars."
+        },
+        {
+          "title": "Spelling errors baked into URLs, titles and H1s",
+          "severity": "Medium",
+          "description": "URL/title/H1 misspellings: 'Benifits' (benifits-of-using-dc-motors), 'Transaxel' (should be Transaxle; also inconsistent with menu 'PMDC Transaxle'), 'Amuzement', 'Handeling', 'morden'. These appear in indexable slugs and headings.",
+          "recommendation": "Correct spellings; 301-redirect old slugs to corrected ones (benefits-of-using-dc-motors, products-pmdc-transaxle)."
+        },
+        {
+          "title": "Missing alt text on key images",
+          "severity": "Low",
+          "description": "13 homepage images, 2 about-us, 2 applications images lack alt; the footer logo uses alt=\"\".",
+          "recommendation": "Add descriptive alt to all meaningful images; give the footer logo alt=\"Globe Scott Motors\"."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 55,
+      "what_works": [
+        "Genuine manufacturer expertise: detailed railway-signalling (~1,700 words) and PMDC (~1,000 words) pages",
+        "Company history since 1985 and Indo-US collaboration story (E-E-A-T)",
+        "ISO 9001:2015 and CE certification signals on About page",
+        "Real NAP, phone, email and embedded Google Map"
+      ],
+      "findings": [
+        {
+          "title": "Thin product & hub pages",
+          "severity": "High",
+          "description": "products-bldc-motors (~36 words), applications (~45 words of text over 9 images), products hub (~136 words), products-pmdc-transaxel (~179 words), products-pmdc-geared-motors (~223 words). Too thin to rank for product queries.",
+          "recommendation": "Expand each product page to 400-700 words: specs (voltage, power, RPM, torque), applications, materials, differentiators, and a spec table."
+        },
+        {
+          "title": "Outdated 2020 COVID-19 banner in global header",
+          "severity": "Medium",
+          "description": "header.php hardcodes a 'COVID-19 Alert: We have resumed manufacturing...' banner on every page, signalling stale, unmaintained content.",
+          "recommendation": "Remove the banner."
+        },
+        {
+          "title": "No author, dates, or E-E-A-T bylines on blog articles",
+          "severity": "Medium",
+          "description": "Blog posts lack visible author, credentials, and publish/updated dates in a structured way; comment sections are non-functional.",
+          "recommendation": "Add author bio + engineering credentials, publish/updated dates, and Article schema."
+        },
+        {
+          "title": "Duplicated boilerplate across product blurbs",
+          "severity": "Low",
+          "description": "Product hub blurbs are generic marketing sentences with little unique, specification-rich content.",
+          "recommendation": "Replace with unique, spec-driven copy per product family."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 5,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "No structured data anywhere",
+          "severity": "High",
+          "description": "0 JSON-LD blocks. Missing Organization, LocalBusiness (the business is a physical manufacturer with NAP + map), Product, BreadcrumbList, Article, and WebSite schema. This blocks rich results and weakens entity/AI understanding.",
+          "recommendation": "Add Organization + LocalBusiness (with geo, address, sameAs socials) sitewide, BreadcrumbList on interior pages, Product/ItemList on product pages, and Article on blog posts. Templates in fixes/schema-organization-localbusiness.jsonld."
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 45,
+      "what_works": [
+        "loading=\"lazy\" and srcset present on several product images",
+        "Most JavaScript loads before </body> rather than in <head>"
+      ],
+      "findings": [
+        {
+          "title": "No modern image formats; heavy PNG/JPEG payload",
+          "severity": "High",
+          "description": "~10 MB of images across 188 files, 0 WebP/AVIF. Largest single images 300-430 KB; many product photos shipped as PNG. Hurts LCP on image-led hero/slider and product pages.",
+          "recommendation": "Convert to WebP/AVIF, compress, and serve appropriately sized variants. Target hero/LCP image < 150 KB."
+        },
+        {
+          "title": "Heavy homepage slider + many third-party libraries",
+          "severity": "Medium",
+          "description": "Homepage uses a Slick slider with large full-bleed backgrounds plus Bootstrap, Isotope, Magnific Popup, WOW, Waypoints, CounterUp, Meanmenu, Popper, jQuery — a large JS footprint for a brochure site.",
+          "recommendation": "Remove unused libraries, defer/async scripts, lazy-init the slider, and preload the first slide image."
+        },
+        {
+          "title": "Unminified/unbundled CSS & JS",
+          "severity": "Medium",
+          "description": "~15 CSS and ~17 JS files load individually; several are theme/plugin defaults likely partly unused.",
+          "recommendation": "Bundle, minify, tree-shake unused CSS, and add long-cache headers."
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness (GEO)",
+      "score": 40,
+      "what_works": [
+        "Clear, extractable factual text on what products are and where the company operates",
+        "Consistent NAP and company facts"
+      ],
+      "findings": [
+        {
+          "title": "No entity/structured signals for AI engines",
+          "severity": "Medium",
+          "description": "No Organization/LocalBusiness schema, no sameAs to social profiles, no author entities, no FAQ schema. AI Overviews/ChatGPT/Perplexity have weak grounding for brand facts.",
+          "recommendation": "Add schema + sameAs, add concise FAQ blocks with FAQPage schema on product/blog pages, and ensure key facts (founded 1985, Indo-US JV, certifications, product families) appear as clean prose."
+        },
+        {
+          "title": "No llms.txt (optional)",
+          "severity": "Low",
+          "description": "No /llms.txt. Optional and ignored by Google, but cheap to add for AI-crawler guidance.",
+          "recommendation": "Optionally add /llms.txt summarizing the company and key URLs."
+        }
+      ]
+    },
+    {
+      "name": "Local SEO",
+      "score": 50,
+      "what_works": [
+        "Consistent NAP in header, footer and contact page",
+        "Embedded Google Map for the Killa Pardi, Gujarat location",
+        "Linked Facebook, Twitter/X and LinkedIn profiles"
+      ],
+      "findings": [
+        {
+          "title": "No LocalBusiness schema / geo coordinates",
+          "severity": "Medium",
+          "description": "The business is a physical manufacturer but exposes no LocalBusiness/Organization schema with address, geo, openingHours, or sameAs.",
+          "recommendation": "Add LocalBusiness JSON-LD (fixes/) and ensure the Google Business Profile is claimed and NAP-consistent."
+        },
+        {
+          "title": "Map iframe has pointer-events disabled",
+          "severity": "Low",
+          "description": "The contact-page map iframe sets pointer-events:none, reducing interactivity.",
+          "recommendation": "Allow interaction or provide a 'Get directions' link to the GBP listing."
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 45,
+      "what_works": [
+        "srcset + lazy loading on product thumbnails",
+        "Mostly descriptive alt text on product images"
+      ],
+      "findings": [
+        {
+          "title": "No WebP/AVIF and oversized files",
+          "severity": "Medium",
+          "description": "0 next-gen images; 10 MB total; several 300-430 KB assets.",
+          "recommendation": "Convert to WebP/AVIF, compress, and size correctly."
+        },
+        {
+          "title": "13+ images missing alt",
+          "severity": "Low",
+          "description": "Homepage (13), about-us (2), applications (2), footer logo (empty alt).",
+          "recommendation": "Add descriptive alt text to all meaningful images."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Week 1",
+        "items": [
+          "Fix relative asset/link paths (root-relative or <base>) and verify every interior page renders styled with working nav on the live server",
+          "Add self-referencing canonical tags in header.php",
+          "Set config SITE_URL to https://www.globescott.net and standardize on www+https",
+          "Publish robots.txt and sitemap.xml",
+          "Fix broken /dc-mo/ link"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Add per-page meta descriptions + Open Graph/Twitter tags via header.php",
+          "Add Organization + LocalBusiness + BreadcrumbList JSON-LD",
+          "Reduce homepage to a single keyword-focused H1",
+          "Rewrite titles with keywords + location",
+          "Correct spelling in slugs/titles/H1s and 301 old slugs",
+          "Convert images to WebP/AVIF and compress; add missing alt text",
+          "Remove COVID-19 banner and dead WordPress comment/search forms"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 2",
+        "items": [
+          "Expand thin product pages to 400-700 words with spec tables",
+          "Add Product/ItemList schema and FAQ blocks (FAQPage schema)",
+          "Add author bios, dates and Article schema to blog posts",
+          "Build an internal-linking structure from blog posts to product pages",
+          "Claim/optimize Google Business Profile; ensure NAP consistency"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Verify in Google Search Console (submit sitemap, check coverage/Core Web Vitals)",
+          "Track rankings for 'PMDC motor manufacturer India', 'railway signalling motors', etc.",
+          "Bundle/minify assets and monitor Core Web Vitals field data",
+          "Publish new technical blog content on a schedule"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "fixes_dir": "fixes/",
+    "screenshots_dir": "screenshots/"
+  }
+}

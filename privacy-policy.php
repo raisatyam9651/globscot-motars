@@ -10,7 +10,7 @@ require_once __DIR__ . '/includes/header.php';
     ============================================= -->
 <main class="normal-footer">
 <!-- breadcrumb -->
-<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
+<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
@@ -78,7 +78,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- End Blog Sidebar -->
 <div class="col-lg-4">
 <div class="sidebar-blog sidebar-defalt">
-<div class="widget mb-30 widget_search" id="search-2"><div class="ws-input"><form action="https://www.globescott.net/" method="get" role="search">
+<div class="widget mb-30 widget_search" id="search-2"><div class="ws-input"><form action="/" method="get" role="search">
 <input name="s" placeholder="Enter Search Keywords" type="search"/>
 <button><i class="fa fa-search"></i></button>
 </form></div></div>
@@ -144,4 +144,5 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
 

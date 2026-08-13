@@ -13,7 +13,7 @@ require_once __DIR__ . '/includes/header.php';
     ============================================= -->
 <main class="normal-footer">
 <!-- breadcrumb -->
-<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
+<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
@@ -35,7 +35,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc-hoverbox-wrapper electromech-box vc-hoverbox-shape--square vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100" ontouchstart="">
 <div class="vc-hoverbox" style="perspective: 2280px;">
 <div class="vc-hoverbox-inner" style="min-height: 250px;">
-<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/manufecturing-darken.jpg);">
+<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(/wp-content/uploads/2020/02/manufecturing-darken.jpg);">
 <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
 <h2 style="text-align:center">Manufacturing</h2>
 </div>
@@ -53,7 +53,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc-hoverbox-wrapper electromech-box vc-hoverbox-shape--square vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100" ontouchstart="">
 <div class="vc-hoverbox" style="perspective: 2280px;">
 <div class="vc-hoverbox-inner" style="min-height: 250px;">
-<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/testing-darken.jpg);">
+<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(/wp-content/uploads/2020/02/testing-darken.jpg);">
 <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
 <h2 style="text-align:center">Testing</h2>
 </div>
@@ -72,7 +72,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc-hoverbox-wrapper electromech-box vc-hoverbox-shape--square vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100" ontouchstart="">
 <div class="vc-hoverbox" style="perspective: 2280px;">
 <div class="vc-hoverbox-inner" style="min-height: 250px;">
-<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/Computer-Aided-Designs-darken.jpg);">
+<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(/wp-content/uploads/2020/02/Computer-Aided-Designs-darken.jpg);">
 <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
 <h2 style="text-align:center">Computer Aided Designs</h2>
 </div>
@@ -90,7 +90,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc-hoverbox-wrapper electromech-box vc-hoverbox-shape--square vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100" ontouchstart="">
 <div class="vc-hoverbox" style="perspective: 2280px;">
 <div class="vc-hoverbox-inner" style="min-height: 250px;">
-<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/Ultrasonic-Flaw-Detector-darken.png);">
+<div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(/wp-content/uploads/2020/02/Ultrasonic-Flaw-Detector-darken.png);">
 <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
 <h2 style="text-align:center">Ultrasonic Flaw Detector</h2>
 </div>
@@ -149,4 +149,5 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
 

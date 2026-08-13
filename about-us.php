@@ -3,7 +3,7 @@ $current_page = 'about-us';
 $page_title = 'About us – GLOBE SCOTT MOTORS PVT LTD';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-380 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
-<style data-type="vc_shortcodes-custom-css">.vc_custom_1611313644812{padding-top: 100px !important;}.vc_custom_1611313685440{padding-top: 100px !important;}.vc_custom_1611318584331{margin-top: 42px !important;}.vc_custom_1611315725601{margin-top: 42px !important;}.vc_custom_1611320612601{margin-top: 42px !important;}.vc_custom_1611320637681{padding-top: 100px !important;}.vc_custom_1611320660121{padding-top: 150px !important;padding-bottom: 150px !important;background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/chart-close-up-coffee-cup-590037.jpg?id=2764) !important;}.vc_custom_1611320667011{margin-top: 45px !important;}.vc_custom_1581614120332{margin-top: 45px !important;padding-bottom: 65px !important;}.vc_custom_1581599200428{margin-top: -38px !important;}.vc_custom_1611313746230{margin-top: -38px !important;}.vc_custom_1581655454297{margin-bottom: 30px !important;}.vc_custom_1581612378091{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #000000 !important;}.vc_custom_1581615634496{margin-bottom: 30px !important;}.vc_custom_1581612867869{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #25263d !important;}.vc_custom_1581615859722{margin-bottom: 30px !important;}.vc_custom_1611062678284{padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #556df4 !important;}</style>
+<style data-type="vc_shortcodes-custom-css">.vc_custom_1611313644812{padding-top: 100px !important;}.vc_custom_1611313685440{padding-top: 100px !important;}.vc_custom_1611318584331{margin-top: 42px !important;}.vc_custom_1611315725601{margin-top: 42px !important;}.vc_custom_1611320612601{margin-top: 42px !important;}.vc_custom_1611320637681{padding-top: 100px !important;}.vc_custom_1611320660121{padding-top: 150px !important;padding-bottom: 150px !important;background-image: url(/wp-content/uploads/2020/02/chart-close-up-coffee-cup-590037.jpg?id=2764) !important;}.vc_custom_1611320667011{margin-top: 45px !important;}.vc_custom_1581614120332{margin-top: 45px !important;padding-bottom: 65px !important;}.vc_custom_1581599200428{margin-top: -38px !important;}.vc_custom_1611313746230{margin-top: -38px !important;}.vc_custom_1581655454297{margin-bottom: 30px !important;}.vc_custom_1581612378091{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #000000 !important;}.vc_custom_1581615634496{margin-bottom: 30px !important;}.vc_custom_1581612867869{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #25263d !important;}.vc_custom_1581615859722{margin-bottom: 30px !important;}.vc_custom_1611062678284{padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #556df4 !important;}</style>
 EOD;
 
 require_once __DIR__ . '/includes/header.php';
@@ -13,7 +13,7 @@ require_once __DIR__ . '/includes/header.php';
     ============================================= -->
 <main class="normal-footer">
 <!-- breadcrumb -->
-<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
+<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
@@ -247,4 +247,5 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
 

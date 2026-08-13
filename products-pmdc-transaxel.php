@@ -13,7 +13,7 @@ require_once __DIR__ . '/includes/header.php';
     ============================================= -->
 <main class="normal-footer">
 <!-- breadcrumb -->
-<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
+<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
@@ -126,4 +126,5 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
 

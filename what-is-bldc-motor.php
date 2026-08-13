@@ -10,7 +10,7 @@ require_once __DIR__ . '/includes/header.php';
     ============================================= -->
 <main class="normal-footer">
 <!-- breadcrumb -->
-<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(https://www.globescott.net/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
+<section class="breadcrumb-area breadcrumb-bg image-overlay" style="background-image: url(/wp-content/uploads/2020/02/AdobeStock_115615488_Preview-e1581314210869.jpeg);">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
@@ -77,7 +77,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="blog-comment-area col-md-12 p-0">
 <div class="nd-post-comment" id="leave-comment">
 <div class="comment-respond" id="respond">
-<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="what-is-bldc-motor.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="https://www.globescott.net/wp-comments-post/" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
+<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="what-is-bldc-motor.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="/wp-comments-post/" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
 <textarea class="form-control rounded-0" cols="30" id="message" name="comment" placeholder="Comment" required="" rows="6"></textarea>
 </div><div class="row">
 <div class="form-group col-md-6">
@@ -104,7 +104,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- End Blog Sidebar -->
 <div class="col-lg-4">
 <div class="sidebar-blog sidebar-defalt">
-<div class="widget mb-30 widget_search" id="search-2"><div class="ws-input"><form action="https://www.globescott.net/" method="get" role="search">
+<div class="widget mb-30 widget_search" id="search-2"><div class="ws-input"><form action="/" method="get" role="search">
 <input name="s" placeholder="Enter Search Keywords" type="search"/>
 <button><i class="fa fa-search"></i></button>
 </form></div></div>
@@ -170,4 +170,5 @@ require_once __DIR__ . '/includes/header.php';
 </main>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
+
 

@@ -98,3 +98,4 @@
 <script id="vc_waypoints-js" src="wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js"></script>
 </body></html>
 
+
