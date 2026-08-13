@@ -1,6 +1,7 @@
 <?php
 $current_page = 'about-us';
-$page_title = 'About us – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'About Globe Scott Motors – DC Motor Manufacturer Since 1985';
+$meta_description = 'Globe Scott Motors Pvt Ltd, established 1985 as an Indo-US joint venture, is an ISO 9001:2015 and CE certified manufacturer of DC motors in Killa Pardi, Gujarat, India.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-380 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1611313644812{padding-top: 100px !important;}.vc_custom_1611313685440{padding-top: 100px !important;}.vc_custom_1611318584331{margin-top: 42px !important;}.vc_custom_1611315725601{margin-top: 42px !important;}.vc_custom_1611320612601{margin-top: 42px !important;}.vc_custom_1611320637681{padding-top: 100px !important;}.vc_custom_1611320660121{padding-top: 150px !important;padding-bottom: 150px !important;background-image: url(/wp-content/uploads/2020/02/chart-close-up-coffee-cup-590037.jpg?id=2764) !important;}.vc_custom_1611320667011{margin-top: 45px !important;}.vc_custom_1581614120332{margin-top: 45px !important;padding-bottom: 65px !important;}.vc_custom_1581599200428{margin-top: -38px !important;}.vc_custom_1611313746230{margin-top: -38px !important;}.vc_custom_1581655454297{margin-bottom: 30px !important;}.vc_custom_1581612378091{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #000000 !important;}.vc_custom_1581615634496{margin-bottom: 30px !important;}.vc_custom_1581612867869{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #25263d !important;}.vc_custom_1581615859722{margin-bottom: 30px !important;}.vc_custom_1611062678284{padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #556df4 !important;}</style>
@@ -149,7 +150,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
 <div class="wpb_single_image wpb_content_element vc_align_left vc_custom_1581655454297 about-thumb">
 <figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="" class="vc_single_image-img attachment-full" height="275" loading="lazy" sizes="(max-width: 600px) 100vw, 600px" src="wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275.jpeg" srcset="wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275.jpeg 600w, wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275-300x138.jpeg 300w, wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275-80x37.jpeg 80w" width="600"/></div>
+<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="Globe Scott Motors manufacturing unit" class="vc_single_image-img attachment-full" height="275" loading="lazy" sizes="(max-width: 600px) 100vw, 600px" src="wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275.jpeg" srcset="wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275.jpeg 600w, wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275-300x138.jpeg 300w, wp-content/uploads/2020/02/AdobeStock_87196355_Preview_600x275-80x37.jpeg 80w" width="600"/></div>
 </figure>
 </div>
 </div>
@@ -164,7 +165,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc_col-sm-12 vc_col-lg-6 vc_col-md-6 vc_col-md-push-6">
 <div class="wpb_single_image wpb_content_element vc_align_left vc_custom_1581615634496 about-thumb">
 <figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="" class="vc_single_image-img attachment-full" height="275" loading="lazy" sizes="(max-width: 600px) 100vw, 600px" src="wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy.jpeg" srcset="wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy.jpeg 600w, wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy-300x138.jpeg 300w, wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy-80x37.jpeg 80w" width="600"/></div>
+<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="Globe Scott Motors production facility" class="vc_single_image-img attachment-full" height="275" loading="lazy" sizes="(max-width: 600px) 100vw, 600px" src="wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy.jpeg" srcset="wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy.jpeg 600w, wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy-300x138.jpeg 300w, wp-content/uploads/2020/02/AdobeStock_222298659_Preview-copy-80x37.jpeg 80w" width="600"/></div>
 </figure>
 </div>
 </div>
@@ -180,7 +181,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s;">
-<a class="btn bordered-btn" href="https://gsmpl.iconicussoft.in/wp-content/uploads/2020/02/Brochure_Design_-_GSNew.pdf">Company Brochure <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="wp-content/uploads/2020/02/Brochure_Design_-_GSNew.pdf">Company Brochure <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->
