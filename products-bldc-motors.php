@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products-bldc-motors';
-$page_title = 'BLDC Motors Manufacturer in India | Globe Scott Motors';
-$meta_description = 'Brushless DC (BLDC) motors from Globe Scott Motors for railway carriage fans, HVAC and industrial use — energy-efficient, low-maintenance and made in India.';
+$page_title = 'BLDC Motor Manufacturer in India | High Efficiency Brushless DC Motors | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is a premier BLDC motor manufacturer in India providing high-efficiency brushless DC motors (12V-310V DC) for EVs, industrial automation & HVAC.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-3048 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581315851248{padding-top: 90px !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        BLDC Motors 
+                        BLDC Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">BLDC Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">BLDC Motors India</li></ol> </nav>
 </div>
 </div>
 </div>

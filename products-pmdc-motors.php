@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products-pmdc-motors';
-$page_title = 'PMDC Motors Manufacturer & Supplier in India | Globe Scott Motors';
-$meta_description = 'Permanent magnet DC (PMDC) motors from Globe Scott Motors for pumps, elevators, automotive and industrial use. Custom ratings, ISO 9001:2015 certified, since 1985.';
+$page_title = 'PMDC Motor Manufacturer in India | Permanent Magnet DC Motor Supplier | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is a premier PMDC motor manufacturer in India offering high-performance Permanent Magnet DC motors (12V-180V DC) for industrial, automotive & pump applications.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2377 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1611290062091{padding-top: 90px !important;}.vc_custom_1611305220924{padding-top: 100px !important;padding-bottom: 42px !important;}.vc_custom_1611305622090{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1611305266333{padding-top: 100px !important;padding-bottom: 42px !important;}.vc_custom_1611305276749{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1611305288820{padding-top: 100px !important;padding-bottom: 42px !important;}.vc_custom_1611305757960{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1611305670747{background-color: #faf9f9 !important;}.vc_custom_1611298947768{background-color: #faf9f9 !important;}.vc_custom_1611305008874{background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1611305746984{background-color: #faf9f9 !important;}.vc_custom_1611306664135{margin-bottom: -5px !important;}.vc_custom_1611306386356{padding-top: 10px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;}.vc_custom_1611306678598{margin-bottom: -5px !important;}.vc_custom_1611306392738{padding-top: 10px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;}.vc_custom_1611306686703{margin-bottom: -5px !important;}.vc_custom_1611306399564{padding-top: 10px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;}.vc_custom_1611306692744{margin-bottom: -5px !important;}.vc_custom_1611306405426{padding-top: 10px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;}.vc_custom_1611306700031{margin-bottom: -5px !important;}.vc_custom_1611306410136{padding-top: 10px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;}</style>
@@ -20,7 +20,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        PMDC Motors 
+                        PMDC Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">PMDC Motors</li></ol> </nav>

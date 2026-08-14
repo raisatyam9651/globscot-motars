@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products-pmdc-geared-motors';
-$page_title = 'PMDC Geared Motors Manufacturer | Globe Scott Motors';
-$meta_description = 'Custom-designed PMDC geared motors from Globe Scott Motors, built to your torque, speed and mounting requirements for industrial and automotive applications.';
+$page_title = 'PMDC Geared Motor Manufacturer in India | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is a leading PMDC geared motor manufacturer in India offering custom-designed PMDC geared motors with planetary & spur gearheads for industrial automation.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2424 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581315851248{padding-top: 90px !important;}.vc_custom_1611307115494{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1611307254453{background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1611307531963{padding-top: 42px !important;padding-bottom: 42px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        Geared PMDC Motors 
+                        PMDC Geared Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">Geared PMDC Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">PMDC Geared Motors India</li></ol> </nav>
 </div>
 </div>
 </div>

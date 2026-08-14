@@ -1,7 +1,7 @@
 <?php
 $current_page = 'about-us';
-$page_title = 'About Globe Scott Motors – DC Motor Manufacturer Since 1985';
-$meta_description = 'Globe Scott Motors Pvt Ltd, established 1985 as an Indo-US joint venture, is an ISO 9001:2015 and CE certified manufacturer of DC motors in Killa Pardi, Gujarat, India.';
+$page_title = 'About Globe Scott Motors | Leading PMDC Motor Manufacturer in India';
+$meta_description = 'Globe Scott Motors Pvt Ltd is a premier PMDC & BLDC motor manufacturer in India established in 1985. ISO 9001:2015 & CE certified precision electrical motor factory in Gujarat.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-380 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1611313644812{padding-top: 100px !important;}.vc_custom_1611313685440{padding-top: 100px !important;}.vc_custom_1611318584331{margin-top: 42px !important;}.vc_custom_1611315725601{margin-top: 42px !important;}.vc_custom_1611320612601{margin-top: 42px !important;}.vc_custom_1611320637681{padding-top: 100px !important;}.vc_custom_1611320660121{padding-top: 150px !important;padding-bottom: 150px !important;background-image: url(/wp-content/uploads/2020/02/chart-close-up-coffee-cup-590037.jpg?id=2764) !important;}.vc_custom_1611320667011{margin-top: 45px !important;}.vc_custom_1581614120332{margin-top: 45px !important;padding-bottom: 65px !important;}.vc_custom_1581599200428{margin-top: -38px !important;}.vc_custom_1611313746230{margin-top: -38px !important;}.vc_custom_1581655454297{margin-bottom: 30px !important;}.vc_custom_1581612378091{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #000000 !important;}.vc_custom_1581615634496{margin-bottom: 30px !important;}.vc_custom_1581612867869{margin-bottom: 30px !important;padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #25263d !important;}.vc_custom_1581615859722{margin-bottom: 30px !important;}.vc_custom_1611062678284{padding-top: 40px !important;padding-right: 45px !important;padding-bottom: 40px !important;padding-left: 45px !important;background-color: #556df4 !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        About us 
+                        About Globe Scott Motors — PMDC Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">About us</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">About Us</li></ol> </nav>
 </div>
 </div>
 </div>

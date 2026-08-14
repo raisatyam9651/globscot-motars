@@ -1,7 +1,7 @@
 <?php
 $current_page = 'applications';
-$page_title = 'Applications of Globe Scott DC & BLDC Motors | Globe Scott Motors';
-$meta_description = 'Explore the industrial applications of Globe Scott DC, BLDC and geared motors — from pumps, elevators and automatic doors to railway signalling and material handling.';
+$page_title = 'Industrial & OEM Motor Applications | PMDC & BLDC Motors India | Globe Scott Motors';
+$meta_description = 'Discover industrial motor applications from Globe Scott Motors — a premier PMDC & BLDC motor manufacturer in India supplying automotive, railway, medical & pump drives.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2878 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581656403275{margin-top: 90px !important;}.vc_custom_1581656403275{margin-top: 90px !important;}.vc_custom_1581657796666{margin-top: 90px !important;margin-bottom: 90px !important;}.vc_custom_1581657796666{margin-top: 90px !important;margin-bottom: 90px !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        Applications 
+                        Industrial & OEM Motor Applications in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">Applications</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">Applications India</li></ol> </nav>
 </div>
 </div>
 </div>

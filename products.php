@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products';
-$page_title = 'Industrial DC, BLDC & Geared Motors | Globe Scott Motors';
-$meta_description = 'Browse Globe Scott Motors\' range of PMDC motors, geared motors, PMDC transaxles, railway signalling motors and BLDC motors — engineered and manufactured in India.';
+$page_title = 'DC Motor Manufacturer in India | PMDC, BLDC & Geared Motors | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is a leading DC motor manufacturer in India offering PMDC motors, BLDC motors, geared motors & transaxle drives for industrial OEMs.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2375 page-parent wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581414921496{padding-top: 90px !important;padding-bottom: 45px !important;}.vc_custom_1581654187343{margin-bottom: 45px !important;}.vc_custom_1581512271808{margin-bottom: 45px !important;}.vc_custom_1581512280539{margin-bottom: 45px !important;}.vc_custom_1581512290752{margin-bottom: 45px !important;}.vc_custom_1581512297934{margin-bottom: 45px !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        Products 
+                        DC Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item active">Products</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item active">Products India</li></ol> </nav>
 </div>
 </div>
 </div>

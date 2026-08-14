@@ -43,6 +43,28 @@ require_once __DIR__ . '/includes/header.php';
 <div class="row">
 <!-- ========== blog - start ========== -->
 <div class="col-lg-12">
+<article class="post-2335 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-motors tag-pmdc-motor tag-dc-motors" id="post-2335">
+<div class="blog-wrap mb-30">
+<div class="blog-thumb">
+<img alt="WHAT IS A PMDC MOTOR? WORKING, ADVANTAGES, APPLICATIONS & SELECTION GUIDE" class="img-fluid wp-post-image" height="550" loading="lazy" src="wp-content/uploads/2020/02/blog1-min-1.png" width="750"/> </div>
+<div class="blog-content">
+<div class="entry-meta">
+<div class="author">
+                  by GLOBE SCOTT MOTORS </div>
+<div class="month">
+                  -  <a href="what-is-pmdc-motor.php">August 14, 2026</a>
+</div>
+</div>
+<h4><a href="what-is-pmdc-motor.php">What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide</a></h4>
+<p>Permanent Magnet Direct Current (PMDC) motors are a cornerstone of modern motion-control systems. Learn how PMDC motors work, Lorentz force physics, key advantages, industrial applications, FAQs, and a step-by-step selection guide…</p>
+<div class="entry-meta-footer">
+<a class="read-more" href="what-is-pmdc-motor.php">Continue Reading</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class="col-lg-12">
 <article class="post-3052 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-motors category-uncategorized tag-dc-motors" id="post-3052">
 <div class="blog-wrap mb-30">
 <div class="blog-thumb">

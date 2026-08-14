@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products-pmdc-transaxle';
-$page_title = 'PMDC Transaxle Manufacturer in India | Globe Scott Motors';
-$meta_description = 'Globe Scott Motors supplies PMDC transaxle drive units for electric vehicles, mobility and material-handling equipment, with custom ratings engineered in India.';
+$page_title = 'PMDC Transaxle Motor Manufacturer in India | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is a leading PMDC transaxle motor manufacturer in India offering heavy-duty transaxle drives for electric vehicles, mobility wheelchairs & material handling.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2452 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1611295354411{padding-top: 90px !important;}.vc_custom_1581338470073{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        PMDC Transaxle
+                        PMDC Transaxle Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">PMDC Transaxle</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">PMDC Transaxle India</li></ol> </nav>
 </div>
 </div>
 </div>

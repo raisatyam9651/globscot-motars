@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products-geared-motors';
-$page_title = 'Geared Motors Manufacturer in India | Globe Scott Motors';
-$meta_description = 'Globe Scott Motors manufactures a broad range of DC geared motors for industrial and automation applications, with custom torque and speed ratings available.';
+$page_title = 'Geared Motor Manufacturer in India | Industrial DC Geared Motors | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is a leading geared motor manufacturer in India producing spur, planetary & worm geared motors engineered for heavy torque & industrial automation.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2412 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581315851248{padding-top: 90px !important;}.vc_custom_1581320955330{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1581326142452{padding-top: 100px !important;padding-bottom: 42px !important;}.vc_custom_1581320955330{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1581326142452{padding-top: 100px !important;padding-bottom: 42px !important;}.vc_custom_1599554606399{padding-top: 100px !important;background-color: #faf9f9 !important;}.vc_custom_1599554599863{padding-top: 15px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1599553102708{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #eb9600 !important;}.vc_custom_1599553283223{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #eb9600 !important;}.vc_custom_1599553187963{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #eb9600 !important;}.vc_custom_1599553206891{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #eb9600 !important;}.vc_custom_1599553239830{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #eb9600 !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        Geared Motors 
+                        Geared Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">Geared Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">Geared Motors India</li></ol> </nav>
 </div>
 </div>
 </div>

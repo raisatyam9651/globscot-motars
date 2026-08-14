@@ -1,7 +1,7 @@
 <?php
 $current_page = 'products-railway-signalling-products';
-$page_title = 'Railway Signalling Motors & Point Machines | Globe Scott Motors';
-$meta_description = 'Globe Scott Motors is a leading manufacturer of railway signalling motors and point-machine motors in India, built to demanding railway reliability standards.';
+$page_title = 'Railway Signalling Motor Manufacturer in India | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors is an approved railway signalling motor manufacturer in India for Indian Railways, producing point machine motors, barrier drives & signal actuators.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2463 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1611295497509{padding-top: 90px !important;}.vc_custom_1611295505922{margin-top: 90px !important;}.vc_custom_1611309697225{padding-top: 100px !important;background-color: #faf9f9 !important;}.vc_custom_1581493609578{background-color: #faf9f9 !important;}.vc_custom_1611309742621{padding-top: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1611296417955{background-color: #faf9f9 !important;}.vc_custom_1611295866025{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1581493629854{background-color: #faf9f9 !important;}.vc_custom_1611309820753{padding-top: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1611310065588{padding-top: 42px !important;padding-bottom: 42px !important;}.vc_custom_1611317101317{padding-top: 100px !important;background-color: #faf9f9 !important;}.vc_custom_1611317091922{padding-top: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1611309573667{background-color: #faf9f9 !important;}.vc_custom_1611312461009{padding-top: 42px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}.vc_custom_1611296006940{padding-top: 90px !important;}.vc_custom_1611309502363{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}</style>
@@ -20,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        Railway Signalling Products 
+                        Railway Signalling Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">Railway Signalling Products</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">Railway Signalling India</li></ol> </nav>
 </div>
 </div>
 </div>
