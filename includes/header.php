@@ -362,6 +362,10 @@ $gs_ogimg     = isset($og_image) ? $og_image : $gs_base . '/wp-content/uploads/2
 }
 </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
 </head>
 <body class="<?php echo htmlspecialchars($body_class); ?>">
 

@@ -63,7 +63,7 @@ require_once __DIR__ . '/../includes/header.php';
 </thead>
 <tbody>
 <tr>
-<td><strong>Electrical Efficiency ($\eta$)</strong></td>
+<td><strong>Electrical Efficiency (<b>η</b>)</strong></td>
 <td>78% to 88%</td>
 <td>88% to 95%</td>
 <td><strong>BLDC wins</strong> by eliminating brush friction & voltage drop.</td>
@@ -129,7 +129,7 @@ require_once __DIR__ . '/../includes/header.php';
 <hr/>
 
 <h2>3. Speed Range and Torque Control Comparison</h2>
-<p>PMDC motors offer simple linear speed control directly proportional to terminal voltage ($V \propto \text{RPM}$). However, physical brush bounce limits their maximum safe operating speed to approximately 5,000 RPM. Operating brushed motors above this limit accelerates commutator erosion and electrical arcing.</p>
+<p>PMDC motors offer simple linear speed control directly proportional to terminal voltage ($V ∝ \text{RPM}$). However, physical brush bounce limits their maximum safe operating speed to approximately 5,000 RPM. Operating brushed motors above this limit accelerates commutator erosion and electrical arcing.</p>
 
 <p>BLDC motors suffer no mechanical speed limits from brushes, allowing them to achieve ultra-high rotational speeds exceeding 20,000 to 50,000 RPM in centrifugal blowers, medical drills, and CNC spindles. When paired with digital Field-Oriented Control (FOC) drivers, BLDC motors deliver smooth torque control across wide speed ranges. For applications requiring low output speeds and high torque, both motor types can be paired with gearheads; explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
 

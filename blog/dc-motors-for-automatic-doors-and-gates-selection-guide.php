@@ -98,7 +98,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>24V DC PMDC motors connect directly to battery backup packs, ensuring doors stay operational or fail-safe open during power outages.</p>
 
 <h3>Q2: How does an automatic door motor detect obstacles in the doorway?</h3>
-<p>If an object blocks the door, motor armature current ($I_a$) spikes. The controller senses this current jump and instantly reverses motor direction.</p>
+<p>If an object blocks the door, motor armature current (<b>I<sub>a</sub></b>) spikes. The controller senses this current jump and instantly reverses motor direction.</p>
 
 <h3>Q3: What gear ratio is typical for automatic gate operators?</h3>
 <p>Gate operators typically use gear reduction ratios between 20:1 and 60:1 to trade 3,000 RPM motor armature speed for high output torque at 50–150 RPM.</p>

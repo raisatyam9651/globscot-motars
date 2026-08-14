@@ -83,7 +83,7 @@ require_once __DIR__ . '/../includes/header.php';
 
 <ul>
 <li><strong>Corrosion & Splash Protection:</strong> Motors must feature IP55 to IP65 sealing and corrosion-resistant powder coating to withstand alkaline detergent spray.</li>
-<li><strong>High Starting Torque for Scrub Brushes:</strong> Brush motors require high torque ($\tau_{start} \ge 2.5 \cdot \tau_{rated}$) to spin dry scrubbing pads against high-friction floor surfaces.</li>
+<li><strong>High Starting Torque for Scrub Brushes:</strong> Brush motors require high torque ($τ_{start} ≥ 2.5 × τ_{rated}$) to spin dry scrubbing pads against high-friction floor surfaces.</li>
 <li><strong>Integrated Electromagnetic Holding Brake:</strong> Ride-on scrubber transaxles require automatic holding brakes to secure vehicles on ramps when unpowered.</li>
 </ul>
 

@@ -44,32 +44,32 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Motor Mechanics</h2>
 <p>Improper motor sizing is one of the leading causes of machinery failure in industrial automation. Selecting an undersized electric motor causes thermal overheating and premature motor burnout, while choosing an oversized motor increases energy consumption and system cost unnecessarily.</p>
 
-<p>Accurately calculating required motor **Torque ($\tau$)**, rotational **Speed ($N$)**, and continuous **Mechanical Power ($P$)** is mandatory before selecting a motor drive. As an established <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a>, Globe Scott Motors assists OEMs with precise electromechanical sizing. Explore our specialized <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> catalog, our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> selection, and our <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
+<p>Accurately calculating required motor **Torque (<b>τ</b>)**, rotational **Speed (<b>N</b>)**, and continuous **Mechanical Power (<b>P</b>)** is mandatory before selecting a motor drive. As an established <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a>, Globe Scott Motors assists OEMs with precise electromechanical sizing. Explore our specialized <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> catalog, our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> selection, and our <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
 
 <hr/>
 
 <h2>1. Fundamental Torque and Power Equations</h2>
 
 <h3>A. Mechanical Power Formula</h3>
-<p>Mechanical output power ($P$, in Watts) is calculated from torque ($\tau$, in Newton-meters) and rotational speed ($N$, in RPM):</p>
+<p>Mechanical output power (<b>P</b>, in Watts) is calculated from torque (<b>τ</b>, in Newton-meters) and rotational speed (<b>N</b>, in RPM):</p>
 
-$$P = \frac{2\pi \cdot N \cdot \tau}{60} \approx \frac{N \cdot \tau}{9.5488}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">P = (2π × N × τ) / 60 = (N × τ) / 9.5488</div>
 
 <h3>B. Torque Calculation Formula</h3>
-<p>Rearranging the power formula allows calculating required torque ($\tau$):</p>
+<p>Rearranging the power formula allows calculating required torque (<b>τ</b>):</p>
 
-$$\tau = \frac{9.5488 \cdot P}{N}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ = (9.5488 × P) / N</div>
 
 <hr/>
 
 <h2>2. Accounting for Inertia & Acceleration Torque</h2>
-<p>Total required motor torque ($\tau_{total}$) consists of static load friction torque ($\tau_{friction}$) and dynamic acceleration torque ($\tau_{accel}$):</p>
+<p>Total required motor torque (<b>τ<sub>total</sub></b>) consists of static load friction torque (<b>τ<sub>friction</sub></b>) and dynamic acceleration torque (<b>τ<sub>accel</sub></b>):</p>
 
-$$\tau_{total} = \tau_{friction} + \tau_{accel}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ<sub>total</sub> = τ<sub>friction</sub> + τ<sub>accel</sub></div>
 
-$$\tau_{accel} = J_{total} \cdot \alpha = J_{total} \cdot \left( \frac{2\pi \cdot \Delta N}{60 \cdot t_{accel}} \right)$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ<sub>accel</sub> = J<sub>total</sub> × α = J<sub>total</sub> × (2π × ΔN / (60 × t<sub>accel</sub>))</div>
 
-<p>Where $J_{total}$ is total system moment of inertia ($\text{kg}\cdot\text{m}^2$) and $t_{accel}$ is required acceleration time in seconds.</p>
+<p>Where <b>J<sub>total</sub></b> is total system moment of inertia (<b>\text{kg}×\text{m}^2</b>) and <b>t<sub>accel</sub></b> is required acceleration time in seconds.</p>
 
 <hr/>
 
@@ -80,24 +80,24 @@ $$\tau_{accel} = J_{total} \cdot \alpha = J_{total} \cdot \left( \frac{2\pi \cdo
 <tr>
 <th>Parameter</th>
 <th>Without Gearbox</th>
-<th>With Gearbox (Ratio $i$)</th>
+<th>With Gearbox (Ratio <b>i</b>)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Output Speed ($N_{out}$)</strong></td>
-<td>$N_{motor}$</td>
-<td>$$N_{out} = \frac{N_{motor}}{i}$$</td>
+<td><strong>Output Speed <b>(N<sub>out</sub>)</b></strong></td>
+<td><b>N<sub>motor</sub></b></td>
+<td><div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">N_{out} = \frac{N_{motor}}{i}</div></td>
 </tr>
 <tr>
-<td><strong>Output Torque ($\tau_{out}$)</strong></td>
-<td>$\tau_{motor}$</td>
-<td>$$\tau_{out} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$</td>
+<td><strong>Output Torque <b>(τ<sub>out</sub>)</b></strong></td>
+<td><b>τ<sub>motor</sub></b></td>
+<td><div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{out} = τ_{motor} × i × η_{gearbox}</div></td>
 </tr>
 <tr>
-<td><strong>Reflected Inertia ($J_{ref}$)</strong></td>
-<td>$J_{load}$</td>
-<td>$$J_{ref} = \frac{J_{load}}{i^2}$$</td>
+<td><strong>Reflected Inertia (<b>J<sub>ref</sub></b>)</strong></td>
+<td><b>J<sub>load</sub></b></td>
+<td><div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">J_{ref} = \frac{J_{load}}{i^2}</div></td>
 </tr>
 </tbody>
 </table>
@@ -109,16 +109,16 @@ $$\tau_{accel} = J_{total} \cdot \alpha = J_{total} \cdot \left( \frac{2\pi \cdo
 <h2>4. Frequently Asked Questions (FAQs)</h2>
 
 <h3>Q1: What units are standard for torque calculations?</h3>
-<p>Newton-meters (N·m) is the standard SI unit for torque. Conversions: $1\text{ N}\cdot\text{m} = 10.197\text{ kg}\cdot\text{cm} = 141.6\text{ oz}\cdot\text{in}$.</p>
+<p>Newton-meters (N·m) is the standard SI unit for torque. Conversions: $1\text{ N}×\text{m} = 10.197kg×\text{cm} = 141.6\text{ oz}×\text{in}$.</p>
 
 <h3>Q2: What safety factor should be applied to calculated torque?</h3>
 <p>Apply a safety factor of 1.25 to 1.50 for continuous industrial applications, and 1.50 to 2.00 for heavy shock load applications.</p>
 
 <h3>Q3: How does gearbox efficiency affect output torque?</h3>
-<p>Spur gearboxes operate at ~90% efficiency, planetary gearboxes at ~85–95%, and high-ratio worm gearboxes at ~50–75%. Always multiply output torque by $\eta_{gearbox}$.</p>
+<p>Spur gearboxes operate at ~90% efficiency, planetary gearboxes at ~85–95%, and high-ratio worm gearboxes at ~50–75%. Always multiply output torque by <b>η<sub>gearbox</sub></b>.</p>
 
 <h3>Q4: What is the optimal inertia ratio between load and motor?</h3>
-<p>For high-performance motion control, the load inertia reflected to the motor should satisfy $J_{load} / J_{motor} \le 5:1$ (ideally $1:1$).</p>
+<p>For high-performance motion control, the load inertia reflected to the motor should satisfy $J_{load} / J_{motor} ≤ 5:1$ (ideally $1:1$).</p>
 
 <h3>Q5: Can Globe Scott Motors perform torque calculations for custom machine designs?</h3>
 <p>Yes. Globe Scott Motors' application engineers provide complimentary motor sizing and torque verification services for machine builders.</p>
@@ -127,7 +127,7 @@ $$\tau_{accel} = J_{total} \cdot \alpha = J_{total} \cdot \left( \frac{2\pi \cdo
 <p>Starting torque must overcome static friction (stiction) and accelerate initial system inertia from zero speed.</p>
 
 <h3>Q7: How does armature voltage affect motor RPM in PMDC motors?</h3>
-<p>In PMDC motors, speed is directly proportional to applied DC armature voltage ($N \propto V_{armature}$).</p>
+<p>In PMDC motors, speed is directly proportional to applied DC armature voltage (<b>N ∝ V<sub>armature</sub></b>).</p>
 
 <h3>Q8: Where can I get technical motor sizing support in India?</h3>
 <p>Submit your machine speed, load mass, and cycle details to our engineering team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>

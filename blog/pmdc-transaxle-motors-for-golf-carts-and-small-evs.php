@@ -51,8 +51,8 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>1. Key Technical Requirements for Golf Cart Transaxles</h2>
 
 <ul>
-<li><strong>High Gradeability (Hill Climbing Torque):</strong> Transaxles must produce high starting torque ($\tau_{start}$) to launch 400 kg to 800 kg loaded vehicles up 15% to 20% slopes without stalling.</li>
-<li><strong>36V & 48V Battery Systems:</strong> Higher voltage configurations lower operating current draw ($I = P / V$), reducing resistive copper heat ($I^2 R$) and extending battery range.</li>
+<li><strong>High Gradeability (Hill Climbing Torque):</strong> Transaxles must produce high starting torque (<b>τ<sub>start</sub></b>) to launch 400 kg to 800 kg loaded vehicles up 15% to 20% slopes without stalling.</li>
+<li><strong>36V & 48V Battery Systems:</strong> Higher voltage configurations lower operating current draw (I = P / V), reducing resistive copper heat (<b>I<sup>2</sup>R</b>) and extending battery range.</li>
 <li><strong>Integrated Electromagnetic Parking Brake:</strong> Automatically locks the rear drive axle when parked on steep inclines.</li>
 <li><strong>Quiet Helical Differential Gearing:</strong> Helical gear meshes provide whisper-quiet operation (<55 dBA) in quiet resort and hospital environments.</li>
 </ul>

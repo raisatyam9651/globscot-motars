@@ -49,15 +49,15 @@ require_once __DIR__ . '/../includes/header.php';
 <hr/>
 
 <h2>1. Line Pull Torque Calculation Formula</h2>
-<p>To select the correct DC gear motor for a winch cable drum, calculate the required drum torque ($\tau_{drum}$):</p>
+<p>To select the correct DC gear motor for a winch cable drum, calculate the required drum torque (<b>τ<sub>drum</sub></b>):</p>
 
-$$\tau_{drum} = F_{line\_pull} \cdot r_{drum\_effective}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ<sub>drum</sub> = F<sub>line pull</sub> × r<sub>drum effective</sub></div>
 
-<p>Where $F_{line\_pull}$ is maximum rated pulling force in Newtons and $r_{drum\_effective}$ is effective drum radius (including cable layer buildup). The required motor armature torque ($\tau_{motor}$) is:</p>
+<p>Where <b>F<sub>line pull</sub></b> is maximum rated pulling force in Newtons and <b>r<sub>drum effective</sub></b> is effective drum radius (including cable layer buildup). The required motor armature torque (<b>τ<sub>motor</sub></b>) is:</p>
 
-$$\tau_{motor} = \frac{\tau_{drum}}{i \cdot \eta_{gearbox}}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ<sub>motor</sub> = τ<sub>drum</sub> / (i × η<sub>gearbox</sub>)</div>
 
-<p>Where $i$ is the gear reduction ratio and $\eta_{gearbox}$ is gearbox mechanical efficiency.</p>
+<p>Where <b>i</b> is the gear reduction ratio and <b>η<sub>gearbox</sub></b> is gearbox mechanical efficiency.</p>
 
 <hr/>
 
@@ -67,7 +67,7 @@ $$\tau_{motor} = \frac{\tau_{drum}}{i \cdot \eta_{gearbox}}$$
 <thead>
 <tr>
 <th>Gearhead Type</th>
-<th>Mechanical Efficiency ($\eta$)</th>
+<th>Mechanical Efficiency (<b>η</b>)</th>
 <th>Self-Locking Ability</th>
 <th>Recommended Winch Application</th>
 </tr>
@@ -104,7 +104,7 @@ $$\tau_{motor} = \frac{\tau_{drum}}{i \cdot \eta_{gearbox}}$$
 <p>12V DC and 24V DC are standard voltage ratings for vehicle recovery winches operating off automotive battery banks.</p>
 
 <h3>Q4: How does cable layer buildup on a winch drum affect motor torque?</h3>
-<p>As cable wraps around the drum, the effective drum radius ($r$) increases, increasing required drum torque for the same line pull force.</p>
+<p>As cable wraps around the drum, the effective drum radius (<b>r</b>) increases, increasing required drum torque for the same line pull force.</p>
 
 <h3>Q5: What is the typical duty cycle for DC winch motors?</h3>
 <p>Winch motors typically operate under short-time intermittent duty (S2 duty, 5 to 15 minutes of pulling) to allow heat dissipation.</p>

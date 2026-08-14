@@ -56,11 +56,11 @@ require_once __DIR__ . '/../includes/header.php';
 <p>A standard DC motor consists of a stator (containing field coils or permanent magnets), a rotating armature rotor with windings, a commutator, and carbon brushes. The output shaft connects directly to the driven load without intermediate speed reduction. Because there are no gear stages, mechanical efficiency is exceptionally high (up to 90%+), but the motor produces low torque at high speeds.</p>
 
 <h3>B. Geared DC Motor</h3>
-<p>A geared DC motor integrates a standard DC motor with an enclosed gearhead (such as spur, planetary, or worm gear trains). The gear reduction ratio ($i$) reduces shaft speed while multiplying output torque according to the mechanical relationship:</p>
+<p>A geared DC motor integrates a standard DC motor with an enclosed gearhead (such as spur, planetary, or worm gear trains). The gear reduction ratio <b>(i)</b> reduces shaft speed while multiplying output torque according to the mechanical relationship:</p>
 
-$$\tau_{output} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{output} = τ_{motor} × i × η_{gearbox}</div>
 
-<p>Where $\tau_{motor}$ is the motor's base torque, $i$ is the gear ratio, and $\eta_{gearbox}$ is the mechanical efficiency of the gear train (typically 65% to 95%).</p>
+<p>Where <b>τ<sub>motor</sub></b> is the motor's base torque, <b>i</b> is the gear ratio, and <b>η<sub>gearbox</sub></b> is the mechanical efficiency of the gear train (typically 65% to 95%).</p>
 
 <hr/>
 
@@ -83,7 +83,7 @@ $$\tau_{output} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
 <tr>
 <td><strong>Shaft Torque Output</strong></td>
 <td>Low to Moderate continuous torque</td>
-<td>Very High output torque (multiplied by gear ratio $i$)</td>
+<td>Very High output torque (multiplied by gear ratio <b>i</b>)</td>
 </tr>
 <tr>
 <td><strong>Mechanical Efficiency</strong></td>
@@ -124,7 +124,7 @@ $$\tau_{output} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
 <p>Running a standard DC motor at extremely low speeds (e.g., under 50 RPM) by reducing supply voltage often results in erratic motion or "magnetic cogging". A geared motor allows the internal motor armature to spin in its smooth high-efficiency zone (2,500 RPM) while delivering ultra-smooth, high-torque rotation at the gearbox output shaft.</p>
 
 <h3>C. Efficiency and Thermal Considerations</h3>
-<p>While standard DC motors avoid gear friction losses, operating a standard motor near stall to generate torque generates severe $I^2 R$ heat in the armature coils. A geared motor operates at higher efficiency under heavy mechanical loads because the motor armature runs at high RPM where current draw is significantly lower. For basic motor efficiency guidelines, read our overview of the <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
+<p>While standard DC motors avoid gear friction losses, operating a standard motor near stall to generate torque generates severe <b>I<sup>2</sup>R</b> heat in the armature coils. A geared motor operates at higher efficiency under heavy mechanical loads because the motor armature runs at high RPM where current draw is significantly lower. For basic motor efficiency guidelines, read our overview of the <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
 
 <hr/>
 
@@ -154,7 +154,7 @@ $$\tau_{output} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
 <p>Yes, by mounting a compatible standalone gearhead (planetary, spur, or worm) to the motor's front face using an adapter flange and pinion gear.</p>
 
 <h3>Q2: Why does a geared motor produce more torque than a standard motor of the same size?</h3>
-<p>A geared motor uses gear reduction to trade rotational speed for torque. Mechanical power ($P = \tau \cdot \omega$) remains constant (minus efficiency losses), so reducing output speed by factor $i$ increases torque by factor $i$.</p>
+<p>A geared motor uses gear reduction to trade rotational speed for torque. Mechanical power ($P = τ × ω$) remains constant (minus efficiency losses), so reducing output speed by factor <b>i</b> increases torque by factor <b>i</b>.</p>
 
 <h3>Q3: What is mechanical backlash in a geared motor?</h3>
 <p>Backlash is the small clearance or play between mating gear teeth. It causes a slight rotational delay or position error when reversing shaft direction.</p>
@@ -169,7 +169,7 @@ $$\tau_{output} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
 <p>Spur and planetary geared motors can be back-driven. High-ratio worm geared motors (ratios > 30:1) are self-locking and cannot be back-driven by external load forces.</p>
 
 <h3>Q7: How does gear reduction affect motor electrical current draw?</h3>
-<p>Because gear reduction allows the motor armature to run at high RPMs, the motor operates at lower armature current ($I_a$) for a given load torque compared to an un-geared motor operating near stall.</p>
+<p>Because gear reduction allows the motor armature to run at high RPMs, the motor operates at lower armature current (<b>I<sub>a</sub></b>) for a given load torque compared to an un-geared motor operating near stall.</p>
 
 <h3>Q8: Where can I get assistance selecting between geared and standard DC motors?</h3>
 <p>Our engineering team at Globe Scott Motors can evaluate your torque, speed, and dimensional requirements to recommend the ideal motor drive. You can <a href="contact-us.php">contact our motor engineering specialists</a> directly.</p>

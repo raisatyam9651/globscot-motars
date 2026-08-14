@@ -53,8 +53,8 @@ require_once __DIR__ . '/../includes/header.php';
 <ul>
 <li><strong>Direct DC & Solar Battery Compatibility:</strong> Operates directly on 12V, 24V, 48V, or 90V DC battery power without complex AC inverter losses.</li>
 <li><strong>High Starting Torque for Positive Displacement Pumps:</strong> Overcomes high fluid head pressures and initial mechanical resistance instantly upon startup.</li>
-<li><strong>Variable Flow Rate Control:</strong> Modulating armature voltage directly regulates pump speed ($N \propto V$), allowing precise flow rate metering without throttling valves.</li>
-<li><strong>Compact Footprint & High Efficiency:</strong> Eliminates stator field coils, reducing motor weight and internal copper losses ($I^2 R$).</li>
+<li><strong>Variable Flow Rate Control:</strong> Modulating armature voltage directly regulates pump speed (<b>N ∝ V</b>), allowing precise flow rate metering without throttling valves.</li>
+<li><strong>Compact Footprint & High Efficiency:</strong> Eliminates stator field coils, reducing motor weight and internal copper losses (<b>I<sup>2</sup>R</b>).</li>
 </ul>
 
 <hr/>
@@ -101,7 +101,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>IP65 (dust-tight and water jet protected) or IP67 (submersible) is recommended to protect the motor from fluid leaks or outdoor weather.</p>
 
 <h3>Q3: How do I calculate required PMDC motor power for a pump?</h3>
-<p>Compute hydraulic power ($P_{hyd} = Q \cdot H \cdot \rho \cdot g / \eta_{pump}$) and select a motor whose continuous output power exceeds $P_{hyd}$ by a 25% safety margin.</p>
+<p>Compute hydraulic power (P<sub>hyd</sub> = Q × H × ρ × g / η<sub>pump</sub>) and select a motor whose continuous output power exceeds <b>P<sub>hyd</sub></b> by a 25% safety margin.</p>
 
 <h3>Q4: Why do diaphragm pumps require high starting torque?</h3>
 <p>Diaphragm pumps push against fluid trapped in discharge lines during startup, creating immediate high head pressure resistance.</p>

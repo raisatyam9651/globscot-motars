@@ -54,16 +54,16 @@ require_once __DIR__ . '/../includes/header.php';
 <p>A geared PMDC motor operates through two integrated stages: **electromechanical energy conversion** followed by **mechanical power transmission**.</p>
 
 <h3>A. Motor Stage</h3>
-<p>The PMDC motor converts input DC electrical power ($V \cdot I$) into high-speed rotational mechanical power. Permanent magnets on the stator create a fixed magnetic flux, while current flowing through the armature windings generates electromagnetic torque via Lorentz's force.</p>
+<p>The PMDC motor converts input DC electrical power ($V × I$) into high-speed rotational mechanical power. Permanent magnets on the stator create a fixed magnetic flux, while current flowing through the armature windings generates electromagnetic torque via Lorentz's force.</p>
 
 <h3>B. Gearbox Stage</h3>
 <p>The motor's high-speed pinion shaft meshes directly with an attached mechanical gear reduction train. The fundamental mechanical equations governing gear reduction are:</p>
 
-$$\text{Gear Reduction Ratio } (i) = \frac{\text{Input Motor Speed } (\text{RPM}_{in})}{\text{Output Gearbox Speed } (\text{RPM}_{out})}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">\text{Gear Reduction Ratio } (i) = \frac{\text{Input Motor Speed } (\text{RPM}_{in})}{\text{Output Gearbox Speed } (\text{RPM}_{out})}</div>
 
-$$\text{Output Shaft Torque } (\tau_{out}) = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">\text{Output Shaft Torque } (τ_{out}) = τ_{motor} × i × η_{gearbox}</div>
 
-<p>Where $\tau_{motor}$ is the motor output torque, $i$ is the gear reduction ratio, and $\eta_{gearbox}$ is the mechanical transmission efficiency of the gearbox (ranging from 65% to 95% depending on gear type and stage count).</p>
+<p>Where <b>τ<sub>motor</sub></b> is the motor output torque, <b>i</b> is the gear reduction ratio, and <b>η<sub>gearbox</sub></b> is the mechanical transmission efficiency of the gearbox (ranging from 65% to 95% depending on gear type and stage count).</p>
 
 <hr/>
 
@@ -73,7 +73,7 @@ $$\text{Output Shaft Torque } (\tau_{out}) = \tau_{motor} \cdot i \cdot \eta_{ge
 <thead>
 <tr>
 <th>Gearbox Architecture</th>
-<th>Efficiency ($\eta$)</th>
+<th>Efficiency (<b>η</b>)</th>
 <th>Backlash Level</th>
 <th>Key Engineering Characteristics</th>
 </tr>
@@ -137,19 +137,19 @@ $$\text{Output Shaft Torque } (\tau_{out}) = \tau_{motor} \cdot i \cdot \eta_{ge
 
 <h2>5. Step-by-Step Geared PMDC Motor Selection Guide</h2>
 
-<h3>Step 1: Define Required Output Speed ($\text{RPM}_{out}$) & Output Torque ($\tau_{out}$)</h3>
+<h3>Step 1: Define Required Output Speed (<b>\text{RPM}_{out}</b>) & Output Torque <b>(τ<sub>out</sub>)</b></h3>
 <p>Determine the maximum continuous and peak shock load torque required at the final driven shaft.</p>
 
 <h3>Step 2: Select Gearbox Type Based on Shaft Orientation & Backlash</h3>
 <p>Choose inline coaxial shafts (Planetary), parallel shafts (Spur), or right-angle shafts (Worm) based on physical space constraints and allowable backlash.</p>
 
 <h3>Step 3: Calculate Required Motor Base Torque and Ratio</h3>
-<p>Select a gear ratio $i$ that brings the motor's operating speed into its sweet spot (typically 2,000 to 3,500 RPM). Account for gearbox efficiency:</p>
+<p>Select a gear ratio <b>i</b> that brings the motor's operating speed into its sweet spot (typically 2,000 to 3,500 RPM). Account for gearbox efficiency:</p>
 
-$$\tau_{motor\_required} = \frac{\tau_{out\_required}}{i \cdot \eta_{gearbox}}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{motor\_required} = \frac{τ_{out\_required}}{i × η_{gearbox}}</div>
 
 <h3>Step 4: Check Overhung & Thrust Load Ratings</h3>
-<p>Verify that the output shaft bearings can safely withstand radial belt tension ($F_{radial}$) and axial push/pull thrust loads ($F_{thrust}$). Routine maintenance protects gear sets; review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
+<p>Verify that the output shaft bearings can safely withstand radial belt tension (<b>F_{radial}</b>) and axial push/pull thrust loads (<b>F_{thrust}</b>). Routine maintenance protects gear sets; review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
 
 <p>For background on brushed vs. brushless choices, read our comparison on <a href="blog/pmdc-motor-vs-bldc-motor-comparison.php">PMDC vs BLDC motors</a> or explore our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
 

@@ -42,7 +42,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-inner-blog">
 
 <h2>Introduction to Machine Drive Selection</h2>
-<p>Designing custom machinery—whether an automated conveyor, packaging machine, medical table actuator, or electric winch—requires choosing the right electric motor parameters. Selecting the wrong combination of **Power (Watts/HP)**, base **Speed (RPM)**, and **Gear Reduction Ratio ($i$)** can lead to stall failures, excessive noise, high heat, or premature gear wear.</p>
+<p>Designing custom machinery—whether an automated conveyor, packaging machine, medical table actuator, or electric winch—requires choosing the right electric motor parameters. Selecting the wrong combination of **Power (Watts/HP)**, base **Speed (RPM)**, and **Gear Reduction Ratio <b>(i)</b>** can lead to stall failures, excessive noise, high heat, or premature gear wear.</p>
 
 <p>As a leading <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a>, Globe Scott Motors helps machine builders optimize drive selection. Explore our specialized <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> catalog, our <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
 
@@ -50,21 +50,21 @@ require_once __DIR__ . '/../includes/header.php';
 
 <h2>1. Step-by-Step Selection Methodology</h2>
 
-<h3>Step 1: Determine Required Machine Output RPM ($N_{out}$)</h3>
+<h3>Step 1: Determine Required Machine Output RPM <b>(N<sub>out</sub>)</b></h3>
 <p>Calculate the target linear or rotational speed of your driven load (e.g., conveyor belt RPM or lead screw rotation speed).</p>
 
-<h3>Step 2: Calculate Required Output Torque ($\tau_{out}$)</h3>
+<h3>Step 2: Calculate Required Output Torque <b>(τ<sub>out</sub>)</b></h3>
 <p>Determine continuous load friction torque and peak acceleration torque needed to move the load within your target time window.</p>
 
-<h3>Step 3: Calculate Mechanical Power Requirement ($P_{out}$)</h3>
+<h3>Step 3: Calculate Mechanical Power Requirement <b>(P<sub>out</sub>)</b></h3>
 <p>Compute output mechanical power in Watts:</p>
 
-$$P_{out} = \frac{N_{out} \cdot \tau_{out}}{9.55}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">P<sub>out</sub> = (N<sub>out</sub> × τ<sub>out</sub>) / 9.55</div>
 
-<h3>Step 4: Select Base Motor RPM ($N_{motor}$) & Gear Ratio ($i$)</h3>
-<p>Standard DC motor armatures run efficiently at 1,500 to 3,000 RPM. Select a gear reduction ratio ($i$):</p>
+<h3>Step 4: Select Base Motor RPM <b>(N<sub>motor</sub>)</b> & Gear Ratio <b>(i)</b></h3>
+<p>Standard DC motor armatures run efficiently at 1,500 to 3,000 RPM. Select a gear reduction ratio <b>(i)</b>:</p>
 
-$$i = \frac{N_{motor}}{N_{out}}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">i = N<sub>motor</sub> / N<sub>out</sub></div>
 
 <hr/>
 
@@ -74,7 +74,7 @@ $$i = \frac{N_{motor}}{N_{out}}$$
 <thead>
 <tr>
 <th>Gearhead Architecture</th>
-<th>Efficiency ($\eta$)</th>
+<th>Efficiency (<b>η</b>)</th>
 <th>Backlash</th>
 <th>Best Suitability</th>
 </tr>
@@ -122,7 +122,7 @@ $$i = \frac{N_{motor}}{N_{out}}$$
 <h3>Q5: What is the difference between nominal power and stall power?</h3>
 <p>Nominal power is continuous output at rated torque and speed. Stall power is short-duration peak power at maximum starting current before thermal trip.</p>
 
-<h3>Q6: Can gear ratio ($i$) be customized for OEM projects?</h3>
+<h3>Q6: Can gear ratio <b>(i)</b> be customized for OEM projects?</h3>
 <p>Yes. Globe Scott Motors manufactures custom spur, planetary, and worm gear ratios to match precise target machine speeds.</p>
 
 <h3>Q7: How do I verify if selected motor torque is sufficient for my machine?</h3>

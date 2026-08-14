@@ -56,18 +56,18 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Mechanical torque is the fundamental parameter governing motor sizing. You must determine three distinct torque values:</p>
 
 <ol>
-<li><strong>Continuous Load Torque ($\tau_{cont}$):</strong> The steady-state torque required to overcome mechanical friction, process resistance, and gravity during normal operation.</li>
-<li><strong>Peak Acceleration Torque ($\tau_{peak}$):</strong> The maximum torque demanded during rapid velocity changes or initial startup to accelerate system inertia ($J_{total}$):
-$$\tau_{peak} = \tau_{cont} + J_{total} \cdot \alpha$$
-Where $\alpha$ is rotational angular acceleration ($\text{rad/s}^2$).
+<li><strong>Continuous Load Torque (<b>τ<sub>cont</sub></b>):</strong> The steady-state torque required to overcome mechanical friction, process resistance, and gravity during normal operation.</li>
+<li><strong>Peak Acceleration Torque (<b>τ<sub>peak</sub></b>):</strong> The maximum torque demanded during rapid velocity changes or initial startup to accelerate system inertia (<b>J<sub>total</sub></b>):
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{peak} = τ_{cont} + J_{total} × α</div>
+Where <b>α</b> is rotational angular acceleration (rad/s<sup>2</sup>).
 </li>
-<li><strong>Stall Torque ($\tau_{stall}$):</strong> The maximum torque the motor generates at zero speed. Ensure $\tau_{peak}$ remains below 70% of the motor's rated stall torque.</li>
+<li><strong>Stall Torque (<b>τ<sub>stall</sub></b>):</strong> The maximum torque the motor generates at zero speed. Ensure <b>τ<sub>peak</sub></b> remains below 70% of the motor's rated stall torque.</li>
 </ol>
 
 <h3>Step 2: Determine Required Operating Speed & Power</h3>
-<p>Calculate the required shaft rotational speed ($\text{RPM}$ or $\omega \text{ in rad/s}$). Compute mechanical output power ($P_{mech}$):</p>
+<p>Calculate the required shaft rotational speed (<b>\text{RPM}</b> or $ω \text{ in rad/s}$). Compute mechanical output power (<b>P<sub>mech</sub></b>):</p>
 
-$$P_{mech} = \tau_{cont} \cdot \omega$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">P_{mech} = τ_{cont} × ω</div>
 
 <p>Always apply a **20% to 30% engineering safety margin** when selecting the motor's continuous mechanical power rating to accommodate unforeseen mechanical binding or load variations.</p>
 
@@ -87,17 +87,17 @@ $$P_{mech} = \tau_{cont} \cdot \omega$$
 <tbody>
 <tr>
 <td><strong>Continuous Operating Zone</strong></td>
-<td>Region where thermal dissipation balances $I^2 R$ electrical losses without exceeding insulation limits.</td>
-<td>The continuous load point ($\tau_{cont}, \omega_{operating}$) must lie fully inside this zone for S1 duty cycles.</td>
+<td>Region where thermal dissipation balances <b>I<sup>2</sup>R</b> electrical losses without exceeding insulation limits.</td>
+<td>The continuous load point ($τ_{cont}, ω_{operating}$) must lie fully inside this zone for S1 duty cycles.</td>
 </tr>
 <tr>
 <td><strong>Intermittent Operating Zone</strong></td>
 <td>Region above continuous rating where the motor can operate for short bursts during acceleration.</td>
-<td>Allowed only for short durations ($t_{acc} < 10 \text{ seconds}$) provided average RMS torque remains within thermal limits.</td>
+<td>Allowed only for short durations ($t_{acc} < 10 seconds$) provided average RMS torque remains within thermal limits.</td>
 </tr>
 <tr>
 <td><strong>Stall Point</strong></td>
-<td>Zero RPM operating point under maximum starting current ($I_{stall} = V / R_a$).</td>
+<td>Zero RPM operating point under maximum starting current (I<sub>stall</sub> = V / R<sub>a</sub>).</td>
 <td>Avoid prolonged operation near stall to prevent rapid commutator degradation and magnet demagnetization.</td>
 </tr>
 </tbody>
@@ -111,8 +111,8 @@ $$P_{mech} = \tau_{cont} \cdot \omega$$
 <ul>
 <li><strong>Continuous Duty (S1):</strong> Machine operates under constant load indefinitely until thermal equilibrium is reached. Motor continuous torque rating must equal or exceed actual load torque.</li>
 <li><strong>Intermittent Periodic Duty (S3/S6):</strong> Machine undergoes repeated cycles of load and rest. Calculate the **Root-Mean-Square (RMS) Torque**:
-$$\tau_{rms} = \sqrt{\frac{\tau_1^2 \cdot t_1 + \tau_2^2 \cdot t_2 + \dots + \tau_n^2 \cdot t_n}{t_{total}}}$$
-Select a PMDC motor whose continuous rating exceeds $\tau_{rms}$.
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{rms} = \sqrt{\frac{τ_1^2 × t_1 + τ_2^2 × t_2 + \dots + τ_n^2 × t_n}{t_{total}}}</div>
+Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 </li>
 </ul>
 
@@ -125,7 +125,7 @@ Select a PMDC motor whose continuous rating exceeds $\tau_{rms}$.
 
 <ul>
 <li><strong>Voltage Selection:</strong> Match nominal motor rating (12V, 24V, 48V, 90V, or 180V DC) to available system supply or battery voltage.</li>
-<li><strong>Current Capacity:</strong> Verify that the DC power supply can deliver peak stall current ($I_{stall}$) during starting spikes without triggering low-voltage cutoffs.</li>
+<li><strong>Current Capacity:</strong> Verify that the DC power supply can deliver peak stall current (<b>I<sub>stall</sub></b>) during starting spikes without triggering low-voltage cutoffs.</li>
 <li><strong>PWM Chopper Speed Control:</strong> Select Pulse Width Modulation (PWM) drivers operating at frequencies between 10kHz and 20kHz to ensure smooth low-speed torque delivery without audible coil whine.</li>
 </ul>
 
@@ -143,7 +143,7 @@ Select a PMDC motor whose continuous rating exceeds $\tau_{rms}$.
 </ul>
 
 <h3>B. Radial and Axial Shaft Loads</h3>
-<p>When driving belts, chains, or heavy overhang pulleys, verify the manufacturer's maximum allowable **radial shaft load ($F_{radial}$)** and **axial thrust load ($F_{axial}$)** to prevent bearing damage. For complete details on maintaining industrial brushed motors, refer to our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
+<p>When driving belts, chains, or heavy overhang pulleys, verify the manufacturer's maximum allowable **radial shaft load (<b>F_{radial}</b>)** and **axial thrust load (<b>F_{axial}</b>)** to prevent bearing damage. For complete details on maintaining industrial brushed motors, refer to our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
 
 <p>To learn more about fundamental PMDC construction, read our core guide on <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its working principle</a> or compare brushed technology with our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
 

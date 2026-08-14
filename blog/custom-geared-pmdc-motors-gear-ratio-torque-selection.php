@@ -46,38 +46,38 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Custom Geared Motor Engineering</h2>
 <p>In OEM equipment design, standard off-the-shelf geared motors often fall short of meeting exact mechanical requirements. Machine designers frequently encounter applications demanding a precise shaft output speed (e.g., exactly 42 RPM), high continuous output torque, specific physical dimensions, or special shaft keyways that off-the-shelf catalog motors cannot provide.</p>
 
-<p>Custom Geared PMDC Motors solve this challenge by pairing a tailored PMDC motor armature winding with a custom-calculated gearhead ratio. Determining the ideal gear ratio ($i$) and required motor torque ($\tau$) involves balancing mechanical power transmission equations, gear train stage efficiency ($\eta$), service factors ($S_f$), and environmental duty cycles. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we specialize in custom gear ratio selection, precision gear manufacturing, and armature winding for OEM applications. Explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>Custom Geared PMDC Motors solve this challenge by pairing a tailored PMDC motor armature winding with a custom-calculated gearhead ratio. Determining the ideal gear ratio <b>(i)</b> and required motor torque (<b>τ</b>) involves balancing mechanical power transmission equations, gear train stage efficiency (<b>η</b>), service factors (<b>S_f</b>), and environmental duty cycles. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we specialize in custom gear ratio selection, precision gear manufacturing, and armature winding for OEM applications. Explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
 
 <hr/>
 
 <h2>1. Fundamental Equations for Gear Ratio and Torque Selection</h2>
 
-<h3>A. Gear Ratio Calculation ($i$)</h3>
-<p>The gear reduction ratio ($i$) defines the proportional speed reduction between the internal PMDC motor armature speed ($N_{motor}$) and the target gearbox output shaft speed ($N_{output}$):</p>
+<h3>A. Gear Ratio Calculation <b>(i)</b></h3>
+<p>The gear reduction ratio <b>(i)</b> defines the proportional speed reduction between the internal PMDC motor armature speed <b>(N<sub>motor</sub>)</b> and the target gearbox output shaft speed (<b>N_{output}</b>):</p>
 
-$$i = \frac{N_{motor}}{N_{output}}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">i = \frac{N_{motor}}{N_{output}}</div>
 
 <p>For optimal efficiency and brush life, the base PMDC motor armature should operate near its maximum efficiency point (typically between 2,500 RPM and 3,500 RPM).</p>
 
-<h3>B. Output Torque Calculation ($\tau_{out}$)</h3>
+<h3>B. Output Torque Calculation <b>(τ<sub>out</sub>)</b></h3>
 <p>Mechanical torque output delivered at the gearbox shaft is governed by:</p>
 
-$$\tau_{out} = \tau_{motor} \cdot i \cdot \eta_{gearbox}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{out} = τ_{motor} × i × η_{gearbox}</div>
 
-<p>Where $\tau_{motor}$ is the motor armature torque, $i$ is the gear ratio, and $\eta_{gearbox}$ is the total mechanical efficiency of the gear train.</p>
+<p>Where <b>τ<sub>motor</sub></b> is the motor armature torque, <b>i</b> is the gear ratio, and <b>η<sub>gearbox</sub></b> is the total mechanical efficiency of the gear train.</p>
 
-<h3>C. Gearhead Efficiency by Stage Count ($\eta^n$)</h3>
-<p>Every gear mesh stage introduces slight friction losses. Multi-stage gearheads reduce efficiency according to stage count ($n$):</p>
+<h3>C. Gearhead Efficiency by Stage Count (<b>η^n</b>)</h3>
+<p>Every gear mesh stage introduces slight friction losses. Multi-stage gearheads reduce efficiency according to stage count (<b>n</b>):</p>
 
-$$\eta_{gearbox} = (\eta_{stage})^n$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">η_{gearbox} = (η_{stage})^n</div>
 
 <table class="table table-bordered table-striped">
 <thead>
 <tr>
 <th>Gearbox Type</th>
-<th>1-Stage Efficiency ($\eta_1$)</th>
-<th>2-Stage Efficiency ($\eta_2$)</th>
-<th>3-Stage Efficiency ($\eta_3$)</th>
+<th>1-Stage Efficiency (<b>η_1</b>)</th>
+<th>2-Stage Efficiency (<b>η_2</b>)</th>
+<th>3-Stage Efficiency (<b>η_3</b>)</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ $$\eta_{gearbox} = (\eta_{stage})^n$$
 <h2>2. Step-by-Step Selection Procedure for OEMs</h2>
 
 <h3>Step 1: Calculate Target Shaft Speed and Load Torque</h3>
-<p>Determine continuous load torque ($\tau_{load}$), peak acceleration torque ($\tau_{peak}$), and target output speed ($N_{output}$). Apply a **Service Factor ($S_f$)** based on load shock conditions:</p>
+<p>Determine continuous load torque (<b>τ<sub>load</sub></b>), peak acceleration torque (<b>τ<sub>peak</sub></b>), and target output speed (<b>N_{output}</b>). Apply a **Service Factor (<b>S_f</b>)** based on load shock conditions:</p>
 
-$$\tau_{required} = \tau_{load} \cdot S_f$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{required} = τ_{load} × S_f</div>
 
 <ul>
 <li><strong>Uniform Load (e.g., smooth fans/conveyors):</strong> $S_f = 1.0 \text{ to } 1.2$</li>
@@ -118,14 +118,14 @@ $$\tau_{required} = \tau_{load} \cdot S_f$$
 </ul>
 
 <h3>Step 2: Calculate Motor Base Armature Requirements</h3>
-<p>Selecting a base motor armature operating at $N_{motor} = 3000 \text{ RPM}$, the required gear ratio is $i = 3000 / N_{output}$. Next, compute required motor armature torque:</p>
+<p>Selecting a base motor armature operating at $N_{motor} = 3000 RPM$, the required gear ratio is $i = 3000 / N_{output}$. Next, compute required motor armature torque:</p>
 
-$$\tau_{motor} = \frac{\tau_{required}}{i \cdot \eta_{gearbox}}$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{motor} = \frac{τ_{required}}{i × η_{gearbox}}</div>
 
-<p>Verify that $\tau_{motor}$ lies within the PMDC motor's continuous duty zone on its thermal curve. Learn more about basic PMDC characteristics in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
+<p>Verify that <b>τ<sub>motor</sub></b> lies within the PMDC motor's continuous duty zone on its thermal curve. Learn more about basic PMDC characteristics in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
 
 <h3>Step 3: Account for Radial and Axial Shaft Loads</h3>
-<p>When driving sprockets, timing belts, or heavy overhung loads, verify that gearbox output bearings support maximum allowable **Radial Load ($F_{radial}$)** and **Axial Thrust Load ($F_{axial}$)** to prevent bearing fatigue.</p>
+<p>When driving sprockets, timing belts, or heavy overhung loads, verify that gearbox output bearings support maximum allowable **Radial Load (<b>F_{radial}</b>)** and **Axial Thrust Load (<b>F_{axial}</b>)** to prevent bearing fatigue.</p>
 
 <hr/>
 
@@ -151,7 +151,7 @@ $$\tau_{motor} = \frac{\tau_{required}}{i \cdot \eta_{gearbox}}$$
 <h3>Q2: What is the impact of selecting too high a gear ratio?</h3>
 <p>Selecting an excessively high gear ratio lowers output speed beyond requirements, reduces overall system mechanical efficiency due to extra gear stages, and risks over-torquing and damaging gear teeth if the motor stalls.</p>
 
-<h3>Q3: What is a gearhead service factor ($S_f$)?</h3>
+<h3>Q3: What is a gearhead service factor (<b>S_f</b>)?</h3>
 <p>A service factor is a multiplier applied to load torque calculations to account for operational shock, duty cycles, and vibration. Applying the correct service factor prevents gear tooth stripping under sudden load spikes.</p>
 
 <h3>Q4: How does temperature affect custom gearhead performance?</h3>

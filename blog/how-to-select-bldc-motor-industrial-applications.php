@@ -46,28 +46,28 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Industrial BLDC Motor Sizing</h2>
 <p>Brushless Direct Current (BLDC) motors are increasingly specified in industrial automation, robotics, conveyor drives, medical equipment, and CNC machinery. Thanks to their high energy efficiency (90%+), high power-to-weight ratio, maintenance-free operational life (>20,000 hours), and precise speed regulation, BLDC motors outperform traditional brushed motors in heavy-duty continuous applications.</p>
 
-<p>However, sizing a BLDC motor requires a clear understanding of electromechanical equations, motor constants ($K_v$ and $K_t$), electronic speed controller (ESC) inverter selection, rotor position feedback mechanisms, and thermal duty limits. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we assist industrial OEMs in sizing custom BLDC motors and matching electronic drives. Explore our specialized <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a> to view comprehensive technical specifications.</p>
+<p>However, sizing a BLDC motor requires a clear understanding of electromechanical equations, motor constants (<b>K<sub>v</sub></b> and <b>K<sub>t</sub></b>), electronic speed controller (ESC) inverter selection, rotor position feedback mechanisms, and thermal duty limits. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we assist industrial OEMs in sizing custom BLDC motors and matching electronic drives. Explore our specialized <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a> to view comprehensive technical specifications.</p>
 
 <hr/>
 
 <h2>1. Step-by-Step BLDC Motor Selection Procedure</h2>
 
 ### Step 1: Calculate Continuous & Peak Torque Requirements
-Determine continuous load torque ($\tau_{cont}$), peak acceleration torque ($\tau_{peak}$), and operating speed ($\omega$):
+Determine continuous load torque (<b>τ<sub>cont</sub></b>), peak acceleration torque (<b>τ<sub>peak</sub></b>), and operating speed (<b>ω</b>):
 
-$$\tau_{peak} = \tau_{cont} + J_{total} \cdot \alpha$$
+<div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{peak} = τ_{cont} + J_{total} × α</div>
 
-Where $J_{total}$ is total system inertia reflected to the motor shaft and $\alpha$ is angular acceleration. Ensure that continuous load torque lies comfortably inside the motor's **Continuous Thermal Operating Zone** on its speed-torque curve.
+Where <b>J<sub>total</sub></b> is total system inertia reflected to the motor shaft and <b>α</b> is angular acceleration. Ensure that continuous load torque lies comfortably inside the motor's **Continuous Thermal Operating Zone** on its speed-torque curve.
 
-### Step 2: Determine Motor Constants ($K_v$ and $K_t$)
+### Step 2: Determine Motor Constants (<b>K<sub>v</sub></b> and <b>K<sub>t</sub></b>)
 BLDC motors are characterized by two fundamental electrical constants:
 
-1. **Velocity Constant ($K_v$ in RPM/Volt):** Dictates the no-load rotational speed generated per applied volt:
-   $$N_{no\_load} = K_v \cdot V_{supply}$$
-2. **Torque Constant ($K_t$ in N·m/Ampere):** Dictates mechanical torque produced per ampere of phase current:
-   $$\tau = K_t \cdot I_{phase}$$
+1. **Velocity Constant (<b>K<sub>v</sub></b> in RPM/Volt):** Dictates the no-load rotational speed generated per applied volt:
+   <div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">N_{no\_load} = K_v × V_{supply}</div>
+2. **Torque Constant (<b>K<sub>t</sub></b> in N·m/Ampere):** Dictates mechanical torque produced per ampere of phase current:
+   <div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ = K_t × I_{phase}</div>
 
-In SI units, these constants are inversely related ($K_t = 1 / K_v$). Select a $K_v$ value that provides your required maximum operating RPM at your available DC supply voltage.
+In SI units, these constants are inversely related ($K_t = 1 / K_v$). Select a <b>K<sub>v</sub></b> value that provides your required maximum operating RPM at your available DC supply voltage.
 
 <hr/>
 
@@ -134,8 +134,8 @@ Ensure that the selected BLDC motor enclosure matches the operational environmen
 ### Q1: What is the main difference between sensored and sensorless BLDC motors?
 Sensored BLDC motors use embedded Hall sensors to detect rotor position at zero speed, providing high starting torque under heavy loads. Sensorless BLDC motors detect rotor position from induced Back-EMF voltage, requiring the motor to be spinning before position can be determined.
 
-### Q2: How do I select the right $K_v$ rating for a BLDC motor?
-Select a $K_v$ rating such that your available DC supply voltage multiplied by $K_v$ yields a no-load speed approximately 20% to 30% higher than your target operating RPM.
+### Q2: How do I select the right <b>K<sub>v</sub></b> rating for a BLDC motor?
+Select a <b>K<sub>v</sub></b> rating such that your available DC supply voltage multiplied by <b>K<sub>v</sub></b> yields a no-load speed approximately 20% to 30% higher than your target operating RPM.
 
 ### Q3: What is Field-Oriented Control (FOC) in BLDC drives?
 FOC is an advanced vector control algorithm that smoothly controls 3-phase stator currents to maintain a 90° angle between stator and rotor magnetic fields, maximizing efficiency and eliminating torque ripple.
@@ -153,12 +153,12 @@ Yes. Custom industrial BLDC motors can be fitted with rear-shaft electromagnetic
 Yes, when built with IP65 or IP67 sealed housings, stainless steel shafts, and potted electronics, BLDC motors withstand outdoor weather and industrial washdown chemicals. Explore <a href="applications.php">industrial and automotive motor applications</a> for real-world deployments.
 
 ### Q8: Where can I get custom BLDC motor recommendations from Globe Scott Motors?
-Our engineering team at Globe Scott Motors can calculate your required $K_v$, torque, and ESC specs. You can <a href="contact-us.php">contact our motor engineering specialists</a> page to submit your project requirements.
+Our engineering team at Globe Scott Motors can calculate your required <b>K<sub>v</sub></b>, torque, and ESC specs. You can <a href="contact-us.php">contact our motor engineering specialists</a> page to submit your project requirements.
 
 <hr/>
 
 <h2>Conclusion</h2>
-<p>Selecting the right BLDC motor for industrial applications requires systematic calculation of continuous and peak load torques, velocity constant ($K_v$), position feedback sensors, and Electronic Speed Controller (ESC) drive algorithms. Proper sizing guarantees maximum efficiency, long maintenance-free service life, and high machine productivity.</p>
+<p>Selecting the right BLDC motor for industrial applications requires systematic calculation of continuous and peak load torques, velocity constant (<b>K<sub>v</sub></b>), position feedback sensors, and Electronic Speed Controller (ESC) drive algorithms. Proper sizing guarantees maximum efficiency, long maintenance-free service life, and high machine productivity.</p>
 
 <p>Partner with Globe Scott Motors to engineer high-performance BLDC motor solutions for your OEM machinery. Contact our application specialists today to request technical guidance and product quotes.</p>
 

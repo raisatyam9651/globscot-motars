@@ -81,7 +81,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tr>
 <tr>
 <td><strong>High Starting Torque Ratio</strong></td>
-<td>$\tau_{start} \ge 3.5 \cdot \tau_{rated}$</td>
+<td>$τ_{start} ≥ 3.5 × τ_{rated}$</td>
 <td>Overcomes mechanical friction, ballast dust, or ice jamming point blades.</td>
 </tr>
 <tr>

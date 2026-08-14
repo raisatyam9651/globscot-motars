@@ -62,7 +62,7 @@ require_once __DIR__ . '/../includes/header.php';
 <tr>
 <td><strong>Armature Windings</strong></td>
 <td>Custom wire gauge & turn counts.</td>
-<td>Tailors motor speed constant ($K_v$) and torque constant ($K_t$) to non-standard DC battery voltages.</td>
+<td>Tailors motor speed constant (<b>K<sub>v</sub></b>) and torque constant (<b>K<sub>t</sub></b>) to non-standard DC battery voltages.</td>
 </tr>
 <tr>
 <td><strong>Stator Magnetics</strong></td>
@@ -87,8 +87,8 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>2. The Custom Motor Engineering Workflow</h2>
 
 <ol>
-<li><strong>Application Load Profiling:</strong> Engineers analyze continuous torque ($\tau_{cont}$), peak starting torque, operating RPM, and duty cycle (S1 to S8).</li>
-<li><strong>Electromechanical Modeling:</strong> Computer simulation tools model flux density ($B$), armature resistance ($R_a$), and thermal rise.</li>
+<li><strong>Application Load Profiling:</strong> Engineers analyze continuous torque (<b>τ<sub>cont</sub></b>), peak starting torque, operating RPM, and duty cycle (S1 to S8).</li>
+<li><strong>Electromechanical Modeling:</strong> Computer simulation tools model flux density (<b>B</b>), armature resistance (<b>R<sub>a</sub></b>), and thermal rise.</li>
 <li><strong>Prototype Fabrication & Testing:</strong> Custom armature winding, dynamic balancing (ISO 1940 Grade G2.5), and Hi-Pot dielectric testing.</li>
 <li><strong>Validation & Full-Scale OEM Production:</strong> Performance curve validation under full load before volume production.</li>
 </ol>
@@ -109,7 +109,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Provide operating DC voltage, target RPM, continuous load torque, peak starting torque, duty cycle, physical dimensions, and IP rating requirements.</p>
 
 <h3>Q4: How does custom armature winding affect motor speed and torque?</h3>
-<p>Increasing armature wire turns increases back-EMF constant ($K_e$), reducing no-load speed while increasing torque generated per ampere.</p>
+<p>Increasing armature wire turns increases back-EMF constant (<b>K<sub>e</sub></b>), reducing no-load speed while increasing torque generated per ampere.</p>
 
 <h3>Q5: Can custom DC motors be fitted with integrated brakes and encoders?</h3>
 <p>Yes. Custom motors can be built with rear shaft extensions for optical encoders and 24V electromagnetic holding brakes.</p>

@@ -87,7 +87,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>2. Sizing and Selection Criteria</h2>
 
 <ul>
-<li><strong>Traction Torque vs Speed:</strong> Traction drives require massive starting torque ($\tau_{start} \ge 3 \cdot \tau_{rated}$) to accelerate heavy payloads from standstill up warehouse ramps.</li>
+<li><strong>Traction Torque vs Speed:</strong> Traction drives require massive starting torque ($τ_{start} ≥ 3 × τ_{rated}$) to accelerate heavy payloads from standstill up warehouse ramps.</li>
 <li><strong>Battery Pack Operating Voltage:</strong> Match nominal motor ratings (24V, 36V, 48V, or 72V DC) to vehicle battery capacity.</li>
 <li><strong>Duty Cycle & Thermal Class:</strong> Continuous conveyor operations demand S1 duty class with Class F (155°C) or Class H (180°C) thermal insulation.</li>
 </ul>
