@@ -1,6 +1,7 @@
 <?php
-$current_page = 'products-pmdc-transaxel';
-$page_title = 'PMDC Transaxel – GLOBE SCOTT MOTORS PVT LTD';
+$current_page = 'products-pmdc-transaxle';
+$page_title = 'PMDC Transaxle Manufacturer in India | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors supplies PMDC transaxle drive units for electric vehicles, mobility and material-handling equipment, with custom ratings engineered in India.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2452 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1611295354411{padding-top: 90px !important;}.vc_custom_1581338470073{padding-top: 100px !important;padding-bottom: 42px !important;background-color: #faf9f9 !important;}.vc_custom_1548493578261{margin-top: -5px !important;}</style>
@@ -19,10 +20,10 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-12 text-center">
 <div class="page-title header1-height">
 <h1>
-                        PMDC Transaxel 
+                        PMDC Transaxle
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">PMDC Transaxel</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item"><a href="products/">Products</a></li><li class="breadcrumb-item active">PMDC Transaxle</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -39,7 +40,7 @@ require_once __DIR__ . '/includes/header.php';
 </div><div class="vc_row section-element vc_custom_1581338470073" data-vc-full-width="true" data-vc-full-width-init="true" style="position: relative; left: -40px; box-sizing: border-box; width: 1280px; padding-left: 40px; padding-right: 40px;">
 <div class="vc_col-sm-6">
 <div class="wpb_text_column wpb_content_element">
-<h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">PMDC Transaxel</h2>
+<h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">PMDC Transaxle</h2>
 </div>
 <div class="wpb_single_image wpb_content_element vc_align_center wpb_animate_when_almost_visible wpb_fadeIn fadeIn services-img large-img wpb_start_animation animated">
 <figure class="wpb_wrapper vc_figure">

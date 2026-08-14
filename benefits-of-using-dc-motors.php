@@ -1,6 +1,7 @@
 <?php
-$current_page = 'benifits-of-using-dc-motors';
-$page_title = 'Benifits of using DC motors. – GLOBE SCOTT MOTORS PVT LTD';
+$current_page = 'benefits-of-using-dc-motors';
+$page_title = 'Benefits of Using DC Motors | Globe Scott Motors';
+$meta_description = 'Learn the key benefits of using DC motors — precise speed control, high starting torque and efficiency — and where they excel, from manufacturer Globe Scott Motors.';
 $body_class = 'post-template-default single single-post postid-2310 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';
@@ -15,9 +16,9 @@ require_once __DIR__ . '/includes/header.php';
 <div class="row">
 <div class="col-12 text-center">
 <div class="page-title header1-height">
-<h1>Benifits of using DC motors.</h1>
+<h1>Benefits of using DC motors.</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item">DC Motors</li><li class="breadcrumb-item active">Benifits of using DC motors.</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index/">Home</a></li><li class="breadcrumb-item">DC Motors</li><li class="breadcrumb-item active">Benefits of using DC motors.</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -78,7 +79,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="blog-comment-area col-md-12 p-0">
 <div class="nd-post-comment" id="leave-comment">
 <div class="comment-respond" id="respond">
-<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="benifits-of-using-dc-motors.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="/wp-comments-post/" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
+<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="/benefits-of-using-dc-motors/#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="/wp-comments-post/" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
 <textarea class="form-control rounded-0" cols="30" id="message" name="comment" placeholder="Comment" required="" rows="6"></textarea>
 </div><div class="row">
 <div class="form-group col-md-6">

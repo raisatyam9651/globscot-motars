@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 22mm 18mm 25mm 18mm;
+    @bottom-center {
+      content: "Page " counter(page) " of " counter(pages);
+      font-size: 9pt;
+      color: #6b7280;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+    @bottom-left {
+      content: "Confidential";
+      font-size: 7pt;
+      color: #d6d3cc;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+    @bottom-right {
+      content: "globescott.net Google SEO Report";
+      font-size: 8pt;
+      color: #cbd5e1;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+  }
+
+  @page :first {
+    margin: 0;
+    @bottom-left { content: none; }
+    @bottom-center { content: none; }
+    @bottom-right { content: none; }
+  }
+
+  @page toc {
+    @bottom-center {
+      content: counter(page);
+      font-size: 9pt;
+      color: #6b7280;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Times New Roman', 'DejaVu Serif', Georgia, serif;
+    font-size: 10pt;
+    line-height: 1.55;
+    color: #1e293b;
+    background: white;
+  }
+
+  /* ─── Title Page (Clean White) ─── */
+  .title-page {
+    page: first;
+    width: 210mm;
+    height: 297mm;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1a1a2e;
+    position: relative;
+    padding: 50mm 30mm 40mm 30mm;
+    border-top: 6mm solid #1e3a5f;
+  }
+
+  .title-page .badge {
+    background: #f7f6f3;
+    border: 1px solid #d6d3cc;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15mm;
+    color: #1e3a5f;
+  }
+
+  .title-page h1 {
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 5mm;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: #1a1a2e;
+  }
+
+  .title-page .subtitle {
+    font-size: 13pt;
+    color: #6b7280;
+    margin-bottom: 12mm;
+    font-weight: 300;
+  }
+
+  .title-page .url {
+    font-size: 12pt;
+    color: #1e3a5f;
+    margin-bottom: 15mm;
+    padding: 4mm 8mm;
+    border: 1px solid #d6d3cc;
+    border-radius: 6px;
+    background: #faf9f7;
+  }
+
+  .title-page .score-box {
+    background: #faf9f7;
+    border: 2px solid #d6d3cc;
+    border-radius: 12px;
+    padding: 6mm 12mm;
+    margin-bottom: 15mm;
+  }
+
+  .title-page .score-number {
+    font-size: 42pt;
+    font-weight: bold;
+    color: #1e3a5f;
+    line-height: 1;
+  }
+
+  .title-page .score-label {
+    font-size: 10pt;
+    color: #6b7280;
+    margin-top: 2mm;
+  }
+
+  .title-page .meta {
+    font-size: 9pt;
+    color: #6b7280;
+    margin-top: 8mm;
+    padding-top: 5mm;
+    border-top: 1px solid #d6d3cc;
+  }
+
+  .title-page .meta span {
+    margin: 0 8px;
+  }
+
+  /* ─── Table of Contents ─── */
+  .toc-page {
+    page: toc;
+    page-break-before: always;
+  }
+
+  .toc-page h2 {
+    font-size: 18pt;
+    color: #1e3a5f;
+    margin-bottom: 8mm;
+    padding-bottom: 3mm;
+    border-bottom: 2px solid #1e3a5f;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .toc-list li {
+    padding: 2mm 0;
+    border-bottom: 1px solid #f1f5f9;
+    overflow: hidden;
+  }
+
+  .toc-list li.toc-section {
+    font-weight: bold;
+    font-size: 11pt;
+    padding-top: 4mm;
+    color: #0f172a;
+  }
+
+  .toc-list li.toc-sub {
+    padding-left: 8mm;
+    font-size: 9.5pt;
+    color: #475569;
+  }
+
+  .toc-score {
+    display: inline-block;
+    float: right;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: white;
+  }
+
+  .score-good { background: #2d6a4f; }
+  .score-warn { background: #d4740e; }
+  .score-bad { background: #c53030; }
+
+  /* ─── Section Styles ─── */
+  div.section {
+    page-break-before: always;
+  }
+
+  .section-header {
+    background: #faf9f7;
+    border-left: 4px solid #1e3a5f;
+    padding: 5mm 6mm;
+    margin-bottom: 6mm;
+    page-break-after: avoid;
+  }
+
+  .section-header h2 {
+    font-size: 16pt;
+    color: #0f172a;
+    margin-bottom: 1mm;
+  }
+
+  .section-header .section-score {
+    font-size: 12pt;
+    font-weight: bold;
+    float: right;
+    margin-top: -6mm;
+  }
+
+  h3 {
+    font-size: 12pt;
+    color: #1e3a5f;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
+    padding-bottom: 1.5mm;
+    border-bottom: 1px solid #d6d3cc;
+    page-break-after: avoid;
+  }
+
+  h4 {
+    font-size: 10.5pt;
+    color: #334155;
+    margin-top: 4mm;
+    margin-bottom: 2mm;
+    page-break-after: avoid;
+  }
+
+  p {
+    margin-bottom: 3mm;
+    color: #334155;
+  }
+
+  .highlight {
+    background: #fef3c7;
+    border-left: 3px solid #d4740e;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .critical-box {
+    background: #fef2f2;
+    border-left: 3px solid #c53030;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .success-box {
+    background: #f0fdf4;
+    border-left: 3px solid #2d6a4f;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  /* ─── Tables ─── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4mm 0 6mm 0;
+    font-size: 9pt;
+  }
+
+  thead th {
+    background: #f7f6f3;
+    color: #0f172a;
+    font-weight: bold;
+    padding: 3mm 4mm;
+    text-align: left;
+    border-bottom: 2px solid #d6d3cc;
+    font-size: 9pt;
+  }
+
+  tbody td {
+    padding: 2.5mm 3mm;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #fdfcfa;
+  }
+
+  .status-pass {
+    color: #2d6a4f;
+    font-weight: bold;
+  }
+
+  .status-fail {
+    color: #c53030;
+    font-weight: bold;
+  }
+
+  .status-warn {
+    color: #d4740e;
+    font-weight: bold;
+  }
+
+  .status-partial {
+    color: #4a5568;
+    font-weight: bold;
+  }
+
+  /* ─── Charts ─── */
+  .chart-container {
+    text-align: center;
+    margin: 4mm 0;
+  }
+
+  .chart-container img {
+    max-width: 100%;
+    max-height: 120mm;
+    height: auto;
+  }
+
+  .chart-caption {
+    font-size: 8.5pt;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 2mm;
+    text-align: center;
+  }
+
+  .chart-half {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .chart-half img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ─── Two column layout ─── */
+  .two-col {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 3mm 0;
+  }
+
+  .two-col .col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 2mm;
+  }
+
+  .four-col {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 3mm 0;
+  }
+
+  .four-col .col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 1.5mm;
+  }
+
+  /* ─── Metric Cards ─── */
+  .metric-card {
+    background: #faf9f7;
+    border: 1px solid #d6d3cc;
+    border-radius: 6px;
+    padding: 2.5mm 3mm;
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .metric-card .value {
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .metric-card .label {
+    font-size: 7.5pt;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 1mm;
+  }
+
+  /* ─── Action Plan ─── */
+  .action-item {
+    background: #faf9f7;
+    border-radius: 4px;
+    padding: 3mm 4mm;
+    margin: 3mm 0;
+    border-left: 3px solid #cbd5e1;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .action-item.critical {
+    border-left-color: #c53030;
+    background: #fdf2f2;
+  }
+
+  .action-item.high {
+    border-left-color: #d4740e;
+    background: #fdf8ef;
+  }
+
+  .action-item.medium {
+    border-left-color: #1e3a5f;
+    background: #f0f4f8;
+  }
+
+  .action-item.low {
+    border-left-color: #94a3b8;
+  }
+
+  .action-item h4 {
+    margin-top: 0;
+    margin-bottom: 1.5mm;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .action-item .effort {
+    font-size: 8.5pt;
+    color: #64748b;
+    float: right;
+  }
+
+  .priority-tag {
+    display: inline-block;
+    padding: 0.5mm 3mm;
+    border-radius: 3px;
+    font-size: 8pt;
+    font-weight: bold;
+    color: white;
+    margin-right: 2mm;
+    vertical-align: middle;
+  }
+
+  .priority-critical { background: #c53030; }
+  .priority-high { background: #d4740e; }
+  .priority-medium { background: #1e3a5f; }
+  .priority-low { background: #94a3b8; }
+
+  /* ─── Code blocks ─── */
+  .code-block {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 3mm 4mm;
+    border-radius: 4px;
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 8pt;
+    line-height: 1.6;
+    margin: 3mm 0;
+    white-space: pre-wrap;
+    word-break: break-all;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  /* ─── Divider ─── */
+  .divider {
+    border: none;
+    border-top: 1px solid #d6d3cc;
+    margin: 5mm 0;
+  }
+
+  /* ─── Roadmap ─── */
+  .roadmap-phase {
+    background: #faf9f7;
+    border-radius: 6px;
+    padding: 4mm 5mm;
+    margin: 4mm 0;
+    border: 1px solid #d6d3cc;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .roadmap-phase h4 {
+    margin-top: 0;
+    border-bottom: none;
+    color: #1e3a5f;
+  }
+
+  .roadmap-phase ul {
+    margin: 2mm 0 0 5mm;
+    padding: 0;
+  }
+
+  .roadmap-phase li {
+    margin-bottom: 1.5mm;
+    font-size: 9.5pt;
+    color: #334155;
+  }
+
+  /* ─── Lists ─── */
+  ul {
+    margin-left: 5mm;
+    margin-bottom: 3mm;
+  }
+
+  li {
+    margin-bottom: 1.5mm;
+  }
+
+  /* ─── Data freshness ─── */
+  .data-freshness {
+    font-size: 8pt;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 4mm;
+    padding-top: 2mm;
+    border-top: 1px solid #d6d3cc;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- ======================================================= TITLE PAGE === -->
+<div class="title-page">
+  <div class="badge">Full SEO Audit Report</div>
+  <h1>globescott.net</h1>
+  <div class="subtitle">Prepared by Claude SEO</div>
+  <div class="score-box">
+    <div class="score-number">42<span style="font-size: 20pt; color: #94a3b8;">/100</span></div>
+    <div class="score-label">SEO Health Score</div>
+  </div>
+  <div class="meta">
+    <span>August 13, 2026</span>
+    <span>Full Audit</span>
+  </div>
+</div>
+
+
+<!-- ======================================================= TABLE OF CONTENTS === -->
+<div class="toc-page">
+  <h2>Table of Contents</h2>
+  <ul class="toc-list">
+    <li class="toc-section"><span>1. Executive Summary</span></li>
+    <li class="toc-sub"><span>Key Metrics, Critical Issues &amp; Quick Wins</span></li>
+    <li class="toc-section"><span>2. Audit Categories</span></li>
+    <li class="toc-sub"><span>What Works</span></li>
+    <li class="toc-sub"><span>Findings by Severity</span></li>
+    <li class="toc-section"><span>3. Action Plan</span></li>
+    <li class="toc-sub"><span>Phased Roadmap</span></li>
+    <li class="toc-section"><span>4. Data Sources &amp; Methodology</span></li>
+  </ul>
+</div>
+
+
+<!-- ======================================================= 1. EXECUTIVE SUMMARY === -->
+<div class="section">
+  <div class="section-header">
+    <h2>1. Executive Summary</h2>
+  </div>
+
+  <p>This report presents a comprehensive SEO audit of <strong>globescott.net</strong> for a <strong>Manufacturer / Local B2B (DC, BLDC, Geared &amp; PMDC motors and railway signalling products) — Killa Pardi, Gujarat, India</strong> site, generated on August 13, 2026. Findings combine technical, content, schema, performance, visual, and search-readiness evidence as available.</p>
+
+  <div class="two-col">
+    <div class="col">
+      <div class="metric-card">
+        <div class="value" style="color: #c53030;">42/100</div>
+        <div class="label">SEO Health Score</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="critical-box">
+    <strong>Critical Issues Found:</strong>
+    <ol>
+      <li><strong>Info:</strong> Relative asset/link paths (wp-content/..., href=&quot;about-us/&quot;) combined with .htaccess trailing-slash directory URLs will 404 all CSS/JS/fonts and break navigation on every non-root page once deployed</li>
+      <li><strong>Info:</strong> Zero meta descriptions across all 21 pages</li>
+      <li><strong>Info:</strong> Zero canonical tags, Open Graph, or Twitter Card tags site-wide</li>
+      <li><strong>Info:</strong> Zero structured data (JSON-LD) — no Organization, LocalBusiness, Product, Breadcrumb, or Article schema</li>
+      <li><strong>Info:</strong> No robots.txt, no XML sitemap, no llms.txt</li>
+    </ol>
+  </div>
+
+  <div class="success-box">
+    <strong>Quick Wins:</strong>
+    <ol>
+      <li>Add robots.txt + XML sitemap (templates provided in fixes/)</li>
+      <li>Add Organization + LocalBusiness JSON-LD to header (template provided)</li>
+      <li>Add per-page meta description + canonical + Open Graph via header include</li>
+      <li>Fix broken internal link /dc-mo/ -&gt; /products-pmdc-motors/</li>
+      <li>Remove outdated 2020 COVID-19 banner from global header</li>
+    </ol>
+  </div>
+
+</div>
+
+<!-- ======================================================= 2. AUDIT CATEGORIES === -->
+<div class="section">
+  <div class="section-header">
+    <h2>2. Audit Categories</h2>
+  </div>
+
+  <h3>2.1 Technical SEO</h3>
+  <p><strong>Score:</strong> <span class="status-fail">35/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Clean, keyword-friendly extensionless URLs with trailing slashes enforced via .htaccess</li>
+    <li>301 redirect from .php to canonical directory URL</li>
+    <li>Valid viewport meta and lang=en-US declared</li>
+    <li>Semantic breadcrumb navigation with aria-label on interior pages</li>
+    <li>Each page owns a single &lt;main&gt; (no duplicate landmarks from header/footer)</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Relative asset &amp; link paths break on trailing-slash URLs <span class="status-warn">Critical</span></h4>
+    <p>header.php loads CSS/JS as wp-content/... and wp-includes/... (no leading slash); nav uses href=&quot;index/&quot;, href=&quot;about-us/&quot;; contact form uses action=&quot;contact-us/&quot;; some backgrounds use url(wp-content/...). .htaccess 301-redirects every page to a directory URL (e.g. /about-us/). A browser resolves wp-content/themes/.../style.css on /about-us/ to /about-us/wp-content/themes/.../style.css, which does not exist -&gt; the page renders unstyled and navigation is broken. The homepage linked as index/ has the same failure.</p>
+    <p><strong>Recommendation:</strong> Convert every asset src/href and internal link to root-relative paths (leading /), or add &lt;base href=&quot;https://www.globescott.net/&quot;&gt; to &lt;head&gt;. Root-relative is preferred. Verify on the live server after deploy.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>No canonical tags site-wide <span class="status-warn">Critical</span></h4>
+    <p>0 of 21 pages emit &lt;link rel=&quot;canonical&quot;&gt;. With .php and directory URL variants both resolvable, duplicate-URL indexation risk is high.</p>
+    <p><strong>Recommendation:</strong> Emit a self-referencing absolute canonical in header.php built from SITE_URL + current page slug with trailing slash.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>No robots.txt and no XML sitemap <span class="status-warn">High</span></h4>
+    <p>Neither /robots.txt nor /sitemap.xml exists. Crawlers have no sitemap hint and no crawl directives.</p>
+    <p><strong>Recommendation:</strong> Add robots.txt referencing an XML sitemap listing all 21 canonical URLs (templates in fixes/).</p>
+  </div>
+  <div class="action-item medium">
+    <h4>config SITE_URL points to http://localhost:8000 <span class="status-warn">High</span></h4>
+    <p>includes/config.php defines SITE_URL as http://localhost:8000. Any absolute URL generation (canonical, sitemap, OG, schema) built from this will be wrong in production.</p>
+    <p><strong>Recommendation:</strong> Set SITE_URL to https://www.globescott.net and standardize on the www + https host (matches the absolute image URLs already in the code).</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Non-functional WordPress leftover forms <span class="status-warn">Medium</span></h4>
+    <p>Blog comment forms POST to https://www.globescott.net/wp-comments-post/ and sidebar search forms GET https://www.globescott.net/ — both are WordPress endpoints that no longer exist in the static rebuild, so they 404 / do nothing.</p>
+    <p><strong>Recommendation:</strong> Remove the comment and search widgets, or wire them to a working handler. Dead interactive elements harm UX and crawl budget.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Broken internal link /dc-mo/ <span class="status-warn">Medium</span></h4>
+    <p>products-pmdc-motors.php links &#x27;DC motor&#x27; to href=&quot;/dc-mo/&quot;, a truncated slug that 404s.</p>
+    <p><strong>Recommendation:</strong> Point it to /products-pmdc-motors/ or /what-is-bldc-motor/ as appropriate.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Render-blocking resources in &lt;head&gt; <span class="status-warn">Medium</span></h4>
+    <p>~15 separate stylesheets plus jQuery load in &lt;head&gt; unminified/unbundled. No preconnect, no critical-CSS inlining beyond theme inline block.</p>
+    <p><strong>Recommendation:</strong> Bundle &amp; minify CSS, defer non-critical CSS, move jQuery to footer with defer, add preconnect for fonts.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.2 On-Page SEO</h3>
+  <p><strong>Score:</strong> <span class="status-fail">45/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Every page has a unique &lt;title&gt;</li>
+    <li>Consistent brand suffix pattern in titles</li>
+    <li>Interior pages use a single H1</li>
+    <li>Descriptive image alt text on product thumbnails and contact icons</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>No meta descriptions on any page <span class="status-warn">High</span></h4>
+    <p>0 of 21 pages define a meta description; header.php never outputs one. Google will auto-generate snippets, reducing CTR control.</p>
+    <p><strong>Recommendation:</strong> Add a $meta_description variable per page and output &lt;meta name=&quot;description&quot;&gt; in header.php. 140-160 chars, keyword + value proposition + location.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Homepage has 4 H1 tags <span class="status-warn">Medium</span></h4>
+    <p>The homepage slider renders 4 &lt;h1&gt; tags (Driving Motorized Innovation, Guaranteed Faster Engineering Solution, Best Motors For Amuzement Park Rides, Motors For Material Handeling Equipments). Multiple H1s dilute topical focus and none contains the primary keyword &#x27;DC motor manufacturer&#x27;.</p>
+    <p><strong>Recommendation:</strong> Keep one H1 (e.g. &#x27;DC, BLDC &amp; Geared Motor Manufacturer in India&#x27;) and demote slider slide headings to &lt;h2&gt;/&lt;span&gt;.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Titles under-optimized (no keywords/location, brand-first, all-caps) <span class="status-warn">Medium</span></h4>
+    <p>Titles like &#x27;Products – GLOBE SCOTT MOTORS PVT LTD&#x27; and &#x27;About us – ...&#x27; lead with generic labels and all-caps brand; product/blog titles omit high-intent keywords and location (India / Gujarat).</p>
+    <p><strong>Recommendation:</strong> Front-load keywords: e.g. &#x27;PMDC Motors Manufacturer &amp; Supplier in India | Globe Scott Motors&#x27;. Use title case, keep 50-60 chars.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Spelling errors baked into URLs, titles and H1s <span class="status-warn">Medium</span></h4>
+    <p>URL/title/H1 misspellings: &#x27;Benifits&#x27; (benifits-of-using-dc-motors), &#x27;Transaxel&#x27; (should be Transaxle; also inconsistent with menu &#x27;PMDC Transaxle&#x27;), &#x27;Amuzement&#x27;, &#x27;Handeling&#x27;, &#x27;morden&#x27;. These appear in indexable slugs and headings.</p>
+    <p><strong>Recommendation:</strong> Correct spellings; 301-redirect old slugs to corrected ones (benefits-of-using-dc-motors, products-pmdc-transaxle).</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Missing alt text on key images <span class="status-warn">Low</span></h4>
+    <p>13 homepage images, 2 about-us, 2 applications images lack alt; the footer logo uses alt=&quot;&quot;.</p>
+    <p><strong>Recommendation:</strong> Add descriptive alt to all meaningful images; give the footer logo alt=&quot;Globe Scott Motors&quot;.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.3 Content Quality</h3>
+  <p><strong>Score:</strong> <span class="status-warn">55/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Genuine manufacturer expertise: detailed railway-signalling (~1,700 words) and PMDC (~1,000 words) pages</li>
+    <li>Company history since 1985 and Indo-US collaboration story (E-E-A-T)</li>
+    <li>ISO 9001:2015 and CE certification signals on About page</li>
+    <li>Real NAP, phone, email and embedded Google Map</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Thin product &amp; hub pages <span class="status-warn">High</span></h4>
+    <p>products-bldc-motors (~36 words), applications (~45 words of text over 9 images), products hub (~136 words), products-pmdc-transaxel (~179 words), products-pmdc-geared-motors (~223 words). Too thin to rank for product queries.</p>
+    <p><strong>Recommendation:</strong> Expand each product page to 400-700 words: specs (voltage, power, RPM, torque), applications, materials, differentiators, and a spec table.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Outdated 2020 COVID-19 banner in global header <span class="status-warn">Medium</span></h4>
+    <p>header.php hardcodes a &#x27;COVID-19 Alert: We have resumed manufacturing...&#x27; banner on every page, signalling stale, unmaintained content.</p>
+    <p><strong>Recommendation:</strong> Remove the banner.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>No author, dates, or E-E-A-T bylines on blog articles <span class="status-warn">Medium</span></h4>
+    <p>Blog posts lack visible author, credentials, and publish/updated dates in a structured way; comment sections are non-functional.</p>
+    <p><strong>Recommendation:</strong> Add author bio + engineering credentials, publish/updated dates, and Article schema.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Duplicated boilerplate across product blurbs <span class="status-warn">Low</span></h4>
+    <p>Product hub blurbs are generic marketing sentences with little unique, specification-rich content.</p>
+    <p><strong>Recommendation:</strong> Replace with unique, spec-driven copy per product family.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.4 Schema / Structured Data</h3>
+  <p><strong>Score:</strong> <span class="status-fail">5/100</span></p>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>No structured data anywhere <span class="status-warn">High</span></h4>
+    <p>0 JSON-LD blocks. Missing Organization, LocalBusiness (the business is a physical manufacturer with NAP + map), Product, BreadcrumbList, Article, and WebSite schema. This blocks rich results and weakens entity/AI understanding.</p>
+    <p><strong>Recommendation:</strong> Add Organization + LocalBusiness (with geo, address, sameAs socials) sitewide, BreadcrumbList on interior pages, Product/ItemList on product pages, and Article on blog posts. Templates in fixes/schema-organization-localbusiness.jsonld.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.5 Performance (CWV)</h3>
+  <p><strong>Score:</strong> <span class="status-fail">45/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>loading=&quot;lazy&quot; and srcset present on several product images</li>
+    <li>Most JavaScript loads before &lt;/body&gt; rather than in &lt;head&gt;</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>No modern image formats; heavy PNG/JPEG payload <span class="status-warn">High</span></h4>
+    <p>~10 MB of images across 188 files, 0 WebP/AVIF. Largest single images 300-430 KB; many product photos shipped as PNG. Hurts LCP on image-led hero/slider and product pages.</p>
+    <p><strong>Recommendation:</strong> Convert to WebP/AVIF, compress, and serve appropriately sized variants. Target hero/LCP image &lt; 150 KB.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Heavy homepage slider + many third-party libraries <span class="status-warn">Medium</span></h4>
+    <p>Homepage uses a Slick slider with large full-bleed backgrounds plus Bootstrap, Isotope, Magnific Popup, WOW, Waypoints, CounterUp, Meanmenu, Popper, jQuery — a large JS footprint for a brochure site.</p>
+    <p><strong>Recommendation:</strong> Remove unused libraries, defer/async scripts, lazy-init the slider, and preload the first slide image.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Unminified/unbundled CSS &amp; JS <span class="status-warn">Medium</span></h4>
+    <p>~15 CSS and ~17 JS files load individually; several are theme/plugin defaults likely partly unused.</p>
+    <p><strong>Recommendation:</strong> Bundle, minify, tree-shake unused CSS, and add long-cache headers.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.6 AI Search Readiness (GEO)</h3>
+  <p><strong>Score:</strong> <span class="status-fail">40/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Clear, extractable factual text on what products are and where the company operates</li>
+    <li>Consistent NAP and company facts</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>No entity/structured signals for AI engines <span class="status-warn">Medium</span></h4>
+    <p>No Organization/LocalBusiness schema, no sameAs to social profiles, no author entities, no FAQ schema. AI Overviews/ChatGPT/Perplexity have weak grounding for brand facts.</p>
+    <p><strong>Recommendation:</strong> Add schema + sameAs, add concise FAQ blocks with FAQPage schema on product/blog pages, and ensure key facts (founded 1985, Indo-US JV, certifications, product families) appear as clean prose.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>No llms.txt (optional) <span class="status-warn">Low</span></h4>
+    <p>No /llms.txt. Optional and ignored by Google, but cheap to add for AI-crawler guidance.</p>
+    <p><strong>Recommendation:</strong> Optionally add /llms.txt summarizing the company and key URLs.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.7 Local SEO</h3>
+  <p><strong>Score:</strong> <span class="status-warn">50/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Consistent NAP in header, footer and contact page</li>
+    <li>Embedded Google Map for the Killa Pardi, Gujarat location</li>
+    <li>Linked Facebook, Twitter/X and LinkedIn profiles</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>No LocalBusiness schema / geo coordinates <span class="status-warn">Medium</span></h4>
+    <p>The business is a physical manufacturer but exposes no LocalBusiness/Organization schema with address, geo, openingHours, or sameAs.</p>
+    <p><strong>Recommendation:</strong> Add LocalBusiness JSON-LD (fixes/) and ensure the Google Business Profile is claimed and NAP-consistent.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Map iframe has pointer-events disabled <span class="status-warn">Low</span></h4>
+    <p>The contact-page map iframe sets pointer-events:none, reducing interactivity.</p>
+    <p><strong>Recommendation:</strong> Allow interaction or provide a &#x27;Get directions&#x27; link to the GBP listing.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.8 Images</h3>
+  <p><strong>Score:</strong> <span class="status-fail">45/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>srcset + lazy loading on product thumbnails</li>
+    <li>Mostly descriptive alt text on product images</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>No WebP/AVIF and oversized files <span class="status-warn">Medium</span></h4>
+    <p>0 next-gen images; 10 MB total; several 300-430 KB assets.</p>
+    <p><strong>Recommendation:</strong> Convert to WebP/AVIF, compress, and size correctly.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>13+ images missing alt <span class="status-warn">Low</span></h4>
+    <p>Homepage (13), about-us (2), applications (2), footer logo (empty alt).</p>
+    <p><strong>Recommendation:</strong> Add descriptive alt text to all meaningful images.</p>
+  </div>
+  <hr class="divider">
+</div>
+
+<!-- ======================================================= 3. ACTION PLAN === -->
+<div class="section">
+  <div class="section-header">
+    <h2>3. Action Plan</h2>
+  </div>
+
+  <div class="roadmap-phase">
+    <h4>Phase 1: Critical Fixes <span class="effort">Week 1</span></h4>
+    <ul>
+      <li>Fix relative asset/link paths (root-relative or &lt;base&gt;) and verify every interior page renders styled with working nav on the live server</li>
+      <li>Add self-referencing canonical tags in header.php</li>
+      <li>Set config SITE_URL to https://www.globescott.net and standardize on www+https</li>
+      <li>Publish robots.txt and sitemap.xml</li>
+      <li>Fix broken /dc-mo/ link</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Phase 2: High-Impact Improvements <span class="effort">Weeks 2-3</span></h4>
+    <ul>
+      <li>Add per-page meta descriptions + Open Graph/Twitter tags via header.php</li>
+      <li>Add Organization + LocalBusiness + BreadcrumbList JSON-LD</li>
+      <li>Reduce homepage to a single keyword-focused H1</li>
+      <li>Rewrite titles with keywords + location</li>
+      <li>Correct spelling in slugs/titles/H1s and 301 old slugs</li>
+      <li>Convert images to WebP/AVIF and compress; add missing alt text</li>
+      <li>Remove COVID-19 banner and dead WordPress comment/search forms</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Phase 3: Content &amp; Authority <span class="effort">Month 2</span></h4>
+    <ul>
+      <li>Expand thin product pages to 400-700 words with spec tables</li>
+      <li>Add Product/ItemList schema and FAQ blocks (FAQPage schema)</li>
+      <li>Add author bios, dates and Article schema to blog posts</li>
+      <li>Build an internal-linking structure from blog posts to product pages</li>
+      <li>Claim/optimize Google Business Profile; ensure NAP consistency</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Phase 4: Monitoring &amp; Iteration <span class="effort">Ongoing</span></h4>
+    <ul>
+      <li>Verify in Google Search Console (submit sitemap, check coverage/Core Web Vitals)</li>
+      <li>Track rankings for &#x27;PMDC motor manufacturer India&#x27;, &#x27;railway signalling motors&#x27;, etc.</li>
+      <li>Bundle/minify assets and monitor Core Web Vitals field data</li>
+      <li>Publish new technical blog content on a schedule</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ======================================================= DATA SOURCES & METHODOLOGY === -->
+<div class="section" style="text-align: center; padding-top: 15mm;">
+  <hr class="divider">
+  <h3 style="text-align: left;">Data Sources &amp; Methodology</h3>
+  <table>
+    <thead>
+      <tr><th>Source</th><th>Description</th><th>Update Frequency</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>PageSpeed Insights API</td>
+          <td>Lighthouse lab audit (mobile emulation, Moto G Power, slow 4G)</td>
+          <td>Real-time</td></tr>
+      <tr><td>Chrome UX Report (CrUX)</td>
+          <td>28-day rolling field data from real Chrome users</td>
+          <td>Daily ~04:00 UTC</td></tr>
+      <tr><td>CrUX History API</td>
+          <td>25-week p75 trend data per metric</td>
+          <td>Weekly</td></tr>
+      <tr><td>Google Search Console</td>
+          <td>Search Analytics (clicks, impressions, CTR, position)</td>
+          <td>2-3 day lag</td></tr>
+      <tr><td>URL Inspection API</td>
+          <td>Per-URL index status, coverage state, crawl info</td>
+          <td>Real-time (2,000/day)</td></tr>
+    </tbody>
+  </table>
+  <p style="color: #94a3b8; font-size: 9pt; margin-top: 5mm;">
+    Report generated by Claude SEO &mdash; Google SEO Intelligence Skill &mdash; August 13, 2026<br>
+    Methodology based on Google Web Vitals thresholds, Search Console documentation, and Lighthouse scoring algorithms.
+  </p>
+</div>
+
+</body>
+</html>

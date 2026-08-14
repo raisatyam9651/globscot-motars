@@ -1,6 +1,7 @@
 <?php
 $current_page = 'applications';
-$page_title = 'Applications – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Applications of Globe Scott DC & BLDC Motors | Globe Scott Motors';
+$meta_description = 'Explore the industrial applications of Globe Scott DC, BLDC and geared motors — from pumps, elevators and automatic doors to railway signalling and material handling.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2878 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581656403275{margin-top: 90px !important;}.vc_custom_1581656403275{margin-top: 90px !important;}.vc_custom_1581657796666{margin-top: 90px !important;margin-bottom: 90px !important;}.vc_custom_1581657796666{margin-top: 90px !important;margin-bottom: 90px !important;}</style>
@@ -77,7 +78,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc_col-sm-4 features-wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
 <figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_shadow_3d vc_box_border_grey"><img alt="" class="vc_single_image-img attachment-large" height="217" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" src="wp-content/uploads/2020/02/disconnectors-300x217-1.jpg" srcset="wp-content/uploads/2020/02/disconnectors-300x217-1.jpg 300w, wp-content/uploads/2020/02/disconnectors-300x217-1-80x58.jpg 80w" width="300"/></div>
+<div class="vc_single_image-wrapper vc_box_shadow_3d vc_box_border_grey"><img alt="Railway disconnectors application" class="vc_single_image-img attachment-large" height="217" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" src="wp-content/uploads/2020/02/disconnectors-300x217-1.jpg" srcset="wp-content/uploads/2020/02/disconnectors-300x217-1.jpg 300w, wp-content/uploads/2020/02/disconnectors-300x217-1-80x58.jpg 80w" width="300"/></div>
 </figure>
 </div>
 <div class="wpb_text_column wpb_content_element">
@@ -87,7 +88,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc_col-sm-4 features-wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
 <figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_shadow_3d vc_box_border_grey"><img alt="" class="vc_single_image-img attachment-large" height="420" loading="lazy" sizes="(max-width: 719px) 100vw, 719px" src="wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6.jpg" srcset="wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6.jpg 719w, wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6-300x175.jpg 300w, wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6-80x47.jpg 80w" width="719"/></div>
+<div class="vc_single_image-wrapper vc_box_shadow_3d vc_box_border_grey"><img alt="Amusement park roller coaster powered by DC motors" class="vc_single_image-img attachment-large" height="420" loading="lazy" sizes="(max-width: 719px) 100vw, 719px" src="wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6.jpg" srcset="wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6.jpg 719w, wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6-300x175.jpg 300w, wp-content/uploads/2021/01/red-and-white-roller-coaster-on-railings-749061-1024x681-6-80x47.jpg 80w" width="719"/></div>
 </figure>
 </div>
 <div class="wpb_text_column wpb_content_element">

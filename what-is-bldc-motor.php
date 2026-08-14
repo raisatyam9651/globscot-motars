@@ -1,6 +1,7 @@
 <?php
 $current_page = 'what-is-bldc-motor';
-$page_title = 'What is bldc motor? – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'What Is a BLDC Motor? Working & Benefits | Globe Scott Motors';
+$meta_description = 'A clear guide to brushless DC (BLDC) motors — how they work, their construction, advantages and applications — from motor manufacturer Globe Scott Motors.';
 $body_class = 'post-template-default single single-post postid-2329 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';

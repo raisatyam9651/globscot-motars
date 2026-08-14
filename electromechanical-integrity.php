@@ -1,6 +1,7 @@
 <?php
 $current_page = 'electromechanical-integrity';
-$page_title = 'Electromechanical Integrity – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Electromechanical Integrity | Globe Scott Motors';
+$meta_description = 'How Globe Scott Motors ensures electromechanical integrity and quality across its DC, BLDC and geared motor manufacturing at an ISO 9001:2015 certified facility.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2803 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581618741722{padding-top: 100px !important;}.vc_custom_1581619361169{margin-top: 45px !important;}.vc_custom_1581623057744{margin-top: 100px !important;}.vc_custom_1581623097602{margin-bottom: 90px !important;}</style>

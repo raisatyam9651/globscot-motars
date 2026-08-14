@@ -1,6 +1,7 @@
 <?php
 $current_page = 'index';
-$page_title = 'GLOBE SCOTT MOTORS PVT LTD – DC Motor Manufacturers';
+$page_title = 'DC, BLDC & Geared Motor Manufacturer in India | Globe Scott Motors';
+$meta_description = 'Globe Scott Motors manufactures PMDC, BLDC, geared motors, PMDC transaxles and railway signalling products in India. ISO 9001:2015 certified, an Indo-US venture since 1985.';
 $body_class = 'home page-template page-template-page-template page-template-blank-page page-template-page-templateblank-page-php page page-id-27 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1552817809723{padding-top: 90px !important;padding-bottom: 92px !important;}.vc_custom_1611056463305{padding-top: 100px !important;padding-bottom: 65px !important;background-color: #f4f7fc !important;}.vc_custom_1581396682668{padding-top: 0px !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1581396710784{padding-top: 0px !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1611061407800{padding-top: 0px !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1611062053098{padding-top: 0px !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1610010728183{padding-top: 90px !important;padding-bottom: 70px !important;}.vc_custom_1610703772527{background-image: url(/wp-content/uploads/2020/02/AdobeStock_212814481_Preview.jpeg?id=2558) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1611060134647{padding-top: 90px !important;padding-bottom: 20px !important;}.vc_custom_1611059732564{padding-top: 75px !important;padding-bottom: 75px !important;background-color: #ffffff !important;}.vc_custom_1581485638370{margin-top: -127px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1610014956658{margin-top: 2% !important;}.vc_custom_1611057383033{padding-bottom: 100px !important;}.vc_custom_1611054341963{margin-top: -38px !important;margin-bottom: 45px !important;}.vc_custom_1611054366124{margin-top: -38px !important;margin-bottom: 45px !important;}.vc_custom_1611054387660{margin-top: -38px !important;margin-bottom: 45px !important;}.vc_custom_1547372057966{margin-bottom: 35px !important;}.vc_custom_1552462676632{margin-top: -38px !important;margin-bottom: 45px !important;}.vc_custom_1610703560120{background-image: url(/wp-content/uploads/2020/03/p1.jpg?id=2973) !important;}.vc_custom_1581484702546{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1550469080349{padding-left: 0px !important;}.vc_custom_1610703602125{background-image: url(/wp-content/uploads/2020/03/p2.jpg?id=2975) !important;}.vc_custom_1581484713071{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1610703623110{background-image: url(/wp-content/uploads/2020/03/p7.jpeg?id=2986) !important;}.vc_custom_1581484726630{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1550469080349{padding-left: 0px !important;}.vc_custom_1610703637502{background-image: url(/wp-content/uploads/2020/03/p4.jpg?id=2980) !important;}.vc_custom_1581484738719{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1610703676417{background-image: url(/wp-content/uploads/2020/03/p6.jpg?id=2984) !important;}.vc_custom_1581484753718{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1550469080349{padding-left: 0px !important;}.vc_custom_1610703665104{background-image: url(/wp-content/uploads/2020/03/p4.jpg?id=2980) !important;}.vc_custom_1581484738719{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1610703676417{background-image: url(/wp-content/uploads/2020/03/p6.jpg?id=2984) !important;}.vc_custom_1581484753718{padding-top: 45px !important;padding-bottom: 45px !important;}.vc_custom_1550469080349{padding-left: 0px !important;}.vc_custom_1546250337591{margin-bottom: -30px !important;}.vc_custom_1611059896603{padding-bottom: 50px !important;}</style>
@@ -74,7 +75,7 @@ require_once __DIR__ . '/includes/header.php';
 <span class="animated fadeInUp" data-animation="fadeInUp" data-delay=".2s" style="animation-delay: 0.2s;">We Provide</span>
 <h1 class="animated fadeInUp" data-animation="fadeInUp" data-delay=".4s" style="animation-delay: 0.4s;">Driving Motorized Innovation</h1>
 <div class="animated fadeInUp" data-animation="fadeInUp" data-delay=".6s" style="animation-delay: 0.6s;">
-<p>We meet the exact requirement of morden company.</p>
+<p>We meet the exact requirement of modern company.</p>
 </div>
 </div>
 <div class="slider-btn">
@@ -88,7 +89,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-xl-7 col-lg-9 col-12">
 <div class="slider-content">
 <span data-animation="fadeInUp" data-delay=".2s">We Provide</span>
-<h1 data-animation="fadeInUp" data-delay=".4s">Guaranteed Faster Engineering Solution</h1>
+<h2 data-animation="fadeInUp" data-delay=".4s">Guaranteed Faster Engineering Solution</h2>
 <div data-animation="fadeInUp" data-delay=".6s">
 <p></p>
 </div>
@@ -104,7 +105,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-xl-7 col-lg-9 col-12">
 <div class="slider-content">
 <span data-animation="fadeInUp" data-delay=".2s">We provide</span>
-<h1 data-animation="fadeInUp" data-delay=".4s">Best Motors For Amuzement Park Rides</h1>
+<h2 data-animation="fadeInUp" data-delay=".4s">Best Motors For Amusement Park Rides</h2>
 <div data-animation="fadeInUp" data-delay=".6s">
 <p></p>
 </div>
@@ -120,7 +121,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="col-xl-7 col-lg-9 col-12">
 <div class="slider-content">
 <span data-animation="fadeInUp" data-delay=".2s">We provide</span>
-<h1 data-animation="fadeInUp" data-delay=".4s">Motors For Material Handeling Equipments</h1>
+<h2 data-animation="fadeInUp" data-delay=".4s">Motors For Material Handling Equipments</h2>
 <div data-animation="fadeInUp" data-delay=".6s">
 <p></p>
 </div>
@@ -366,7 +367,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/railway-signalling-products/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-railway-signalling-products/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -398,7 +399,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/pmdc-motors/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-pmdc-motors/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -438,7 +439,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/pmdc-geared-motors/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-pmdc-geared-motors/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -458,7 +459,7 @@ require_once __DIR__ . '/includes/header.php';
   <div class="col-lg-12">
     <div class="section-title second-home-title center-title">
       <span class="wow fadeInUp">Our Product</span>
-      <h2 class="wow fadeInUp">PMDC TRANSAXEL</h2>
+      <h2 class="wow fadeInUp">PMDC TRANSAXLE</h2>
       <p class="wow fadeInUp">We look forward to the opportunity to serve you with exclusive range of our Products to fulfill your requirements.</p>
     </div>
   </div>
@@ -470,7 +471,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/pmdc-transaxel/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-pmdc-transaxle/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -510,7 +511,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/railway-signalling-products/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-railway-signalling-products/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -542,7 +543,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/pmdc-transaxel/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-pmdc-transaxle/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -582,7 +583,7 @@ require_once __DIR__ . '/includes/header.php';
   <!-- Rounding Button
   ============================================= -->
   <div class="rounding-btn wow " data-wow-delay="0.6s">
-        <a href="/products/pmdc-transaxel/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
+        <a href="/products-pmdc-transaxle/" class="btn bordered-btn">Discover More <i class="fa fa-angle-double-right"></i></a>
       </div>
   <!-- End Of Rounding Button
   ============================================= -->
@@ -657,7 +658,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div class="client-info">
                 <div class="testimonial-three-thumb">
-                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-05.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-05.jpg 200w, /wp-content/uploads/2019/03/testimonial-05-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-05-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-05.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Globe Scott Motors client" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-05.jpg 200w, /wp-content/uploads/2019/03/testimonial-05-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-05-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
                 <div class="testimonial-three-meta">
                   <h4>Cristina</h4>
                   <span>Plugin Developer</span>
@@ -675,7 +676,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div class="client-info">
                 <div class="testimonial-three-thumb">
-                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-04.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-04.jpg 200w, /wp-content/uploads/2019/03/testimonial-04-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-04-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-04.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Globe Scott Motors client" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-04.jpg 200w, /wp-content/uploads/2019/03/testimonial-04-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-04-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
                 <div class="testimonial-three-meta">
                   <h4>Jon Doe</h4>
                   <span>HR Manager</span>
@@ -693,7 +694,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div class="client-info">
                 <div class="testimonial-three-thumb">
-                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-03.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-03.jpg 200w, /wp-content/uploads/2019/03/testimonial-03-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-03-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-03.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Globe Scott Motors client" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-03.jpg 200w, /wp-content/uploads/2019/03/testimonial-03-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-03-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
                 <div class="testimonial-three-meta">
                   <h4>Ana Doe</h4>
                   <span>Founder &amp; CEO</span>
@@ -711,7 +712,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div class="client-info">
                 <div class="testimonial-three-thumb">
-                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-02.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-02.jpg 200w, /wp-content/uploads/2019/03/testimonial-02-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-02-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-02.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Globe Scott Motors client" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-02.jpg 200w, /wp-content/uploads/2019/03/testimonial-02-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-02-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
                 <div class="testimonial-three-meta">
                   <h4>Alexndra Li</h4>
                   <span>UI/UX Designer</span>
@@ -729,7 +730,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div class="client-info">
                 <div class="testimonial-three-thumb">
-                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-06.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-06.jpg 200w, /wp-content/uploads/2019/03/testimonial-06-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-06-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
+                  <img width="200" height="200" src="/wp-content/uploads/2019/03/testimonial-06.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Globe Scott Motors client" loading="lazy" srcset="/wp-content/uploads/2019/03/testimonial-06.jpg 200w, /wp-content/uploads/2019/03/testimonial-06-150x150.jpg 150w, /wp-content/uploads/2019/03/testimonial-06-80x80.jpg 80w" sizes="(max-width: 200px) 100vw, 200px"/>                </div>
                 <div class="testimonial-three-meta">
                   <h4>Meredith Gutmann</h4>
                   <span>Product Designer</span>

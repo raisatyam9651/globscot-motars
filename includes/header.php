@@ -291,15 +291,79 @@ $body_class = isset($body_class) ? $body_class : 'page-template page-template-pa
 
 <?php if (isset($extra_head_content)) echo $extra_head_content; ?>
 
+<?php
+/* --- SEO: canonical, meta description, Open Graph, Twitter, structured data --- */
+$gs_base      = rtrim(SITE_URL, '/');
+$gs_slug      = ($current_page === 'index') ? '' : $current_page . '/';
+$gs_canonical = $gs_base . '/' . $gs_slug;
+$gs_desc      = isset($meta_description) ? $meta_description
+                : (SITE_NAME . ' – manufacturer of PMDC, BLDC, geared motors, PMDC transaxles and railway signalling products since 1985. ISO 9001:2015 certified, Killa Pardi, Gujarat, India.');
+$gs_ogimg     = isset($og_image) ? $og_image : $gs_base . '/wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png';
+?>
+<meta name="description" content="<?php echo htmlspecialchars($gs_desc); ?>"/>
+<link rel="canonical" href="<?php echo htmlspecialchars($gs_canonical); ?>"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="<?php echo htmlspecialchars(SITE_NAME); ?>"/>
+<meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>"/>
+<meta property="og:description" content="<?php echo htmlspecialchars($gs_desc); ?>"/>
+<meta property="og:url" content="<?php echo htmlspecialchars($gs_canonical); ?>"/>
+<meta property="og:image" content="<?php echo htmlspecialchars($gs_ogimg); ?>"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>"/>
+<meta name="twitter:description" content="<?php echo htmlspecialchars($gs_desc); ?>"/>
+<meta name="twitter:image" content="<?php echo htmlspecialchars($gs_ogimg); ?>"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.globescott.net/#organization",
+      "name": "Globe Scott Motors Pvt Ltd",
+      "legalName": "GLOBE SCOTT MOTORS PVT LTD",
+      "url": "https://www.globescott.net/",
+      "logo": "https://www.globescott.net/wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png",
+      "foundingDate": "1985",
+      "email": "info@globescott.net",
+      "telephone": "+91-260-2373538",
+      "sameAs": [
+        "https://business.facebook.com/Globe-Scott-Motors-Pvt-Ltd-134264700644329/",
+        "https://twitter.com/GlobescottMotor",
+        "https://www.linkedin.com/in/globe-scott-motors-a4823b134"
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.globescott.net/#localbusiness",
+      "name": "Globe Scott Motors Pvt Ltd",
+      "image": "https://www.globescott.net/wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png",
+      "url": "https://www.globescott.net/",
+      "telephone": "+91-260-2373538",
+      "email": "info@globescott.net",
+      "parentOrganization": { "@id": "https://www.globescott.net/#organization" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "A1/19, G.I.D.C. Industrial Estate",
+        "addressLocality": "Killa Pardi",
+        "addressRegion": "Gujarat",
+        "postalCode": "396125",
+        "addressCountry": "IN"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": "20.5224", "longitude": "72.9637" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.globescott.net/#website",
+      "url": "https://www.globescott.net/",
+      "name": "Globe Scott Motors",
+      "publisher": { "@id": "https://www.globescott.net/#organization" }
+    }
+  ]
+}
+</script>
+
 </head>
 <body class="<?php echo htmlspecialchars($body_class); ?>">
-<div style="background-color: #eb9600;">
-  <div class="">
-    <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
-    <h2 class="vc_custom_heading wpb_animate_when_almost_visible wpb_bounceIn bounceIn wpb_start_animation animated" style="color: white;text-align: center;font-family: Poppins, sans-serif;font-weight:300;font-style:normal; font-size:small; padding-left: 5px;padding-right: 5px;">COVID-19 Alert: We have resumed manufacturing under the guidelines of the government authority.</h2>
-    <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
-  </div>
-</div>
 
 <!-- Start of Header ============================================= -->
 <header class="header-default">
@@ -343,12 +407,12 @@ $body_class = isset($body_class) ? $body_class : 'page-template page-template-pa
 <ul class="rounding-main-menu">
   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10 <?php echo is_active_menu('index', $current_page); ?>" id="menu-item-10"><a href="index/" title="Home">Home</a></li>
   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12 <?php echo is_active_menu('about-us', $current_page); ?>" id="menu-item-12"><a href="about-us/" title="About Us">About Us</a></li>
-  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13 submenu-area <?php echo is_active_menu(['products', 'products-pmdc-motors', 'products-pmdc-geared-motors', 'products-pmdc-transaxel', 'products-railway-signalling-products', 'products-bldc-motors'], $current_page); ?>" id="menu-item-13">
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13 submenu-area <?php echo is_active_menu(['products', 'products-pmdc-motors', 'products-pmdc-geared-motors', 'products-pmdc-transaxle', 'products-railway-signalling-products', 'products-bldc-motors'], $current_page); ?>" id="menu-item-13">
     <a aria-haspopup="true" class="dropdown-toggle" data-toggle="submenu-area" href="products/" title="Products">Products</a>
     <ul class="submenu">
       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2287 <?php echo is_active_menu('products-pmdc-motors', $current_page); ?>" id="menu-item-2287"><a href="products-pmdc-motors/" title="PMDC Motors">PMDC Motors</a></li>
       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2289 <?php echo is_active_menu('products-pmdc-geared-motors', $current_page); ?>" id="menu-item-2289"><a href="products-pmdc-geared-motors/" title="Geared PMDC Motors">Geared PMDC Motors</a></li>
-      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2290 <?php echo is_active_menu('products-pmdc-transaxel', $current_page); ?>" id="menu-item-2290"><a href="products-pmdc-transaxel/" title="PMDC Transaxle">PMDC Transaxle</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2290 <?php echo is_active_menu('products-pmdc-transaxle', $current_page); ?>" id="menu-item-2290"><a href="products-pmdc-transaxle/" title="PMDC Transaxle">PMDC Transaxle</a></li>
       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2291 <?php echo is_active_menu('products-railway-signalling-products', $current_page); ?>" id="menu-item-2291"><a href="products-railway-signalling-products/" title="Railway Signaling Products">Railway Signaling Products</a></li>
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3051 <?php echo is_active_menu('products-bldc-motors', $current_page); ?>" id="menu-item-3051"><a href="products-bldc-motors/" title="BLDC Motors">BLDC Motors</a></li>
     </ul>

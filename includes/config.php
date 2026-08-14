@@ -5,7 +5,7 @@
 
 define('SITE_NAME', 'GLOBE SCOTT MOTORS PVT LTD');
 define('SITE_TAGLINE', 'DC Motor Manufacturers');
-define('SITE_URL', 'http://localhost:8000'); // Or your web server URL
+define('SITE_URL', 'https://www.globescott.net'); // Production URL (no trailing slash)
 define('CONTACT_PHONE_1', '+91(0) 260-2373538');
 define('CONTACT_PHONE_2', '+91(0)-260-2370306');
 define('CONTACT_EMAIL', 'info@globescott.net');

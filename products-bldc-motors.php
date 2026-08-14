@@ -1,6 +1,7 @@
 <?php
 $current_page = 'products-bldc-motors';
-$page_title = 'BLDC Motors – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'BLDC Motors Manufacturer in India | Globe Scott Motors';
+$meta_description = 'Brushless DC (BLDC) motors from Globe Scott Motors for railway carriage fans, HVAC and industrial use — energy-efficient, low-maintenance and made in India.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-3048 page-child parent-pageid-2375 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581315851248{padding-top: 90px !important;}</style>

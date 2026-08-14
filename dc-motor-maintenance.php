@@ -1,6 +1,7 @@
 <?php
 $current_page = 'dc-motor-maintenance';
-$page_title = 'DC motor maintenance. – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'DC Motor Maintenance Guide | Globe Scott Motors';
+$meta_description = 'Practical DC motor maintenance tips — brushes, commutator, bearings and insulation — to maximise motor life, from manufacturer Globe Scott Motors.';
 $body_class = 'post-template-default single single-post postid-2321 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';

@@ -1,6 +1,7 @@
 <?php
 $current_page = 'case-study';
-$page_title = 'Case Study – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Case Study – Custom DC Motor Solutions | Globe Scott Motors';
+$meta_description = 'A Globe Scott Motors case study showing how our custom DC motor engineering solves real industrial and railway signalling challenges.';
 $body_class = 'post-template-default single single-post postid-3052 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';

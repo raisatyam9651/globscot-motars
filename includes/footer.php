@@ -5,7 +5,7 @@
 <div class="row">
 <div class="rounding_brandlogo_widget col-lg-3 col-md-6" id="address_widget-1"><div class="footer-widget mb-30">
 <div class="footer-logo">
-<img alt="" src="wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png"/>
+<img alt="Globe Scott Motors" src="wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png"/>
 </div>
 <div class="footer-text mb-20">
 <p>GlOBE SCOTT MOTORS was established in the year 1985, as an INDO – US joint venture with technical collaboration from M/S SCOTT MOTORS INC. USA. We have absorbed and developed best technology, making our product of highest and consistent quality.</p>

@@ -1,6 +1,7 @@
 <?php
 $current_page = 'products';
-$page_title = 'Products – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Industrial DC, BLDC & Geared Motors | Globe Scott Motors';
+$meta_description = 'Browse Globe Scott Motors\' range of PMDC motors, geared motors, PMDC transaxles, railway signalling motors and BLDC motors — engineered and manufactured in India.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2375 page-parent wpb-js-composer js-comp-ver-6.1 vc_responsive';
 $extra_head_content = <<<'EOD'
 <style data-type="vc_shortcodes-custom-css">.vc_custom_1581414921496{padding-top: 90px !important;padding-bottom: 45px !important;}.vc_custom_1581654187343{margin-bottom: 45px !important;}.vc_custom_1581512271808{margin-bottom: 45px !important;}.vc_custom_1581512280539{margin-bottom: 45px !important;}.vc_custom_1581512290752{margin-bottom: 45px !important;}.vc_custom_1581512297934{margin-bottom: 45px !important;}</style>
@@ -109,13 +110,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="vc_col-sm-3 fb_image">
 <div class="wpb_single_image wpb_content_element vc_align_left">
 <figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="PMDC Transaxel" class="vc_single_image-img attachment-full" height="190" loading="lazy" sizes="(max-width: 260px) 100vw, 260px" src="wp-content/uploads/2020/02/PMDC-Transaxel.png" srcset="wp-content/uploads/2020/02/PMDC-Transaxel.png 260w, wp-content/uploads/2020/02/PMDC-Transaxel-80x58.png 80w" width="260"/></div>
+<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="PMDC Transaxle" class="vc_single_image-img attachment-full" height="190" loading="lazy" sizes="(max-width: 260px) 100vw, 260px" src="wp-content/uploads/2020/02/PMDC-Transaxel.png" srcset="wp-content/uploads/2020/02/PMDC-Transaxel.png 260w, wp-content/uploads/2020/02/PMDC-Transaxel-80x58.png 80w" width="260"/></div>
 </figure>
 </div>
 </div>
 <div class="vc_col-sm-6">
 <div class="wpb_text_column wpb_content_element">
-<h2>PMDC Transaxel</h2>
+<h2>PMDC Transaxle</h2>
 </div>
 <div class="wpb_text_column wpb_content_element">
 <p>We look forward to the opportunity to serve you with exclusive range of our Products to fulfill your requirements.</p>
@@ -125,7 +126,7 @@ require_once __DIR__ . '/includes/header.php';
 <!-- Rounding Button
   ============================================= -->
 <div class="rounding-btn wow" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-<a class="btn bordered-btn" href="products-pmdc-transaxel/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
+<a class="btn bordered-btn" href="products-pmdc-transaxle/">DISCOVER MORE <i class="fa fa-angle-double-right"></i></a>
 </div>
 <!-- End Of Rounding Button
   ============================================= -->

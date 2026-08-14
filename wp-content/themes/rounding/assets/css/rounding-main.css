@@ -811,7 +811,8 @@ a.dropdown-toggle {
 	line-height: 60px;
 	text-transform: unset;
 }
-.slider-content h1 {
+.slider-content h1,
+.slider-content h2 {
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 70px;
@@ -1058,7 +1059,8 @@ a.btn.video-btn.no-slider:hover i {
 	z-index: 1;
 	position: relative;
 }
-.slider-content h1 {
+.slider-content h1,
+.slider-content h2 {
 	color: #fff;
 }
 .slider-content div p {

@@ -1,6 +1,7 @@
 <?php
 $current_page = 'difference-between-dc-motors-and-geared-motors';
-$page_title = 'Difference between DC motors and geared motors. – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'DC Motors vs Geared Motors: Key Differences | Globe Scott Motors';
+$meta_description = 'Understand the difference between DC motors and geared motors — torque, speed and use cases — to choose the right drive, explained by Globe Scott Motors.';
 $body_class = 'post-template-default single single-post postid-2317 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';
@@ -63,8 +64,8 @@ require_once __DIR__ . '/includes/header.php';
 <strong>Tags:</strong> DC Motors, Grared Motors, Motors </div>
 </div>
 </article><div class="post-navigation">
-<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"> <a class="single-post-nav" href="benifits-of-using-dc-motors/">
-<h4 class="post-title">Benifits of using DC motors.</h4>
+<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"> <a class="single-post-nav" href="benefits-of-using-dc-motors/">
+<h4 class="post-title">Benefits of using DC motors.</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
 </div></div><div class="col-md-6"><div class="post-next"> <a class="single-post-nav" href="dc-motor-maintenance/">

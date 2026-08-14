@@ -1,6 +1,7 @@
 <?php
 $current_page = 'contact-us';
-$page_title = 'Contact us – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Contact Globe Scott Motors – DC Motor Manufacturer, Gujarat';
+$meta_description = 'Contact Globe Scott Motors Pvt Ltd, Killa Pardi, Gujarat, India. Call +91 260-2373538 or email info@globescott.net for DC, BLDC and geared motor enquiries.';
 $body_class = 'page-template page-template-page-template page-template-blank-page-sidebar page-template-page-templateblank-page-sidebar-php page page-id-2782 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 $form_message = '';

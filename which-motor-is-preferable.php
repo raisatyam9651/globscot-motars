@@ -1,6 +1,7 @@
 <?php
 $current_page = 'which-motor-is-preferable';
-$page_title = 'Which motor is preferable? – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Which Motor Is Preferable for Your Application? | Globe Scott Motors';
+$meta_description = 'How to choose the right motor for your application — comparing DC, BLDC and geared motors on efficiency, cost and control — from Globe Scott Motors.';
 $body_class = 'post-template-default single single-post postid-2313 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';
@@ -62,8 +63,8 @@ require_once __DIR__ . '/includes/header.php';
 <strong>Tags:</strong> DC Motors, Motors </div>
 </div>
 </article><div class="post-navigation">
-<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"></div></div><div class="col-md-6"><div class="post-next"> <a class="single-post-nav" href="benifits-of-using-dc-motors/">
-<h4 class="post-title">Benifits of using DC motors.</h4>
+<div class="row no-gutters"><div class="col-md-6"><div class="post-previous"></div></div><div class="col-md-6"><div class="post-next"> <a class="single-post-nav" href="benefits-of-using-dc-motors/">
+<h4 class="post-title">Benefits of using DC motors.</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
 </div></div></div></div> <div class="no-padding comment-area-page">

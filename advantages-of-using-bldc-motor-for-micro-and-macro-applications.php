@@ -1,6 +1,7 @@
 <?php
 $current_page = 'advantages-of-using-bldc-motor-for-micro-and-macro-applications';
-$page_title = 'Advantages of using bldc motor for micro and macro applications. – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Advantages of BLDC Motors for Micro & Macro Applications | Globe Scott';
+$meta_description = 'Discover the advantages of using BLDC motors across micro and macro applications — efficiency, reliability and precise control — explained by Globe Scott Motors.';
 $body_class = 'post-template-default single single-post postid-2332 single-format-standard wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';

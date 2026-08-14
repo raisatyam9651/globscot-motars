@@ -3,6 +3,10 @@
     RewriteEngine On
     RewriteBase /
 
+    # 301 redirects for corrected (previously misspelled) slugs
+    RewriteRule ^benifits-of-using-dc-motors/?$ /benefits-of-using-dc-motors/ [R=301,L]
+    RewriteRule ^products-pmdc-transaxel/?$ /products-pmdc-transaxle/ [R=301,L]
+
     # Redirect physical .php files to extensionless URL with trailing slash
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.php\ HTTP
     RewriteRule ^([^.]+)\.php$ /$1/ [R=301,L]

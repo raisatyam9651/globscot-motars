@@ -1,6 +1,7 @@
 <?php
 $current_page = 'privacy-policy';
-$page_title = 'Privacy Policy – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'Privacy Policy | Globe Scott Motors';
+$meta_description = 'Read the privacy policy of Globe Scott Motors Pvt Ltd explaining how we collect, use and protect the personal information you share with us.';
 $body_class = 'page-template-default page page-id-2259 wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';

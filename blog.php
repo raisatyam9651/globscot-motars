@@ -1,6 +1,7 @@
 <?php
 $current_page = 'blog';
-$page_title = 'Blog – GLOBE SCOTT MOTORS PVT LTD';
+$page_title = 'DC & BLDC Motor Blog & Resources | Globe Scott Motors';
+$meta_description = 'Articles and guides on DC motors, BLDC motors, geared motors and maintenance from Globe Scott Motors — a manufacturer of industrial motors in India since 1985.';
 $body_class = 'blog wpb-js-composer js-comp-ver-6.1 vc_responsive';
 
 require_once __DIR__ . '/includes/header.php';
@@ -155,19 +156,19 @@ require_once __DIR__ . '/includes/header.php';
 <article class="post-2310 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-motors tag-dc-motors tag-motors" id="post-2310">
 <div class="blog-wrap mb-30">
 <div class="blog-thumb">
-<img alt="BENIFITS OF USING DC MOTORS" class="img-fluid wp-post-image" height="550" loading="lazy" sizes="(max-width: 1110px) 100vw, 1110px" src="wp-content/uploads/2020/02/blog4.png" srcset="wp-content/uploads/2020/02/blog4.png 1110w, wp-content/uploads/2020/02/blog4-300x149.png 300w, wp-content/uploads/2020/02/blog4-1024x507.png 1024w, wp-content/uploads/2020/02/blog4-768x381.png 768w, wp-content/uploads/2020/02/blog4-80x40.png 80w" width="1110"/> </div>
+<img alt="BENEFITS OF USING DC MOTORS" class="img-fluid wp-post-image" height="550" loading="lazy" sizes="(max-width: 1110px) 100vw, 1110px" src="wp-content/uploads/2020/02/blog4.png" srcset="wp-content/uploads/2020/02/blog4.png 1110w, wp-content/uploads/2020/02/blog4-300x149.png 300w, wp-content/uploads/2020/02/blog4-1024x507.png 1024w, wp-content/uploads/2020/02/blog4-768x381.png 768w, wp-content/uploads/2020/02/blog4-80x40.png 80w" width="1110"/> </div>
 <div class="blog-content">
 <div class="entry-meta">
 <div class="author">
                   by GLOB SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="benifits-of-using-dc-motors/">November 17, 2016</a>
+                  -  <a href="benefits-of-using-dc-motors/">November 17, 2016</a>
 </div>
 </div>
-<h4><a href="benifits-of-using-dc-motors/">Benifits of using DC motors.</a></h4>
+<h4><a href="benefits-of-using-dc-motors/">Benefits of using DC motors.</a></h4>
 <p>Speed control over a wide range both above and below the rated speed: The attractive feature of the dc motor is that it offers the wide range of speed control both above and below the…</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="benifits-of-using-dc-motors/">Continue Reading</a>
+<a class="read-more" href="benefits-of-using-dc-motors/">Continue Reading</a>
 </div>
 </div>
 </div>

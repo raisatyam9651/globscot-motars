@@ -1,0 +1,10 @@
+# robots.txt for globescott.net
+User-agent: *
+Allow: /
+
+# WordPress leftovers that no longer serve content
+Disallow: /wp-admin/
+Disallow: /wp-comments-post/
+Disallow: /wp-includes/
+
+Sitemap: https://www.globescott.net/sitemap.xml
