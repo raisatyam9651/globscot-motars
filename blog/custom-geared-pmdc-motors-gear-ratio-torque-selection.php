@@ -32,7 +32,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2345 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-geared-motors category-motors tag-custom-geared-motor tag-gear-ratio tag-pmdc-motor" id="post-2345">
-<img alt="Custom Geared PMDC Motors Gear Ratio and Torque Selection Guide" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog1-min-1.png"/>
+<img alt="Custom Geared PMDC Motors Gear Ratio and Torque Selection Guide" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/geared-motors.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

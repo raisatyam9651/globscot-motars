@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2368 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-bldc tag-brushed-vs-brushless tag-bldc-motors" id="post-2368">
-<img alt="Brushed DC vs Brushless DC Motors Industrial Applications Comparison" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/07/pexels-darshak-pandya-2526935.jpg"/>
+<img alt="Brushed DC vs Brushless DC Motors Industrial Applications Comparison" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/BRUSH-LESS-DC-MOTOR-FOR-RAILWAY-CARRIAGE-FANS-550x367.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

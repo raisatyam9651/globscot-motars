@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2360 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-cleaning-machines tag-cleaning-machines tag-transaxle" id="post-2360">
-<img alt="Motors for Industrial Cleaning Machines PMDC Motor and Transaxle Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog1-min-1.png"/>
+<img alt="Motors for Industrial Cleaning Machines PMDC Motor and Transaxle Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/PMDC-Transaxel.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

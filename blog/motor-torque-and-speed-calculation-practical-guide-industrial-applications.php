@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2365 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-engineering tag-torque-calculation tag-motor-speed" id="post-2365">
-<img alt="Motor Torque and Speed Calculation Practical Guide Industrial Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog2-min.png"/>
+<img alt="Motor Torque and Speed Calculation Practical Guide Industrial Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/A92-SERIES-GEARED-MOTORS-550x367.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

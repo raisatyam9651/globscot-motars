@@ -32,7 +32,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2348 post type-post status-publish format-standard has-post-thumbnail hentry category-bldcmotor category-motors tag-bldc-selection tag-industrial-automation tag-bldc-motor" id="post-2348">
-<img alt="How to Select a BLDC Motor for Industrial Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog1-min.png"/>
+<img alt="How to Select a BLDC Motor for Industrial Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/BRUSH-LESS-DC-MOTOR-FOR-RAILWAY-CARRIAGE-FANS-550x367.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

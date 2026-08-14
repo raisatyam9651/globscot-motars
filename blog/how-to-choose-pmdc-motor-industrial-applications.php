@@ -32,7 +32,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2342 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-motors tag-pmdc-selection tag-industrial-motors tag-dc-motors" id="post-2342">
-<img alt="How to Choose the Right PMDC Motor for Industrial Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog4.png"/>
+<img alt="How to Choose the Right PMDC Motor for Industrial Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/pmdc-motors.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

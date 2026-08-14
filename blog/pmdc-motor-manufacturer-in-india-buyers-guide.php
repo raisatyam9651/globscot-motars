@@ -32,7 +32,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2340 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-motors tag-pmdc-manufacturer tag-dc-motors tag-india" id="post-2340">
-<img alt="PMDC Motor Manufacturer in India Buyer Guide" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog-image-min.png"/>
+<img alt="PMDC Motor Manufacturer in India Buyer Guide" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/PMDC-GEARED-MOTORS.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>
