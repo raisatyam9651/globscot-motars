@@ -219,7 +219,7 @@ $all_posts = [
     ]
 ];
 
-// --- Pagination Logic (9 blogs per page) ---
+// --- Pagination Logic (9 blogs per page in a 3x3 grid) ---
 $per_page = 9;
 $total_posts = count($all_posts);
 $total_pages = (int)ceil($total_posts / $per_page);
@@ -235,6 +235,90 @@ $offset = ($current_page_num - 1) * $per_page;
 $posts = array_slice($all_posts, $offset, $per_page);
 ?>
 
+<!-- Custom CSS for 3x3 Grid Cards -->
+<style>
+.blog-grid-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.blog-grid-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+.blog-grid-card .img-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+    background-color: #f8f9fa;
+}
+.blog-grid-card .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.blog-grid-card:hover .img-wrapper img {
+    transform: scale(1.05);
+}
+.blog-grid-card .card-body-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.blog-grid-card .meta-info {
+    font-size: 12px;
+    font-weight: 600;
+    color: #eb9600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+.blog-grid-card .post-title-heading {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+.blog-grid-card .post-title-heading a {
+    color: #1a202c;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.blog-grid-card .post-title-heading a:hover {
+    color: #eb9600;
+}
+.blog-grid-card .post-excerpt-text {
+    font-size: 14px;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.blog-grid-card .read-more-btn {
+    display: inline-block;
+    background-color: #eb9600;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 8px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    align-self: flex-start;
+}
+.blog-grid-card .read-more-btn:hover {
+    background-color: #d18400;
+    color: #ffffff;
+}
+</style>
+
 <!-- End of Header ============================================= -->
 <main class="normal-footer">
 <!-- breadcrumb -->
@@ -243,7 +327,7 @@ $posts = array_slice($all_posts, $offset, $per_page);
 <div class="row">
 <div class="col-12 text-center">
 <div class="page-title header1-height">
-<h1>Blog Posts <?php if ($total_pages > 1) echo "(Page {$current_page_num} of {$total_pages})"; ?></h1>
+<h1>Blog & Knowledge Center</h1>
 <nav aria-label="breadcrumb">
 <ol class="breadcrumb justify-content-center">
 <li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li>
@@ -257,47 +341,47 @@ $posts = array_slice($all_posts, $offset, $per_page);
 </section>
 <!-- breadcrumb-end -->
 
-<section class="blog-area pb-70 pt-100">
+<section class="blog-area pb-70 pt-80">
 <div class="container">
-<div class="row">
-<div class="col-lg-8">
-<div class="row">
 
-<?php foreach ($posts as $index => $post): ?>
-<div class="col-lg-12 mb-30">
-<article class="post-card type-post status-publish format-standard has-post-thumbnail hentry">
-<div class="blog-wrap">
-<div class="blog-thumb">
+<div class="row mb-4">
+<div class="col-12 d-flex justify-content-between align-items-center">
+<h2 style="font-size: 24px; font-weight: 700; color: #2d3748; margin: 0;">Latest Technical Articles</h2>
+<span style="font-size: 14px; color: #718096; font-weight: 500;">Showing <?php echo $offset + 1; ?>–<?php echo min($offset + $per_page, $total_posts); ?> of <?php echo $total_posts; ?> articles</span>
+</div>
+</div>
+
+<!-- ========== 3x3 Card Grid (9 Blogs Per Page) ========== -->
+<div class="row">
+<?php foreach ($posts as $post): ?>
+<div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+<article class="blog-grid-card">
+<div class="img-wrapper">
 <a href="<?php echo $post['url']; ?>">
-<img alt="<?php echo htmlspecialchars($post['title']); ?>" class="img-fluid wp-post-image" loading="lazy" src="<?php echo $post['image']; ?>"/>
+<img alt="<?php echo htmlspecialchars($post['title']); ?>" loading="lazy" src="<?php echo $post['image']; ?>"/>
 </a>
 </div>
-<div class="blog-content" style="padding: 25px; background: #ffffff; border: 1px solid #eee; border-top: none;">
-<div class="entry-meta" style="margin-bottom: 10px; font-size: 14px; color: #777;">
-<span class="author">by <strong>GLOBE SCOTT MOTORS</strong></span>
-<span class="month"> - <a href="<?php echo $post['url']; ?>"><?php echo $post['date']; ?></a></span>
+<div class="card-body-content">
+<div class="meta-info">
+GLOBE SCOTT MOTORS • <?php echo $post['date']; ?>
 </div>
-<h3 style="font-size: 20px; font-weight: 700; margin-bottom: 15px;">
-<a href="<?php echo $post['url']; ?>" style="color: #222; text-decoration: none;"><?php echo $post['title']; ?></a>
+<h3 class="post-title-heading">
+<a href="<?php echo $post['url']; ?>"><?php echo $post['title']; ?></a>
 </h3>
-<p style="color: #555; line-height: 1.6; margin-bottom: 15px;"><?php echo $post['excerpt']; ?></p>
-<div class="entry-meta-footer">
-<a class="btn btn-warning text-dark font-weight-bold" href="<?php echo $post['url']; ?>" style="background-color: #eb9600; border-color: #eb9600; padding: 8px 20px; border-radius: 4px;">Continue Reading →</a>
-</div>
-</div>
+<p class="post-excerpt-text"><?php echo $post['excerpt']; ?></p>
+<a class="read-more-btn" href="<?php echo $post['url']; ?>">Read Article →</a>
 </div>
 </article>
 </div>
 <?php endforeach; ?>
-
 </div>
 
-<!-- ========== Pagination Component (9 Blogs Per Page) ========== -->
+<!-- ========== Pagination Controls ========== -->
 <?php if ($total_pages > 1): ?>
 <div class="row mt-4 mb-5">
 <div class="col-12 text-center">
 <nav aria-label="Blog Page Navigation">
-<ul class="pagination justify-content-center" style="display: flex; gap: 8px; list-style: none; padding: 0;">
+<ul class="pagination justify-content-center" style="display: inline-flex; gap: 8px; list-style: none; padding: 0; margin: 0;">
 
 <?php if ($current_page_num > 1): ?>
 <li class="page-item">
@@ -325,36 +409,6 @@ $posts = array_slice($all_posts, $offset, $per_page);
 </div>
 <?php endif; ?>
 
-</div>
-
-<div class="col-lg-4">
-<aside class="sidebar-wrapper">
-<div class="widget mb-40 widget_recent_entries" style="background: #faf9f9; padding: 25px; border: 1px solid #eee;">
-<h3 class="widget-title" style="font-size: 18px; font-weight: 700; border-bottom: 2px solid #eb9600; padding-bottom: 10px; margin-bottom: 20px;">Recent Articles</h3>
-<ul style="list-style: none; padding: 0; margin: 0;">
-<?php foreach (array_slice($all_posts, 0, 8) as $recent): ?>
-<li style="margin-bottom: 12px; border-bottom: 1px solid #eef; padding-bottom: 8px;">
-<a href="<?php echo $recent['url']; ?>" style="color: #333; font-weight: 500; font-size: 14px; text-decoration: none;"><?php echo $recent['title']; ?></a>
-</li>
-<?php endforeach; ?>
-</ul>
-</div>
-
-<div class="widget mb-40 widget_categories" style="background: #faf9f9; padding: 25px; border: 1px solid #eee;">
-<h3 class="widget-title" style="font-size: 18px; font-weight: 700; border-bottom: 2px solid #eb9600; padding-bottom: 10px; margin-bottom: 20px;">Product Categories</h3>
-<ul style="list-style: none; padding: 0; margin: 0;">
-<li style="margin-bottom: 8px;"><a href="products-pmdc-motors.php">PMDC Motors India</a></li>
-<li style="margin-bottom: 8px;"><a href="products-geared-motors.php">Geared Motors India</a></li>
-<li style="margin-bottom: 8px;"><a href="products-pmdc-geared-motors.php">PMDC Geared Motors</a></li>
-<li style="margin-bottom: 8px;"><a href="products-pmdc-transaxle.php">PMDC Transaxle Drives</a></li>
-<li style="margin-bottom: 8px;"><a href="products-bldc-motors.php">Brushless BLDC Motors</a></li>
-<li style="margin-bottom: 8px;"><a href="products-railway-signalling-products.php">Railway Signalling Motors</a></li>
-</ul>
-</div>
-</aside>
-</div>
-
-</div>
 </div>
 </section>
 </main>
