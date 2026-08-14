@@ -32,7 +32,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2344 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-geared-motors category-motors tag-geared-motor tag-dc-motor" id="post-2344">
-<img alt="Geared Motor vs Standard DC Motor Differences Explained" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/02/blog2-min.png"/>
+<img alt="Geared Motor vs Standard DC Motor Differences Explained" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog2-min.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

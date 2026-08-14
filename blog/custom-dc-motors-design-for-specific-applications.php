@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2364 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-custom-engineering tag-custom-motors tag-dc-motors" id="post-2364">
-<img alt="Custom DC Motors Design for Specific Applications" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/02/blog1-min-1.png"/>
+<img alt="Custom DC Motors Design for Specific Applications" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog1-min-1.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

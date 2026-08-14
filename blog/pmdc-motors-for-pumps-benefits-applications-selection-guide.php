@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2357 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-pumps tag-pmdc-pumps tag-dc-motors" id="post-2357">
-<img alt="PMDC Motors for Pumps Benefits Applications Selection Guide" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/02/blog4.png"/>
+<img alt="PMDC Motors for Pumps Benefits Applications Selection Guide" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog4.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

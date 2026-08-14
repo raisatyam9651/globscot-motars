@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2367 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-maintenance tag-dc-motor-maintenance tag-troubleshooting" id="post-2367">
-<img alt="DC Motor Maintenance Common Problems Troubleshooting Preventive Maintenance" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/02/blog4.png"/>
+<img alt="DC Motor Maintenance Common Problems Troubleshooting Preventive Maintenance" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog4.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

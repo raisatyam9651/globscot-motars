@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2358 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-doors tag-door-motors tag-automatic-gates" id="post-2358">
-<img alt="DC Motors for Automatic Doors and Gates Selection Guide" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/02/blog2-min.png"/>
+<img alt="DC Motors for Automatic Doors and Gates Selection Guide" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/02/blog2-min.png"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>

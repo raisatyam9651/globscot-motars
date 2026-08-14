@@ -30,7 +30,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="blog-wrapper">
 <div class="blog-details-content">
 <article class="post-2352 post type-post status-publish format-standard has-post-thumbnail hentry category-dcmotors category-railway tag-point-machine tag-railway-signalling" id="post-2352">
-<img alt="Electric Point Machine How It Works Importance Railway Signalling" class="img-fluid full-thumb-img" src="wp-content/uploads/2020/07/pexels-darshak-pandya-2526935.jpg"/>
+<img alt="Electric Point Machine How It Works Importance Railway Signalling" class="img-fluid full-thumb-img" src="/wp-content/uploads/2020/07/pexels-darshak-pandya-2526935.jpg"/>
 <div class="blog-meta-info mb-15">
 <ul>
 <li><i class="fa fa-user-o"></i>GLOBE SCOTT MOTORS</li>
