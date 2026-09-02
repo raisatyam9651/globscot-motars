@@ -1,7 +1,24 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /blog/
+
+# Blog index (with optional ?page=N pagination) is served directly
 RewriteRule ^index\.php$ - [L]
+
+# Add a trailing slash to extensionless blog URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !\.[^/.]+$
+RewriteRule ^(.*)$ /blog/$1/ [R=301,L]
+
+# Serve /blog/<slug>/ from /blog/<slug>.php when that file exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f
+RewriteRule ^([^/]+)/$ $1.php [L]
+
+# Anything else under /blog/ falls back to the blog index
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /blog/index.php [L]

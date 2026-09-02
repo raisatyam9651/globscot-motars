@@ -8,6 +8,104 @@ require_once __DIR__ . '/../includes/header.php';
 
 $all_posts = [
     [
+        'title' => 'Motor Testing Standards: What Happens Before a Unit Ships',
+        'url' => '/blog/electric-motor-testing-standards-before-a-unit-ships/',
+        'date' => 'September 2, 2026',
+        'excerpt' => 'The actual test sequence a motor passes before dispatch: magnet flux and coercive force checks, ultrasonic flaw detection on every magnet, armature testing, dynamometer verification and endurance testing at rated load.',
+        'image' => '/wp-content/uploads/2026/09/electric-motor-testing-standards-inspection.jpg'
+    ],
+    [
+        'title' => 'PMDC vs BLDC Motors: Which One Actually Fits Your Application',
+        'url' => '/blog/pmdc-vs-bldc-motor-application-fit-guide/',
+        'date' => 'September 1, 2026',
+        'excerpt' => 'Decide on real criteria instead of habit: torque curve behaviour, duty cycle, controller cost and five-year brush wear economics, with a scoring checklist you can apply to your own machine.',
+        'image' => '/wp-content/uploads/2026/09/pmdc-vs-bldc-motor-selection-guide.jpg'
+    ],
+    [
+        'title' => 'Custom Motor Specifications: What to Bring to Your First Call',
+        'url' => '/blog/custom-motor-specification-checklist-first-call/',
+        'date' => 'August 31, 2026',
+        'excerpt' => 'The five numbers every motor RFQ needs on day one, the duty and ambient data that changes the design, and the mounting details that cause redesign when they arrive late.',
+        'image' => '/wp-content/uploads/2026/09/custom-motor-specification-rfq-checklist.jpg'
+    ],
+    [
+        'title' => 'Motor Efficiency Ratings Explained for Equipment Buyers',
+        'url' => '/blog/motor-efficiency-ratings-explained-for-equipment-buyers/',
+        'date' => 'August 30, 2026',
+        'excerpt' => 'A worked three-shift operating cost example, why IE efficiency classes do not apply to DC motors, and the four questions to ask before comparing two efficiency numbers.',
+        'image' => '/wp-content/uploads/2026/09/motor-efficiency-rating-testing-panel.jpg'
+    ],
+    [
+        'title' => 'Brushed vs Brushless: The Maintenance Conversation Nobody Has Upfront',
+        'url' => '/blog/brushed-vs-brushless-motor-maintenance-comparison/',
+        'date' => 'August 29, 2026',
+        'excerpt' => 'What actually wears in a brushed motor, what replaces that failure mode in a brushless one, and a five-year maintenance comparison built around what a planned stoppage really costs.',
+        'image' => '/wp-content/uploads/2026/09/brushed-vs-brushless-motor-maintenance-workshop.jpg'
+    ],
+    [
+        'title' => 'Motor Insulation Classes Explained: What Class F vs Class H Actually Means',
+        'url' => '/blog/motor-insulation-classes-explained-class-f-vs-class-h/',
+        'date' => 'August 28, 2026',
+        'excerpt' => 'Class B, F and H temperature limits, how ambient plus winding rise plus hot spot add up to the class figure, and why exceeding the rating halves insulation life rather than degrading performance.',
+        'image' => '/wp-content/uploads/2026/09/motor-insulation-class-thermal-rating.jpg'
+    ],
+    [
+        'title' => 'What “Made in India Since 1985” Actually Means for Motor Reliability',
+        'url' => '/blog/made-in-india-since-1985-motor-reliability/',
+        'date' => 'August 27, 2026',
+        'excerpt' => 'Why four decades in one plant matters when choosing an Indian electric motor manufacturer: tooling maturity, accumulated failure-mode history, magnet quality control and verifiable supply continuity.',
+        'image' => '/wp-content/uploads/2026/09/indian-electric-motor-manufacturing-plant.jpg'
+    ],
+    [
+        'title' => 'Where PMDC Motors Show Up in HVAC and Appliance Equipment',
+        'url' => '/blog/pmdc-motors-in-hvac-and-appliance-equipment/',
+        'date' => 'August 26, 2026',
+        'excerpt' => 'Blower and fan torque profiles, appliance drive economics, damper actuation, and an honest look at where a brushed motor is the wrong choice in continuously running HVAC equipment.',
+        'image' => '/wp-content/uploads/2026/09/pmdc-motor-hvac-blower-fan-application.jpg'
+    ],
+    [
+        'title' => 'Motor Mounting Configurations Explained',
+        'url' => '/blog/motor-mounting-configurations-explained/',
+        'date' => 'August 25, 2026',
+        'excerpt' => 'B3 foot, B5 flange and B14 face mounting compared on geometry, load path, alignment and vibration, plus the four installation mistakes that quietly destroy motor bearings.',
+        'image' => '/wp-content/uploads/2026/09/motor-mounting-configuration-technical-drawing.jpg'
+    ],
+    [
+        'title' => 'Lead Times in Motor Manufacturing: What Actually Drives Them',
+        'url' => '/blog/motor-manufacturing-lead-times-explained/',
+        'date' => 'August 24, 2026',
+        'excerpt' => 'Stock versus custom winding, magnet and gear supply, tooling and the approval loop account for almost all lead time variance. How to plan a production ramp against reality.',
+        'image' => '/wp-content/uploads/2026/09/motor-manufacturing-lead-time-dispatch.jpg'
+    ],
+    [
+        'title' => 'The Importance of Customization in PMDC Motor Design',
+        'url' => '/blog/importance-of-customization-in-pmdc-motor-design/',
+        'date' => 'August 22, 2026',
+        'excerpt' => 'Winding, gear ratio, shaft, mounting and IP rating matched to your machine, what customisation genuinely cannot fix, and how a short design loop works when tooling is in-house.',
+        'image' => '/wp-content/uploads/2026/09/custom-pmdc-motor-design-engineering.jpg'
+    ],
+    [
+        'title' => 'Understanding the Benefits of PMDC Motors in Industrial Applications',
+        'url' => '/blog/benefits-of-pmdc-motors-in-industrial-applications/',
+        'date' => 'August 21, 2026',
+        'excerpt' => 'High starting torque without a controller, near-linear speed control, compact frames from 25 W to 3000 W, and easy torque multiplication through a gearhead. Plus where a PMDC motor is the wrong answer.',
+        'image' => '/wp-content/uploads/2026/09/pmdc-motor-industrial-application-production-line.jpg'
+    ],
+    [
+        'title' => 'BLDC Motors vs PMDC Motors: Which is Right for Your Application?',
+        'url' => '/blog/bldc-vs-pmdc-motors-which-is-right-for-your-application/',
+        'date' => 'August 20, 2026',
+        'excerpt' => 'A straight comparison from a manufacturer that builds both: commutation, efficiency, controller cost, lifespan and duty cycle, reduced to a two-question shortcut.',
+        'image' => '/wp-content/uploads/2020/02/BRUSH-LESS-DC-MOTOR-FOR-RAILWAY-CARRIAGE-FANS-550x367.png'
+    ],
+    [
+        'title' => 'Globe Scott Motors: Your Partner for Custom PMDC Motor Solutions',
+        'url' => '/blog/custom-pmdc-motor-solutions-globe-scott-motors/',
+        'date' => 'August 18, 2026',
+        'excerpt' => 'Custom permanent magnet DC motors from 25 W to 3000 W, built in India since 1985. In-house tool room, computer-aided design, and dynamometer verification of every unit shipped.',
+        'image' => '/wp-content/uploads/2026/09/custom-pmdc-motor-solutions-engineering-team.jpg'
+    ],
+    [
         'title' => 'What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide',
         'url' => 'blog/what-is-pmdc-motor.php',
         'date' => 'August 14, 2026',

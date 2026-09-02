@@ -294,7 +294,11 @@ $body_class = isset($body_class) ? $body_class : 'page-template page-template-pa
 <?php
 /* --- SEO: canonical, meta description, Open Graph, Twitter, structured data --- */
 $gs_base      = rtrim(SITE_URL, '/');
-$gs_slug      = ($current_page === 'index') ? '' : $current_page . '/';
+/* $canonical_path lets a page declare its own path (e.g. blog posts living in /blog/).
+   Falls back to the historic "<current_page>/" behaviour when it is not set. */
+$gs_slug      = isset($canonical_path)
+                ? ltrim($canonical_path, '/')
+                : (($current_page === 'index') ? '' : $current_page . '/');
 $gs_canonical = $gs_base . '/' . $gs_slug;
 $gs_desc      = isset($meta_description) ? $meta_description
                 : (SITE_NAME . ' – manufacturer of PMDC, BLDC, geared motors, PMDC transaxles and railway signalling products since 1985. ISO 9001:2015 certified, Killa Pardi, Gujarat, India.');
