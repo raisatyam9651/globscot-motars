@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Motors for Industrial Cleaning Machines: PMDC Motor and Transaxle Applications</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Industrial Cleaning Machine Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Industrial Cleaning Machine Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Cleaning Equipment Drives</h2>
 <p>Walk-behind and ride-on industrial floor scrubbers, sweepers, and vacuum machines operate under tough conditions, contending with water spray, detergent chemicals, fine dust, and continuous daily operation. These machines rely on three distinct electrical motor systems: **Brush Drive Motors**, **Vacuum Suction Motors**, and **Traction Transaxle Motors**.</p>
 
-<p>Permanent Magnet DC (PMDC) motors and PMDC transaxle drive units are the dominant choice for battery-powered cleaning machinery due to their high starting torque, compact size, high battery efficiency, and IP-rated splash protection. As a leading <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors engineers dedicated cleaning machine drives. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog, our <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> line.</p>
+<p>Permanent Magnet DC (PMDC) motors and PMDC transaxle drive units are the dominant choice for battery-powered cleaning machinery due to their high starting torque, compact size, high battery efficiency, and IP-rated splash protection. As a leading <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors engineers dedicated cleaning machine drives. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog, our <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> range, and our <a href="/products/">DC Motor Manufacturer in India</a> line.</p>
 
 <hr/>
 
@@ -87,7 +87,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Integrated Electromagnetic Holding Brake:</strong> Ride-on scrubber transaxles require automatic holding brakes to secure vehicles on ramps when unpowered.</li>
 </ul>
 
-<p>For specialized gear reduction units, see our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> catalog. For routine maintenance protocols, review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC basics, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For specialized gear reduction units, see our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> catalog. For routine maintenance protocols, review our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC basics, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -115,7 +115,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Inspect carbon brushes every 1,500 to 2,500 operating hours, clear wound string/debris from drive axles, and check shaft seal integrity.</p>
 
 <h3>Q8: Where can I buy custom cleaning machine motors in India?</h3>
-<p>Globe Scott Motors manufactures custom scrubber and sweeper motors. Contact our application team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures custom scrubber and sweeper motors. Contact our application team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -138,8 +138,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/motors-for-industrial-cleaning-machines-pmdc-transaxle-applications.php">Cleaning Machine Motors Guide</a></li>
-<li><a href="blog/electric-motors-for-material-handling-equipment-types-selection.php">Material Handling Motors Guide</a></li>
+<li><a href="/blog/motors-for-industrial-cleaning-machines-pmdc-transaxle-applications/">Cleaning Machine Motors Guide</a></li>
+<li><a href="/blog/electric-motors-for-material-handling-equipment-types-selection/">Material Handling Motors Guide</a></li>
 </ul>
 </div>
 </aside>

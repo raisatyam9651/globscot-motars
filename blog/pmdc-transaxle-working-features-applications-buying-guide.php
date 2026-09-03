@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>PMDC Transaxle: Working, Features, Applications & Buying Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Transaxle Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Transaxle Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to PMDC Transaxles</h2>
 <p>In electric vehicle design, integrating a separate motor, driveshaft, gearbox, and differential consumes valuable space and increases vehicle weight. A **PMDC Transaxle** solves this by combining a Permanent Magnet DC electric motor, high-reduction gear train, mechanical differential, and dual drive axle shafts into a single compact, sealed drive unit.</p>
 
-<p>PMDC transaxles are widely utilized in battery-powered mobility equipment, electric wheelchairs, golf carts, warehouse tuggers, floor scrubbers, and light electric utility vehicles. As a premier <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors engineers custom transaxles. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog, our <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> line.</p>
+<p>PMDC transaxles are widely utilized in battery-powered mobility equipment, electric wheelchairs, golf carts, warehouse tuggers, floor scrubbers, and light electric utility vehicles. As a premier <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors engineers custom transaxles. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog, our <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> range, and our <a href="/products/">DC Motor Manufacturer in India</a> line.</p>
 
 <hr/>
 
@@ -93,7 +93,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For custom ratio gear reduction options, view our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> page. For routine maintenance guidelines, check our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC fundamentals, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For custom ratio gear reduction options, view our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> page. For routine maintenance guidelines, check our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC fundamentals, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -121,7 +121,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Inspect carbon brushes every 2,000 operating hours, check wheel lug bolt tightness, and verify manual freewheel lever operation.</p>
 
 <h3>Q8: Where can I order custom PMDC transaxle units in India?</h3>
-<p>Globe Scott Motors customizes transaxle track widths, gear ratios, and motor ratings. Submit your specs on our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors customizes transaxle track widths, gear ratios, and motor ratings. Submit your specs on our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -144,8 +144,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/pmdc-transaxle-working-features-applications-buying-guide.php">PMDC Transaxle Buying Guide</a></li>
-<li><a href="blog/motors-for-industrial-cleaning-machines-pmdc-transaxle-applications.php">Cleaning Machine Motors Guide</a></li>
+<li><a href="/blog/pmdc-transaxle-working-features-applications-buying-guide/">PMDC Transaxle Buying Guide</a></li>
+<li><a href="/blog/motors-for-industrial-cleaning-machines-pmdc-transaxle-applications/">Cleaning Machine Motors Guide</a></li>
 </ul>
 </div>
 </aside>

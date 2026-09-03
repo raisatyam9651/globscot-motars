@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>PMDC Motors for Pumps: Benefits, Applications & Selection Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Motors for Pumps</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Motors for Pumps</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to PMDC Pump Drives</h2>
 <p>Positive displacement pumps, diaphragm chemical metering pumps, hydraulic power units, and solar water pumps require compact, high-efficiency electrical drives capable of running on DC battery power or solar PV arrays. **Permanent Magnet DC (PMDC) Motors** are the preferred choice for DC-powered pumping applications due to their high starting torque, excellent power density, and linear voltage-speed control.</p>
 
-<p>Whether you are designing portable chemical sprayers, automotive fuel pumps, or agricultural solar pumps, selecting the right PMDC pump motor requires calculating hydraulic power requirements, continuous torque limits, and liquid ingress protection. As a premier <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a>, Globe Scott Motors manufactures custom pump motors for OEMs. Explore our complete <a href="products.php">DC Motor Manufacturer in India</a> range and our <a href="about-us.php">DC Motor Manufacturer in India</a> expertise.</p>
+<p>Whether you are designing portable chemical sprayers, automotive fuel pumps, or agricultural solar pumps, selecting the right PMDC pump motor requires calculating hydraulic power requirements, continuous torque limits, and liquid ingress protection. As a premier <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a>, Globe Scott Motors manufactures custom pump motors for OEMs. Explore our complete <a href="/products/">DC Motor Manufacturer in India</a> range and our <a href="/about-us/">DC Motor Manufacturer in India</a> expertise.</p>
 
 <hr/>
 
@@ -88,7 +88,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For high-torque low-speed pumps, see our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> options and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> catalog. For routine maintenance protocols, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC basics, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> line.</p>
+<p>For high-torque low-speed pumps, see our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> options and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> catalog. For routine maintenance protocols, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC basics, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> line.</p>
 
 <hr/>
 
@@ -116,7 +116,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Routine maintenance involves checking carbon brush length every 2,000 to 3,000 operating hours and verifying shaft seal integrity.</p>
 
 <h3>Q8: Where can I get custom PMDC pump motors in India?</h3>
-<p>Globe Scott Motors manufactures custom PMDC pump motors. Submit your requirements on our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures custom PMDC pump motors. Submit your requirements on our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -139,8 +139,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/pmdc-motors-for-pumps-benefits-applications-selection-guide.php">PMDC Motors for Pumps Guide</a></li>
-<li><a href="blog/dc-motors-for-railway-signalling-systems-applications-selection.php">DC Motors for Railway Signalling</a></li>
+<li><a href="/blog/pmdc-motors-for-pumps-benefits-applications-selection-guide/">PMDC Motors for Pumps Guide</a></li>
+<li><a href="/blog/dc-motors-for-railway-signalling-systems-applications-selection/">DC Motors for Railway Signalling</a></li>
 </ul>
 </div>
 </aside>

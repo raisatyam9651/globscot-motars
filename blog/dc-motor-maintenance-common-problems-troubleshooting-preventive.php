@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>DC Motor Maintenance: Common Problems, Troubleshooting & Preventive Maintenance</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">DC Motor Maintenance</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">DC Motor Maintenance</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Industrial DC Motor Maintenance</h2>
 <p>Direct current (DC) motors are known for high starting torque and precise speed control. However, like all electro-mechanical machinery operating in industrial environments, brushed DC motors require systematic preventive maintenance to prevent sudden breakdowns, commutator arcing, and insulation failure.</p>
 
-<p>Implementing a structured preventive maintenance routine extends motor operating life, reduces unscheduled downtime, and lowers total cost of ownership. As a leading <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a>, Globe Scott Motors provides maintenance support for plant engineers. Explore our complete <a href="products.php">DC Motor Manufacturer in India</a> range, our <a href="about-us.php">DC Motor Manufacturer in India</a> history, and our dedicated product catalogs.</p>
+<p>Implementing a structured preventive maintenance routine extends motor operating life, reduces unscheduled downtime, and lowers total cost of ownership. As a leading <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a>, Globe Scott Motors provides maintenance support for plant engineers. Explore our complete <a href="/products/">DC Motor Manufacturer in India</a> range, our <a href="/about-us/">DC Motor Manufacturer in India</a> history, and our dedicated product catalogs.</p>
 
 <hr/>
 
@@ -93,7 +93,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For custom reduction gear maintenance, view our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> catalog and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> range. For transaxle maintenance, see our <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a> page. For railway motors, browse our <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a> section. Read more about DC motor advantages in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a> or review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For custom reduction gear maintenance, view our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> catalog and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> range. For transaxle maintenance, see our <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a> page. For railway motors, browse our <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a> section. Read more about DC motor advantages in our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a> or review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -121,7 +121,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Switch to BLDC motors when zero maintenance, high efficiency (> 90%), or hazardous explosive dust protection is required.</p>
 
 <h3>Q8: Where can I source replacement components for Globe Scott DC motors?</h3>
-<p>Original replacement brushes, brush holders, and armatures can be ordered via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Original replacement brushes, brush holders, and armatures can be ordered via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -144,8 +144,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/dc-motor-maintenance-common-problems-troubleshooting-preventive.php">DC Motor Maintenance Guide</a></li>
-<li><a href="blog/how-to-choose-right-motor-power-rpm-and-gear-ratio.php">Motor Power & Gear Ratio Guide</a></li>
+<li><a href="/blog/dc-motor-maintenance-common-problems-troubleshooting-preventive/">DC Motor Maintenance Guide</a></li>
+<li><a href="/blog/how-to-choose-right-motor-power-rpm-and-gear-ratio/">Motor Power & Gear Ratio Guide</a></li>
 </ul>
 </div>
 </aside>

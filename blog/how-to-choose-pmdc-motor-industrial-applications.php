@@ -17,7 +17,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>How to Choose the Right PMDC Motor for Industrial Applications</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Industrial Selection Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Industrial Selection Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Industrial Motor Sizing</h2>
 <p>Selecting the correct motor for industrial automation, conveyor systems, indexing drives, and heavy machinery is a crucial engineering task. Oversizing a motor leads to unnecessary capital expenditure, bulkier mechanical housings, and oversized power supplies. Conversely, undersizing a motor causes frequent thermal trips, rapid brush degradation, winding burnout, and costly machine downtime.</p>
 
-<p>Permanent Magnet Direct Current (PMDC) motors are favored in industrial automation due to their linear speed-torque relationship, high starting torque, compact physical footprint, and simplified voltage-based speed control. However, choosing the right PMDC motor requires systematic evaluation of dynamic load profiles, thermal dissipation limits, duty cycles, and environmental factors. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we assist industrial OEMs in sizing precision motor drives tailored to demanding operating conditions. Explore our dedicated <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a> for detailed technical data sheets.</p>
+<p>Permanent Magnet Direct Current (PMDC) motors are favored in industrial automation due to their linear speed-torque relationship, high starting torque, compact physical footprint, and simplified voltage-based speed control. However, choosing the right PMDC motor requires systematic evaluation of dynamic load profiles, thermal dissipation limits, duty cycles, and environmental factors. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we assist industrial OEMs in sizing precision motor drives tailored to demanding operating conditions. Explore our dedicated <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a> for detailed technical data sheets.</p>
 
 <hr/>
 
@@ -116,7 +116,7 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 </li>
 </ul>
 
-<p>For applications experiencing high thermal stress, choosing high insulation classes (Class F 155°C or Class H 180°C) prevents premature winding breakdown. For background on basic motor benefits, see our guide on the <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
+<p>For applications experiencing high thermal stress, choosing high insulation classes (Class F 155°C or Class H 180°C) prevents premature winding breakdown. For background on basic motor benefits, see our guide on the <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>.</p>
 
 <hr/>
 
@@ -129,7 +129,7 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 <li><strong>PWM Chopper Speed Control:</strong> Select Pulse Width Modulation (PWM) drivers operating at frequencies between 10kHz and 20kHz to ensure smooth low-speed torque delivery without audible coil whine.</li>
 </ul>
 
-<p>If your application requires substantial torque multiplication at lower output speeds, pairing PMDC drives with precision gearheads is recommended. Explore our range of <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>If your application requires substantial torque multiplication at lower output speeds, pairing PMDC drives with precision gearheads is recommended. Explore our range of <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a> and broader <a href="/products-geared-motors/">industrial geared motor solutions</a>.</p>
 
 <hr/>
 
@@ -143,9 +143,9 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 </ul>
 
 <h3>B. Radial and Axial Shaft Loads</h3>
-<p>When driving belts, chains, or heavy overhang pulleys, verify the manufacturer's maximum allowable **radial shaft load (<b>F_{radial}</b>)** and **axial thrust load (<b>F_{axial}</b>)** to prevent bearing damage. For complete details on maintaining industrial brushed motors, refer to our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
+<p>When driving belts, chains, or heavy overhang pulleys, verify the manufacturer's maximum allowable **radial shaft load (<b>F_{radial}</b>)** and **axial thrust load (<b>F_{axial}</b>)** to prevent bearing damage. For complete details on maintaining industrial brushed motors, refer to our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>.</p>
 
-<p>To learn more about fundamental PMDC construction, read our core guide on <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its working principle</a> or compare brushed technology with our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
+<p>To learn more about fundamental PMDC construction, read our core guide on <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its working principle</a> or compare brushed technology with our <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a>.</p>
 
 <hr/>
 
@@ -173,7 +173,7 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 <p>Routine maintenance includes periodic inspection of carbon brushes every 2,000 to 3,000 hours, cleaning accumulated carbon dust from commutator slots, and verifying bearing smoothness.</p>
 
 <h3>Q8: Where can I get custom engineering assistance to size a PMDC motor for my application?</h3>
-<p>You can consult directly with our application engineering team at Globe Scott Motors. Visit our <a href="contact-us.php">contact our motor engineering specialists</a> page to submit your application details.</p>
+<p>You can consult directly with our application engineering team at Globe Scott Motors. Visit our <a href="/contact-us/">contact our motor engineering specialists</a> page to submit your application details.</p>
 
 <hr/>
 
@@ -188,7 +188,7 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Contact Our Engineers</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Contact Our Engineers</a></div>
 </div>
 </div>
 </div>
@@ -203,7 +203,7 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="blog/pmdc-motor-vs-bldc-motor-comparison.php">
+<a class="single-post-nav" href="/blog/pmdc-motor-vs-bldc-motor-comparison/">
 <h4 class="post-title">PMDC Motor vs BLDC Motor Comparison</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -211,7 +211,7 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="blog/geared-pmdc-motor-working-benefits-applications-selection-guide.php">
+<a class="single-post-nav" href="/blog/geared-pmdc-motor-working-benefits-applications-selection-guide/">
 <h4 class="post-title">Geared PMDC Motor Selection Guide</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -235,9 +235,9 @@ Select a PMDC motor whose continuous rating exceeds <b>τ<sub>rms</sub></b>.
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/how-to-choose-pmdc-motor-industrial-applications.php">How to Choose the Right PMDC Motor for Industrial Applications</a></li>
-<li><a href="blog/pmdc-motor-vs-bldc-motor-comparison.php">PMDC Motor vs BLDC Motor Comparison</a></li>
-<li><a href="blog/pmdc-motor-manufacturer-in-india-buyers-guide.php">PMDC Motor Manufacturer in India: Complete Buyer’s Guide</a></li>
+<li><a href="/blog/how-to-choose-pmdc-motor-industrial-applications/">How to Choose the Right PMDC Motor for Industrial Applications</a></li>
+<li><a href="/blog/pmdc-motor-vs-bldc-motor-comparison/">PMDC Motor vs BLDC Motor Comparison</a></li>
+<li><a href="/blog/pmdc-motor-manufacturer-in-india-buyers-guide/">PMDC Motor Manufacturer in India: Complete Buyer’s Guide</a></li>
 </ul>
 </div>
 </aside>

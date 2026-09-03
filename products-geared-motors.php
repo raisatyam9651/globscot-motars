@@ -23,7 +23,7 @@ require_once __DIR__ . '/includes/header.php';
                         Geared Motor Manufacturer in India
                         </h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="products.php">Products</a></li><li class="breadcrumb-item active">Geared Motors India</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/products/">Products</a></li><li class="breadcrumb-item active">Geared Motors India</li></ol> </nav>
 </div>
 </div>
 </div>

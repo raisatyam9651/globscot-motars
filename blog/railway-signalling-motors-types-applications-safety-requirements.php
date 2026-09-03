@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Railway Signalling Motors: Types, Applications & Safety Requirements</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Railway Signalling Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Railway Signalling Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Railway Signalling Motor Systems</h2>
 <p>Railway signalling infrastructure is the backbone of modern rail transportation, responsible for regulating train movements, preventing collisions, and managing track switches at high speeds. At the heart of electro-mechanical signalling hardware—such as point machines, level-crossing lifting barriers, and signal arm actuators—are specialized, heavy-duty electrical motors built to stringent reliability and fail-safe safety standards.</p>
 
-<p>Because railway motors operate in harsh outdoor trackside environments subject to rain, extreme ambient temperatures, vibration, and dust, they must meet rigorous IP67 waterproof standards and comply with Indian Railways RDSO specifications. As a trusted <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors has supplied over 200,000 trackside motors across Indian Railways networks. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog and our broader <a href="products.php">DC Motor Manufacturer in India</a> range.</p>
+<p>Because railway motors operate in harsh outdoor trackside environments subject to rain, extreme ambient temperatures, vibration, and dust, they must meet rigorous IP67 waterproof standards and comply with Indian Railways RDSO specifications. As a trusted <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors has supplied over 200,000 trackside motors across Indian Railways networks. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog and our broader <a href="/products/">DC Motor Manufacturer in India</a> range.</p>
 
 <hr/>
 
@@ -89,7 +89,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Point machines unlock, throw, and lock heavy rail switch blades. Motors driving point machines must deliver massive instantaneous starting torque to move heavy steel rail points within 2 to 4 seconds, even when clogged with ballast dust or ice.</p>
 
 <h3>B. Level Crossing Lifting Barriers</h3>
-<p>Lifting barriers protect road-rail intersections. Barrier motors must smoothly lift and lower heavy boom arms (up to 10 meters long) while resisting strong wind resistance. For high-torque reduced speed drives, see our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> page.</p>
+<p>Lifting barriers protect road-rail intersections. Barrier motors must smoothly lift and lower heavy boom arms (up to 10 meters long) while resisting strong wind resistance. For high-torque reduced speed drives, see our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> page.</p>
 
 <h3>C. Signal Semaphore Actuators</h3>
 <p>In legacy and secondary line signaling, electric motors actuate mechanical semaphore arms and trip levers with 100% position accuracy.</p>
@@ -102,10 +102,10 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>RDSO Approval & Compliance:</strong> In India, all railway trackside motors must meet strict Research Designs and Standards Organisation (RDSO) specifications (such as IRS S-24 and IRS S-37).</li>
 <li><strong>IP67 Submersible Waterproof Protection:</strong> Trackside motors face heavy monsoon flooding and mud immersion. IP67 sealing prevents water ingress into armatures and commutators.</li>
 <li><strong>Class H Insulation (180°C):</strong> Dual-coated magnet wire and vacuum pressure impregnation prevent winding breakdown under high ambient thermal stress.</li>
-<li><strong>High Surge & Vibration Resistance:</strong> Trackside installations endure constant shock waves from passing heavy freight trains. Reinforced end-bells and heavy-duty ball bearings are mandatory. For maintenance guidelines, review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</li>
+<li><strong>High Surge & Vibration Resistance:</strong> Trackside installations endure constant shock waves from passing heavy freight trains. Reinforced end-bells and heavy-duty ball bearings are mandatory. For maintenance guidelines, review our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>.</li>
 </ul>
 
-<p>For more on basic motor fundamentals, see our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a> or read our detailed overview of <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless alternatives, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> page.</p>
+<p>For more on basic motor fundamentals, see our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a> or read our detailed overview of <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless alternatives, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> page.</p>
 
 <hr/>
 
@@ -133,7 +133,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Motors undergo high-voltage dielectric testing, endurance cycle testing (minimum 20,000 continuous operations), salt spray corrosion testing, and water immersion IP67 verification.</p>
 
 <h3>Q8: How can I order RDSO-compliant railway signalling motors from Globe Scott Motors?</h3>
-<p>You can submit your technical tender requirements directly to our railway engineering division via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>You can submit your technical tender requirements directly to our railway engineering division via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -156,8 +156,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/railway-signalling-motors-types-applications-safety-requirements.php">Railway Signalling Motors Guide</a></li>
-<li><a href="blog/what-is-pmdc-motor.php">What Is a PMDC Motor? Working Guide</a></li>
+<li><a href="/blog/railway-signalling-motors-types-applications-safety-requirements/">Railway Signalling Motors Guide</a></li>
+<li><a href="/blog/what-is-pmdc-motor/">What Is a PMDC Motor? Working Guide</a></li>
 </ul>
 </div>
 </aside>

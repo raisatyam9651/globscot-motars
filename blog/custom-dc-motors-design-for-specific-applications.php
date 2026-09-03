@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Custom DC Motors: How Manufacturers Design Motors for Specific Applications</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Custom DC Motor Engineering</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Custom DC Motor Engineering</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Custom DC Motor Design</h2>
 <p>Standard off-the-shelf catalog motors are designed for generic applications. However, when building complex OEM machinery—such as medical infusion pumps, railway point machines, agricultural sprayers, or automated mobile robots—standard motors often fail to meet physical envelope constraints, exact voltage requirements, or specialized shaft dimensions.</p>
 
-<p>Custom DC motor manufacturing solves this by engineering electrical windings, magnetic circuits, mechanical shafts, and gearheads specifically to match the machine's exact operational profile. As a premier <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a>, Globe Scott Motors specializes in custom motor engineering. Explore our complete <a href="products.php">DC Motor Manufacturer in India</a> range, our <a href="about-us.php">DC Motor Manufacturer in India</a> experience, and our dedicated product lines.</p>
+<p>Custom DC motor manufacturing solves this by engineering electrical windings, magnetic circuits, mechanical shafts, and gearheads specifically to match the machine's exact operational profile. As a premier <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a>, Globe Scott Motors specializes in custom motor engineering. Explore our complete <a href="/products/">DC Motor Manufacturer in India</a> range, our <a href="/about-us/">DC Motor Manufacturer in India</a> experience, and our dedicated product lines.</p>
 
 <hr/>
 
@@ -93,7 +93,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Validation & Full-Scale OEM Production:</strong> Performance curve validation under full load before volume production.</li>
 </ol>
 
-<p>For custom reduction gear drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> offerings. For transaxle applications, see our <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a> page. For railway applications, browse our <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a> selection. For maintenance guidelines, review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our overview of <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC basics, read <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For custom reduction gear drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> offerings. For transaxle applications, see our <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a> page. For railway applications, browse our <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a> selection. For maintenance guidelines, review our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our overview of <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC basics, read <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -121,7 +121,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Yes. All custom motors manufactured by Globe Scott Motors comply with ISO 9001:2015, CE, and ROHS directives.</p>
 
 <h3>Q8: How can I start a custom motor design project with Globe Scott Motors?</h3>
-<p>Submit your application details directly to our engineering team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Submit your application details directly to our engineering team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -144,8 +144,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/custom-dc-motors-design-for-specific-applications.php">Custom DC Motors Guide</a></li>
-<li><a href="blog/dc-gear-motors-for-winches-torque-speed-load-selection-guide.php">DC Winch Gear Motors Guide</a></li>
+<li><a href="/blog/custom-dc-motors-design-for-specific-applications/">Custom DC Motors Guide</a></li>
+<li><a href="/blog/dc-gear-motors-for-winches-torque-speed-load-selection-guide/">DC Winch Gear Motors Guide</a></li>
 </ul>
 </div>
 </aside>

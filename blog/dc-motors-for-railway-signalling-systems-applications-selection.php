@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>DC Motors for Railway Signalling Systems: Applications and Selection Factors</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">DC Motors for Railway Signalling</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">DC Motors for Railway Signalling</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Railway DC Motor Drives</h2>
 <p>Direct current (DC) motors remain the preferred electro-mechanical prime mover for railway signalling infrastructure worldwide. Their inherent ability to deliver massive starting torque directly from battery backup power systems (110V DC or 24V DC) makes DC motors ideal for critical safety equipment such as point machines, level crossing gates, and signal trip mechanisms.</p>
 
-<p>However, selecting the right DC motor for railway signalling requires evaluating high starting current spikes, short-duration high-torque duty cycles, IP67 waterproof sealing, and strict RDSO compliance. As an established <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors engineers high-reliability DC motors for railway OEMs. Explore our complete <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog and our full <a href="products.php">DC Motor Manufacturer in India</a> range.</p>
+<p>However, selecting the right DC motor for railway signalling requires evaluating high starting current spikes, short-duration high-torque duty cycles, IP67 waterproof sealing, and strict RDSO compliance. As an established <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors engineers high-reliability DC motors for railway OEMs. Explore our complete <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog and our full <a href="/products/">DC Motor Manufacturer in India</a> range.</p>
 
 <hr/>
 
@@ -92,7 +92,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For high-torque reduction drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> page and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> section. For maintenance procedures, check our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC principles, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> catalog.</p>
+<p>For high-torque reduction drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> page and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> section. For maintenance procedures, check our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC principles, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> catalog.</p>
 
 <hr/>
 
@@ -120,7 +120,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Yes. Modern BLDC motors with 24V/110V DC inverter drives are increasingly specified for maintenance-free auxiliary applications.</p>
 
 <h3>Q8: How can I order custom railway DC motors from Globe Scott Motors?</h3>
-<p>You can submit your voltage, torque, and mounting specifications to our engineering team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>You can submit your voltage, torque, and mounting specifications to our engineering team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -143,8 +143,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/dc-motors-for-railway-signalling-systems-applications-selection.php">DC Motors for Railway Signalling</a></li>
-<li><a href="blog/rdso-approved-railway-motors-buyers-guide.php">RDSO Approved Motors Guide</a></li>
+<li><a href="/blog/dc-motors-for-railway-signalling-systems-applications-selection/">DC Motors for Railway Signalling</a></li>
+<li><a href="/blog/rdso-approved-railway-motors-buyers-guide/">RDSO Approved Motors Guide</a></li>
 </ul>
 </div>
 </aside>

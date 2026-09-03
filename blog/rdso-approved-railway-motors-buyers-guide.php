@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>RDSO Approved Railway Motors: What Buyers Need to Know</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">RDSO Approved Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">RDSO Approved Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to RDSO Railway Standards</h2>
 <p>Indian Railways operates one of the largest rail transportation networks in the world. To ensure absolute safety, interoperability, and quality across millions of components deployed along rail tracks, all critical electro-mechanical equipment must be approved by the **Research Designs and Standards Organisation (RDSO)**—the technical advisory body to the Ministry of Railways.</p>
 
-<p>For railway contractors, signalling OEMs, and procurement managers, purchasing **RDSO Approved Railway Motors** is mandatory. Procuring non-approved motors leads to immediate tender rejection and poses severe safety risks. As a certified <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors has supplied over 200,000 RDSO-approved motors to Indian Railways. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog and our full <a href="products.php">DC Motor Manufacturer in India</a> range.</p>
+<p>For railway contractors, signalling OEMs, and procurement managers, purchasing **RDSO Approved Railway Motors** is mandatory. Procuring non-approved motors leads to immediate tender rejection and poses severe safety risks. As a certified <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors has supplied over 200,000 RDSO-approved motors to Indian Railways. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog and our full <a href="/products/">DC Motor Manufacturer in India</a> range.</p>
 
 <hr/>
 
@@ -89,7 +89,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Environmental & Shock Testing:</strong> Subjecting the motor to extreme thermal cycles (-20°C to +70°C), salt spray corrosion, and high-G shock vibration.</li>
 </ol>
 
-<p>For high-torque reduction drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> range and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> portfolio. For maintenance procedures, check our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC basics, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless drives, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> options.</p>
+<p>For high-torque reduction drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> range and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> portfolio. For maintenance procedures, check our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC basics, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless drives, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> options.</p>
 
 <hr/>
 
@@ -117,7 +117,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>RDSO conducts periodic factory audits and sample testing every 3 to 5 years to maintain vendor registration status.</p>
 
 <h3>Q8: How can buyers request RDSO compliance certificates from Globe Scott Motors?</h3>
-<p>Buyers can request official test reports and certificates by visiting our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Buyers can request official test reports and certificates by visiting our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -140,8 +140,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/rdso-approved-railway-motors-buyers-guide.php">RDSO Approved Motors Guide</a></li>
-<li><a href="blog/ip67-motors-for-railway-applications-benefits-protection-performance.php">IP67 Railway Motors Guide</a></li>
+<li><a href="/blog/rdso-approved-railway-motors-buyers-guide/">RDSO Approved Motors Guide</a></li>
+<li><a href="/blog/ip67-motors-for-railway-applications-benefits-protection-performance/">IP67 Railway Motors Guide</a></li>
 </ul>
 </div>
 </aside>

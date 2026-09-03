@@ -17,7 +17,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Geared PMDC Motor: Working, Benefits, Applications & Selection Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Geared PMDC Motor Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Geared PMDC Motor Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Geared PMDC Motors</h2>
 <p>In many industrial, automotive, and automation applications, high output speed is less important than low shaft speed coupled with substantial rotational torque. Standard direct-drive Permanent Magnet DC (PMDC) motors typically rotate at high speeds ranging from 1,500 to 5,000 RPM. Connecting a mechanical gearbox (gearhead) directly to the PMDC motor shaft creates a **Geared PMDC Motor**.</p>
 
-<p>A geared PMDC motor combines the high power density, simple electrical control, and linear torque-speed performance of a brushed PMDC motor with the mechanical torque multiplication and speed reduction of a precision gear train. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we engineer an extensive lineup of custom gearheads paired with precision PMDC armatures. Explore our complete <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and our full range of <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>A geared PMDC motor combines the high power density, simple electrical control, and linear torque-speed performance of a brushed PMDC motor with the mechanical torque multiplication and speed reduction of a precision gear train. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we engineer an extensive lineup of custom gearheads paired with precision PMDC armatures. Explore our complete <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a> and our full range of <a href="/products-geared-motors/">industrial geared motor solutions</a>.</p>
 
 <hr/>
 
@@ -113,7 +113,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>High Output Torque in a Compact Envelope:</strong> Gear reduction allows small, lightweight PMDC motors to produce hundreds of Newton-meters of torque without requiring oversized motor frames.</li>
 <li><strong>Precise Low-Speed Operation:</strong> Enables steady, vibration-free rotation at low speeds (1 RPM to 300 RPM) where direct-drive motors might cog or stall.</li>
 <li><strong>Self-Locking Capability (Worm Gearheads):</strong> High-ratio worm gearheads prevent back-driving, acting as a mechanical holding brake when power is disconnected—essential for elevators, medical beds, and cranes.</li>
-<li><strong>High System Efficiency:</strong> Combining a 90%+ efficient PMDC motor with planetary gearing ensures maximum battery runtime in mobile equipment. Learn more about core motor benefits in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</li>
+<li><strong>High System Efficiency:</strong> Combining a 90%+ efficient PMDC motor with planetary gearing ensures maximum battery runtime in mobile equipment. Learn more about core motor benefits in our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>.</li>
 <li><strong>Simplified Control:</strong> Simple PWM armature voltage adjustment regulates overall output speed linearly without complex electronic feedback loops.</li>
 </ul>
 
@@ -122,13 +122,13 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>4. Typical Industrial & Commercial Applications</h2>
 
 <h3>A. Industrial Automation & Material Handling</h3>
-<p>Driving belt conveyors, automated sorting gates, packaging machinery, palletizers, and indexing turntables. Explore our broader <a href="applications.php">industrial and automotive motor applications</a> overview.</p>
+<p>Driving belt conveyors, automated sorting gates, packaging machinery, palletizers, and indexing turntables. Explore our broader <a href="/applications/">industrial and automotive motor applications</a> overview.</p>
 
 <h3>B. Medical & Healthcare Mobility</h3>
 <p>Powering motorized wheelchairs, patient lift chairs, adjustable hospital bed actuators, and surgical table positioners where high reliability and low noise are mandatory.</p>
 
 <h3>C. Automotive & Off-Highway Vehicles</h3>
-<p>Used in agricultural seed metering drives, electric tailgate lifts, heavy truck cabin tilt systems, and commercial door actuators. Explore our standard <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a> for base motor specs.</p>
+<p>Used in agricultural seed metering drives, electric tailgate lifts, heavy truck cabin tilt systems, and commercial door actuators. Explore our standard <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a> for base motor specs.</p>
 
 <h3>D. Solar Trackers & Gate Openers</h3>
 <p>High-torque worm-geared PMDC motors provide strong wind-holding capability for outdoor solar panel positioning and automated sliding security gates.</p>
@@ -149,9 +149,9 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{motor\_required} = \frac{τ_{out\_required}}{i × η_{gearbox}}</div>
 
 <h3>Step 4: Check Overhung & Thrust Load Ratings</h3>
-<p>Verify that the output shaft bearings can safely withstand radial belt tension (<b>F_{radial}</b>) and axial push/pull thrust loads (<b>F_{thrust}</b>). Routine maintenance protects gear sets; review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
+<p>Verify that the output shaft bearings can safely withstand radial belt tension (<b>F_{radial}</b>) and axial push/pull thrust loads (<b>F_{thrust}</b>). Routine maintenance protects gear sets; review our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>.</p>
 
-<p>For background on brushed vs. brushless choices, read our comparison on <a href="blog/pmdc-motor-vs-bldc-motor-comparison.php">PMDC vs BLDC motors</a> or explore our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
+<p>For background on brushed vs. brushless choices, read our comparison on <a href="/blog/pmdc-motor-vs-bldc-motor-comparison/">PMDC vs BLDC motors</a> or explore our <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a>.</p>
 
 <hr/>
 
@@ -179,7 +179,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Fractional horsepower PMDC gearheads use lifetime synthetic grease (Class NLGI 2), eliminating the need for periodic oil changes.</p>
 
 <h3>Q8: Where can I order custom geared PMDC motors with specific ratios and shafts?</h3>
-<p>Globe Scott Motors customizes gear ratios, shaft geometries, and mounting options for OEMs. Submit your requirements on our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors customizes gear ratios, shaft geometries, and mounting options for OEMs. Submit your requirements on our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -194,7 +194,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Request Custom Engineering</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Request Custom Engineering</a></div>
 </div>
 </div>
 </div>
@@ -209,7 +209,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="blog/how-to-choose-pmdc-motor-industrial-applications.php">
+<a class="single-post-nav" href="/blog/how-to-choose-pmdc-motor-industrial-applications/">
 <h4 class="post-title">How to Choose the Right PMDC Motor</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -217,7 +217,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="blog/what-is-pmdc-motor.php">
+<a class="single-post-nav" href="/blog/what-is-pmdc-motor/">
 <h4 class="post-title">What Is a PMDC Motor? Working Guide</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -241,10 +241,10 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/geared-pmdc-motor-working-benefits-applications-selection-guide.php">Geared PMDC Motor: Working, Benefits, Applications & Selection Guide</a></li>
-<li><a href="blog/how-to-choose-pmdc-motor-industrial-applications.php">How to Choose the Right PMDC Motor for Industrial Applications</a></li>
-<li><a href="blog/pmdc-motor-vs-bldc-motor-comparison.php">PMDC Motor vs BLDC Motor Comparison</a></li>
-<li><a href="blog/pmdc-motor-manufacturer-in-india-buyers-guide.php">PMDC Motor Manufacturer in India: Complete Buyer’s Guide</a></li>
+<li><a href="/blog/geared-pmdc-motor-working-benefits-applications-selection-guide/">Geared PMDC Motor: Working, Benefits, Applications & Selection Guide</a></li>
+<li><a href="/blog/how-to-choose-pmdc-motor-industrial-applications/">How to Choose the Right PMDC Motor for Industrial Applications</a></li>
+<li><a href="/blog/pmdc-motor-vs-bldc-motor-comparison/">PMDC Motor vs BLDC Motor Comparison</a></li>
+<li><a href="/blog/pmdc-motor-manufacturer-in-india-buyers-guide/">PMDC Motor Manufacturer in India: Complete Buyer’s Guide</a></li>
 </ul>
 </div>
 </aside>

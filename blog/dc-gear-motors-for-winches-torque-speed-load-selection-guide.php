@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>DC Gear Motors for Winches: Torque, Speed & Load Selection Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">DC Winch Gear Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">DC Winch Gear Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Winch Drive Systems</h2>
 <p>Industrial winches, off-road vehicle recovery winches, marine capstans, and overhead crane hoists demand immense mechanical pulling force (line pull) under extreme starting loads. Because winches frequently operate from DC battery power (12V, 24V, 48V, or 110V DC), **DC Gear Motors** are the preferred prime movers.</p>
 
-<p>A winch DC gear motor pairs a high-torque DC motor armature with a heavy-reduction gearbox (such as planetary or worm gear trains) to convert high armature speed into high line-pull torque at a controlled cable drum speed. As a premier <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a>, Globe Scott Motors engineers heavy-duty winch drives. Explore our specialized <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> catalog, our <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
+<p>A winch DC gear motor pairs a high-torque DC motor armature with a heavy-reduction gearbox (such as planetary or worm gear trains) to convert high armature speed into high line-pull torque at a controlled cable drum speed. As a premier <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a>, Globe Scott Motors engineers heavy-duty winch drives. Explore our specialized <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> catalog, our <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> range, and our <a href="/products/">DC Motor Manufacturer in India</a> portfolio.</p>
 
 <hr/>
 
@@ -88,7 +88,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For application examples, explore our <a href="applications.php">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC basics, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> range.</p>
+<p>For application examples, explore our <a href="/applications/">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC basics, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> range.</p>
 
 <hr/>
 
@@ -116,7 +116,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Inspect carbon brushes every 1,500 operating hours, check gear lubricant grease, and test holding brake disengagement.</p>
 
 <h3>Q8: Where can I order custom winch gear motors in India?</h3>
-<p>Globe Scott Motors manufactures custom winch DC gear motors. Contact our team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures custom winch DC gear motors. Contact our team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -139,8 +139,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/dc-gear-motors-for-winches-torque-speed-load-selection-guide.php">DC Winch Gear Motors Guide</a></li>
-<li><a href="blog/pmdc-transaxle-motors-for-golf-carts-and-small-evs.php">Golf Cart PMDC Transaxles Guide</a></li>
+<li><a href="/blog/dc-gear-motors-for-winches-torque-speed-load-selection-guide/">DC Winch Gear Motors Guide</a></li>
+<li><a href="/blog/pmdc-transaxle-motors-for-golf-carts-and-small-evs/">Golf Cart PMDC Transaxles Guide</a></li>
 </ul>
 </div>
 </aside>

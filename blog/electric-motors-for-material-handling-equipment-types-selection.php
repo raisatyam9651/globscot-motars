@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Electric Motors for Material Handling Equipment: Types & Selection Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Material Handling Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Material Handling Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Material Handling Drives</h2>
 <p>Modern warehouse logistics, factory automation, and supply chain hubs rely on automated material handling equipment—such as Automated Guided Vehicles (AGVs), electric pallet trucks, belt conveyors, overhead hoists, and industrial floor sweepers. The performance, battery efficiency, and reliability of these machines depend directly on their electric motor drives.</p>
 
-<p>Selecting the right electric motor requires balancing load inertia, duty cycles, battery voltage (24V–72V DC), gear reduction, and thermal limits. As a trusted <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors manufactures traction and conveyor drives. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog, our <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> selection.</p>
+<p>Selecting the right electric motor requires balancing load inertia, duty cycles, battery voltage (24V–72V DC), gear reduction, and thermal limits. As a trusted <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors manufactures traction and conveyor drives. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog, our <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> range, and our <a href="/products/">DC Motor Manufacturer in India</a> selection.</p>
 
 <hr/>
 
@@ -92,7 +92,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Duty Cycle & Thermal Class:</strong> Continuous conveyor operations demand S1 duty class with Class F (155°C) or Class H (180°C) thermal insulation.</li>
 </ul>
 
-<p>For high-torque reduction drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> range. For maintenance guidelines, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC basics, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For high-torque reduction drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> range. For maintenance guidelines, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC basics, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -120,7 +120,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Inspect carbon brushes every 2,500 operating hours, check gear lubricant levels, and clean accumulated dust from motor housings.</p>
 
 <h3>Q8: Where can I get custom material handling motor recommendations in India?</h3>
-<p>You can submit your vehicle load and speed specs to our team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>You can submit your vehicle load and speed specs to our team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -143,8 +143,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/electric-motors-for-material-handling-equipment-types-selection.php">Material Handling Motors Guide</a></li>
-<li><a href="blog/dc-motors-for-automatic-doors-and-gates-selection-guide.php">Automatic Door Motors Guide</a></li>
+<li><a href="/blog/electric-motors-for-material-handling-equipment-types-selection/">Material Handling Motors Guide</a></li>
+<li><a href="/blog/dc-motors-for-automatic-doors-and-gates-selection-guide/">Automatic Door Motors Guide</a></li>
 </ul>
 </div>
 </aside>

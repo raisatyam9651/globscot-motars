@@ -17,7 +17,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>BLDC Motor vs PMDC Motor: Efficiency, Cost, Speed & Maintenance Comparison</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">BLDC vs PMDC Efficiency & Cost</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">BLDC vs PMDC Efficiency & Cost</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Motor Trade-Off Analysis</h2>
 <p>When selecting a permanent magnet motor drive for industrial equipment, design engineers must balance immediate capital expenditure (CapEx) against long-term operational expenditure (OpEx). The two dominant motor technologies in fractional and integral horsepower applications are <strong>Brushless Direct Current (BLDC) Motors</strong> and <strong>Permanent Magnet Direct Current (PMDC Brushed) Motors</strong>.</p>
 
-<p>While both motor types utilize permanent magnets to produce magnetic field flux, their divergent commutation methods—electronic inverter switching for BLDC versus mechanical carbon brushes for PMDC—result in major differences in electrical efficiency, speed capability, maintenance demands, and overall drive system cost. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we assist OEMs in evaluating ROI and technical suitability across both product lines. Explore our complete <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a> and our standard <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a>.</p>
+<p>While both motor types utilize permanent magnets to produce magnetic field flux, their divergent commutation methods—electronic inverter switching for BLDC versus mechanical carbon brushes for PMDC—result in major differences in electrical efficiency, speed capability, maintenance demands, and overall drive system cost. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we assist OEMs in evaluating ROI and technical suitability across both product lines. Explore our complete <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a> and our standard <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a>.</p>
 
 <hr/>
 
@@ -124,16 +124,16 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Long-Term OpEx Focus:</strong> BLDC motors demand a higher initial investment in electronic controllers. However, because they require zero brush replacement downtime, draw less power, and last 4 to 10 times longer, BLDC motors achieve a lower Total Cost of Ownership (TCO) in continuous-duty applications.</li>
 </ul>
 
-<p>For routine maintenance protocols on brushed motors, consult our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>. Learn more about basic DC motor advantages in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
+<p>For routine maintenance protocols on brushed motors, consult our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>. Learn more about basic DC motor advantages in our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>.</p>
 
 <hr/>
 
 <h2>3. Speed Range and Torque Control Comparison</h2>
 <p>PMDC motors offer simple linear speed control directly proportional to terminal voltage ($V ∝ \text{RPM}$). However, physical brush bounce limits their maximum safe operating speed to approximately 5,000 RPM. Operating brushed motors above this limit accelerates commutator erosion and electrical arcing.</p>
 
-<p>BLDC motors suffer no mechanical speed limits from brushes, allowing them to achieve ultra-high rotational speeds exceeding 20,000 to 50,000 RPM in centrifugal blowers, medical drills, and CNC spindles. When paired with digital Field-Oriented Control (FOC) drivers, BLDC motors deliver smooth torque control across wide speed ranges. For applications requiring low output speeds and high torque, both motor types can be paired with gearheads; explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>BLDC motors suffer no mechanical speed limits from brushes, allowing them to achieve ultra-high rotational speeds exceeding 20,000 to 50,000 RPM in centrifugal blowers, medical drills, and CNC spindles. When paired with digital Field-Oriented Control (FOC) drivers, BLDC motors deliver smooth torque control across wide speed ranges. For applications requiring low output speeds and high torque, both motor types can be paired with gearheads; explore our specialized <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a> and broader <a href="/products-geared-motors/">industrial geared motor solutions</a>.</p>
 
-<p>For more details on BLDC technology, read our core guide on <a href="what-is-bldc-motor.php">what is a BLDC motor and its principles</a> or review our standalone guide on <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its working principle</a>.</p>
+<p>For more details on BLDC technology, read our core guide on <a href="/what-is-bldc-motor/">what is a BLDC motor and its principles</a> or review our standalone guide on <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its working principle</a>.</p>
 
 <hr/>
 
@@ -158,10 +158,10 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Yes, provided high-temperature magnets and Class H (180°C) insulation are specified. However, brush wear accelerates at elevated temperatures.</p>
 
 <h3>Q7: Which motor technology is preferred for electric vehicle (EV) drives?</h3>
-<p>BLDC (and permanent magnet synchronous PMSM) motors are universally preferred for EV traction drives due to their high efficiency (95%+), continuous high-speed capability, and zero maintenance requirements. Explore <a href="applications.php">industrial and automotive motor applications</a> for more insights.</p>
+<p>BLDC (and permanent magnet synchronous PMSM) motors are universally preferred for EV traction drives due to their high efficiency (95%+), continuous high-speed capability, and zero maintenance requirements. Explore <a href="/applications/">industrial and automotive motor applications</a> for more insights.</p>
 
 <h3>Q8: Where can I get technical advice to select between BLDC and PMDC for my product line?</h3>
-<p>You can consult directly with our application engineers at Globe Scott Motors. Visit our <a href="contact-us.php">contact our motor engineering specialists</a> page to request drive recommendations.</p>
+<p>You can consult directly with our application engineers at Globe Scott Motors. Visit our <a href="/contact-us/">contact our motor engineering specialists</a> page to request drive recommendations.</p>
 
 <hr/>
 
@@ -176,7 +176,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Consult Our Engineers</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Consult Our Engineers</a></div>
 </div>
 </div>
 </div>
@@ -191,7 +191,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="blog/how-to-select-bldc-motor-industrial-applications.php">
+<a class="single-post-nav" href="/blog/how-to-select-bldc-motor-industrial-applications/">
 <h4 class="post-title">How to Select a BLDC Motor</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -199,7 +199,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="blog/bldc-motor-manufacturer-in-india-guide.php">
+<a class="single-post-nav" href="/blog/bldc-motor-manufacturer-in-india-guide/">
 <h4 class="post-title">BLDC Motor Manufacturer in India Guide</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -223,9 +223,9 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/bldc-motor-vs-pmdc-motor-efficiency-cost-maintenance.php">BLDC vs PMDC Efficiency & Cost Comparison</a></li>
-<li><a href="blog/bldc-motor-manufacturer-in-india-guide.php">BLDC Motor Manufacturer in India Guide</a></li>
-<li><a href="blog/what-is-pmdc-motor.php">What Is a PMDC Motor? Working Guide</a></li>
+<li><a href="/blog/bldc-motor-vs-pmdc-motor-efficiency-cost-maintenance/">BLDC vs PMDC Efficiency & Cost Comparison</a></li>
+<li><a href="/blog/bldc-motor-manufacturer-in-india-guide/">BLDC Motor Manufacturer in India Guide</a></li>
+<li><a href="/blog/what-is-pmdc-motor/">What Is a PMDC Motor? Working Guide</a></li>
 </ul>
 </div>
 </aside>

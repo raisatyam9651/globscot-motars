@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Brushed DC vs Brushless DC Motors: Which Is Better for Industrial Applications?</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Brushed vs Brushless DC</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Brushed vs Brushless DC</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Motor Selection Dilemma</h2>
 <p>When engineering modern industrial machinery, design teams frequently face a fundamental choice: Should they specify a traditional **Brushed Permanent Magnet DC (PMDC) Motor** or upgrade to a **Brushless DC (BLDC) Motor**? Both motor technologies convert electrical direct current into mechanical rotation, but their internal commutation mechanics, efficiency, control complexity, and lifecycle costs differ significantly.</p>
 
-<p>As a manufacturer producing both PMDC and BLDC motors, Globe Scott Motors provides an objective engineering comparison to help OEMs make informed decisions. Explore our premier <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> range, our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog, and our complete <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
+<p>As a manufacturer producing both PMDC and BLDC motors, Globe Scott Motors provides an objective engineering comparison to help OEMs make informed decisions. Explore our premier <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> range, our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog, and our complete <a href="/products/">DC Motor Manufacturer in India</a> portfolio.</p>
 
 <hr/>
 
@@ -108,7 +108,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Cleanroom & Explosive Environments:</strong> Pharmaceutical, chemical, and medical devices where carbon brush dust or sparking arcs are prohibited.</li>
 </ul>
 
-<p>For custom reduction gear drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> ranges. For transaxle applications, view our <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a> page. For maintenance procedures, check our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC principles, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>.</p>
+<p>For custom reduction gear drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> ranges. For transaxle applications, view our <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a> page. For maintenance procedures, check our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC principles, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>.</p>
 
 <hr/>
 
@@ -136,7 +136,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>BLDC motors maintain full rated torque across wide speed ranges, from 100 RPM up to 20,000+ RPM under electronic vector control.</p>
 
 <h3>Q8: How can I request a technical comparison for my OEM machine?</h3>
-<p>Submit your machine specifications to our engineering specialists via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Submit your machine specifications to our engineering specialists via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -159,8 +159,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/brushed-dc-vs-brushless-dc-motors-industrial-applications.php">Brushed vs Brushless DC Guide</a></li>
-<li><a href="blog/dc-motor-maintenance-common-problems-troubleshooting-preventive.php">DC Motor Maintenance Guide</a></li>
+<li><a href="/blog/brushed-dc-vs-brushless-dc-motors-industrial-applications/">Brushed vs Brushless DC Guide</a></li>
+<li><a href="/blog/dc-motor-maintenance-common-problems-troubleshooting-preventive/">DC Motor Maintenance Guide</a></li>
 </ul>
 </div>
 </aside>

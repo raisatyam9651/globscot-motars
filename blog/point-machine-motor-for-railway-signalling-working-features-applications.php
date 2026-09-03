@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Point Machine Motor for Railway Signalling: Working, Features & Applications</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Point Machine Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Point Machine Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Point Machine Motors</h2>
 <p>An electric point machine is a critical trackside actuator responsible for mechanically unlocking, throwing, and locking heavy steel railway point blades (switches). The core prime mover inside an electric point machine is the **Point Machine Motor**.</p>
 
-<p>Because train movements depend entirely on point machine reliability, these motors must deliver instant high starting torque to move heavy switch rails within a tight 2-to-4-second window. They must operate flawlessly under severe trackside conditions, monsoon flooding, and heavy vibration. As a premier <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors engineers RDSO-compliant 110V DC and 24V DC point machine motors. Explore our complete <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog and our comprehensive <a href="products.php">DC Motor Manufacturer in India</a> selection.</p>
+<p>Because train movements depend entirely on point machine reliability, these motors must deliver instant high starting torque to move heavy switch rails within a tight 2-to-4-second window. They must operate flawlessly under severe trackside conditions, monsoon flooding, and heavy vibration. As a premier <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors engineers RDSO-compliant 110V DC and 24V DC point machine motors. Explore our complete <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog and our comprehensive <a href="/products/">DC Motor Manufacturer in India</a> selection.</p>
 
 <hr/>
 
@@ -98,7 +98,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>3. Applications & RDSO Compliance in India</h2>
 <p>Point machine motors are used across mainline railway tracks, metro rail networks, industrial sidings, and freight corridors. In India, point machine motors must strictly adhere to **RDSO Specification IRS S-24 and S-37**.</p>
 
-<p>For high-torque industrial reduction drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> range or browse our <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> collection. For maintenance protocols on brushed motors, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>. For a broader overview of DC motor benefits, read our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a> or review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its working principle</a>. For brushless alternatives, check our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> offerings.</p>
+<p>For high-torque industrial reduction drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> range or browse our <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> collection. For maintenance protocols on brushed motors, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>. For a broader overview of DC motor benefits, read our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a> or review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its working principle</a>. For brushless alternatives, check our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> offerings.</p>
 
 <hr/>
 
@@ -126,7 +126,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Class H insulation (180°C) ensures that high ambient temperatures up to 55°C do not break down armature coil insulation.</p>
 
 <h3>Q8: Where can I source RDSO-approved point machine motors in India?</h3>
-<p>Globe Scott Motors manufactures RDSO-approved 110V DC and 24V DC point machine motors. Contact our team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures RDSO-approved 110V DC and 24V DC point machine motors. Contact our team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -149,8 +149,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/point-machine-motor-for-railway-signalling-working-features-applications.php">Point Machine Motor Guide</a></li>
-<li><a href="blog/railway-signalling-motors-types-applications-safety-requirements.php">Railway Signalling Motors Guide</a></li>
+<li><a href="/blog/point-machine-motor-for-railway-signalling-working-features-applications/">Point Machine Motor Guide</a></li>
+<li><a href="/blog/railway-signalling-motors-types-applications-safety-requirements/">Railway Signalling Motors Guide</a></li>
 </ul>
 </div>
 </aside>

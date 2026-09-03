@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>IP67 Motors for Railway Applications: Benefits, Protection & Performance</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">IP67 Railway Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">IP67 Railway Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to IP67 Trackside Protection</h2>
 <p>Electrical equipment installed along railway tracks operates in some of the world's most unforgiving environments. Trackside machinery—including point machines, signal actuators, and barrier drives—is exposed to intense sun, conductive dust from ballast, heavy vibrations, and torrential monsoon rains that submerge rail yards under feet of water.</p>
 
-<p>Standard electric motors fail rapidly under these conditions due to moisture ingress, winding corrosion, and electrical short circuits. To guarantee 100% operational availability, railway authorities mandate **IP67 Ingress Protection** for all trackside motors. As a leading <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors specializes in IP67-rated motor designs. Explore our complete <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> range and our full <a href="products.php">DC Motor Manufacturer in India</a> catalog.</p>
+<p>Standard electric motors fail rapidly under these conditions due to moisture ingress, winding corrosion, and electrical short circuits. To guarantee 100% operational availability, railway authorities mandate **IP67 Ingress Protection** for all trackside motors. As a leading <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors specializes in IP67-rated motor designs. Explore our complete <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> range and our full <a href="/products/">DC Motor Manufacturer in India</a> catalog.</p>
 
 <hr/>
 
@@ -83,7 +83,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Sealed Cable Gland Terminations:</strong> Heavy-duty IP67 strain-relief cable glands prevent water creeping into terminal boxes.</li>
 </ul>
 
-<p>For high-torque reduction drives, view our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> page and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> range. For maintenance recommendations, check our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For core PMDC principles, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For high-torque reduction drives, view our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> page and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> range. For maintenance recommendations, check our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For core PMDC principles, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -111,7 +111,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Routine inspection includes checking external cable gland tightness, inspecting O-ring integrity during brush service, and testing insulation resistance.</p>
 
 <h3>Q8: Where can I source custom IP67 DC motors in India?</h3>
-<p>Globe Scott Motors manufactures custom IP67 DC motors. Submit your specs on our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures custom IP67 DC motors. Submit your specs on our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -134,8 +134,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/ip67-motors-for-railway-applications-benefits-protection-performance.php">IP67 Railway Motors Guide</a></li>
-<li><a href="blog/railway-electric-lifting-barrier-working-features-applications.php">Railway Lifting Barrier Guide</a></li>
+<li><a href="/blog/ip67-motors-for-railway-applications-benefits-protection-performance/">IP67 Railway Motors Guide</a></li>
+<li><a href="/blog/railway-electric-lifting-barrier-working-features-applications/">Railway Lifting Barrier Guide</a></li>
 </ul>
 </div>
 </aside>

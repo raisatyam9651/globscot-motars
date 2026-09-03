@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Railway Electric Lifting Barrier: Working, Features, Benefits & Applications</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Railway Lifting Barrier</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Railway Lifting Barrier</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Railway Electric Lifting Barriers</h2>
 <p>Level crossings where railway lines intersect public roads represent critical safety zones. To prevent vehicles and pedestrians from entering tracks when a train approaches, railways use **Electric Lifting Barriers (ELBs)**. These automated gate systems raise and lower long boom arms (up to 10 meters) rapidly and securely.</p>
 
-<p>Driven by heavy-duty 24V DC or 110V DC geared motors, electric lifting barriers must withstand heavy wind resistance, high ambient heat, torrential monsoons, and continuous 24/7 duty cycles. As a leading <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors manufactures RDSO-compliant motors for level-crossing barriers. Explore our <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog and our full <a href="products.php">DC Motor Manufacturer in India</a> range.</p>
+<p>Driven by heavy-duty 24V DC or 110V DC geared motors, electric lifting barriers must withstand heavy wind resistance, high ambient heat, torrential monsoons, and continuous 24/7 duty cycles. As a leading <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a>, Globe Scott Motors manufactures RDSO-compliant motors for level-crossing barriers. Explore our <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog and our full <a href="/products/">DC Motor Manufacturer in India</a> range.</p>
 
 <hr/>
 
@@ -62,13 +62,13 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>2. Key Design & Safety Features</h2>
 
 <ul>
-<li><strong>High-Torque DC Geared Motor:</strong> Provides smooth starting and deceleration torque to prevent boom bounce. For geared drive details, see our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> page and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> section.</li>
+<li><strong>High-Torque DC Geared Motor:</strong> Provides smooth starting and deceleration torque to prevent boom bounce. For geared drive details, see our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> page and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> section.</li>
 <li><strong>Counterbalance Weight System:</strong> Adjustable counterweights offset boom mass, minimizing motor power consumption.</li>
 <li><strong>Manual Hand-Crank Override:</strong> Allows gatemen to manually raise or lower barriers during AC power blackouts.</li>
 <li><strong>IP67 Weatherproof Protection:</strong> Sealed motor housings protect against rain, dust, and flooding.</li>
 </ul>
 
-<p>For routine maintenance protocols, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>. Read about DC motor advantages in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a> or review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> range.</p>
+<p>For routine maintenance protocols, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>. Read about DC motor advantages in our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a> or review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> range.</p>
 
 <hr/>
 
@@ -96,7 +96,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Routine inspection of gear grease, limit switches, and carbon brushes is recommended every 6 to 12 months.</p>
 
 <h3>Q8: Where can I get custom electric lifting barrier motors in India?</h3>
-<p>Globe Scott Motors engineers RDSO-compliant barrier motors. Submit your tender requirements on our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors engineers RDSO-compliant barrier motors. Submit your tender requirements on our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -119,8 +119,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/railway-electric-lifting-barrier-working-features-applications.php">Railway Lifting Barrier Guide</a></li>
-<li><a href="blog/electric-point-machine-working-importance-railway-signalling.php">Electric Point Machine Guide</a></li>
+<li><a href="/blog/railway-electric-lifting-barrier-working-features-applications/">Railway Lifting Barrier Guide</a></li>
+<li><a href="/blog/electric-point-machine-working-importance-railway-signalling/">Electric Point Machine Guide</a></li>
 </ul>
 </div>
 </aside>

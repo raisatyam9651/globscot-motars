@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>How to Choose the Right Motor Power, RPM and Gear Ratio for Your Machine</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Motor Sizing Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Motor Sizing Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Machine Drive Selection</h2>
 <p>Designing custom machinery—whether an automated conveyor, packaging machine, medical table actuator, or electric winch—requires choosing the right electric motor parameters. Selecting the wrong combination of **Power (Watts/HP)**, base **Speed (RPM)**, and **Gear Reduction Ratio <b>(i)</b>** can lead to stall failures, excessive noise, high heat, or premature gear wear.</p>
 
-<p>As a leading <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a>, Globe Scott Motors helps machine builders optimize drive selection. Explore our specialized <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> catalog, our <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
+<p>As a leading <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a>, Globe Scott Motors helps machine builders optimize drive selection. Explore our specialized <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> catalog, our <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> range, and our <a href="/products/">DC Motor Manufacturer in India</a> portfolio.</p>
 
 <hr/>
 
@@ -101,7 +101,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For application examples, explore our <a href="applications.php">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC principles, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> catalog.</p>
+<p>For application examples, explore our <a href="/applications/">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC principles, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> catalog.</p>
 
 <hr/>
 
@@ -129,7 +129,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Ensure motor continuous torque exceeds machine load torque, and motor peak stall torque exceeds required starting acceleration torque by at least 30%.</p>
 
 <h3>Q8: Where can I get expert motor sizing assistance in India?</h3>
-<p>Submit your machine speed and load requirements to our application team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Submit your machine speed and load requirements to our application team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -152,8 +152,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/how-to-choose-right-motor-power-rpm-and-gear-ratio.php">Motor Power & Gear Ratio Guide</a></li>
-<li><a href="blog/motor-torque-and-speed-calculation-practical-guide-industrial-applications.php">Torque & Speed Calculation Guide</a></li>
+<li><a href="/blog/how-to-choose-right-motor-power-rpm-and-gear-ratio/">Motor Power & Gear Ratio Guide</a></li>
+<li><a href="/blog/motor-torque-and-speed-calculation-practical-guide-industrial-applications/">Torque & Speed Calculation Guide</a></li>
 </ul>
 </div>
 </aside>

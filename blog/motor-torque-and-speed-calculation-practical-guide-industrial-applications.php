@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Motor Torque and Speed Calculation: A Practical Guide for Industrial Applications</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Torque & Speed Calculation</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Torque & Speed Calculation</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Motor Mechanics</h2>
 <p>Improper motor sizing is one of the leading causes of machinery failure in industrial automation. Selecting an undersized electric motor causes thermal overheating and premature motor burnout, while choosing an oversized motor increases energy consumption and system cost unnecessarily.</p>
 
-<p>Accurately calculating required motor **Torque (<b>τ</b>)**, rotational **Speed (<b>N</b>)**, and continuous **Mechanical Power (<b>P</b>)** is mandatory before selecting a motor drive. As an established <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a>, Globe Scott Motors assists OEMs with precise electromechanical sizing. Explore our specialized <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> catalog, our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> selection, and our <a href="products.php">DC Motor Manufacturer in India</a> portfolio.</p>
+<p>Accurately calculating required motor **Torque (<b>τ</b>)**, rotational **Speed (<b>N</b>)**, and continuous **Mechanical Power (<b>P</b>)** is mandatory before selecting a motor drive. As an established <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a>, Globe Scott Motors assists OEMs with precise electromechanical sizing. Explore our specialized <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> catalog, our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> selection, and our <a href="/products/">DC Motor Manufacturer in India</a> portfolio.</p>
 
 <hr/>
 
@@ -102,7 +102,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For application examples, explore our <a href="applications.php">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC principles, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> catalog.</p>
+<p>For application examples, explore our <a href="/applications/">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC principles, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> catalog.</p>
 
 <hr/>
 
@@ -130,7 +130,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>In PMDC motors, speed is directly proportional to applied DC armature voltage (<b>N ∝ V<sub>armature</sub></b>).</p>
 
 <h3>Q8: Where can I get technical motor sizing support in India?</h3>
-<p>Submit your machine speed, load mass, and cycle details to our engineering team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Submit your machine speed, load mass, and cycle details to our engineering team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -153,8 +153,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/motor-torque-and-speed-calculation-practical-guide-industrial-applications.php">Torque & Speed Calculation Guide</a></li>
-<li><a href="blog/custom-dc-motors-design-for-specific-applications.php">Custom DC Motors Guide</a></li>
+<li><a href="/blog/motor-torque-and-speed-calculation-practical-guide-industrial-applications/">Torque & Speed Calculation Guide</a></li>
+<li><a href="/blog/custom-dc-motors-design-for-specific-applications/">Custom DC Motors Guide</a></li>
 </ul>
 </div>
 </aside>

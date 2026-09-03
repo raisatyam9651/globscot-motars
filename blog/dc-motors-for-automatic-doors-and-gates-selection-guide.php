@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>DC Motors for Automatic Doors and Gates: How to Choose the Right Motor</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Automatic Door Motors</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Automatic Door Motors</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Automatic Door & Gate Actuators</h2>
 <p>Automatic sliding glass doors, revolving entrance doors, industrial roller shutters, and heavy security sliding gates require compact, high-torque electrical motors. These entrance automation drives must accelerate heavy door panels smoothly, decelerate softly to prevent mechanical slamming, and operate quietly under high daily duty cycles.</p>
 
-<p>Permanent Magnet DC (PMDC) geared motors are the industry standard for entrance automation due to their linear PWM speed control, high starting torque, compact physical footprint, and seamless battery backup capability. As a trusted <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a>, Globe Scott Motors engineers door automation drives. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> catalog, our <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> range, and our <a href="products.php">DC Motor Manufacturer in India</a> line.</p>
+<p>Permanent Magnet DC (PMDC) geared motors are the industry standard for entrance automation due to their linear PWM speed control, high starting torque, compact physical footprint, and seamless battery backup capability. As a trusted <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a>, Globe Scott Motors engineers door automation drives. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> catalog, our <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> range, and our <a href="/products/">DC Motor Manufacturer in India</a> line.</p>
 
 <hr/>
 
@@ -88,7 +88,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For application examples, explore our <a href="applications.php">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC fundamentals, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless drives, browse our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> page.</p>
+<p>For application examples, explore our <a href="/applications/">industrial and automotive motor applications</a> overview. For maintenance tips, see our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC fundamentals, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless drives, browse our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> page.</p>
 
 <hr/>
 
@@ -116,7 +116,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Routine maintenance includes checking rack-and-pinion gear alignment, inspecting carbon brushes, and testing safety reverse sensors.</p>
 
 <h3>Q8: Where can I source custom door automation motors in India?</h3>
-<p>Globe Scott Motors manufactures custom door and gate motors. Contact our application specialists via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures custom door and gate motors. Contact our application specialists via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -139,8 +139,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/dc-motors-for-automatic-doors-and-gates-selection-guide.php">Automatic Door Motors Guide</a></li>
-<li><a href="blog/pmdc-motors-for-pumps-benefits-applications-selection-guide.php">PMDC Motors for Pumps Guide</a></li>
+<li><a href="/blog/dc-motors-for-automatic-doors-and-gates-selection-guide/">Automatic Door Motors Guide</a></li>
+<li><a href="/blog/pmdc-motors-for-pumps-benefits-applications-selection-guide/">PMDC Motors for Pumps Guide</a></li>
 </ul>
 </div>
 </aside>

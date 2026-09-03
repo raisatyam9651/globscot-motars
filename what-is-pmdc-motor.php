@@ -17,7 +17,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="page-title header1-height">
 <h1>What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog.php">Blog</a></li><li class="breadcrumb-item active">PMDC Motor Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Motor Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/includes/header.php';
 <h2>Introduction to PMDC Motors</h2>
 <p>Permanent Magnet Direct Current (PMDC) motors are fundamental motion-control components widely utilized in modern automation, robotics, automotive systems, and specialized industrial equipment. Unlike conventional wound-field DC motors that rely on electromagnetic field coils on the stator, a PMDC motor utilizes high-coercivity permanent magnets to generate a persistent magnetic field. This architectural distinction eliminates excitation power loss, dramatically simplifies motor construction, and enables superior power density in low-to-medium power applications.</p>
 
-<p>Whether you are designing precision robotic drives, automotive actuators, or industrial conveyors, selecting the right motor drive demands a clear technical understanding of PMDC operating mechanics, electromechanical equations, and application boundaries. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we engineered fractional and integral horsepower motor solutions designed for continuous duty and extreme operational environments. Explore our complete <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a> for technical datasheets and customized winding options.</p>
+<p>Whether you are designing precision robotic drives, automotive actuators, or industrial conveyors, selecting the right motor drive demands a clear technical understanding of PMDC operating mechanics, electromechanical equations, and application boundaries. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we engineered fractional and integral horsepower motor solutions designed for continuous duty and extreme operational environments. Explore our complete <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a> for technical datasheets and customized winding options.</p>
 
 <hr/>
 
@@ -83,7 +83,7 @@ $$E_b = K_e \cdot \Phi \cdot \omega$$
 
 $$V = E_b + I_a R_a = (K_e \Phi \omega) + I_a R_a$$
 
-<p>Where $R_a$ represents the total armature resistance including brush contact drops. For a deeper breakdown of basic motor principles, read our detailed comparison on the <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a> in industrial automation.</p>
+<p>Where $R_a$ represents the total armature resistance including brush contact drops. For a deeper breakdown of basic motor principles, read our detailed comparison on the <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a> in industrial automation.</p>
 
 <hr/>
 
@@ -133,7 +133,7 @@ $$V = E_b + I_a R_a = (K_e \Phi \omega) + I_a R_a$$
 <li><strong>High Starting Torque & Rapid Response:</strong> PMDC motors deliver instant linear torque response from standstill, ideal for stop-start indexing drives.</li>
 <li><strong>Simplified Speed Control:</strong> Armature voltage control directly modulates shaft speed linearly without complex field-weakening logic.</li>
 <li><strong>Lower Electromagnetic Interference (EMI):</strong> Constant magnet flux minimizes sudden field inductive voltage spikes during operational switching.</li>
-<li><strong>Cost-Effectiveness:</strong> Reduced copper content and simplified manufacturing lower initial unit cost in fractional horsepower sizes. For high-torque applications requiring reduced shaft output speeds, consider our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a>.</li>
+<li><strong>Cost-Effectiveness:</strong> Reduced copper content and simplified manufacturing lower initial unit cost in fractional horsepower sizes. For high-torque applications requiring reduced shaft output speeds, consider our specialized <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a>.</li>
 </ul>
 
 <hr/>
@@ -142,7 +142,7 @@ $$V = E_b + I_a R_a = (K_e \Phi \omega) + I_a R_a$$
 <p>Thanks to their high efficiency, predictable speed-torque curve, and dynamic responsiveness, PMDC motors serve as vital prime movers across multiple industry verticals:</p>
 
 <h3>A. Automotive & Transportation Systems</h3>
-<p>Used extensively in 12V and 24V automotive auxiliary drives including power window lifters, windshield wipers, electric seat adjusters, radiator cooling fans, and anti-lock braking (ABS) pump actuators. Explore our <a href="applications.php">industrial and automotive motor applications</a> overview for more industry examples.</p>
+<p>Used extensively in 12V and 24V automotive auxiliary drives including power window lifters, windshield wipers, electric seat adjusters, radiator cooling fans, and anti-lock braking (ABS) pump actuators. Explore our <a href="/applications/">industrial and automotive motor applications</a> overview for more industry examples.</p>
 
 <h3>B. Robotics & Automated Guided Vehicles (AGVs)</h3>
 <p>Integrated into wheel drives, robotic arm joints, conveyor indexing mechanisms, and precision pan-tilt positioning platforms where lightweight compact motors are mandatory.</p>
@@ -151,7 +151,7 @@ $$V = E_b + I_a R_a = (K_e \Phi \omega) + I_a R_a$$
 <p>Powering portable peristaltic infusion pumps, automated wheelchairs, surgical drills, laboratory centrifuges, and diagnostic imaging equipment requiring low noise and high reliability.</p>
 
 <h3>D. Industrial Automation & Material Handling</h3>
-<p>Driving small belt conveyors, packaging machines, metering pumps, and automated sorting tables. For heavy continuous-duty applications, pairing PMDC drives with gearboxes provides optimal torque multiplication; see our range of <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>Driving small belt conveyors, packaging machines, metering pumps, and automated sorting tables. For heavy continuous-duty applications, pairing PMDC drives with gearboxes provides optimal torque multiplication; see our range of <a href="/products-geared-motors/">industrial geared motor solutions</a>.</p>
 
 <h3>E. Portable Consumer Electronics & Tools</h3>
 <p>Found in cordless drills, handheld vacuum cleaners, lawn trimmers, and battery-operated personal mobility devices.</p>
@@ -182,7 +182,7 @@ $$\tau_{rms} = \sqrt{\frac{\sum (\tau_i^2 \cdot t_i)}{\sum t_i}}$$
 <p>Ensure your DC power supply and electronic motor driver (H-Bridge PWM driver) can safely deliver peak stall current ($I_{stall} = V / R_a$) without triggering overcurrent shutdown or severe voltage sag.</p>
 
 <h3>Step 5: Account for Environmental Ratings (IP Code)</h3>
-<p>Select enclosure protection standards based on mounting environment: IP44 for general indoor use, IP65 for washdown environments, or IP67 for dusty industrial locations. Routine maintenance is critical for brushed designs; refer to our comprehensive <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
+<p>Select enclosure protection standards based on mounting environment: IP44 for general indoor use, IP65 for washdown environments, or IP67 for dusty industrial locations. Routine maintenance is critical for brushed designs; refer to our comprehensive <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>.</p>
 
 <hr/>
 
@@ -220,7 +220,7 @@ $$P_{mech} = \tau_{friction} \cdot \omega = 0.441 \text{ N}\cdot\text{m} \cdot 2
 </li>
 </ol>
 
-<p><strong>Selection Conclusion:</strong> A direct-drive PMDC motor requiring 2.69 N·m at 191 RPM would be unnecessarily large. By pairing a 24V PMDC motor (rated at 3000 RPM, 0.15 N·m continuous torque) with a 15:1 planetary gearbox, the output speed becomes $3000 / 15 = 200 \text{ RPM}$ and continuous output torque multiplies to $0.15 \cdot 15 \cdot 0.85 = 1.91 \text{ N}\cdot\text{m}$, easily meeting continuous and acceleration demands. For maintenance-free high-speed alternatives, evaluate our <a href="what-is-bldc-motor.php">working principle of BLDC motors</a> guide or explore our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
+<p><strong>Selection Conclusion:</strong> A direct-drive PMDC motor requiring 2.69 N·m at 191 RPM would be unnecessarily large. By pairing a 24V PMDC motor (rated at 3000 RPM, 0.15 N·m continuous torque) with a 15:1 planetary gearbox, the output speed becomes $3000 / 15 = 200 \text{ RPM}$ and continuous output torque multiplies to $0.15 \cdot 15 \cdot 0.85 = 1.91 \text{ N}\cdot\text{m}$, easily meeting continuous and acceleration demands. For maintenance-free high-speed alternatives, evaluate our <a href="/what-is-bldc-motor/">working principle of BLDC motors</a> guide or explore our <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a>.</p>
 
 <hr/>
 
@@ -288,7 +288,7 @@ $$P_{mech} = \tau_{friction} \cdot \omega = 0.441 \text{ N}\cdot\text{m} \cdot 2
 <p>A gearbox reduces the high output shaft speed of a PMDC motor (typically 1500 to 5000 RPM) down to usable application speeds while proportionally multiplying shaft torque, enabling compact motors to drive heavy mechanical loads efficiently.</p>
 
 <h3>Q8: Where can I get custom PMDC motors engineered for specific industrial applications?</h3>
-<p>Globe Scott Motors manufactures customized PMDC motors, PMDC geared motors, and specialized traction drives tailored to your exact voltage, torque, speed, shaft geometry, and mounting requirements. You can <a href="contact-us.php">contact our motor engineering specialists</a> directly to discuss your custom drive requirements.</p>
+<p>Globe Scott Motors manufactures customized PMDC motors, PMDC geared motors, and specialized traction drives tailored to your exact voltage, torque, speed, shaft geometry, and mounting requirements. You can <a href="/contact-us/">contact our motor engineering specialists</a> directly to discuss your custom drive requirements.</p>
 
 <hr/>
 
@@ -303,7 +303,7 @@ $$P_{mech} = \tau_{friction} \cdot \omega = 0.441 \text{ N}\cdot\text{m} \cdot 2
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Contact Our Engineers</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Contact Our Engineers</a></div>
 </div>
 </div>
 </div>
@@ -318,7 +318,7 @@ $$P_{mech} = \tau_{friction} \cdot \omega = 0.441 \text{ N}\cdot\text{m} \cdot 2
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="what-is-bldc-motor.php">
+<a class="single-post-nav" href="/what-is-bldc-motor/">
 <h4 class="post-title">What is bldc motor?</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -326,7 +326,7 @@ $$P_{mech} = \tau_{friction} \cdot \omega = 0.441 \text{ N}\cdot\text{m} \cdot 2
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="benefits-of-using-dc-motors.php">
+<a class="single-post-nav" href="/benefits-of-using-dc-motors/">
 <h4 class="post-title">Benefits of using DC motors.</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>

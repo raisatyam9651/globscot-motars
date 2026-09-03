@@ -17,7 +17,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Geared Motor vs Standard DC Motor: Key Differences Explained</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Geared vs Standard DC Motor</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Geared vs Standard DC Motor</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Motor Selection</h2>
 <p>When engineering electromechanical systems, machine designers often face a fundamental decision: Should you use a <strong>Standard Direct-Drive DC Motor</strong> or a <strong>Geared DC Motor</strong>? Both motor types convert direct current electrical power into mechanical rotation, but their mechanical output characteristics—specifically operating speed and shaft torque—are drastically different.</p>
 
-<p>A standard DC motor delivers high rotational speed (typically 1,500 to 6,000 RPM) with modest shaft torque. A geared motor pairs that same motor armature with a mechanical speed reducer (gearhead) to trade high RPM for significantly multiplied torque at lower speeds (typically 1 to 500 RPM). Understanding the key differences in torque density, efficiency, mechanical backlash, and physical sizing is essential for optimizing machine performance. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we manufacture both custom standard DC motors and high-torque geared motors. Explore our complete <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a> and our specialized <a href="products-geared-motors.php">industrial geared motor solutions</a> to compare drive options.</p>
+<p>A standard DC motor delivers high rotational speed (typically 1,500 to 6,000 RPM) with modest shaft torque. A geared motor pairs that same motor armature with a mechanical speed reducer (gearhead) to trade high RPM for significantly multiplied torque at lower speeds (typically 1 to 500 RPM). Understanding the key differences in torque density, efficiency, mechanical backlash, and physical sizing is essential for optimizing machine performance. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we manufacture both custom standard DC motors and high-torque geared motors. Explore our complete <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a> and our specialized <a href="/products-geared-motors/">industrial geared motor solutions</a> to compare drive options.</p>
 
 <hr/>
 
@@ -118,13 +118,13 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>3. Deep Dive into Performance Characteristics</h2>
 
 <h3>A. Torque Density and Sizing</h3>
-<p>To produce 50 N·m of continuous torque using a standard direct-drive DC motor, the physical motor frame must be very large and heavy. By contrast, a geared motor pairs a small 0.5 N·m PMDC motor with a 100:1 planetary gearbox, delivering 50 N·m of torque in a package that weighs less than one-fourth of the direct-drive equivalent. For high-torque applications, explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a>.</p>
+<p>To produce 50 N·m of continuous torque using a standard direct-drive DC motor, the physical motor frame must be very large and heavy. By contrast, a geared motor pairs a small 0.5 N·m PMDC motor with a 100:1 planetary gearbox, delivering 50 N·m of torque in a package that weighs less than one-fourth of the direct-drive equivalent. For high-torque applications, explore our specialized <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a>.</p>
 
 <h3>B. Speed Regulation and Low-Speed Cogging</h3>
 <p>Running a standard DC motor at extremely low speeds (e.g., under 50 RPM) by reducing supply voltage often results in erratic motion or "magnetic cogging". A geared motor allows the internal motor armature to spin in its smooth high-efficiency zone (2,500 RPM) while delivering ultra-smooth, high-torque rotation at the gearbox output shaft.</p>
 
 <h3>C. Efficiency and Thermal Considerations</h3>
-<p>While standard DC motors avoid gear friction losses, operating a standard motor near stall to generate torque generates severe <b>I<sup>2</sup>R</b> heat in the armature coils. A geared motor operates at higher efficiency under heavy mechanical loads because the motor armature runs at high RPM where current draw is significantly lower. For basic motor efficiency guidelines, read our overview of the <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
+<p>While standard DC motors avoid gear friction losses, operating a standard motor near stall to generate torque generates severe <b>I<sup>2</sup>R</b> heat in the armature coils. A geared motor operates at higher efficiency under heavy mechanical loads because the motor armature runs at high RPM where current draw is significantly lower. For basic motor efficiency guidelines, read our overview of the <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>.</p>
 
 <hr/>
 
@@ -134,7 +134,7 @@ require_once __DIR__ . '/../includes/header.php';
 <ul>
 <li><strong>High-Speed Applications:</strong> Cooling fans, blowers, high-speed centrifugal pumps, and spindles requiring 2,000+ RPM.</li>
 <li><strong>Zero-Backlash Motion Control:</strong> Precision direct-drive optical scanners and gimbals where mechanical play is unacceptable.</li>
-<li><strong>Simple Low-Load Machinery:</strong> Lightweight battery-operated appliances and small handheld tools. Explore <a href="applications.php">industrial and automotive motor applications</a> for industry examples.</li>
+<li><strong>Simple Low-Load Machinery:</strong> Lightweight battery-operated appliances and small handheld tools. Explore <a href="/applications/">industrial and automotive motor applications</a> for industry examples.</li>
 </ul>
 
 <h3>Choose a Geared DC Motor For:</h3>
@@ -144,7 +144,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Medical and Mobility Devices:</strong> Hospital bed positioners, patient lifts, and motorized wheelchairs requiring holding torque and quiet operation.</li>
 </ul>
 
-<p>For routine maintenance procedures on brushed motors, consult our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>. To learn more about PMDC fundamentals, read our core article on <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its working principle</a> or compare brushed technology with our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
+<p>For routine maintenance procedures on brushed motors, consult our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>. To learn more about PMDC fundamentals, read our core article on <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its working principle</a> or compare brushed technology with our <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a>.</p>
 
 <hr/>
 
@@ -172,7 +172,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Because gear reduction allows the motor armature to run at high RPMs, the motor operates at lower armature current (<b>I<sub>a</sub></b>) for a given load torque compared to an un-geared motor operating near stall.</p>
 
 <h3>Q8: Where can I get assistance selecting between geared and standard DC motors?</h3>
-<p>Our engineering team at Globe Scott Motors can evaluate your torque, speed, and dimensional requirements to recommend the ideal motor drive. You can <a href="contact-us.php">contact our motor engineering specialists</a> directly.</p>
+<p>Our engineering team at Globe Scott Motors can evaluate your torque, speed, and dimensional requirements to recommend the ideal motor drive. You can <a href="/contact-us/">contact our motor engineering specialists</a> directly.</p>
 
 <hr/>
 
@@ -187,7 +187,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Talk to an Engineer</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Talk to an Engineer</a></div>
 </div>
 </div>
 </div>
@@ -202,7 +202,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="blog/custom-geared-pmdc-motors-gear-ratio-torque-selection.php">
+<a class="single-post-nav" href="/blog/custom-geared-pmdc-motors-gear-ratio-torque-selection/">
 <h4 class="post-title">Custom Geared PMDC Motors Selection</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -210,7 +210,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="blog/pmdc-motor-manufacturer-in-india-buyers-guide.php">
+<a class="single-post-nav" href="/blog/pmdc-motor-manufacturer-in-india-buyers-guide/">
 <h4 class="post-title">PMDC Motor Manufacturer in India Guide</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -234,9 +234,9 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/geared-motor-vs-standard-dc-motor-key-differences.php">Geared Motor vs Standard DC Motor: Key Differences Explained</a></li>
-<li><a href="blog/custom-geared-pmdc-motors-gear-ratio-torque-selection.php">Custom Geared PMDC Motors Selection</a></li>
-<li><a href="blog/what-is-pmdc-motor.php">What Is a PMDC Motor? Working Guide</a></li>
+<li><a href="/blog/geared-motor-vs-standard-dc-motor-key-differences/">Geared Motor vs Standard DC Motor: Key Differences Explained</a></li>
+<li><a href="/blog/custom-geared-pmdc-motors-gear-ratio-torque-selection/">Custom Geared PMDC Motors Selection</a></li>
+<li><a href="/blog/what-is-pmdc-motor/">What Is a PMDC Motor? Working Guide</a></li>
 </ul>
 </div>
 </aside>

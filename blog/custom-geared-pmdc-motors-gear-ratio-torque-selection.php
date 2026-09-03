@@ -17,7 +17,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>Custom Geared PMDC Motors: How to Select the Right Gear Ratio and Torque</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Custom Gear Ratio & Torque Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Custom Gear Ratio & Torque Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Custom Geared Motor Engineering</h2>
 <p>In OEM equipment design, standard off-the-shelf geared motors often fall short of meeting exact mechanical requirements. Machine designers frequently encounter applications demanding a precise shaft output speed (e.g., exactly 42 RPM), high continuous output torque, specific physical dimensions, or special shaft keyways that off-the-shelf catalog motors cannot provide.</p>
 
-<p>Custom Geared PMDC Motors solve this challenge by pairing a tailored PMDC motor armature winding with a custom-calculated gearhead ratio. Determining the ideal gear ratio <b>(i)</b> and required motor torque (<b>τ</b>) involves balancing mechanical power transmission equations, gear train stage efficiency (<b>η</b>), service factors (<b>S_f</b>), and environmental duty cycles. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we specialize in custom gear ratio selection, precision gear manufacturing, and armature winding for OEM applications. Explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> and broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>Custom Geared PMDC Motors solve this challenge by pairing a tailored PMDC motor armature winding with a custom-calculated gearhead ratio. Determining the ideal gear ratio <b>(i)</b> and required motor torque (<b>τ</b>) involves balancing mechanical power transmission equations, gear train stage efficiency (<b>η</b>), service factors (<b>S_f</b>), and environmental duty cycles. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we specialize in custom gear ratio selection, precision gear manufacturing, and armature winding for OEM applications. Explore our specialized <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a> and broader <a href="/products-geared-motors/">industrial geared motor solutions</a>.</p>
 
 <hr/>
 
@@ -122,7 +122,7 @@ require_once __DIR__ . '/../includes/header.php';
 
 <div class="alert alert-light border text-center font-weight-bold p-3 my-3" style="font-size: 1.1rem; background-color: #fff9ed; border-color: #eb9600 !important; color: #222;">τ_{motor} = \frac{τ_{required}}{i × η_{gearbox}}</div>
 
-<p>Verify that <b>τ<sub>motor</sub></b> lies within the PMDC motor's continuous duty zone on its thermal curve. Learn more about basic PMDC characteristics in our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>.</p>
+<p>Verify that <b>τ<sub>motor</sub></b> lies within the PMDC motor's continuous duty zone on its thermal curve. Learn more about basic PMDC characteristics in our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>.</p>
 
 <h3>Step 3: Account for Radial and Axial Shaft Loads</h3>
 <p>When driving sprockets, timing belts, or heavy overhung loads, verify that gearbox output bearings support maximum allowable **Radial Load (<b>F_{radial}</b>)** and **Axial Thrust Load (<b>F_{axial}</b>)** to prevent bearing fatigue.</p>
@@ -134,12 +134,12 @@ require_once __DIR__ . '/../includes/header.php';
 
 <ul>
 <li><strong>Custom Shaft Profiles:</strong> D-cut flat shafts, keyways, splined shafts, cross-drilled pin holes, and threaded output shafts.</li>
-<li><strong>Custom Voltage Windings:</strong> Winding armatures for non-standard battery voltages (e.g., 18V, 36V, 72V DC). Explore our standard <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a> for base frames.</li>
+<li><strong>Custom Voltage Windings:</strong> Winding armatures for non-standard battery voltages (e.g., 18V, 36V, 72V DC). Explore our standard <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a> for base frames.</li>
 <li><strong>Integrated Brakes & Encoders:</strong> Adding electromagnetic holding brakes or magnetic/optical encoders directly onto rear shaft extensions.</li>
-<li><strong>Enclosure Protection:</strong> Custom IP65/IP67 seals, O-rings, and potted junction boxes for outdoor washdown machinery. See <a href="applications.php">industrial and automotive motor applications</a> for real-world setups.</li>
+<li><strong>Enclosure Protection:</strong> Custom IP65/IP67 seals, O-rings, and potted junction boxes for outdoor washdown machinery. See <a href="/applications/">industrial and automotive motor applications</a> for real-world setups.</li>
 </ul>
 
-<p>For maintenance procedures on custom brushed motors, refer to our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>. For a core overview of PMDC principles, read our foundational guide on <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its working principle</a> or compare brushed drives with our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
+<p>For maintenance procedures on custom brushed motors, refer to our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>. For a core overview of PMDC principles, read our foundational guide on <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its working principle</a> or compare brushed drives with our <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a>.</p>
 
 <hr/>
 
@@ -167,7 +167,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Yes, provided continuous load torque stays within the thermal continuous rating of the motor armature and brushes are inspected at 3,000 to 5,000-hour intervals.</p>
 
 <h3>Q8: How can I submit my custom gear ratio and torque requirements to Globe Scott Motors?</h3>
-<p>You can submit your target speed, torque, supply voltage, and dimensional constraints to our engineering team by visiting our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>You can submit your target speed, torque, supply voltage, and dimensional constraints to our engineering team by visiting our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -182,7 +182,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Consult Our Engineers</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Consult Our Engineers</a></div>
 </div>
 </div>
 </div>
@@ -197,7 +197,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="blog/bldc-motor-manufacturer-in-india-guide.php">
+<a class="single-post-nav" href="/blog/bldc-motor-manufacturer-in-india-guide/">
 <h4 class="post-title">BLDC Motor Manufacturer in India Guide</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -205,7 +205,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="blog/geared-motor-vs-standard-dc-motor-key-differences.php">
+<a class="single-post-nav" href="/blog/geared-motor-vs-standard-dc-motor-key-differences/">
 <h4 class="post-title">Geared Motor vs Standard DC Motor</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -229,9 +229,9 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/custom-geared-pmdc-motors-gear-ratio-torque-selection.php">Custom Geared PMDC Motors Selection</a></li>
-<li><a href="blog/geared-motor-vs-standard-dc-motor-key-differences.php">Geared Motor vs Standard DC Motor</a></li>
-<li><a href="blog/what-is-pmdc-motor.php">What Is a PMDC Motor? Working Guide</a></li>
+<li><a href="/blog/custom-geared-pmdc-motors-gear-ratio-torque-selection/">Custom Geared PMDC Motors Selection</a></li>
+<li><a href="/blog/geared-motor-vs-standard-dc-motor-key-differences/">Geared Motor vs Standard DC Motor</a></li>
+<li><a href="/blog/what-is-pmdc-motor/">What Is a PMDC Motor? Working Guide</a></li>
 </ul>
 </div>
 </aside>

@@ -17,7 +17,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>PMDC Motor Manufacturer in India: Complete Buyer’s Guide</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Manufacturer Guide</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">PMDC Manufacturer Guide</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to the Indian PMDC Motor Market</h2>
 <p>India has emerged as a global hub for high-precision electrical machine manufacturing. Permanent Magnet Direct Current (PMDC) motors are heavily relied upon across Indian manufacturing sectors, from automotive auxiliaries and textile machinery to medical equipment, solar trackers, and railway systems. However, sourcing the right PMDC motor from an Indian manufacturer requires evaluating engineering capabilities, quality certifications, customization limits, and long-term product support.</p>
 
-<p>Whether you are an OEM engineer designing new machinery or a procurement manager seeking cost-effective motor replacements, this comprehensive buyer's guide breaks down everything you need to know about sourcing PMDC motors in India. At <a href="about-us.php">Globe Scott Motors manufacturing expertise</a>, we have specialized in custom DC motor design and precision manufacturing for over three decades. Explore our dedicated <a href="products-pmdc-motors.php">high-performance PMDC motors catalog</a> to discover our standard and customized motor product range.</p>
+<p>Whether you are an OEM engineer designing new machinery or a procurement manager seeking cost-effective motor replacements, this comprehensive buyer's guide breaks down everything you need to know about sourcing PMDC motors in India. At <a href="/about-us/">Globe Scott Motors manufacturing expertise</a>, we have specialized in custom DC motor design and precision manufacturing for over three decades. Explore our dedicated <a href="/products-pmdc-motors/">high-performance PMDC motors catalog</a> to discover our standard and customized motor product range.</p>
 
 <hr/>
 
@@ -110,7 +110,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Ideal for rapid prototyping and standard low-volume applications where mounting dimensions (such as IEC or NEMA frame sizes) and supply voltages (12V, 24V, 48V DC) are fixed. Standard models offer quick delivery times and lower initial unit costs.</p>
 
 <h3>B. Custom-Engineered PMDC Motors</h3>
-<p>For specialized equipment requiring custom torque-speed slopes, non-standard shaft diameters, dual-shaft extensions for optical encoders, or extreme environmental protection (IP65/IP67), working with an experienced manufacturer like Globe Scott Motors ensures high reliability. If your application requires high output torque at reduced RPMs, explore our specialized <a href="products-pmdc-geared-motors.php">heavy-duty PMDC geared motors</a> or browse our broader <a href="products-geared-motors.php">industrial geared motor solutions</a>.</p>
+<p>For specialized equipment requiring custom torque-speed slopes, non-standard shaft diameters, dual-shaft extensions for optical encoders, or extreme environmental protection (IP65/IP67), working with an experienced manufacturer like Globe Scott Motors ensures high reliability. If your application requires high output torque at reduced RPMs, explore our specialized <a href="/products-pmdc-geared-motors/">heavy-duty PMDC geared motors</a> or browse our broader <a href="/products-geared-motors/">industrial geared motor solutions</a>.</p>
 
 <hr/>
 
@@ -118,13 +118,13 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Different industry sectors in India demand specific motor characteristics:</p>
 
 <ul>
-<li><strong>Automotive & EV Auxiliary Drives:</strong> Requires 12V/24V DC operating capability, high starting torque, light overall weight, and high resistance to vibration. Learn more about our <a href="applications.php">industrial and automotive motor applications</a>.</li>
+<li><strong>Automotive & EV Auxiliary Drives:</strong> Requires 12V/24V DC operating capability, high starting torque, light overall weight, and high resistance to vibration. Learn more about our <a href="/applications/">industrial and automotive motor applications</a>.</li>
 <li><strong>Textile & Printing Machinery:</strong> Demands smooth speed control across variable loads and low brush wear under continuous S1 duty cycle operation.</li>
 <li><strong>Solar Tracking Systems:</strong> Requires rugged outdoor enclosures (IP65+), UV-resistant sealing, and high holding torque against wind resistance.</li>
 <li><strong>Railway & Defense Electronics:</strong> Requires extreme temperature tolerance, Class H insulation, and strict compliance with Indian Railway specs.</li>
 </ul>
 
-<p>For maintenance protocols on existing industrial fleets, read our complete <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a>.</p>
+<p>For maintenance protocols on existing industrial fleets, read our complete <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a>.</p>
 
 <hr/>
 
@@ -139,7 +139,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>Noise & Vibration Spectrum Analysis:</strong> Ensuring decibel levels remain within acceptable quiet-room thresholds (<60 dBA).</li>
 </ol>
 
-<p>If you are also evaluating brushless technology for maintenance-free operation, review our comprehensive breakdown of the <a href="blog/what-is-pmdc-motor.php">working principle of PMDC motors</a> or compare them directly with our <a href="products-bldc-motors.php">brushless DC (BLDC) motor series</a>.</p>
+<p>If you are also evaluating brushless technology for maintenance-free operation, review our comprehensive breakdown of the <a href="/blog/what-is-pmdc-motor/">working principle of PMDC motors</a> or compare them directly with our <a href="/products-bldc-motors/">brushless DC (BLDC) motor series</a>.</p>
 
 <hr/>
 
@@ -167,7 +167,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>With high-grade carbon brushes, precision commutators, and quality ball bearings, a well-maintained PMDC motor achieves between 3,000 and 5,000 continuous operating hours before requiring routine brush replacement.</p>
 
 <h3>Q8: How can I request a quote or custom motor design from Globe Scott Motors?</h3>
-<p>You can directly submit your required voltage, speed, torque, and dimensional specifications to our engineering team by visiting our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>You can directly submit your required voltage, speed, torque, and dimensional specifications to our engineering team by visiting our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -182,7 +182,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%">
 <div class="wp-block-buttons">
-<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="contact-us.php" rel="noreferrer noopener" target="_blank">Get a Custom Quote</a></div>
+<div class="wp-block-button is-style-outline cubutton"><a class="wp-block-button__link has-black-color has-white-background-color has-text-color has-background" href="/contact-us/" rel="noreferrer noopener" target="_blank">Get a Custom Quote</a></div>
 </div>
 </div>
 </div>
@@ -197,7 +197,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="row no-gutters">
 <div class="col-md-6">
 <div class="post-previous">
-<a class="single-post-nav" href="blog/what-is-pmdc-motor.php">
+<a class="single-post-nav" href="/blog/what-is-pmdc-motor/">
 <h4 class="post-title">What Is a PMDC Motor? Working & Selection Guide</h4>
 <h3 class="post-nav-title icon-left"><i class="fa fa-long-arrow-left"></i> Previous Post</h3>
 </a>
@@ -205,7 +205,7 @@ require_once __DIR__ . '/../includes/header.php';
 </div>
 <div class="col-md-6">
 <div class="post-next">
-<a class="single-post-nav" href="blog/pmdc-motor-vs-bldc-motor-comparison.php">
+<a class="single-post-nav" href="/blog/pmdc-motor-vs-bldc-motor-comparison/">
 <h4 class="post-title">PMDC Motor vs BLDC Motor Comparison</h4>
 <h3 class="post-nav-title icon-right"><i class="fa fa-long-arrow-right"></i> Next Post</h3>
 </a>
@@ -229,10 +229,10 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/pmdc-motor-manufacturer-in-india-buyers-guide.php">PMDC Motor Manufacturer in India: Complete Buyer’s Guide</a></li>
-<li><a href="blog/what-is-pmdc-motor.php">What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide</a></li>
-<li><a href="case-study.php">Case Study</a></li>
-<li><a href="what-is-bldc-motor.php">What is bldc motor?</a></li>
+<li><a href="/blog/pmdc-motor-manufacturer-in-india-buyers-guide/">PMDC Motor Manufacturer in India: Complete Buyer’s Guide</a></li>
+<li><a href="/blog/what-is-pmdc-motor/">What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide</a></li>
+<li><a href="/case-study/">Case Study</a></li>
+<li><a href="/what-is-bldc-motor/">What is bldc motor?</a></li>
 </ul>
 </div>
 </aside>

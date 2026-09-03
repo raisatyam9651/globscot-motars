@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>How to Select an Industrial Motor Manufacturer in India for Custom Motor Requirements</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Select Motor Manufacturer</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Select Motor Manufacturer</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Vendor Selection</h2>
 <p>India has emerged as a global hub for high-precision electric motor manufacturing, supplying automotive Tier-1s, railway networks, medical equipment builders, and industrial OEMs worldwide. However, choosing the right industrial motor partner in India requires evaluating more than just price per unit.</p>
 
-<p>Partnering with an experienced manufacturer possessing in-house R&D, advanced testing laboratories, ISO 9001:2015 certifications, and proven OEM customization capabilities is critical to long-term product success. As a premier <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> established in 1985, Globe Scott Motors shares key evaluation criteria for purchasing managers. Explore our complete <a href="products.php">DC Motor Manufacturer in India</a> catalog, our <a href="about-us.php">DC Motor Manufacturer in India</a> heritage, and our dedicated product lines.</p>
+<p>Partnering with an experienced manufacturer possessing in-house R&D, advanced testing laboratories, ISO 9001:2015 certifications, and proven OEM customization capabilities is critical to long-term product success. As a premier <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> established in 1985, Globe Scott Motors shares key evaluation criteria for purchasing managers. Explore our complete <a href="/products/">DC Motor Manufacturer in India</a> catalog, our <a href="/about-us/">DC Motor Manufacturer in India</a> heritage, and our dedicated product lines.</p>
 
 <hr/>
 
@@ -91,7 +91,7 @@ require_once __DIR__ . '/../includes/header.php';
 <li><strong>No Formal Quality Management System:</strong> Suppliers without ISO 9001:2015 certification experience high batch-to-batch quality variation.</li>
 </ul>
 
-<p>For custom reduction gear drives, explore our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> and <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> collections. For transaxle requirements, see our <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a> page. For railway applications, browse our <a href="products-railway-signalling-products.php">Railway Signalling Motor Manufacturer in India</a> selection. For maintenance guidelines, review our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our overview of <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC principles, read <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For custom reduction gear drives, explore our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> and <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> collections. For transaxle requirements, see our <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a> page. For railway applications, browse our <a href="/products-railway-signalling-products/">Railway Signalling Motor Manufacturer in India</a> selection. For maintenance guidelines, review our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our overview of <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC principles, read <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -116,10 +116,10 @@ require_once __DIR__ . '/../includes/header.php';
 <p>Globe Scott Motors accommodates prototype batches starting from small quantities up to high-volume production contracts.</p>
 
 <h3>Q7: How do I schedule a factory audit with Globe Scott Motors?</h3>
-<p>Procurement teams can schedule on-site or virtual factory audits by visiting our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Procurement teams can schedule on-site or virtual factory audits by visiting our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <h3>Q8: How can I submit a request for proposal (RFP) for custom motors?</h3>
-<p>Send your motor drawings, electrical specifications, and annual volume estimates directly to our sales engineering team on our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Send your motor drawings, electrical specifications, and annual volume estimates directly to our sales engineering team on our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -142,8 +142,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/select-industrial-motor-manufacturer-in-india-custom-requirements.php">Select Motor Manufacturer Guide</a></li>
-<li><a href="blog/brushed-dc-vs-brushless-dc-motors-industrial-applications.php">Brushed vs Brushless DC Guide</a></li>
+<li><a href="/blog/select-industrial-motor-manufacturer-in-india-custom-requirements/">Select Motor Manufacturer Guide</a></li>
+<li><a href="/blog/brushed-dc-vs-brushless-dc-motors-industrial-applications/">Brushed vs Brushless DC Guide</a></li>
 </ul>
 </div>
 </aside>

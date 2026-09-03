@@ -16,7 +16,7 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="page-title header1-height">
 <h1>PMDC Transaxle Motors for Golf Carts and Small Electric Vehicles</h1>
 <nav aria-label="breadcrumb">
-<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="index.php">Home</a></li><li class="breadcrumb-item"><a href="blog/">Blog</a></li><li class="breadcrumb-item active">Golf Cart PMDC Transaxles</li></ol> </nav>
+<ol class="breadcrumb justify-content-center"><li class="breadcrumb-item"><a class="home" href="/">Home</a></li><li class="breadcrumb-item"><a href="/blog/">Blog</a></li><li class="breadcrumb-item active">Golf Cart PMDC Transaxles</li></ol> </nav>
 </div>
 </div>
 </div>
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../includes/header.php';
 <h2>Introduction to Small EV Traction Drives</h2>
 <p>Golf carts, resort buggies, airport passenger shuttles, campus security vehicles, and light electric utility trucks require compact, high-torque drivetrain units. Unlike heavy highway vehicles, small electric utility vehicles rely heavily on **PMDC Transaxle Motors** for traction power.</p>
 
-<p>A PMDC transaxle combines a 24V, 36V, or 48V DC motor with a high-torque gear reduction box, a mechanical differential, and a rear axle assembly. This integrated layout maximizes passenger cabin space, reduces total vehicle curb weight, and ensures high hill-climbing torque. As a premier <a href="products-pmdc-transaxle.php">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors engineers small EV drivetrains. Explore our specialized <a href="products-pmdc-motors.php">PMDC Motor Manufacturer in India</a> range, our <a href="products-geared-motors.php">Geared Motor Manufacturer in India</a> portfolio, and our <a href="products.php">DC Motor Manufacturer in India</a> catalog.</p>
+<p>A PMDC transaxle combines a 24V, 36V, or 48V DC motor with a high-torque gear reduction box, a mechanical differential, and a rear axle assembly. This integrated layout maximizes passenger cabin space, reduces total vehicle curb weight, and ensures high hill-climbing torque. As a premier <a href="/products-pmdc-transaxle/">PMDC Transaxle Motor Manufacturer in India</a>, Globe Scott Motors engineers small EV drivetrains. Explore our specialized <a href="/products-pmdc-motors/">PMDC Motor Manufacturer in India</a> range, our <a href="/products-geared-motors/">Geared Motor Manufacturer in India</a> portfolio, and our <a href="/products/">DC Motor Manufacturer in India</a> catalog.</p>
 
 <hr/>
 
@@ -92,7 +92,7 @@ require_once __DIR__ . '/../includes/header.php';
 </tbody>
 </table>
 
-<p>For custom ratio gear reduction options, view our <a href="products-pmdc-geared-motors.php">PMDC Geared Motor Manufacturer in India</a> page. For routine maintenance guidelines, check our <a href="dc-motor-maintenance.php">DC motor maintenance and brush inspection guide</a> and our guide on <a href="benefits-of-using-dc-motors.php">key benefits of using DC motors</a>. For PMDC principles, review <a href="blog/what-is-pmdc-motor.php">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="products-bldc-motors.php">BLDC Motor Manufacturer in India</a> series.</p>
+<p>For custom ratio gear reduction options, view our <a href="/products-pmdc-geared-motors/">PMDC Geared Motor Manufacturer in India</a> page. For routine maintenance guidelines, check our <a href="/dc-motor-maintenance/">DC motor maintenance and brush inspection guide</a> and our guide on <a href="/benefits-of-using-dc-motors/">key benefits of using DC motors</a>. For PMDC principles, review <a href="/blog/what-is-pmdc-motor/">what is a PMDC motor and its selection guide</a>. For brushless options, explore our <a href="/products-bldc-motors/">BLDC Motor Manufacturer in India</a> series.</p>
 
 <hr/>
 
@@ -120,7 +120,7 @@ require_once __DIR__ . '/../includes/header.php';
 <p>IP65 protection is recommended to protect motor windings and differential gears from rain, mud, and hose washdowns.</p>
 
 <h3>Q8: Where can I buy OEM PMDC transaxles for small EVs in India?</h3>
-<p>Globe Scott Motors manufactures custom transaxle units for vehicle OEMs. Contact our application team via our <a href="contact-us.php">contact our motor engineering specialists</a> page.</p>
+<p>Globe Scott Motors manufactures custom transaxle units for vehicle OEMs. Contact our application team via our <a href="/contact-us/">contact our motor engineering specialists</a> page.</p>
 
 <hr/>
 
@@ -143,8 +143,8 @@ require_once __DIR__ . '/../includes/header.php';
 <div class="widget mb-40 widget_recent_entries">
 <h3 class="widget-title">Recent Posts</h3>
 <ul>
-<li><a href="blog/pmdc-transaxle-motors-for-golf-carts-and-small-evs.php">Golf Cart PMDC Transaxles Guide</a></li>
-<li><a href="blog/pmdc-transaxle-working-features-applications-buying-guide.php">PMDC Transaxle Buying Guide</a></li>
+<li><a href="/blog/pmdc-transaxle-motors-for-golf-carts-and-small-evs/">Golf Cart PMDC Transaxles Guide</a></li>
+<li><a href="/blog/pmdc-transaxle-working-features-applications-buying-guide/">PMDC Transaxle Buying Guide</a></li>
 </ul>
 </div>
 </aside>

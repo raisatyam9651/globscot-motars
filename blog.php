@@ -52,13 +52,13 @@ require_once __DIR__ . '/includes/header.php';
 <div class="author">
                   by GLOBE SCOTT MOTORS </div>
 <div class="month">
-                  -  <a href="what-is-pmdc-motor.php">August 14, 2026</a>
+                  -  <a href="/what-is-pmdc-motor/">August 14, 2026</a>
 </div>
 </div>
-<h4><a href="what-is-pmdc-motor.php">What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide</a></h4>
+<h4><a href="/what-is-pmdc-motor/">What Is a PMDC Motor? Working, Advantages, Applications & Selection Guide</a></h4>
 <p>Permanent Magnet Direct Current (PMDC) motors are a cornerstone of modern motion-control systems. Learn how PMDC motors work, Lorentz force physics, key advantages, industrial applications, FAQs, and a step-by-step selection guide…</p>
 <div class="entry-meta-footer">
-<a class="read-more" href="what-is-pmdc-motor.php">Continue Reading</a>
+<a class="read-more" href="/what-is-pmdc-motor/">Continue Reading</a>
 </div>
 </div>
 </div>
