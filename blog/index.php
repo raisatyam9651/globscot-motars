@@ -1,4 +1,16 @@
 <?php
+// Route clean blog URLs (/blog/<slug>/) to target <slug>.php if requested directly or served via DirectoryIndex
+$req_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+$path_segments = explode('/', $req_path);
+if (count($path_segments) >= 2 && $path_segments[0] === 'blog' && !empty($path_segments[1])) {
+    $slug = $path_segments[1];
+    $target_file = __DIR__ . '/' . $slug . '.php';
+    if ($slug !== 'index' && file_exists($target_file)) {
+        require $target_file;
+        exit;
+    }
+}
+
 $current_page = 'blog';
 $page_title = 'DC & BLDC Motor Blog & Technical Resources | Globe Scott Motors';
 $meta_description = 'Engineering articles and technical guides on PMDC motors, BLDC motors, geared motors, railway signalling motors, PMDC transaxles & maintenance from Globe Scott Motors.';
