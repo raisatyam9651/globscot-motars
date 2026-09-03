@@ -5,23 +5,19 @@ RewriteBase /blog/
 # Blog index (with optional ?page=N pagination) is served directly
 RewriteRule ^index\.php$ - [L]
 
-# Add a trailing slash to extensionless blog URLs
+# Redirect physical .php requests to extensionless URL with trailing slash
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /blog/([^.]+)\.php\ HTTP
+RewriteRule ^([^.]+)\.php$ /blog/$1/ [R=301,L]
+
+# Add a trailing slash to extensionless blog URLs if missing
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !/$
 RewriteCond %{REQUEST_URI} !\.[^/.]+$
 RewriteRule ^(.*)$ /blog/$1/ [R=301,L]
 
-# Serve /blog/<slug>/ from /blog/<slug>.php when that file exists
+# Route /blog/<slug>/ to <slug>.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f [OR]
-RewriteCond %{REQUEST_FILENAME}.php -f [OR]
-RewriteCond $1.php -f
 RewriteRule ^([^/]+)/$ $1.php [L]
-
-# Anything else under /blog/ falls back to the blog index
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /blog/index.php [L]
 </IfModule>

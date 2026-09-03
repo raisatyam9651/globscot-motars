@@ -21,8 +21,5 @@
     # Internally route directory-like URLs to the .php file if it exists
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{DOCUMENT_ROOT}/$1.php -f [OR]
-    RewriteCond %{REQUEST_FILENAME}.php -f [OR]
-    RewriteCond $1.php -f
     RewriteRule ^([^/]+)/$ $1.php [L]
 </IfModule>
