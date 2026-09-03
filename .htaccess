@@ -3,27 +3,52 @@
     RewriteEngine On
     RewriteBase /
 
-    # Route extensionless blog post URLs: /blog/<slug>/ -> /blog/<slug>.php
+    # --- Blog post routing -------------------------------------------------
+    # /blog/<slug>/ and /blog/<slug> are served from /blog/<slug>.php
+    #
+    # The existence test is written three ways with [OR] because shared hosts
+    # (Hostinger/LiteSpeed) do not always expose a usable %{DOCUMENT_ROOT}.
+    # If any one of the three resolves, the rewrite fires.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f [OR]
+    RewriteCond %{REQUEST_FILENAME}.php -f [OR]
+    RewriteCond blog/$1.php -f
+    RewriteRule ^blog/([^/]+)/?$ /blog/$1.php [L,PT]
+
+    # Unconditional safety net for the same pattern. If every existence test
+    # above failed because of a host quirk, still route to the .php file; a
+    # genuinely missing slug then returns a normal 404 instead of the blog index.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^blog/([^/]+)/?$ /blog/$1.php [L,PT]
 
-    # 301 redirects for corrected (previously misspelled) slugs
+    # --- Legacy slug redirects ---------------------------------------------
     RewriteRule ^benifits-of-using-dc-motors/?$ /benefits-of-using-dc-motors/ [R=301,L]
     RewriteRule ^products-pmdc-transaxel/?$ /products-pmdc-transaxle/ [R=301,L]
 
-    # Redirect physical .php files to extensionless URL with trailing slash
+    # --- Canonical URL shape -----------------------------------------------
+    # Redirect physical .php requests to the extensionless URL with trailing slash
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.php\ HTTP
     RewriteRule ^([^.]+)\.php$ /$1/ [R=301,L]
 
-    # Add trailing slash if not a file and doesn't have a trailing slash
+    # Add a trailing slash when the URL is not a file, directory or asset
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} !/$
     RewriteCond %{REQUEST_URI} !\.[^/.]+$
     RewriteRule ^(.*)$ /$1/ [R=301,L]
 
-    # Internally route single-segment directory-like URLs to the .php file if it exists
+    # --- Top-level page routing --------------------------------------------
+    # /<slug>/ is served from /<slug>.php, with the same three-way existence test
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/$1.php -f [OR]
+    RewriteCond %{REQUEST_FILENAME}.php -f [OR]
+    RewriteCond $1.php -f
+    RewriteRule ^([^/]+)/$ /$1.php [L,PT]
+
+    # Unconditional safety net for top-level pages
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^([^/]+)/$ /$1.php [L,PT]

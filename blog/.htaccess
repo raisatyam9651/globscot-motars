@@ -1,0 +1,43 @@
+# Globe Scott Motors - /blog/ URL rewrites
+#
+# This file exists to REPLACE an older version that ended with
+#   RewriteRule . /blog/index.php [L]
+# That catch-all served the blog index for every post URL whenever the
+# %{DOCUMENT_ROOT} existence test failed, which is the routing bug this fixes.
+# There is deliberately no fallback to index.php here: an unknown slug must
+# return 404, never the listing page.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /blog/
+
+    # Blog index (with optional ?page=N pagination) is served directly
+    RewriteRule ^index\.php$ - [L]
+
+    # Redirect physical .php requests to the extensionless URL with trailing
+    # slash. Matching on THE_REQUEST means internal rewrites never loop here.
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /blog/([^.]+)\.php\ HTTP
+    RewriteRule ^([^.]+)\.php$ /blog/$1/ [R=301,L]
+
+    # Add a trailing slash to extensionless blog URLs if missing
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !/$
+    RewriteCond %{REQUEST_URI} !\.[^/.]+$
+    RewriteRule ^(.*)$ /blog/$1/ [R=301,L]
+
+    # Route /blog/<slug>/ to /blog/<slug>.php. The existence test is written
+    # three ways with [OR] because %{DOCUMENT_ROOT} is unreliable on shared
+    # hosting; any one of the three resolving is enough to fire the rewrite.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f [OR]
+    RewriteCond %{REQUEST_FILENAME}.php -f [OR]
+    RewriteCond $1.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L]
+
+    # Unconditional safety net for the same pattern, so a host quirk in every
+    # existence test above still routes to the post instead of stalling.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([^/]+)/?$ $1.php [L]
+</IfModule>

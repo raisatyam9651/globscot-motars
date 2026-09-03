@@ -1,14 +1,31 @@
 <?php
-// Route clean blog URLs (/blog/<slug>/) to target <slug>.php if requested directly or served via DirectoryIndex
-$raw_uri = isset($_SERVER['REDIRECT_URL']) ? $_SERVER['REDIRECT_URL'] : (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '');
-$req_path = trim(parse_url($raw_uri, PHP_URL_PATH), '/');
-$path_segments = explode('/', $req_path);
-if (count($path_segments) >= 2 && $path_segments[0] === 'blog' && !empty($path_segments[1])) {
-    $slug = $path_segments[1];
-    $target_file = __DIR__ . '/' . $slug . '.php';
-    if ($slug !== 'index' && file_exists($target_file)) {
-        require $target_file;
-        exit;
+// Front controller fallback for clean blog URLs.
+//
+// Apache/LiteSpeed should rewrite /blog/<slug>/ to /blog/<slug>.php before PHP
+// runs. On hosts where that rewrite does not fire, the request lands here via
+// the directory index instead, and this block dispatches to the post so a
+// reader never gets the listing page under a post URL.
+$gs_raw_uri = '';
+if (isset($_SERVER['REDIRECT_URL'])) {
+    $gs_raw_uri = $_SERVER['REDIRECT_URL'];
+} elseif (isset($_SERVER['REQUEST_URI'])) {
+    $gs_raw_uri = $_SERVER['REQUEST_URI'];
+}
+
+$gs_req_path = (string) parse_url($gs_raw_uri, PHP_URL_PATH);
+$gs_segments = explode('/', trim(rawurldecode($gs_req_path), '/'));
+
+if (count($gs_segments) >= 2 && $gs_segments[0] === 'blog') {
+    $gs_slug = $gs_segments[1];
+
+    // Only plain slugs are dispatchable. This rejects traversal attempts,
+    // absolute paths and anything already carrying an extension.
+    if ($gs_slug !== 'index' && preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/', $gs_slug)) {
+        $gs_target = __DIR__ . DIRECTORY_SEPARATOR . $gs_slug . '.php';
+        if (is_file($gs_target)) {
+            require $gs_target;
+            exit;
+        }
     }
 }
 
