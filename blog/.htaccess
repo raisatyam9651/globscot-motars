@@ -16,8 +16,8 @@ RewriteCond %{REQUEST_URI} !/$
 RewriteCond %{REQUEST_URI} !\.[^/.]+$
 RewriteRule ^(.*)$ /blog/$1/ [R=301,L]
 
-# Route /blog/<slug>/ to <slug>.php
+# Route /blog/<slug>/ or /blog/<slug> to <slug>.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/$ $1.php [L]
+RewriteRule ^([^/]+)/?$ $1.php [L]
 </IfModule>
