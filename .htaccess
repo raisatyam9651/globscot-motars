@@ -3,6 +3,11 @@
     RewriteEngine On
     RewriteBase /
 
+    # Route extensionless blog post URLs FIRST before any trailing slash or directory handlers
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^blog/([^/]+)/?$ blog/$1.php [L]
+
     # 301 redirects for corrected (previously misspelled) slugs
     RewriteRule ^benifits-of-using-dc-motors/?$ /benefits-of-using-dc-motors/ [R=301,L]
     RewriteRule ^products-pmdc-transaxel/?$ /products-pmdc-transaxle/ [R=301,L]
@@ -17,11 +22,6 @@
     RewriteCond %{REQUEST_URI} !/$
     RewriteCond %{REQUEST_URI} !\.[^/.]+$
     RewriteRule ^(.*)$ /$1/ [R=301,L]
-
-    # Route extensionless blog post URLs: /blog/<slug>/ -> blog/<slug>.php
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^blog/([^/]+)/?$ blog/$1.php [L]
 
     # Internally route single-segment directory-like URLs to the .php file if it exists
     RewriteCond %{REQUEST_FILENAME} !-f
