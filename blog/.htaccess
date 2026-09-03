@@ -15,7 +15,9 @@ RewriteRule ^(.*)$ /blog/$1/ [R=301,L]
 # Serve /blog/<slug>/ from /blog/<slug>.php when that file exists
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f
+RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f [OR]
+RewriteCond %{REQUEST_FILENAME}.php -f [OR]
+RewriteCond $1.php -f
 RewriteRule ^([^/]+)/$ $1.php [L]
 
 # Anything else under /blog/ falls back to the blog index

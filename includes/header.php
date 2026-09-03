@@ -407,27 +407,27 @@ $gs_ogimg     = isset($og_image) ? $og_image : $gs_base . '/wp-content/uploads/2
 <div class="container">
 <div class="row align-items-center">
 <div class="col-lg-2 col-md-6">
-<div class="logo"><a class="navbar-brand-logo" href="index/"><img alt="<?php echo SITE_NAME; ?>" src="wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png"/></a></div>
+<div class="logo"><a class="navbar-brand-logo" href="/"><img alt="<?php echo SITE_NAME; ?>" src="wp-content/uploads/2020/02/globescott_LogoNew-e1581224444161.png"/></a></div>
 </div>
 <div class="col-lg-10 text-right">
 <div class="main-menu">
 <nav id="mobile-menu" style="display: block;">
 <ul class="rounding-main-menu">
-  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10 <?php echo is_active_menu('index', $current_page); ?>" id="menu-item-10"><a href="index/" title="Home">Home</a></li>
-  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12 <?php echo is_active_menu('about-us', $current_page); ?>" id="menu-item-12"><a href="about-us/" title="About Us">About Us</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10 <?php echo is_active_menu('index', $current_page); ?>" id="menu-item-10"><a href="/" title="Home">Home</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12 <?php echo is_active_menu('about-us', $current_page); ?>" id="menu-item-12"><a href="/about-us/" title="About Us">About Us</a></li>
   <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13 submenu-area <?php echo is_active_menu(['products', 'products-pmdc-motors', 'products-pmdc-geared-motors', 'products-pmdc-transaxle', 'products-railway-signalling-products', 'products-bldc-motors'], $current_page); ?>" id="menu-item-13">
-    <a aria-haspopup="true" class="dropdown-toggle" data-toggle="submenu-area" href="products/" title="Products">Products</a>
+    <a aria-haspopup="true" class="dropdown-toggle" data-toggle="submenu-area" href="/products/" title="Products">Products</a>
     <ul class="submenu">
-      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2287 <?php echo is_active_menu('products-pmdc-motors', $current_page); ?>" id="menu-item-2287"><a href="products-pmdc-motors/" title="PMDC Motors">PMDC Motors</a></li>
-      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2289 <?php echo is_active_menu('products-pmdc-geared-motors', $current_page); ?>" id="menu-item-2289"><a href="products-pmdc-geared-motors/" title="Geared PMDC Motors">Geared PMDC Motors</a></li>
-      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2290 <?php echo is_active_menu('products-pmdc-transaxle', $current_page); ?>" id="menu-item-2290"><a href="products-pmdc-transaxle/" title="PMDC Transaxle">PMDC Transaxle</a></li>
-      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2291 <?php echo is_active_menu('products-railway-signalling-products', $current_page); ?>" id="menu-item-2291"><a href="products-railway-signalling-products/" title="Railway Signaling Products">Railway Signaling Products</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3051 <?php echo is_active_menu('products-bldc-motors', $current_page); ?>" id="menu-item-3051"><a href="products-bldc-motors/" title="BLDC Motors">BLDC Motors</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2287 <?php echo is_active_menu('products-pmdc-motors', $current_page); ?>" id="menu-item-2287"><a href="/products-pmdc-motors/" title="PMDC Motors">PMDC Motors</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2289 <?php echo is_active_menu('products-pmdc-geared-motors', $current_page); ?>" id="menu-item-2289"><a href="/products-pmdc-geared-motors/" title="Geared PMDC Motors">Geared PMDC Motors</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2290 <?php echo is_active_menu('products-pmdc-transaxle', $current_page); ?>" id="menu-item-2290"><a href="/products-pmdc-transaxle/" title="PMDC Transaxle">PMDC Transaxle</a></li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2291 <?php echo is_active_menu('products-railway-signalling-products', $current_page); ?>" id="menu-item-2291"><a href="/products-railway-signalling-products/" title="Railway Signaling Products">Railway Signaling Products</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3051 <?php echo is_active_menu('products-bldc-motors', $current_page); ?>" id="menu-item-3051"><a href="/products-bldc-motors/" title="BLDC Motors">BLDC Motors</a></li>
     </ul>
   </li>
-  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 <?php echo is_active_menu('applications', $current_page); ?>" id="menu-item-14"><a href="applications/" title="Applications">Applications</a></li>
-  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16 <?php echo is_active_menu('blog', $current_page); ?>" id="menu-item-16"><a href="blog/" title="Blog">Blog</a></li>
-  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18 <?php echo is_active_menu('contact-us', $current_page); ?>" id="menu-item-18"><a href="contact-us/" title="Contact Us">Contact Us</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 <?php echo is_active_menu('applications', $current_page); ?>" id="menu-item-14"><a href="/applications/" title="Applications">Applications</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16 <?php echo is_active_menu('blog', $current_page); ?>" id="menu-item-16"><a href="/blog/" title="Blog">Blog</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18 <?php echo is_active_menu('contact-us', $current_page); ?>" id="menu-item-18"><a href="/contact-us/" title="Contact Us">Contact Us</a></li>
 </ul>
 </nav>
 </div>

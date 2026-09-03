@@ -23,12 +23,12 @@
 <ul>
 <li><b>Mail: </b><span><?php echo CONTACT_EMAIL; ?></span></li> <li><b>Phone</b><span><?php echo CONTACT_PHONE_1; ?></span></li>
 </ul>
-</div></div></div></div><div class="widget_nav_menu col-lg-3 col-md-6" id="nav_menu-4"><div class="footer-widget mb-30"><div class="footer-widget-heading"><h5>Important Links</h5></div><div class="menu-important-links-container"><ul class="menu" id="menu-important-links"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2993" id="menu-item-2993"><a href="about-us/">About us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2994" id="menu-item-2994"><a href="products/">Products</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2995" id="menu-item-2995"><a href="applications/">Applications</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2996" id="menu-item-2996"><a href="electromechanical-integrity/">Electromechanical Integrity</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2997" id="menu-item-2997"><a href="contact-us/">Contact us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2998" id="menu-item-2998"><a href="privacy-policy/">Privacy Policy</a></li>
+</div></div></div></div><div class="widget_nav_menu col-lg-3 col-md-6" id="nav_menu-4"><div class="footer-widget mb-30"><div class="footer-widget-heading"><h5>Important Links</h5></div><div class="menu-important-links-container"><ul class="menu" id="menu-important-links"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2993" id="menu-item-2993"><a href="/about-us/">About us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2994" id="menu-item-2994"><a href="/products/">Products</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2995" id="menu-item-2995"><a href="/applications/">Applications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2996" id="menu-item-2996"><a href="/electromechanical-integrity/">Electromechanical Integrity</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2997" id="menu-item-2997"><a href="/contact-us/">Contact us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2998" id="menu-item-2998"><a href="/privacy-policy/">Privacy Policy</a></li>
 </ul></div></div></div><div class="rounding_rp_widget col-lg-3 col-md-6" id="recent_post_widget-2"><div class="footer-widget mb-30">
 <!-- Footer Blog List -->
 <div class="footer-widget-heading"><h5>Recent Post</h5></div> <div class="sidebar-rc-post">
@@ -37,14 +37,14 @@
 <div class="resent-post">
 <div class="post-desc">
 <span>July 27, 2020</span>
-<p><a href="case-study/">Case Study</a></p>
+<p><a href="/case-study/">Case Study</a></p>
 </div>
 </div>
 </li><li>
 <div class="resent-post">
 <div class="post-desc">
 <span>December 28, 2018</span>
-<p><a href="advantages-of-using-bldc-motor-for-micro-and-macro-applications/">Advantages of using bldc motor for micro and macro applications.</a></p>
+<p><a href="/advantages-of-using-bldc-motor-for-micro-and-macro-applications/">Advantages of using bldc motor for micro and macro applications.</a></p>
 </div>
 </div>
 </li></ul>
