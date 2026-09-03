@@ -1,6 +1,7 @@
 <?php
 // Route clean blog URLs (/blog/<slug>/) to target <slug>.php if requested directly or served via DirectoryIndex
-$req_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+$raw_uri = isset($_SERVER['REDIRECT_URL']) ? $_SERVER['REDIRECT_URL'] : (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '');
+$req_path = trim(parse_url($raw_uri, PHP_URL_PATH), '/');
 $path_segments = explode('/', $req_path);
 if (count($path_segments) >= 2 && $path_segments[0] === 'blog' && !empty($path_segments[1])) {
     $slug = $path_segments[1];
