@@ -96,6 +96,8 @@
 <script id="wp-embed-js" src="wp-includes/js/wp-embed.min.js"></script>
 <script id="wpb_composer_front_js-js" src="wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"></script>
 <script id="vc_waypoints-js" src="wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js"></script>
+<!-- WhatsApp Widget -->
+<script defer src="https://app.wacrs.com/install-widget/bundle.js?key=cd4e516e-9f6a-4c8c-9efc-1eaaa3b7d45f"></script>
 </body></html>
 
 
