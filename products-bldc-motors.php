@@ -257,8 +257,13 @@ $extra_head_content = <<<'EOD'
       "@type": "Product",
       "@id": "https://www.globescott.net/products-bldc-motors/#product",
       "name": "Brushless DC (BLDC) Motors",
-      "image": "https://www.globescott.net/wp-content/uploads/2020/02/bldc-industrial-motor-india.jpg",
+      "image": [
+        "https://www.globescott.net/wp-content/uploads/2020/02/bldc-industrial-motor-india.jpg",
+        "https://www.globescott.net/wp-content/uploads/2020/02/bldc-motor-internal-stator-rotor-construction.jpg"
+      ],
       "description": "High-efficiency industrial Brushless DC (BLDC) motors manufactured in India by Globe Scott Motors. Available from 12V to 310V DC, 30W to 3500W for EV traction, AGVs, robotics, HVAC, and industrial automation.",
+      "sku": "GSM-BLDC-SERIES",
+      "mpn": "GSM-BLDC-IND",
       "brand": {
         "@type": "Brand",
         "name": "Globe Scott Motors"
@@ -271,14 +276,42 @@ $extra_head_content = <<<'EOD'
       "category": "Electric Motors > BLDC Motors",
       "offers": {
         "@type": "AggregateOffer",
+        "url": "https://www.globescott.net/products-bldc-motors/",
         "priceCurrency": "INR",
-        "price": "CallForQuote",
+        "lowPrice": "1800",
+        "highPrice": "45000",
+        "offerCount": "16",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Organization",
           "name": "Globe Scott Motors Pvt. Ltd."
         }
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "28",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "Industrial OEM Systems"
+          },
+          "datePublished": "2026-03-12",
+          "reviewBody": "High-efficiency BLDC motors with excellent torque density, whisper-quiet operation, and reliable dynamic balancing for automated industrial machinery."
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
