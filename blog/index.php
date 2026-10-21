@@ -38,6 +38,216 @@ require_once __DIR__ . '/../includes/header.php';
 
 $all_posts = [
     [
+        'title' => 'Why Does a DC Motor Overheat? 7 Common Causes and How to Fix Them',
+        'url' => '/blog/why-does-a-dc-motor-overheat-causes-and-fixes/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Why is your DC motor overheating? Discover the 7 root causes of DC motor thermal runaway—from mechanical overloads and voltage ripple to brush sparking—with field diagnostic steps and engineering fixes.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-overheating-causes-and-fixes.jpg'
+    ],
+    [
+        'title' => 'Why Is Your DC Motor Losing Torque Under Load? Causes and Solutions',
+        'url' => '/blog/dc-motor-losing-torque-under-load-causes-solutions/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A DC motor that once handled its load now bogs down or stalls. Learn how T = Kt × Ia points to the cause: demagnetised magnets, voltage sag, a low current limit, worn brushes, hot windings or driveline drag, plus a worked Kt test.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-losing-torque-under-load-causes-solutions.jpg'
+    ],
+    [
+        'title' => 'Why Does a DC Motor Run Slowly? Common Causes and Troubleshooting Steps',
+        'url' => '/blog/dc-motor-running-slow-causes-troubleshooting/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A slow DC motor is usually obeying its speed equation. Learn to separate no-load from on-load slowness, find voltage, PWM, resistance and gear ratio faults, and build a speed budget from simple meter and tachometer readings.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-running-slow-causes-troubleshooting.jpg'
+    ],
+    [
+        'title' => 'Why Does a DC Motor Draw Too Much Current? Causes and Solutions',
+        'url' => '/blog/dc-motor-high-current-draw-causes-solutions/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Current is a DC motor\'s torque gauge. Learn how to set no-load, full-load and locked-rotor baselines, trace excess amps to the load, the motor or the supply, and coordinate fuses, breakers and controller current limits.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-high-current-draw-causes-solutions.jpg'
+    ],
+    [
+        'title' => 'Why Does a DC Motor Keep Stopping During Operation?',
+        'url' => '/blog/dc-motor-keeps-stopping-during-operation/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A DC motor that runs, cuts out and restarts is being stopped by a protective trip, a momentary open circuit or a load event. Learn to read the stop pattern, log the event and pinpoint the cause.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-keeps-stopping-during-operation.jpg'
+    ],
+    [
+        'title' => 'Why Is Your Geared Motor Making Noise? Causes, Diagnosis and Solutions',
+        'url' => '/blog/geared-motor-making-noise-causes-diagnosis-solutions/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A whine, grind, knock or whistle from a geared motor points to a specific fault. Learn to calculate gear mesh frequencies, run a motor–gearbox–drive isolation test and fix gear, bearing, lubrication and PWM noise.',
+        'image' => '/wp-content/uploads/2026/10/geared-motor-making-noise-causes-diagnosis-solutions.jpg'
+    ],
+    [
+        'title' => 'Why Does a DC Motor Vibrate Excessively? How to Identify the Problem',
+        'url' => '/blog/dc-motor-vibration-problems-how-to-identify/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Excessive DC motor vibration has a signature. Learn to judge severity against ISO zones, measure at both bearings in three directions, and read the frequency peaks that point to unbalance, misalignment, bearings or the commutator.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-vibration-problems-how-to-identify.jpg'
+    ],
+    [
+        'title' => 'Why Does a DC Motor Fail to Start? A Troubleshooting Guide',
+        'url' => '/blog/dc-motor-not-starting-troubleshooting-guide/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A DC motor that will not start falls into one of three branches: no current, current but no rotation, or a start that needs a push. Use this safe fault tree, the starting-torque maths and a test table to find the cause fast.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-not-starting-troubleshooting-guide.jpg'
+    ],
+    [
+        'title' => 'How to Choose a Motor When Your Machine Cannot Handle the Required Load',
+        'url' => '/blog/motor-insufficient-torque-under-load-how-to-choose/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Heavier product, a faster cycle or a new fixture can leave a healthy motor short of torque. Learn how to re-measure the real load, check peak and RMS torque against the torque-speed curve, and choose the cheapest effective upgrade.',
+        'image' => '/wp-content/uploads/2026/10/motor-insufficient-torque-under-load-how-to-choose.jpg'
+    ],
+    [
+        'title' => 'Why Does Your Conveyor Motor Struggle to Move Heavy Loads?',
+        'url' => '/blog/conveyor-motor-overload-heavy-loads/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Conveyor runs empty but stalls or overheats with product on it? Learn how to calculate belt pull, drum torque and loaded restart torque, find seized idlers, slip and accumulation drag, and choose between a ramp, a new ratio or a larger geared motor.',
+        'image' => '/wp-content/uploads/2026/10/conveyor-motor-overload-heavy-loads.jpg'
+    ],
+    [
+        'title' => 'How to Solve Speed Fluctuations in Motor-Driven Machinery',
+        'url' => '/blog/dc-motor-speed-fluctuation-solutions/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Surging, hunting or load-dependent speed? Classify DC motor speed fluctuation by its pattern, calculate open-loop droop, choose feedback, tune the PI loop without hunting and rule out belt, backlash and commutator causes.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-speed-fluctuation-solutions.jpg'
+    ],
+    [
+        'title' => 'Why Does an Automatic Door Motor Fail to Open or Close Properly?',
+        'url' => '/blog/automatic-door-motor-problems-open-close/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A door that reverses for no reason or a gate that will not close is often a sensor, track or battery fault rather than a failed motor. Learn a three-step triage, gate force and wind-load maths, and fixes for seven common faults.',
+        'image' => '/wp-content/uploads/2026/10/automatic-door-motor-problems-open-close.jpg'
+    ],
+    [
+        'title' => 'How to Select a Replacement Motor When the Original Model Is Discontinued',
+        'url' => '/blog/discontinued-motor-replacement-selection-guide/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Your motor model is discontinued. Learn how to capture its back-EMF constant, resistance and interface dimensions, measure the real load, and choose and validate a drop-in, adaptor or custom-equivalent replacement.',
+        'image' => '/wp-content/uploads/2026/10/discontinued-motor-replacement-selection-guide.jpg'
+    ],
+    [
+        'title' => 'Why Is Your Winch Motor Unable to Lift the Required Load?',
+        'url' => '/blog/winch-motor-insufficient-torque-lifting-load/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Line pull falls with every rope layer, a self-locking worm can waste over half the motor torque, and a tired battery or corroded lug can stall a lift. Work through the numbers layer by layer and find the cheapest fix.',
+        'image' => '/wp-content/uploads/2026/10/winch-motor-insufficient-torque-lifting-load.jpg'
+    ],
+    [
+        'title' => 'How to Reduce Frequent Motor Failures in Industrial Cleaning Machines',
+        'url' => '/blog/industrial-cleaning-machine-motor-problems-failures/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Scrubber-drier and sweeper motors fail for a short list of reasons: washdown water, deck pressure set too high, flat batteries, steep ramps, dust and heat. See the maths behind deck and ramp overloads and the routine that prevents repeat failures.',
+        'image' => '/wp-content/uploads/2026/10/industrial-cleaning-machine-motor-problems-failures.jpg'
+    ],
+    [
+        'title' => 'Why Does Your Motor and Gearbox Combination Fail to Deliver the Required Output?',
+        'url' => '/blog/motor-gearbox-sizing-problems-output/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'A motor and a gearbox can each be adequate yet fail together. Learn how gearbox efficiency, speed droop, stall torque, service factor, reflected inertia, thermal limits and overhung load make geared drives miss their required output.',
+        'image' => '/wp-content/uploads/2026/10/motor-gearbox-sizing-problems-output.jpg'
+    ],
+    [
+        'title' => 'How to Choose the Right DC Motor When Space Inside Your Machine Is Limited',
+        'url' => '/blog/compact-dc-motor-selection-limited-space/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Short of space for the drive? Motor size is set by torque, not power. Learn how torque per rotor volume, a faster motor with a gearhead, gearhead geometry, BLDC vs PMDC and frame cooling decide what fits inside a tight machine envelope.',
+        'image' => '/wp-content/uploads/2026/10/compact-dc-motor-selection-limited-space.jpg'
+    ],
+    [
+        'title' => 'How to Select a Motor When You Need High Torque at Low Speed',
+        'url' => '/blog/high-torque-low-speed-dc-motor-selection/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Why turning the voltage down is the wrong way to get low speed, and how to size a geared PMDC or BLDC drive instead: output power, base speed, ratio, gear type, brake, and a worked 50 Nm at 30 rpm example.',
+        'image' => '/wp-content/uploads/2026/10/high-torque-low-speed-dc-motor-selection.jpg'
+    ],
+    [
+        'title' => 'What Happens When You Choose the Wrong Motor Voltage? Common Problems and Solutions',
+        'url' => '/blog/wrong-motor-voltage-problems-solutions/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'What really happens when a DC motor runs on the wrong voltage: overspeed, sparking, demagnetising currents, weak starts and extra current draw, plus 12/24/48 V trade-offs, a 24 V motor on 36 V worked example and how rewinding works.',
+        'image' => '/wp-content/uploads/2026/10/wrong-motor-voltage-problems-solutions.jpg'
+    ],
+    [
+        'title' => 'How to Prevent Motor Overheating in Continuous-Duty Applications',
+        'url' => '/blog/continuous-duty-motor-overheating-prevention/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Motors on 24/7 duty never get a rest period to cool down. Learn how to size for S1 duty using RMS torque, a hot-resistance loss budget, thermal resistance, ambient and altitude derating, IC cooling codes and the right thermal protection.',
+        'image' => '/wp-content/uploads/2026/10/continuous-duty-motor-overheating-prevention.jpg'
+    ],
+    [
+        'title' => 'How to Choose a Motor for Frequent Start-Stop Applications',
+        'url' => '/blog/motor-for-frequent-start-stop-applications/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Hundreds of starts an hour change how a motor must be sized. Learn how S4 and S5 duty, reflected inertia, heat per start, RMS current and the braking method decide the motor, with a worked turntable-drive example and brake-life guidance.',
+        'image' => '/wp-content/uploads/2026/10/motor-for-frequent-start-stop-applications.jpg'
+    ],
+    [
+        'title' => 'How to Select a Motor When Standard Sizes Do Not Fit Your Equipment',
+        'url' => '/blog/custom-motor-design-non-standard-sizes/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'When no catalogue motor fits your equipment, change as little as possible. See which shaft, flange, winding and stack-length changes are low effort, how to check a custom shaft at stall torque, and how to run a tolerance stack-up.',
+        'image' => '/wp-content/uploads/2026/10/custom-motor-design-non-standard-sizes.jpg'
+    ],
+    [
+        'title' => 'Why Does Your Battery-Powered Equipment Have Poor Motor Runtime?',
+        'url' => '/blog/battery-powered-motor-efficiency-runtime/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Why battery-powered equipment falls short of a shift: the runtime equation, Peukert\'s law, where a PMDC motor\'s efficiency peaks, wiring, gear and drag losses, and a worked energy budget that takes a trolley from 3.8 to 6.6 hours.',
+        'image' => '/wp-content/uploads/2026/10/battery-powered-motor-efficiency-runtime.jpg'
+    ],
+    [
+        'title' => 'How to Choose the Right Gear Ratio When Your Motor Speed Is Too High',
+        'url' => '/blog/dc-motor-gear-ratio-selection-speed-too-high/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Motor too fast for your machine? Learn to calculate the gear ratio from loaded motor speed, round to a standard ratio, keep PWM for small trims, and check speed tolerance and inertia, with a fully worked roller-drive example.',
+        'image' => '/wp-content/uploads/2026/10/dc-motor-gear-ratio-selection-speed-too-high.jpg'
+    ],
+    [
+        'title' => 'What Causes Railway Point Machine Failures, and Which Motor Parameters Should Be Checked?',
+        'url' => '/blog/railway-point-machine-motor-problems-parameters/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Many point failures start on the track, not in the motor. Learn how DC series point motors behave, which track and electrical faults cause failures, and which motor parameters to trend: current, throw time, terminal voltage, insulation resistance and brushes.',
+        'image' => '/wp-content/uploads/2026/10/railway-point-machine-motor-problems-parameters.jpg'
+    ],
+    [
+        'title' => 'How to Identify the Right Motor When Your Equipment Requires Precise Position Control',
+        'url' => '/blog/motor-position-control-selection-guide/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Precise positioning is a system property. Learn to separate resolution, accuracy and repeatability, compare steppers with closed-loop PMDC and BLDC servos, calculate encoder resolution at the output and budget for backlash, with a worked linear-axis example.',
+        'image' => '/wp-content/uploads/2026/10/motor-position-control-selection-guide.jpg'
+    ],
+    [
+        'title' => 'Why Do Custom Motor Projects Face Delays? Specifications Buyers Should Finalise Early',
+        'url' => '/blog/custom-motor-manufacturing-delays-specifications/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Most custom motor projects slip because the specification is still moving after samples are built. This guide maps the project stages, shows with worked numbers why late changes force a re-sample, and lists what OEM buyers should freeze early.',
+        'image' => '/wp-content/uploads/2026/10/custom-motor-manufacturing-delays-specifications.jpg'
+    ],
+    [
+        'title' => 'How to Avoid Choosing an Undersized Motor for Your Industrial Application',
+        'url' => '/blog/undersized-motor-problems-how-to-avoid/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Undersized motors are designed in one omission at a time. Learn the eight common sizing errors, a step-by-step method with separate peak, RMS, speed and growth margins, and a worked lead-screw lift table example that turns a 40 W guess into the right motor.',
+        'image' => '/wp-content/uploads/2026/10/undersized-motor-problems-how-to-avoid.jpg'
+    ],
+    [
+        'title' => 'Why Do Industrial Motors Fail Prematurely? A Maintenance and Selection Checklist',
+        'url' => '/blog/industrial-motor-premature-failure-checklist/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'Most early motor failures trace back to six mechanisms: bearings, insulation ageing, moisture, brushes, power quality and mechanical stress. Learn to read the evidence, then use our maintenance and selection checklists to stop repeat failures.',
+        'image' => '/wp-content/uploads/2026/10/industrial-motor-premature-failure-checklist.jpg'
+    ],
+    [
+        'title' => 'How to Avoid Costly Mistakes When Sourcing Custom DC Motors for OEM Production',
+        'url' => '/blog/custom-dc-motor-sourcing-oem-mistakes/',
+        'date' => 'October 19, 2026',
+        'excerpt' => 'The costliest mistakes in custom DC motor sourcing appear after the sample is approved. A worked TCO example in rupees, an AQL sampling calculation and a weighted supplier scorecard show OEM buyers what to check and what to put in writing.',
+        'image' => '/wp-content/uploads/2026/10/custom-dc-motor-sourcing-oem-mistakes.jpg'
+    ],
+    [
         'title' => 'Motor Testing Standards: What Happens Before a Unit Ships',
         'url' => '/blog/electric-motor-testing-standards-before-a-unit-ships/',
         'date' => 'September 2, 2026',

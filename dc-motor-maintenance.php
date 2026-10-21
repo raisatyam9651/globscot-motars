@@ -85,14 +85,14 @@ require_once __DIR__ . '/includes/header.php';
 <div class="blog-comment-area col-md-12 p-0">
 <div class="nd-post-comment" id="leave-comment">
 <div class="comment-respond" id="respond">
-<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="dc-motor-maintenance.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form action="/wp-comments-post/" class="validate-form formcomment-box" id="add-comment" method="post"><div class="form-group">
-<textarea class="form-control rounded-0" cols="30" id="message" name="comment" placeholder="Comment" required="" rows="6"></textarea>
+<h3 class="comment-title comment-form-title">Leave a Reply <small><a href="dc-motor-maintenance.php#respond" id="cancel-comment-reply-link" rel="nofollow" style="display:none;">Cancel Comment</a></small></h3><form accept-charset="UTF-8" action="https://app.formester.com/forms/4YfTiyKIi/submissions" method="POST" class="validate-form formcomment-box" id="add-comment"><input type="hidden" name="source" value="Blog Comment: DC Motor Maintenance"/><div class="form-group">
+<textarea class="form-control rounded-0" cols="30" id="message" name="message" placeholder="Comment / Technical Inquiry *" required="" rows="6"></textarea>
 </div><div class="row">
 <div class="form-group col-md-6">
-<input aria-required="true" class="form-control rounded-0" id="author" name="author" placeholder="Name *" size="30" type="text"/>
+<input aria-required="true" class="form-control rounded-0" id="author" name="name" placeholder="Name *" required="" size="30" type="text"/>
 </div>
 <div class="form-group col-md-6">
-<input aria-required="true" class="form-control rounded-0" id="email" name="email" placeholder="Email *" size="30" type="email"/>
+<input aria-required="true" class="form-control rounded-0" id="email" name="email" placeholder="Email *" required="" size="30" type="email"/>
 </div>
 </div>
 <div class="form-group">

@@ -115,24 +115,25 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 <?php endif; ?>
 
-<form action="contact-us/" class="wpcf7-form" method="post">
+<form accept-charset="UTF-8" action="https://app.formester.com/forms/4YfTiyKIi/submissions" method="POST" class="wpcf7-form">
+<input type="hidden" name="source" value="Contact Us Page - Globe Scott Motors">
 <div class="question-form-wrap contact-form">
 <div class="row">
 <div class="col-lg-4 col-md-6">
 <span class="wpcf7-form-control-wrap your-name">
-  <input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" name="your-name" placeholder="Name *" required size="40" type="text" value="<?php echo isset($_POST['your-name']) ? htmlspecialchars($_POST['your-name']) : ''; ?>"/>
+  <input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" name="name" placeholder="Name *" required size="40" type="text"/>
 </span></div>
 <div class="col-lg-4 col-md-6">
 <span class="wpcf7-form-control-wrap your-email">
-  <input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" name="your-email" placeholder="Email Address *" required size="40" type="email" value="<?php echo isset($_POST['your-email']) ? htmlspecialchars($_POST['your-email']) : ''; ?>"/>
+  <input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" name="email" placeholder="Email Address *" required size="40" type="email"/>
 </span></div>
 <div class="col-lg-4">
 <span class="wpcf7-form-control-wrap your-pnumber">
-  <input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" name="your-pnumber" placeholder="Phone number *" required size="40" type="text" value="<?php echo isset($_POST['your-pnumber']) ? htmlspecialchars($_POST['your-pnumber']) : ''; ?>"/>
+  <input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" name="phone" placeholder="Phone number *" required size="40" type="text"/>
 </span></div>
 <div class="col-12">
 <span class="wpcf7-form-control-wrap your-message">
-  <textarea class="wpcf7-form-control wpcf7-textarea" cols="40" name="your-message" placeholder="Your Requirements/Specification" rows="10"><?php echo isset($_POST['your-message']) ? htmlspecialchars($_POST['your-message']) : ''; ?></textarea>
+  <textarea class="wpcf7-form-control wpcf7-textarea" cols="40" name="message" placeholder="Your Requirements/Specification" rows="10"></textarea>
 </span>
 <div class="rounding-btn" style="text-align:center;"><button type="submit" class="btn">Send Message</button></div></div></div>
 </div>
